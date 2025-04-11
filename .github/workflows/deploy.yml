@@ -20,9 +20,8 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 18
-          cache: pnpm
 
-      - name: Install pnpm
+      - name: Setup pnpm
         uses: pnpm/action-setup@v2
         with:
           version: 8
@@ -36,5 +35,4 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist
+          github_token: ${{ secrets.GITHUB_TOKEN
