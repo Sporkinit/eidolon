@@ -97,12 +97,22 @@ function App() {
   const [creatures, setCreatures] = useState([]);
   const [theme, setTheme] = useState('dark');
 
-  useEffect(() => {
-    fetch('/pokedex.json')
-      .then((res) => res.json())
-      .then((data) => setCreatures(data));
-  }, []);
-
+useEffect(() => {
+  fetch('/pokedex.json')
+    .then((res) => {
+      if (!res.ok) {
+        throw new Error(`Failed to load: ${res.status}`);
+      }
+      return res.json();
+    })
+    .then((data) => {
+      console.log("✅ pokedex.json loaded:", data);
+      setCreatures(data);
+    })
+    .catch((err) => {
+      console.error("❌ Error loading pokedex.json:", err);
+    });
+}, []);
   const anchorMap = Object.fromEntries(
     creatures.map((c) => [c.name, c.name.replace(/\s+/g, '_')])
   );
