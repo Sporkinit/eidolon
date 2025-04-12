@@ -98,7 +98,7 @@ function App() {
   const [theme, setTheme] = useState('dark');
 
 useEffect(() => {
-  fetch('/pokedex.json')
+  fetch('pokedex.json')
     .then((res) => {
       if (!res.ok) {
         throw new Error(`Failed to load: ${res.status}`);
