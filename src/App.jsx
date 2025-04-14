@@ -6,7 +6,13 @@ function Badge({ text }) {
 
   const colors = {
     Normal: '#a97442',
+	Neutral: '#a97442',
+	Electric: '#dbb30f',
+	Ground: '#73554e',
     Magical: '#9b5de5',
+	Fairy: '#df90e0',
+	Dark: '#260345',
+	Mythic: '#917d23',
     Elemental: '#3ddc97',
     Fire: '#ff6b35',
     Water: '#1e90ff',
@@ -28,9 +34,9 @@ function Badge({ text }) {
 function Entry({ creature, anchorMap, evolvesToMap }) {
   const { name, type, subtype, image, evolvesFrom, ...rest } = creature;
 
-  const abilities = Object.keys(rest)
-    .filter((k) => k.startsWith('ability') && rest[k])
-    .map((k) => rest[k]);
+const abilities = creature.abilities
+  ? creature.abilities.split(',').map((a) => a.trim())
+  : [];
 
   const evolvesFromLinks = evolvesFrom
     ? evolvesFrom.split(',').map((evo, idx) => (
