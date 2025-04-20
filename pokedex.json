@@ -14,6 +14,7 @@
         "evolvesFrom": "",
         "evolutionLvl": "",
         "evolutionPreq": "",
+        "zones": "beach_start",
         "image": "Popkit.png",
         "abilities": "Fizz Blast, Caffeine Rush, Carbonate Kick, Trick Claw"
     },
@@ -32,6 +33,7 @@
         "evolvesFrom": "Popkit",
         "evolutionLvl": "25",
         "evolutionPreq": "",
+        "zones": "beach_start,town",
         "image": "Sneerkit.png",
         "abilities": "Fizz Blast, Caffeine Rush, Sneerbeam, Shadow Pounce"
     },
@@ -50,6 +52,7 @@
         "evolvesFrom": "",
         "evolutionLvl": "",
         "evolutionPreq": "",
+        "zones": "",
         "image": "Spindash.png",
         "abilities": "Rollout Riot, Quick Quill, Spine Shot, Spikestorm Surge"
     },
@@ -68,6 +71,7 @@
         "evolvesFrom": "",
         "evolutionLvl": "",
         "evolutionPreq": "",
+        "zones": "",
         "image": "Candlewhisk.png",
         "abilities": "Blazing Blink, Waxen Ward, Meltdown, Candle Chorus"
     },
@@ -86,6 +90,7 @@
         "evolvesFrom": "",
         "evolutionLvl": "",
         "evolutionPreq": "",
+        "zones": "town",
         "image": "Badger.png",
         "abilities": "Rollout Riot, Barkwave, Chomp Charge, Loyal Howl"
     },
@@ -104,6 +109,7 @@
         "evolvesFrom": "Badger",
         "evolutionLvl": "25",
         "evolutionPreq": "Grass Stone",
+        "zones": "",
         "image": "Verdawuff.png",
         "abilities": "Rollout Riot, Barkwave, Chomp Charge, Leaftuck"
     },
@@ -122,6 +128,7 @@
         "evolvesFrom": "Badger",
         "evolutionLvl": "25",
         "evolutionPreq": "Water Stone",
+        "zones": "",
         "image": "Ripplash.png",
         "abilities": "Rollout Riot, Barkwave, Chomp Charge, Crystide Crash"
     },
@@ -140,6 +147,7 @@
         "evolvesFrom": "Badger",
         "evolutionLvl": "25",
         "evolutionPreq": "Fire Stone",
+        "zones": "",
         "image": "Flarehound.png",
         "abilities": "Rollout Riot, Barkwave, Chomp Charge, Burning Faith"
     },
@@ -158,6 +166,7 @@
         "evolvesFrom": "",
         "evolutionLvl": "",
         "evolutionPreq": "",
+        "zones": "",
         "image": "Flutterbean.png",
         "abilities": "Gleamwing, Pollenglide, Petal Pop, Thorn Waltz"
     },
@@ -176,6 +185,7 @@
         "evolvesFrom": "Flutterbean",
         "evolutionLvl": "28",
         "evolutionPreq": "",
+        "zones": "",
         "image": "Regalume.png",
         "abilities": "Gleamwing, Pollenglide, Petal Pop, Royal Flourish"
     },
@@ -194,6 +204,7 @@
         "evolvesFrom": "",
         "evolutionLvl": "",
         "evolutionPreq": "",
+        "zones": "",
         "image": "Zephyra.png",
         "abilities": "Moon Hex, Striped Mirage, Astral Lunge, Spirit Crest"
     },
@@ -212,6 +223,7 @@
         "evolvesFrom": "",
         "evolutionLvl": "",
         "evolutionPreq": "",
+        "zones": "",
         "image": "Brassaboom.png",
         "abilities": "Marching Boost, Echo Pulse, Resonant Roll, Finale Forte"
     },
@@ -230,6 +242,7 @@
         "evolvesFrom": "",
         "evolutionLvl": "",
         "evolutionPreq": "",
+        "zones": "",
         "image": "Cactusk.png",
         "abilities": "Spineburst, Needle Nap, Quick Quill, Spikestorm Surge"
     },
@@ -248,6 +261,7 @@
         "evolvesFrom": "",
         "evolutionLvl": "",
         "evolutionPreq": "",
+        "zones": "",
         "image": "Solkit.png",
         "abilities": "Sunpounce, Jungle Beat, Roar of Resolve, Banana Bombard"
     },
@@ -266,6 +280,7 @@
         "evolvesFrom": "Leofrond",
         "evolutionLvl": "28",
         "evolutionPreq": "",
+        "zones": "",
         "image": "Leofrond.png",
         "abilities": "Sunpounce, Jungle Beat, Roar of Resolve, Mane Burst"
     },
@@ -280,10 +295,11 @@
         "defese": "10",
         "evasion": "12",
         "classification": "A",
-        "canEvolve": "Y",
+        "canEvolve": "",
         "evolvesFrom": "",
         "evolutionLvl": "",
         "evolutionPreq": "",
+        "zones": "",
         "image": "Snaptrik.png",
         "abilities": "Shadow Pounce, Moon Hex, Spinesurge, Last Laugh"
     },
@@ -299,9 +315,10 @@
         "evasion": "12",
         "classification": "S",
         "canEvolve": "",
-        "evolvesFrom": "Snaptrik",
-        "evolutionLvl": "25",
+        "evolvesFrom": "",
+        "evolutionLvl": "",
         "evolutionPreq": "",
+        "zones": "",
         "image": "Umbruff.png",
         "abilities": "Shadow Pounce, Moon Hex, Spinesurge, Void Howl"
     },
@@ -320,6 +337,7 @@
         "evolvesFrom": "",
         "evolutionLvl": "",
         "evolutionPreq": "",
+        "zones": "",
         "image": "Strumbleaf.png",
         "abilities": "Leaf Riff, Tune Snare, Jam Session, Encore Echo"
     },
@@ -338,6 +356,7 @@
         "evolvesFrom": "",
         "evolutionLvl": "",
         "evolutionPreq": "",
+        "zones": "",
         "image": "Driftrella.png",
         "abilities": "Soothing Drizzle, Bubblebeam Bash, Tricklebeam, Spring Bloom"
     },
@@ -356,6 +375,7 @@
         "evolvesFrom": "",
         "evolutionLvl": "",
         "evolutionPreq": "",
+        "zones": "",
         "image": "Kindlark.png",
         "abilities": "Ember Dash, Flickerfang, Tailflare, Wispstep"
     },
@@ -374,6 +394,7 @@
         "evolvesFrom": "",
         "evolutionLvl": "",
         "evolutionPreq": "",
+        "zones": "",
         "image": "Bagheera.png",
         "abilities": "Shadow Swipe, Lurkstep, Jungle Beat, Nightfang"
     },
@@ -392,6 +413,7 @@
         "evolvesFrom": "",
         "evolutionLvl": "",
         "evolutionPreq": "",
+        "zones": "",
         "image": "Zoggo.png",
         "abilities": "Fluff Up, Bouncebelly Bash, Gobble Roar, Wacky Wallop"
     },
@@ -410,6 +432,7 @@
         "evolvesFrom": "",
         "evolutionLvl": "",
         "evolutionPreq": "",
+        "zones": "",
         "image": "Floffle.png",
         "abilities": "Puffphase, Cherry Pop, Cotton Crash, Marshmist"
     },
@@ -428,6 +451,7 @@
         "evolvesFrom": "Floffle",
         "evolutionLvl": "18",
         "evolutionPreq": "",
+        "zones": "",
         "image": "Whispuff.png",
         "abilities": "Puffphase, Cherry Pop, Cotton Crash, Charmburst"
     },
@@ -446,6 +470,7 @@
         "evolvesFrom": "Whispuff",
         "evolutionLvl": "32",
         "evolutionPreq": "",
+        "zones": "",
         "image": "Seraphluff.png",
         "abilities": "Puffphase, Cherry Pop, Cotton Crash, Final Flutter"
     },
@@ -464,6 +489,7 @@
         "evolvesFrom": "",
         "evolutionLvl": "",
         "evolutionPreq": "",
+        "zones": "",
         "image": "Puffetti.png",
         "abilities": "Confetti Cloud, Bubblebeam Bash, Panic Float, Wobble Waltz"
     },
@@ -479,9 +505,10 @@
         "evasion": "12",
         "classification": "S",
         "canEvolve": "",
-        "evolvesFrom": "",
+        "evolvesFrom": "Spiribun",
         "evolutionLvl": "",
         "evolutionPreq": "",
+        "zones": "",
         "image": "Flufflare.png",
         "abilities": "Gleamwing, Starbeam Blink, Twinkle Tune, Pixie Dash"
     },
@@ -500,6 +527,7 @@
         "evolvesFrom": "",
         "evolutionLvl": "",
         "evolutionPreq": "",
+        "zones": "",
         "image": "Spriggup.png",
         "abilities": "Pond Skip, Sapshot, Refresh Dew, Verdant Pulse"
     },
@@ -518,6 +546,7 @@
         "evolvesFrom": "",
         "evolutionLvl": "",
         "evolutionPreq": "",
+        "zones": "",
         "image": "Umbraspout.png",
         "abilities": "Shadow Seed, Night Bloom, Bitternip, Grudge Bud"
     },
@@ -532,10 +561,11 @@
         "defese": "",
         "evasion": "",
         "classification": "B",
-        "canEvolve": "",
+        "canEvolve": "Y",
         "evolvesFrom": "Umbraspout",
         "evolutionLvl": "",
         "evolutionPreq": "",
+        "zones": "",
         "image": "Rollherb.png",
         "abilities": "Shadow Seed, Night Bloom, Bitternip, Wheelspin Wake"
     },
@@ -554,6 +584,7 @@
         "evolvesFrom": "",
         "evolutionLvl": "",
         "evolutionPreq": "",
+        "zones": "",
         "image": "Brutalon.png",
         "abilities": "Savage Swipe, Warhowl, Berserker Rush, Bloodclaw Frenzy"
     },
@@ -572,6 +603,7 @@
         "evolvesFrom": "",
         "evolutionLvl": "",
         "evolutionPreq": "",
+        "zones": "",
         "image": "Nautublub.png",
         "abilities": "Aqua Pulse, Torpuddle, Submerge Strike, Echo Ping"
     },
@@ -590,6 +622,7 @@
         "evolvesFrom": "",
         "evolutionLvl": "",
         "evolutionPreq": "",
+        "zones": "",
         "image": "Penguinja.png",
         "abilities": "Shuriceken, Snow Cloak, Decoy Puff, Icicle Ambush"
     },
@@ -608,6 +641,7 @@
         "evolvesFrom": "",
         "evolutionLvl": "",
         "evolutionPreq": "",
+        "zones": "",
         "image": "Fumudge.png",
         "abilities": "Fudge Bomb, Sticky Slam, Molten Mood, Finale Fondoom"
     },
@@ -626,6 +660,7 @@
         "evolvesFrom": "",
         "evolutionLvl": "",
         "evolutionPreq": "",
+        "zones": "",
         "image": "Thinkit.png",
         "abilities": "Brainstorm, Retort Beam, Focus Gaze, Smart Specs"
     },
@@ -644,6 +679,7 @@
         "evolvesFrom": "Thinkit",
         "evolutionLvl": "28",
         "evolutionPreq": "",
+        "zones": "",
         "image": "Brainiog.png",
         "abilities": "Tactical Roar, Retort Beam, Focus Gaze, Bludgeon Lore"
     },
@@ -662,6 +698,7 @@
         "evolvesFrom": "",
         "evolutionLvl": "",
         "evolutionPreq": "",
+        "zones": "",
         "image": "Moosquito.png",
         "abilities": "Bugle Buzz, Pierce Proboscis, Drainstampede, Steam Snort"
     },
@@ -680,6 +717,7 @@
         "evolvesFrom": "",
         "evolutionLvl": "",
         "evolutionPreq": "",
+        "zones": "",
         "image": "Hootspring.png",
         "abilities": "Time Peck, Clockwork Gale, Rewind, Pendulum Ward"
     },
@@ -698,29 +736,12 @@
         "evolvesFrom": "",
         "evolutionLvl": "",
         "evolutionPreq": "",
+        "zones": "",
         "image": "Gearaffe.png",
         "abilities": "Clockwork Gale, Retort Beam, Pendulum Ward, Overcrank Ascend"
     },
     {
         "id": "40",
-        "name": "Sproutail",
-        "type": "Elemental",
-        "subtype": "Grass",
-        "hp": "",
-        "mp": "",
-        "attack": "",
-        "defese": "",
-        "evasion": "",
-        "classification": "B",
-        "canEvolve": "Y",
-        "evolvesFrom": "",
-        "evolutionLvl": "",
-        "evolutionPreq": "",
-        "image": "Sproutail.png",
-        "abilities": "Sun-Kissed, Leaf Loop, Spore Kiss, Vine Skip"
-    },
-    {
-        "id": "41",
         "name": "Floravale",
         "type": "Elemental",
         "subtype": "Grass",
@@ -731,14 +752,15 @@
         "evasion": "",
         "classification": "B",
         "canEvolve": "",
-        "evolvesFrom": "Sproutail",
+        "evolvesFrom": "Rollherb",
         "evolutionLvl": "",
         "evolutionPreq": "",
+        "zones": "",
         "image": "Floravale.png",
         "abilities": "Sun-Kissed, Leaf Loop, Floral Finale, Vine Skip"
     },
     {
-        "id": "42",
+        "id": "41",
         "name": "Paintdoodle",
         "type": "Normal",
         "subtype": "",
@@ -752,11 +774,12 @@
         "evolvesFrom": "",
         "evolutionLvl": "",
         "evolutionPreq": "",
+        "zones": "",
         "image": "Paintdoodle.png",
         "abilities": "Color Splash, Prism Pounce, Palette Guard, Brushstroke Bash"
     },
     {
-        "id": "43",
+        "id": "42",
         "name": "Roscorpion",
         "type": "Normal",
         "subtype": "Ground",
@@ -770,11 +793,12 @@
         "evolvesFrom": "",
         "evolutionLvl": "",
         "evolutionPreq": "",
+        "zones": "",
         "image": "Roscorpion.png",
         "abilities": "Petal Sting, Venom Veil, Rose Snare, Scornspike"
     },
     {
-        "id": "44",
+        "id": "43",
         "name": "Falcarve",
         "type": "Normal",
         "subtype": "",
@@ -788,11 +812,12 @@
         "evolvesFrom": "",
         "evolutionLvl": "",
         "evolutionPreq": "",
+        "zones": "",
         "image": "Falcarve.png",
         "abilities": "Feather Shred, Hawkstrike, Wing Guard, Tailwind"
     },
     {
-        "id": "45",
+        "id": "44",
         "name": "Zephyreign",
         "type": "Magical",
         "subtype": "Mythic",
@@ -806,11 +831,12 @@
         "evolvesFrom": "Falcarve",
         "evolutionLvl": "30",
         "evolutionPreq": "",
+        "zones": "",
         "image": "Zephyreign.png",
         "abilities": "Feather Shred, Hawkstrike, Sky Rend, Stratosunder"
     },
     {
-        "id": "46",
+        "id": "45",
         "name": "Nimblume",
         "type": "Magical",
         "subtype": "Mythic",
@@ -824,11 +850,12 @@
         "evolvesFrom": "",
         "evolutionLvl": "",
         "evolutionPreq": "",
+        "zones": "",
         "image": "Nimblume.png",
         "abilities": "Woolshock, Dreamcoil, Nightpulse, Shadow Pounce"
     },
     {
-        "id": "47",
+        "id": "46",
         "name": "Velumora",
         "type": "Magical",
         "subtype": "Mythic",
@@ -842,11 +869,12 @@
         "evolvesFrom": "Nimblume",
         "evolutionLvl": "",
         "evolutionPreq": "Magic Stone",
+        "zones": "",
         "image": "Velumora.png",
         "abilities": "Woolshock, Dreamcoil, Nightpulse, Dreamrend"
     },
     {
-        "id": "48",
+        "id": "47",
         "name": "Dapperink",
         "type": "Normal",
         "subtype": "",
@@ -860,11 +888,12 @@
         "evolvesFrom": "",
         "evolutionLvl": "",
         "evolutionPreq": "",
+        "zones": "",
         "image": "Dapperink.png",
         "abilities": "Hat Trick, Bowtie Beam, Encore Waltz, Curtain Call"
     },
     {
-        "id": "49",
+        "id": "48",
         "name": "Lilipadpole",
         "type": "Elemental",
         "subtype": "Water",
@@ -878,11 +907,12 @@
         "evolvesFrom": "",
         "evolutionLvl": "",
         "evolutionPreq": "",
+        "zones": "",
         "image": "Lilipadpole.png",
         "abilities": "Dewdrop Drip, Sprite Shield, Sleep Spatter, Rippletune"
     },
     {
-        "id": "50",
+        "id": "49",
         "name": "Lumelody",
         "type": "Normal",
         "subtype": "Electric",
@@ -896,11 +926,12 @@
         "evolvesFrom": "",
         "evolutionLvl": "",
         "evolutionPreq": "",
+        "zones": "",
         "image": "Lumelody.png",
         "abilities": "Pulseweave, Lightloop, Glowbeat, Midnight Tempo"
     },
     {
-        "id": "51",
+        "id": "50",
         "name": "Blazewing",
         "type": "Elemental",
         "subtype": "Fire",
@@ -914,11 +945,12 @@
         "evolvesFrom": "",
         "evolutionLvl": "",
         "evolutionPreq": "",
+        "zones": "",
         "image": "Blazewing.png",
         "abilities": "Flare Dive, Searing Talon, Ember Cyclone, Aerial Blitz"
     },
     {
-        "id": "52",
+        "id": "51",
         "name": "Hydronox",
         "type": "Elemental",
         "subtype": "Water",
@@ -932,11 +964,12 @@
         "evolvesFrom": "",
         "evolutionLvl": "",
         "evolutionPreq": "",
+        "zones": "",
         "image": "Hydronox.png",
         "abilities": "Aqua Pulse, Jet Tackle, Shell Slam, Torrent Lariat"
     },
     {
-        "id": "53",
+        "id": "52",
         "name": "Cubruster",
         "type": "Elemental",
         "subtype": "Fire",
@@ -950,11 +983,12 @@
         "evolvesFrom": "",
         "evolutionLvl": "",
         "evolutionPreq": "",
+        "zones": "",
         "image": "Cubruster.png",
         "abilities": "Scald Swipe, Ember Punch, Steam Puff, Bide Blast"
     },
     {
-        "id": "54",
+        "id": "53",
         "name": "Lotaflume",
         "type": "Elemental",
         "subtype": "Water",
@@ -968,29 +1002,12 @@
         "evolvesFrom": "",
         "evolutionLvl": "",
         "evolutionPreq": "",
+        "zones": "",
         "image": "Lotaflume.png",
         "abilities": "Serenity Veil, Wave Waltz, Aqua Pulse, Floral Flow"
     },
     {
-        "id": "55",
-        "name": "Mycobeard ",
-        "type": "Magical",
-        "subtype": "Fairy",
-        "hp": "",
-        "mp": "",
-        "attack": "",
-        "defese": "",
-        "evasion": "",
-        "classification": "",
-        "canEvolve": "",
-        "evolvesFrom": "",
-        "evolutionLvl": "",
-        "evolutionPreq": "",
-        "image": "Mycobeard.png",
-        "abilities": "Spore Puff, Fungal Grip, Fairy Lamp, Toadstomp"
-    },
-    {
-        "id": "56",
+        "id": "54",
         "name": "Scornut",
         "type": "Normal",
         "subtype": "Ground",
@@ -1005,11 +1022,12 @@
         "evolutionLvl": "",
         "evolutionPreq": "",
         "ability4": "",
+        "zones": "",
         "image": "Scornut.png",
         "abilities": "Tail Slam, Static Pouch, Chestnut Charge"
     },
     {
-        "id": "57",
+        "id": "55",
         "name": "Charmink",
         "type": "Normal",
         "subtype": "",
@@ -1023,11 +1041,12 @@
         "evolvesFrom": "",
         "evolutionLvl": "",
         "evolutionPreq": "",
+        "zones": "",
         "image": "Charmink.png",
         "abilities": "Gleamstep, Purrsuasion, Ribbon Lash, Heartspark"
     },
     {
-        "id": "58",
+        "id": "56",
         "name": "Glacilamb",
         "type": "Elemental",
         "subtype": "Water",
@@ -1041,11 +1060,12 @@
         "evolvesFrom": "Whispuff",
         "evolutionLvl": "",
         "evolutionPreq": "",
+        "zones": "",
         "image": "Glacilamb.png",
         "abilities": "Crystleece, Aurora Beam, Pasture Pulse, Ram Surge"
     },
     {
-        "id": "59",
+        "id": "57",
         "name": "Emberuff",
         "type": "Elemental",
         "subtype": "Fire",
@@ -1059,11 +1079,12 @@
         "evolvesFrom": "Whispuff",
         "evolutionLvl": "",
         "evolutionPreq": "",
+        "zones": "",
         "image": "Emberuff.png",
         "abilities": "Flamefluff, Scorchstep, Pasture Pulse, Ram Surge"
     },
     {
-        "id": "60",
+        "id": "58",
         "name": "Mosslamb",
         "type": "Elemental",
         "subtype": "Grass",
@@ -1077,11 +1098,12 @@
         "evolvesFrom": "Whispuff",
         "evolutionLvl": "",
         "evolutionPreq": "",
+        "zones": "",
         "image": "Mosslamb.png",
         "abilities": "Meadow Veil, Verdant Bash, Pasture Pulse, Ram Surge"
     },
     {
-        "id": "61",
+        "id": "59",
         "name": "Velombra",
         "type": "Normal",
         "subtype": "Electric",
@@ -1095,11 +1117,12 @@
         "evolvesFrom": "",
         "evolutionLvl": "",
         "evolutionPreq": "",
+        "zones": "",
         "image": "Velombra.png",
         "abilities": "Fae Charge, Midnight Bleat, Glimmershield, Quick Vengeance"
     },
     {
-        "id": "62",
+        "id": "60",
         "name": "Voltombre",
         "type": "Normal",
         "subtype": "Electric",
@@ -1113,11 +1136,12 @@
         "evolvesFrom": "Velombra",
         "evolutionLvl": "",
         "evolutionPreq": "",
+        "zones": "",
         "image": "Voltombre.png",
         "abilities": "Fae Charge, Midnight Bleat, Glimmershield, Volt Spiral"
     },
     {
-        "id": "63",
+        "id": "61",
         "name": "Baaronox",
         "type": "Normal",
         "subtype": "Electric",
@@ -1131,11 +1155,12 @@
         "evolvesFrom": "Voltombre",
         "evolutionLvl": "",
         "evolutionPreq": "",
+        "zones": "",
         "image": "Baaronox.png",
         "abilities": "Fae Charge, Midnight Bleat, Blackout Burst, Static Ram"
     },
     {
-        "id": "64",
+        "id": "62",
         "name": "Brambumble",
         "type": "Elemental",
         "subtype": "Grass",
@@ -1149,11 +1174,12 @@
         "evolvesFrom": "",
         "evolutionLvl": "",
         "evolutionPreq": "",
+        "zones": "",
         "image": "Brambumble.png",
         "abilities": "Meadow Veil, Camofluff, Leaf Tangle, Verdant Bash"
     },
     {
-        "id": "65",
+        "id": "63",
         "name": "Bellivy",
         "type": "Elemental",
         "subtype": "Grass",
@@ -1167,11 +1193,12 @@
         "evolvesFrom": "",
         "evolutionLvl": "",
         "evolutionPreq": "",
+        "zones": "",
         "image": "Bellivy.png",
         "abilities": "Petal Pounce, Bell Chime, Photosplash, Sunrise Song"
     },
     {
-        "id": "66",
+        "id": "64",
         "name": "Cactraddle",
         "type": "Normal",
         "subtype": "Ground",
@@ -1185,11 +1212,12 @@
         "evolvesFrom": "",
         "evolutionLvl": "",
         "evolutionPreq": "",
+        "zones": "",
         "image": "Cactraddle.png",
         "abilities": "Blossom Burst, Cactus Armor, Spine Barrage, Rootcoil Slam"
     },
     {
-        "id": "67",
+        "id": "65",
         "name": "Crayzard",
         "type": "Normal",
         "subtype": "",
@@ -1203,11 +1231,12 @@
         "evolvesFrom": "",
         "evolutionLvl": "",
         "evolutionPreq": "",
+        "zones": "",
         "image": "Crayzard.png",
         "abilities": "Color Crash, Crayon Guard, Color Drain, Art Attack"
     },
     {
-        "id": "68",
+        "id": "66",
         "name": "Grumblin",
         "type": "Normal",
         "subtype": "",
@@ -1221,11 +1250,12 @@
         "evolvesFrom": "",
         "evolutionLvl": "",
         "evolutionPreq": "",
+        "zones": "",
         "image": "Grumblin.png",
         "abilities": "Belly Slam, Charm Scowl, Battle Bounce, Heart Thump"
     },
     {
-        "id": "69",
+        "id": "67",
         "name": "Flickerlet",
         "type": "Elemental",
         "subtype": "Fire",
@@ -1239,11 +1269,12 @@
         "evolvesFrom": "",
         "evolutionLvl": "",
         "evolutionPreq": "",
+        "zones": "",
         "image": "Flickerlet.png",
         "abilities": "Flame Flutter, Chirpwarm, Sun Skip, Phoenix Spark"
     },
     {
-        "id": "70",
+        "id": "68",
         "name": "Pyrockadoo",
         "type": "Elemental",
         "subtype": "Fire",
@@ -1257,11 +1288,12 @@
         "evolvesFrom": "Flickerlet",
         "evolutionLvl": "",
         "evolutionPreq": "",
+        "zones": "",
         "image": "Pyrockadoo.png",
         "abilities": "Flame Flutter, Sun Skip, Phoenix Spark, Inferno Crow"
     },
     {
-        "id": "71",
+        "id": "69",
         "name": "Glidaleaf",
         "type": "Elemental",
         "subtype": "Grass",
@@ -1275,11 +1307,12 @@
         "evolvesFrom": "",
         "evolutionLvl": "",
         "evolutionPreq": "",
+        "zones": "",
         "image": "Glidaleaf.png",
         "abilities": "Leaf Glide, Sun Skip, Tailwind, Chatterleaf"
     },
     {
-        "id": "72",
+        "id": "70",
         "name": "Nocturhaze",
         "type": "Magical",
         "subtype": "Dark",
@@ -1293,11 +1326,12 @@
         "evolvesFrom": "",
         "evolutionLvl": "",
         "evolutionPreq": "",
+        "zones": "",
         "image": "Nocturhaze.png",
         "abilities": "Wisp Drift, Mind Spira, Phantom Plume, Lunar Shift"
     },
     {
-        "id": "73",
+        "id": "71",
         "name": "Obscurion",
         "type": "Magical",
         "subtype": "Dark",
@@ -1311,29 +1345,12 @@
         "evolvesFrom": "Nocturhaze",
         "evolutionLvl": "",
         "evolutionPreq": "",
+        "zones": "",
         "image": "Obscurion.png",
         "abilities": "Wisp Drift, Phantom Plume, Oblivion Sigil, Dreamcore Nova"
     },
     {
-        "id": "74",
-        "name": "Inkryft",
-        "type": "Magical",
-        "subtype": "Dark",
-        "hp": "",
-        "mp": "",
-        "attack": "",
-        "defese": "",
-        "evasion": "",
-        "classification": "",
-        "canEvolve": "",
-        "evolvesFrom": "",
-        "evolutionLvl": "",
-        "evolutionPreq": "",
-        "image": "Inkryft.png",
-        "abilities": "Void Lash, Black Miasma, Slickstep, Ebon Surge"
-    },
-    {
-        "id": "75",
+        "id": "72",
         "name": "Liluxi",
         "type": "Elemental",
         "subtype": "Water",
@@ -1348,11 +1365,12 @@
         "evolutionLvl": "",
         "evolutionPreq": "",
         "ability4": "",
+        "zones": "",
         "image": "Liluxi.png",
         "abilities": "Starshine Splash, Gleamwhirl, Aqua Pulse"
     },
     {
-        "id": "76",
+        "id": "73",
         "name": "Luminelix",
         "type": "Elemental",
         "subtype": "Water",
@@ -1366,11 +1384,12 @@
         "evolvesFrom": "Liluxi",
         "evolutionLvl": "",
         "evolutionPreq": "",
+        "zones": "",
         "image": "Luminelix.png",
         "abilities": "Starshine Splash, Gleamwhirl, Aqua Pulse, Wish Ripple"
     },
     {
-        "id": "77",
+        "id": "74",
         "name": "Sporelax",
         "type": "Elemental",
         "subtype": "Grass",
@@ -1384,11 +1403,12 @@
         "evolvesFrom": "",
         "evolutionLvl": "",
         "evolutionPreq": "",
+        "zones": "",
         "image": "Sporelax.png",
         "abilities": "Mellow Mist, Lazyleaf, Mind Moss, Dream Sap"
     },
     {
-        "id": "78",
+        "id": "75",
         "name": "Bluffin",
         "type": "Normal",
         "subtype": "",
@@ -1402,11 +1422,12 @@
         "evolvesFrom": "",
         "evolutionLvl": "",
         "evolutionPreq": "",
+        "zones": "",
         "image": "Bluffin.png",
         "abilities": "Charm Glimmer, Puff Bounce, Daydream Gleam, Joy Burst"
     },
     {
-        "id": "79",
+        "id": "76",
         "name": "Soluna",
         "type": "Magical",
         "subtype": "Fairy",
@@ -1420,11 +1441,12 @@
         "evolvesFrom": "Bluffin",
         "evolutionLvl": "",
         "evolutionPreq": "",
+        "zones": "",
         "image": "Soluna.png",
         "abilities": "Radiant Pounce, Golden Veil, Flashflare, Spirit Crest"
     },
     {
-        "id": "80",
+        "id": "77",
         "name": "Floramene",
         "type": "Elemental",
         "subtype": "Grass",
@@ -1438,11 +1460,12 @@
         "evolvesFrom": "",
         "evolutionLvl": "",
         "evolutionPreq": "",
+        "zones": "",
         "image": "Floramene.png",
         "abilities": "Bloomveil, Solar Waltz, Verdant Blade, Nature\ufffds Grace"
     },
     {
-        "id": "81",
+        "id": "78",
         "name": "Mellibee",
         "type": "Elemental",
         "subtype": "Grass",
@@ -1456,11 +1479,12 @@
         "evolvesFrom": "",
         "evolutionLvl": "",
         "evolutionPreq": "",
+        "zones": "",
         "image": "Mellibee.png",
         "abilities": "Glimmer Dust, Floral Flicker, Pollentide, Wishwing"
     },
     {
-        "id": "82",
+        "id": "79",
         "name": "Veluvielle",
         "type": "Elemental",
         "subtype": "Grass",
@@ -1474,11 +1498,12 @@
         "evolvesFrom": "Mellibee",
         "evolutionLvl": "",
         "evolutionPreq": "",
+        "zones": "",
         "image": "Veluvielle.png",
         "abilities": "Glimmer Dust, Floral Flicker, Pollentide, Dreamweave Pulse"
     },
     {
-        "id": "83",
+        "id": "80",
         "name": "Thimbla",
         "type": "Magical",
         "subtype": "Fairy",
@@ -1492,11 +1517,12 @@
         "evolvesFrom": "",
         "evolutionLvl": "",
         "evolutionPreq": "",
+        "zones": "",
         "image": "Thimbla.png",
         "abilities": "Sew Sweep, Pixie Stitch, Meadow Shield, Final Stitch"
     },
     {
-        "id": "84",
+        "id": "81",
         "name": "Pyruffin",
         "type": "Elemental",
         "subtype": "Fire",
@@ -1510,11 +1536,12 @@
         "evolvesFrom": "",
         "evolutionLvl": "",
         "evolutionPreq": "",
+        "zones": "",
         "image": "Pyruffin.png",
         "abilities": "Ember Flick, Warm Up, Sparkle Pounce, Cinder Wings"
     },
     {
-        "id": "85",
+        "id": "82",
         "name": "Solariscreed",
         "type": "Elemental",
         "subtype": "Fire",
@@ -1528,11 +1555,12 @@
         "evolvesFrom": "Pyruffin",
         "evolutionLvl": "",
         "evolutionPreq": "",
+        "zones": "",
         "image": "Solariscreed.png",
         "abilities": "Ember Flick, Sparkle Pounce, Infernal Dive, Scorch Halo"
     },
     {
-        "id": "86",
+        "id": "83",
         "name": "Starnip",
         "type": "Magical",
         "subtype": "Mythic",
@@ -1546,11 +1574,12 @@
         "evolvesFrom": "",
         "evolutionLvl": "",
         "evolutionPreq": "",
+        "zones": "",
         "image": "Starnip.png",
         "abilities": "Lunar Pounce, Comet Claws, Charmstep, Startrail"
     },
     {
-        "id": "87",
+        "id": "84",
         "name": "Noctigris",
         "type": "Magical",
         "subtype": "Mythic",
@@ -1564,11 +1593,12 @@
         "evolvesFrom": "Starnip",
         "evolutionLvl": "",
         "evolutionPreq": "",
+        "zones": "",
         "image": "Noctigris.png",
         "abilities": "Lunar Pounce, Comet Claws, Startrail, Nightfang Eclipse"
     },
     {
-        "id": "88",
+        "id": "85",
         "name": "Raindeer",
         "type": "Elemental",
         "subtype": "Water",
@@ -1582,11 +1612,12 @@
         "evolvesFrom": "",
         "evolutionLvl": "",
         "evolutionPreq": "",
+        "zones": "",
         "image": "Raindeer.png",
         "abilities": "Moonwake, Aqua Prance, Tidecall, Celestial Splash"
     },
     {
-        "id": "89",
+        "id": "86",
         "name": "Avireign",
         "type": "Elemental",
         "subtype": "Fire",
@@ -1600,11 +1631,12 @@
         "evolvesFrom": "",
         "evolutionLvl": "",
         "evolutionPreq": "",
+        "zones": "",
         "image": "Avireign.png",
         "abilities": "Sky Ward, Roostguard, Cinderflare, Broodstrike"
     },
     {
-        "id": "90",
+        "id": "87",
         "name": "Pyraethon",
         "type": "Elemental",
         "subtype": "Fire",
@@ -1618,11 +1650,12 @@
         "evolvesFrom": "Avireign",
         "evolutionLvl": "",
         "evolutionPreq": "",
+        "zones": "",
         "image": "Pyraethon.png",
         "abilities": "Sky Ward, Cinderflare, Broodstrike, Last Ember"
     },
     {
-        "id": "91",
+        "id": "88",
         "name": "Buoyantor",
         "type": "Elemental",
         "subtype": "Water",
@@ -1636,11 +1669,12 @@
         "evolvesFrom": "",
         "evolutionLvl": "",
         "evolutionPreq": "",
+        "zones": "",
         "image": "Buoyantor.png",
         "abilities": "Wave Coil, Iron Drift, Float Guard, Tidal Ambush"
     },
     {
-        "id": "92",
+        "id": "89",
         "name": "Brutalocust",
         "type": "Elemental",
         "subtype": "Grass",
@@ -1654,11 +1688,12 @@
         "evolvesFrom": "",
         "evolutionLvl": "",
         "evolutionPreq": "",
+        "zones": "",
         "image": "Brutalocust.png",
         "abilities": "Iron Stagger, Pincer Quake, Drill Rush, Megaton Slam"
     },
     {
-        "id": "93",
+        "id": "90",
         "name": "Chronotick",
         "type": "Normal",
         "subtype": "",
@@ -1672,11 +1707,12 @@
         "evolvesFrom": "",
         "evolutionLvl": "",
         "evolutionPreq": "",
+        "zones": "",
         "image": "Chronotick.png",
         "abilities": "Time Loop, Stitch Slash, Chronoshift, Final Hour"
     },
     {
-        "id": "94",
+        "id": "91",
         "name": "Papyrion",
         "type": "Normal",
         "subtype": "",
@@ -1690,11 +1726,12 @@
         "evolvesFrom": "",
         "evolutionLvl": "",
         "evolutionPreq": "",
+        "zones": "",
         "image": "Papyrion.png",
         "abilities": "Gale Slice, Paper Cut, Origami Mirage, Crease Storm"
     },
     {
-        "id": "95",
+        "id": "92",
         "name": "Solcub",
         "type": "Elemental",
         "subtype": "Grass",
@@ -1708,11 +1745,12 @@
         "evolvesFrom": "",
         "evolutionLvl": "",
         "evolutionPreq": "",
+        "zones": "",
         "image": "Solcub.png",
         "abilities": "Sunbeam Pounce, Bloom Burst, Floral Guard, Radiant Roar"
     },
     {
-        "id": "96",
+        "id": "93",
         "name": "Crescyon",
         "type": "Magical",
         "subtype": "Dark",
@@ -1726,11 +1764,12 @@
         "evolvesFrom": "",
         "evolutionLvl": "",
         "evolutionPreq": "",
+        "zones": "",
         "image": "Crescyon.png",
         "abilities": "Moonveil Slash, Mind Spiral, Lunar Gaze, Oblivion Anthem"
     },
     {
-        "id": "97",
+        "id": "94",
         "name": "Abylux",
         "type": "Magical",
         "subtype": "Dark",
@@ -1744,11 +1783,12 @@
         "evolvesFrom": "",
         "evolutionLvl": "",
         "evolutionPreq": "",
+        "zones": "",
         "image": "Abylux.png",
         "abilities": "Phantom Spiral, Shadowbind, Twilight Pulse, Spectral Wings"
     },
     {
-        "id": "98",
+        "id": "95",
         "name": "Shadebandit",
         "type": "Normal",
         "subtype": "",
@@ -1762,11 +1802,12 @@
         "evolvesFrom": "",
         "evolutionLvl": "",
         "evolutionPreq": "",
+        "zones": "",
         "image": "Shadebandit.png",
         "abilities": "Shadow Scratch, Moonfade, Whisperwalk, Ambush Fang"
     },
     {
-        "id": "99",
+        "id": "96",
         "name": "Dreadmare",
         "type": "Elemental",
         "subtype": "Water",
@@ -1780,11 +1821,12 @@
         "evolvesFrom": "",
         "evolutionLvl": "",
         "evolutionPreq": "",
+        "zones": "",
         "image": "Dreadmare.png",
         "abilities": "Depth Rend, Gloomcurrent, Terror Dive, Finblade"
     },
     {
-        "id": "100",
+        "id": "97",
         "name": "Cryonix",
         "type": "Elemental",
         "subtype": "Water",
@@ -1798,11 +1840,12 @@
         "evolvesFrom": "",
         "evolutionLvl": "",
         "evolutionPreq": "",
+        "zones": "",
         "image": "Cryonix.png",
         "abilities": "Diamond Beak, Frozen Demeanor, Frost Guard, Polar Plummet"
     },
     {
-        "id": "101",
+        "id": "98",
         "name": "Solissile",
         "type": "Normal",
         "subtype": "Ground",
@@ -1816,11 +1859,12 @@
         "evolvesFrom": "",
         "evolutionLvl": "",
         "evolutionPreq": "",
+        "zones": "",
         "image": "Solissile.png",
         "abilities": "Sand Spiral, Mirage Veil, Sun Coil, Burrow Blitz"
     },
     {
-        "id": "102",
+        "id": "99",
         "name": "Noctavain",
         "type": "Normal",
         "subtype": "",
@@ -1834,11 +1878,12 @@
         "evolvesFrom": "",
         "evolutionLvl": "",
         "evolutionPreq": "",
+        "zones": "",
         "image": "Noctavain.png",
         "abilities": "Hexfeather, Nightpierce, Craven Howl, Gravemist Wing"
     },
     {
-        "id": "103",
+        "id": "100",
         "name": "Pandaloo",
         "type": "Elemental",
         "subtype": "Grass",
@@ -1852,11 +1897,12 @@
         "evolvesFrom": "",
         "evolutionLvl": "",
         "evolutionPreq": "",
+        "zones": "",
         "image": "Pandaloo.png",
         "abilities": "Playful Pounce, Tail Twirl, Gleam Wink, Rebound Roll"
     },
     {
-        "id": "104",
+        "id": "101",
         "name": "Bambuzzleaf",
         "type": "Elemental",
         "subtype": "Grass",
@@ -1870,11 +1916,12 @@
         "evolvesFrom": "Pandaloo",
         "evolutionLvl": "",
         "evolutionPreq": "",
+        "zones": "",
         "image": "Bambuzzleaf.png",
         "abilities": "Playful Pounce, Rebound Roll, Tuff Bloom, Leafy Embrace"
     },
     {
-        "id": "105",
+        "id": "102",
         "name": "Embermane",
         "type": "Elemental",
         "subtype": "Fire",
@@ -1888,11 +1935,12 @@
         "evolvesFrom": "",
         "evolutionLvl": "",
         "evolutionPreq": "",
+        "zones": "",
         "image": "Embermane.png",
         "abilities": "Blazing Reins, Ashen Cloak, Inferno Gallop, Smolder Kick"
     },
     {
-        "id": "106",
+        "id": "103",
         "name": "Ignisurge",
         "type": "Elemental",
         "subtype": "Fire",
@@ -1906,11 +1954,12 @@
         "evolvesFrom": "Embermane",
         "evolutionLvl": "",
         "evolutionPreq": "",
+        "zones": "",
         "image": "Ignisurge.png",
         "abilities": "Blazing Reins, Ashen Cloak, Inferno Gallop, Firemane Lariat"
     },
     {
-        "id": "107",
+        "id": "104",
         "name": "Neo",
         "type": "Normal",
         "subtype": "",
@@ -1924,11 +1973,12 @@
         "evolvesFrom": "",
         "evolutionLvl": "",
         "evolutionPreq": "",
+        "zones": "",
         "image": "Neo.png",
         "abilities": "Shadow Pounce, Matrix Surge, Code Hack, Slick Swipe"
     },
     {
-        "id": "108",
+        "id": "105",
         "name": "Shroomlingo",
         "type": "Elemental",
         "subtype": "Grass",
@@ -1942,11 +1992,12 @@
         "evolvesFrom": "",
         "evolutionLvl": "",
         "evolutionPreq": "",
+        "zones": "",
         "image": "Shroomlingo.png",
         "abilities": "Toxic Pirouette, Regrowth, Spore Waltz, Fungal Flare"
     },
     {
-        "id": "109",
+        "id": "106",
         "name": "Budbaa",
         "type": "Elemental",
         "subtype": "Grass",
@@ -1960,11 +2011,12 @@
         "evolvesFrom": "",
         "evolutionLvl": "",
         "evolutionPreq": "",
+        "zones": "",
         "image": "Budbaa.png",
         "abilities": "Sun Kiss, Pollen Puff, Seedling Toss, Gleeful Gleam"
     },
     {
-        "id": "110",
+        "id": "107",
         "name": "Skylume",
         "type": "Normal",
         "subtype": "",
@@ -1978,11 +2030,12 @@
         "evolvesFrom": "",
         "evolutionLvl": "",
         "evolutionPreq": "",
+        "zones": "",
         "image": "Skylume.png",
         "abilities": "Gleamfeather, Featherveil, Prism Dive, Skydance"
     },
     {
-        "id": "111",
+        "id": "108",
         "name": "Crepuskra",
         "type": "Normal",
         "subtype": "",
@@ -1996,11 +2049,12 @@
         "evolvesFrom": "Skylume",
         "evolutionLvl": "",
         "evolutionPreq": "",
+        "zones": "",
         "image": "Crepuskra.png",
         "abilities": "Gleamfeather, Featherveil, Skydance, Dawnfall Horizon"
     },
     {
-        "id": "112",
+        "id": "109",
         "name": "Buzzlette",
         "type": "Elemental",
         "subtype": "Grass",
@@ -2014,11 +2068,12 @@
         "evolvesFrom": "",
         "evolutionLvl": "",
         "evolutionPreq": "",
+        "zones": "",
         "image": "Buzzlette.png",
         "abilities": "Pollen Pop, Nectar Net, Honey Heal, Sunflash"
     },
     {
-        "id": "113",
+        "id": "110",
         "name": "Voltitan",
         "type": "Normal",
         "subtype": "Electric",
@@ -2032,11 +2087,12 @@
         "evolvesFrom": "",
         "evolutionLvl": "",
         "evolutionPreq": "",
+        "zones": "",
         "image": "Voltitan.png",
         "abilities": "Scepter Bash, Dominion Stare, Thundercrown, Stormcall"
     },
     {
-        "id": "114",
+        "id": "111",
         "name": "Voltarchus",
         "type": "Normal",
         "subtype": "Electric",
@@ -2050,11 +2106,12 @@
         "evolvesFrom": "Voltitan",
         "evolutionLvl": "",
         "evolutionPreq": "",
+        "zones": "",
         "image": "Voltarchus.png",
         "abilities": "Scepter Bash, Dominion Stare, Thundercrown, Overdrive Mantle"
     },
     {
-        "id": "115",
+        "id": "112",
         "name": "Scorfluff",
         "type": "Elemental",
         "subtype": "Fire",
@@ -2068,11 +2125,12 @@
         "evolvesFrom": "",
         "evolutionLvl": "",
         "evolutionPreq": "",
+        "zones": "",
         "image": "Scorfluff.png",
         "abilities": "Sunny Snarl, Ember Boop, Scorch Pounce, Fluff Blaze"
     },
     {
-        "id": "116",
+        "id": "113",
         "name": "Brinzelda",
         "type": "Magical",
         "subtype": "Fairy",
@@ -2086,11 +2144,12 @@
         "evolvesFrom": "",
         "evolutionLvl": "",
         "evolutionPreq": "",
+        "zones": "",
         "image": "Brinzelda.png",
         "abilities": "Glow Nibble, Pixie Guard, Brine Burst, Ferment Frenzy"
     },
     {
-        "id": "117",
+        "id": "114",
         "name": "Skyrion",
         "type": "Magical",
         "subtype": "Mythic",
@@ -2104,11 +2163,12 @@
         "evolvesFrom": "",
         "evolutionLvl": "",
         "evolutionPreq": "",
+        "zones": "",
         "image": "Skyrion.png",
         "abilities": "Radiant Gust, Aegis Shine, Winglash, Luster Fang"
     },
     {
-        "id": "118",
+        "id": "115",
         "name": "Zephyrex",
         "type": "Magical",
         "subtype": "Mythic",
@@ -2122,11 +2182,12 @@
         "evolvesFrom": "Skyrion",
         "evolutionLvl": "",
         "evolutionPreq": "",
+        "zones": "",
         "image": "Zephyrex.png",
         "abilities": "Radiant Gust, Aegis Shine, Winglash, Heaven's Pulse"
     },
     {
-        "id": "119",
+        "id": "116",
         "name": "Charmette",
         "type": "Normal",
         "subtype": "",
@@ -2140,11 +2201,12 @@
         "evolvesFrom": "",
         "evolutionLvl": "",
         "evolutionPreq": "",
+        "zones": "",
         "image": "Charmette.png",
         "abilities": "Ribbon Rush, Gleamstep, Charm Pulse, Flair Kick"
     },
     {
-        "id": "120",
+        "id": "117",
         "name": "Regalette",
         "type": "Normal",
         "subtype": "",
@@ -2158,11 +2220,12 @@
         "evolvesFrom": "Charmette",
         "evolutionLvl": "",
         "evolutionPreq": "",
+        "zones": "",
         "image": "Regalette.png",
         "abilities": "Ribbon Rush, Gleamstep, Charm Pulse, Lance Kick"
     },
     {
-        "id": "121",
+        "id": "118",
         "name": "Voltuff",
         "type": "Normal",
         "subtype": "Electric",
@@ -2176,11 +2239,12 @@
         "evolvesFrom": "",
         "evolutionLvl": "",
         "evolutionPreq": "",
+        "zones": "",
         "image": "Voltuff.png",
         "abilities": "Shock Spiral, Volt Hop, Wattwave, Thunder Prance"
     },
     {
-        "id": "122",
+        "id": "119",
         "name": "Regastroa",
         "type": "Elemental",
         "subtype": "Grass",
@@ -2194,11 +2258,12 @@
         "evolvesFrom": "",
         "evolutionLvl": "",
         "evolutionPreq": "",
+        "zones": "",
         "image": "Regastroa.png",
         "abilities": "Tranquil Beam, Shell Pulse, Time Seal, Ancient Glow"
     },
     {
-        "id": "123",
+        "id": "120",
         "name": "Grudgecub",
         "type": "Normal",
         "subtype": "Ground",
@@ -2212,11 +2277,12 @@
         "evolvesFrom": "",
         "evolutionLvl": "",
         "evolutionPreq": "",
+        "zones": "",
         "image": "Grudgecub.png",
         "abilities": "Sand Maul, Dig In, Mean Glare, Mudshock Claws"
     },
     {
-        "id": "124",
+        "id": "121",
         "name": "Zestail",
         "type": "Normal",
         "subtype": "",
@@ -2230,11 +2296,12 @@
         "evolvesFrom": "",
         "evolutionLvl": "",
         "evolutionPreq": "",
+        "zones": "",
         "image": "Zestail.png",
         "abilities": "Jolt Dash, Tail Spin, Nut Shock, Cheer Burst"
     },
     {
-        "id": "125",
+        "id": "122",
         "name": "Terrabud",
         "type": "Normal",
         "subtype": "Ground",
@@ -2248,11 +2315,12 @@
         "evolvesFrom": "",
         "evolutionLvl": "",
         "evolutionPreq": "",
+        "zones": "",
         "image": "Terrabud.png",
         "abilities": "Pebble Toss, Charm Pulse, Graceful Gleam, Sproutstep"
     },
     {
-        "id": "126",
+        "id": "123",
         "name": "Blazaltrix",
         "type": "Elemental",
         "subtype": "Fire",
@@ -2266,11 +2334,12 @@
         "evolvesFrom": "",
         "evolutionLvl": "",
         "evolutionPreq": "",
+        "zones": "",
         "image": "Blazaltrix.png",
         "abilities": "Inferno Screech, Skybrand Dive, Emberstorm, Molten Talon"
     },
     {
-        "id": "127",
+        "id": "124",
         "name": "Burrowrex",
         "type": "Normal",
         "subtype": "Ground",
@@ -2284,11 +2353,12 @@
         "evolvesFrom": "",
         "evolutionLvl": "",
         "evolutionPreq": "",
+        "zones": "",
         "image": "Burrowrex.png",
         "abilities": "Tremor Tap, Mud Shard, Quicksand Grip, Earth Echo"
     },
     {
-        "id": "128",
+        "id": "125",
         "name": "Starnap",
         "type": "Magical",
         "subtype": "Fairy",
@@ -2302,7 +2372,65 @@
         "evolvesFrom": "",
         "evolutionLvl": "",
         "evolutionPreq": "",
+        "zones": "",
         "image": "Starnap.png",
         "abilities": "Nebula Pulse, Moonlit Veil, Silent Night, Cosmic Alignment"
+    },
+    {
+        "id": "126",
+        "name": "Noctikitten",
+        "type": "Magical",
+        "subtype": "Dark",
+        "hp": "",
+        "mp": "",
+        "attack": "",
+        "defese": "",
+        "evasion": "",
+        "classification": "",
+        "canEvolve": "Y",
+        "evolvesFrom": "",
+        "evolutionLvl": "",
+        "evolutionPreq": "",
+        "zones": "",
+        "image": "Noctikitten.png",
+        "abilities": "Shadow Swat, Mischief Veil, Whisptail, Phantom Nudge"
+    },
+    {
+        "id": "127",
+        "name": "Inkryft",
+        "type": "Magical",
+        "subtype": "Dark",
+        "hp": "",
+        "mp": "",
+        "attack": "",
+        "defese": "",
+        "evasion": "",
+        "classification": "",
+        "canEvolve": "",
+        "evolvesFrom": "Noctikitten",
+        "evolutionLvl": "",
+        "evolutionPreq": "",
+        "zones": "",
+        "image": "Inkryft.png",
+        "abilities": "Void Lash, Black Miasma, Slickstep, Ebon Surge"
+    },
+    {
+        "id": "128",
+        "name": "Spiribun",
+        "type": "Magical",
+        "subtype": "Fairy",
+        "hp": "",
+        "mp": "",
+        "attack": "",
+        "defese": "",
+        "evasion": "",
+        "classification": "",
+        "canEvolve": "Y",
+        "evolvesFrom": "",
+        "evolutionLvl": "",
+        "evolutionPreq": "",
+        "zones": "",
+        "image": "Spiribun.png",
+        "abilities": "Swirl Glow, Puff Guard, Echo Chirp, Sky Tumble"
     }
 ]
