@@ -248,6 +248,44 @@
     },
     {
         "id": "14",
+        "name": "Nyxent",
+        "type": "Magical",
+        "subtype": "Dark",
+        "hp": "",
+        "mp": "",
+        "attack": "",
+        "defese": "",
+        "evasion": "",
+        "classification": "",
+        "canEvolve": "",
+        "evolvesFrom": "",
+        "evolutionLvl": "",
+        "evolutionPreq": "",
+        "zones": "",
+        "image": "Nyxent.png",
+        "abilities": "Starstep, Chimeveil, Dreambind, Starloss"
+    },
+    {
+        "id": "15",
+        "name": "Pyroclix",
+        "type": "Elemental",
+        "subtype": "Fire",
+        "hp": "",
+        "mp": "",
+        "attack": "",
+        "defese": "",
+        "evasion": "",
+        "classification": "",
+        "canEvolve": "",
+        "evolvesFrom": "",
+        "evolutionLvl": "",
+        "evolutionPreq": "",
+        "zones": "",
+        "image": "Pyroclix.png",
+        "abilities": "Boiler Burst, Pipeflare, Steamsurge, Flamecoil"
+    },
+    {
+        "id": "16",
         "name": "Solkit",
         "type": "Normal",
         "subtype": "",
@@ -266,7 +304,7 @@
         "abilities": "Sunpounce, Jungle Beat, Roar of Resolve, Banana Bombard"
     },
     {
-        "id": "15",
+        "id": "17",
         "name": "Leofrond",
         "type": "Normal",
         "subtype": "",
@@ -285,7 +323,7 @@
         "abilities": "Sunpounce, Jungle Beat, Roar of Resolve, Mane Burst"
     },
     {
-        "id": "16",
+        "id": "18",
         "name": "Snaptrik",
         "type": "Magical",
         "subtype": "Dark",
@@ -304,7 +342,7 @@
         "abilities": "Shadow Pounce, Moon Hex, Spinesurge, Last Laugh"
     },
     {
-        "id": "17",
+        "id": "19",
         "name": "Umbruff",
         "type": "Magical",
         "subtype": "Dark",
@@ -323,7 +361,7 @@
         "abilities": "Shadow Pounce, Moon Hex, Spinesurge, Void Howl"
     },
     {
-        "id": "18",
+        "id": "20",
         "name": "Strumbleaf",
         "type": "Elemental",
         "subtype": "Grass",
@@ -342,7 +380,7 @@
         "abilities": "Leaf Riff, Tune Snare, Jam Session, Encore Echo"
     },
     {
-        "id": "19",
+        "id": "21",
         "name": "Driftrella",
         "type": "Elemental",
         "subtype": "Water",
@@ -361,7 +399,7 @@
         "abilities": "Soothing Drizzle, Bubblebeam Bash, Tricklebeam, Spring Bloom"
     },
     {
-        "id": "20",
+        "id": "22",
         "name": "Kindlark",
         "type": "Elemental",
         "subtype": "Fire",
@@ -380,7 +418,7 @@
         "abilities": "Ember Dash, Flickerfang, Tailflare, Wispstep"
     },
     {
-        "id": "21",
+        "id": "23",
         "name": "Bagheera",
         "type": "Normal",
         "subtype": "",
@@ -399,7 +437,65 @@
         "abilities": "Shadow Swipe, Lurkstep, Jungle Beat, Nightfang"
     },
     {
-        "id": "22",
+        "id": "24",
+        "name": "Mechleaf",
+        "type": "Elemental",
+        "subtype": "Grass",
+        "hp": "",
+        "mp": "",
+        "attack": "",
+        "defese": "",
+        "evasion": "",
+        "classification": "",
+        "canEvolve": "",
+        "evolvesFrom": "",
+        "evolutionLvl": "",
+        "evolutionPreq": "",
+        "zones": "",
+        "image": "Mechleaf.png",
+        "abilities": "Leaflash, Vine WhipGrasping Gloom, Solar Coil, Circuit Overload"
+    },
+    {
+        "id": "25",
+        "name": "Chillaxodon",
+        "type": "Elemental",
+        "subtype": "Water",
+        "hp": "",
+        "mp": "",
+        "attack": "",
+        "defese": "",
+        "evasion": "",
+        "classification": "",
+        "canEvolve": "",
+        "evolvesFrom": "",
+        "evolutionLvl": "",
+        "evolutionPreq": "",
+        "zones": "",
+        "image": "Chillaxodon.png",
+        "abilities": "Frost Nap, Subzero, Hibernate, Glacier Guard"
+    },
+    {
+        "id": "26",
+        "name": "Snaproot",
+        "type": "Elemental",
+        "subtype": "Grass",
+        "hp": "",
+        "mp": "",
+        "attack": "",
+        "defese": "",
+        "evasion": "",
+        "classification": "",
+        "canEvolve": "",
+        "evolvesFrom": "",
+        "evolutionLvl": "",
+        "evolutionPreq": "",
+        "ability3": "",
+        "zones": "",
+        "image": "Snaproot.png",
+        "abilities": "Thorntrap, Vine WhipGrasping Gloom, Spore Burst"
+    },
+    {
+        "id": "27",
         "name": "Zoggo",
         "type": "Normal",
         "subtype": "",
@@ -418,7 +514,7 @@
         "abilities": "Fluff Up, Bouncebelly Bash, Gobble Roar, Wacky Wallop"
     },
     {
-        "id": "23",
+        "id": "28",
         "name": "Floffle",
         "type": "Normal",
         "subtype": "",
@@ -437,7 +533,7 @@
         "abilities": "Puffphase, Cherry Pop, Cotton Crash, Marshmist"
     },
     {
-        "id": "24",
+        "id": "29",
         "name": "Whispuff",
         "type": "Normal",
         "subtype": "",
@@ -456,7 +552,7 @@
         "abilities": "Puffphase, Cherry Pop, Cotton Crash, Charmburst"
     },
     {
-        "id": "25",
+        "id": "30",
         "name": "Seraphluff",
         "type": "Magical",
         "subtype": "Fairy",
@@ -475,7 +571,7 @@
         "abilities": "Puffphase, Cherry Pop, Cotton Crash, Final Flutter"
     },
     {
-        "id": "26",
+        "id": "31",
         "name": "Puffetti",
         "type": "Normal",
         "subtype": "",
@@ -494,7 +590,26 @@
         "abilities": "Confetti Cloud, Bubblebeam Bash, Panic Float, Wobble Waltz"
     },
     {
-        "id": "27",
+        "id": "32",
+        "name": "Spiribun",
+        "type": "Magical",
+        "subtype": "Fairy",
+        "hp": "",
+        "mp": "",
+        "attack": "",
+        "defese": "",
+        "evasion": "",
+        "classification": "",
+        "canEvolve": "Y",
+        "evolvesFrom": "",
+        "evolutionLvl": "",
+        "evolutionPreq": "",
+        "zones": "",
+        "image": "Spiribun.png",
+        "abilities": "Swirl Glow, Puff Guard, Echo Chirp, Sky Tumble"
+    },
+    {
+        "id": "33",
         "name": "Flufflare",
         "type": "Magical",
         "subtype": "Fairy",
@@ -513,7 +628,7 @@
         "abilities": "Gleamwing, Starbeam Blink, Twinkle Tune, Pixie Dash"
     },
     {
-        "id": "28",
+        "id": "34",
         "name": "Spriggup",
         "type": "Elemental",
         "subtype": "Water",
@@ -532,7 +647,7 @@
         "abilities": "Pond Skip, Sapshot, Refresh Dew, Verdant Pulse"
     },
     {
-        "id": "29",
+        "id": "35",
         "name": "Umbraspout",
         "type": "Elemental",
         "subtype": "Grass",
@@ -551,7 +666,7 @@
         "abilities": "Shadow Seed, Night Bloom, Bitternip, Grudge Bud"
     },
     {
-        "id": "30",
+        "id": "36",
         "name": "Rollherb",
         "type": "Elemental",
         "subtype": "Grass",
@@ -570,7 +685,7 @@
         "abilities": "Shadow Seed, Night Bloom, Bitternip, Wheelspin Wake"
     },
     {
-        "id": "31",
+        "id": "37",
         "name": "Brutalon",
         "type": "Normal",
         "subtype": "",
@@ -589,7 +704,7 @@
         "abilities": "Savage Swipe, Warhowl, Berserker Rush, Bloodclaw Frenzy"
     },
     {
-        "id": "32",
+        "id": "38",
         "name": "Nautublub",
         "type": "Elemental",
         "subtype": "Water",
@@ -608,7 +723,7 @@
         "abilities": "Aqua Pulse, Torpuddle, Submerge Strike, Echo Ping"
     },
     {
-        "id": "33",
+        "id": "39",
         "name": "Penguinja",
         "type": "Elemental",
         "subtype": "Water",
@@ -627,7 +742,7 @@
         "abilities": "Shuriceken, Snow Cloak, Decoy Puff, Icicle Ambush"
     },
     {
-        "id": "34",
+        "id": "40",
         "name": "Fumudge",
         "type": "Normal",
         "subtype": "",
@@ -646,7 +761,7 @@
         "abilities": "Fudge Bomb, Sticky Slam, Molten Mood, Finale Fondoom"
     },
     {
-        "id": "35",
+        "id": "41",
         "name": "Thinkit",
         "type": "Normal",
         "subtype": "",
@@ -665,7 +780,7 @@
         "abilities": "Brainstorm, Retort Beam, Focus Gaze, Smart Specs"
     },
     {
-        "id": "36",
+        "id": "42",
         "name": "Brainiog",
         "type": "Normal",
         "subtype": "",
@@ -684,7 +799,7 @@
         "abilities": "Tactical Roar, Retort Beam, Focus Gaze, Bludgeon Lore"
     },
     {
-        "id": "37",
+        "id": "43",
         "name": "Moosquito",
         "type": "Normal",
         "subtype": "",
@@ -703,7 +818,7 @@
         "abilities": "Bugle Buzz, Pierce Proboscis, Drainstampede, Steam Snort"
     },
     {
-        "id": "38",
+        "id": "44",
         "name": "Hootspring",
         "type": "Normal",
         "subtype": "",
@@ -722,7 +837,7 @@
         "abilities": "Time Peck, Clockwork Gale, Rewind, Pendulum Ward"
     },
     {
-        "id": "39",
+        "id": "45",
         "name": "Gearaffe",
         "type": "Normal",
         "subtype": "",
@@ -741,7 +856,7 @@
         "abilities": "Clockwork Gale, Retort Beam, Pendulum Ward, Overcrank Ascend"
     },
     {
-        "id": "40",
+        "id": "46",
         "name": "Floravale",
         "type": "Elemental",
         "subtype": "Grass",
@@ -760,7 +875,7 @@
         "abilities": "Sun-Kissed, Leaf Loop, Floral Finale, Vine Skip"
     },
     {
-        "id": "41",
+        "id": "47",
         "name": "Paintdoodle",
         "type": "Normal",
         "subtype": "",
@@ -779,7 +894,7 @@
         "abilities": "Color Splash, Prism Pounce, Palette Guard, Brushstroke Bash"
     },
     {
-        "id": "42",
+        "id": "48",
         "name": "Roscorpion",
         "type": "Normal",
         "subtype": "Ground",
@@ -798,7 +913,7 @@
         "abilities": "Petal Sting, Venom Veil, Rose Snare, Scornspike"
     },
     {
-        "id": "43",
+        "id": "49",
         "name": "Falcarve",
         "type": "Normal",
         "subtype": "",
@@ -817,7 +932,7 @@
         "abilities": "Feather Shred, Hawkstrike, Wing Guard, Tailwind"
     },
     {
-        "id": "44",
+        "id": "50",
         "name": "Zephyreign",
         "type": "Magical",
         "subtype": "Mythic",
@@ -836,7 +951,7 @@
         "abilities": "Feather Shred, Hawkstrike, Sky Rend, Stratosunder"
     },
     {
-        "id": "45",
+        "id": "51",
         "name": "Nimblume",
         "type": "Magical",
         "subtype": "Mythic",
@@ -855,7 +970,7 @@
         "abilities": "Woolshock, Dreamcoil, Nightpulse, Shadow Pounce"
     },
     {
-        "id": "46",
+        "id": "52",
         "name": "Velumora",
         "type": "Magical",
         "subtype": "Mythic",
@@ -874,7 +989,7 @@
         "abilities": "Woolshock, Dreamcoil, Nightpulse, Dreamrend"
     },
     {
-        "id": "47",
+        "id": "53",
         "name": "Dapperink",
         "type": "Normal",
         "subtype": "",
@@ -893,7 +1008,7 @@
         "abilities": "Hat Trick, Bowtie Beam, Encore Waltz, Curtain Call"
     },
     {
-        "id": "48",
+        "id": "54",
         "name": "Lilipadpole",
         "type": "Elemental",
         "subtype": "Water",
@@ -912,7 +1027,7 @@
         "abilities": "Dewdrop Drip, Sprite Shield, Sleep Spatter, Rippletune"
     },
     {
-        "id": "49",
+        "id": "55",
         "name": "Lumelody",
         "type": "Normal",
         "subtype": "Electric",
@@ -931,7 +1046,7 @@
         "abilities": "Pulseweave, Lightloop, Glowbeat, Midnight Tempo"
     },
     {
-        "id": "50",
+        "id": "56",
         "name": "Blazewing",
         "type": "Elemental",
         "subtype": "Fire",
@@ -950,7 +1065,7 @@
         "abilities": "Flare Dive, Searing Talon, Ember Cyclone, Aerial Blitz"
     },
     {
-        "id": "51",
+        "id": "57",
         "name": "Hydronox",
         "type": "Elemental",
         "subtype": "Water",
@@ -969,7 +1084,7 @@
         "abilities": "Aqua Pulse, Jet Tackle, Shell Slam, Torrent Lariat"
     },
     {
-        "id": "52",
+        "id": "58",
         "name": "Cubruster",
         "type": "Elemental",
         "subtype": "Fire",
@@ -988,7 +1103,7 @@
         "abilities": "Scald Swipe, Ember Punch, Steam Puff, Bide Blast"
     },
     {
-        "id": "53",
+        "id": "59",
         "name": "Lotaflume",
         "type": "Elemental",
         "subtype": "Water",
@@ -1007,7 +1122,7 @@
         "abilities": "Serenity Veil, Wave Waltz, Aqua Pulse, Floral Flow"
     },
     {
-        "id": "54",
+        "id": "60",
         "name": "Scornut",
         "type": "Normal",
         "subtype": "Ground",
@@ -1027,7 +1142,7 @@
         "abilities": "Tail Slam, Static Pouch, Chestnut Charge"
     },
     {
-        "id": "55",
+        "id": "61",
         "name": "Charmink",
         "type": "Normal",
         "subtype": "",
@@ -1046,7 +1161,7 @@
         "abilities": "Gleamstep, Purrsuasion, Ribbon Lash, Heartspark"
     },
     {
-        "id": "56",
+        "id": "62",
         "name": "Glacilamb",
         "type": "Elemental",
         "subtype": "Water",
@@ -1065,7 +1180,7 @@
         "abilities": "Crystleece, Aurora Beam, Pasture Pulse, Ram Surge"
     },
     {
-        "id": "57",
+        "id": "63",
         "name": "Emberuff",
         "type": "Elemental",
         "subtype": "Fire",
@@ -1084,7 +1199,7 @@
         "abilities": "Flamefluff, Scorchstep, Pasture Pulse, Ram Surge"
     },
     {
-        "id": "58",
+        "id": "64",
         "name": "Mosslamb",
         "type": "Elemental",
         "subtype": "Grass",
@@ -1103,7 +1218,7 @@
         "abilities": "Meadow Veil, Verdant Bash, Pasture Pulse, Ram Surge"
     },
     {
-        "id": "59",
+        "id": "65",
         "name": "Velombra",
         "type": "Normal",
         "subtype": "Electric",
@@ -1122,7 +1237,7 @@
         "abilities": "Fae Charge, Midnight Bleat, Glimmershield, Quick Vengeance"
     },
     {
-        "id": "60",
+        "id": "66",
         "name": "Voltombre",
         "type": "Normal",
         "subtype": "Electric",
@@ -1141,7 +1256,7 @@
         "abilities": "Fae Charge, Midnight Bleat, Glimmershield, Volt Spiral"
     },
     {
-        "id": "61",
+        "id": "67",
         "name": "Baaronox",
         "type": "Normal",
         "subtype": "Electric",
@@ -1160,7 +1275,7 @@
         "abilities": "Fae Charge, Midnight Bleat, Blackout Burst, Static Ram"
     },
     {
-        "id": "62",
+        "id": "68",
         "name": "Brambumble",
         "type": "Elemental",
         "subtype": "Grass",
@@ -1179,7 +1294,7 @@
         "abilities": "Meadow Veil, Camofluff, Leaf Tangle, Verdant Bash"
     },
     {
-        "id": "63",
+        "id": "69",
         "name": "Bellivy",
         "type": "Elemental",
         "subtype": "Grass",
@@ -1198,7 +1313,7 @@
         "abilities": "Petal Pounce, Bell Chime, Photosplash, Sunrise Song"
     },
     {
-        "id": "64",
+        "id": "70",
         "name": "Cactraddle",
         "type": "Normal",
         "subtype": "Ground",
@@ -1217,7 +1332,7 @@
         "abilities": "Blossom Burst, Cactus Armor, Spine Barrage, Rootcoil Slam"
     },
     {
-        "id": "65",
+        "id": "71",
         "name": "Crayzard",
         "type": "Normal",
         "subtype": "",
@@ -1236,7 +1351,7 @@
         "abilities": "Color Crash, Crayon Guard, Color Drain, Art Attack"
     },
     {
-        "id": "66",
+        "id": "72",
         "name": "Grumblin",
         "type": "Normal",
         "subtype": "",
@@ -1255,7 +1370,7 @@
         "abilities": "Belly Slam, Charm Scowl, Battle Bounce, Heart Thump"
     },
     {
-        "id": "67",
+        "id": "73",
         "name": "Flickerlet",
         "type": "Elemental",
         "subtype": "Fire",
@@ -1274,7 +1389,7 @@
         "abilities": "Flame Flutter, Chirpwarm, Sun Skip, Phoenix Spark"
     },
     {
-        "id": "68",
+        "id": "74",
         "name": "Pyrockadoo",
         "type": "Elemental",
         "subtype": "Fire",
@@ -1293,7 +1408,7 @@
         "abilities": "Flame Flutter, Sun Skip, Phoenix Spark, Inferno Crow"
     },
     {
-        "id": "69",
+        "id": "75",
         "name": "Glidaleaf",
         "type": "Elemental",
         "subtype": "Grass",
@@ -1312,7 +1427,7 @@
         "abilities": "Leaf Glide, Sun Skip, Tailwind, Chatterleaf"
     },
     {
-        "id": "70",
+        "id": "76",
         "name": "Nocturhaze",
         "type": "Magical",
         "subtype": "Dark",
@@ -1331,7 +1446,7 @@
         "abilities": "Wisp Drift, Mind Spira, Phantom Plume, Lunar Shift"
     },
     {
-        "id": "71",
+        "id": "77",
         "name": "Obscurion",
         "type": "Magical",
         "subtype": "Dark",
@@ -1350,7 +1465,7 @@
         "abilities": "Wisp Drift, Phantom Plume, Oblivion Sigil, Dreamcore Nova"
     },
     {
-        "id": "72",
+        "id": "78",
         "name": "Liluxi",
         "type": "Elemental",
         "subtype": "Water",
@@ -1370,7 +1485,7 @@
         "abilities": "Starshine Splash, Gleamwhirl, Aqua Pulse"
     },
     {
-        "id": "73",
+        "id": "79",
         "name": "Luminelix",
         "type": "Elemental",
         "subtype": "Water",
@@ -1389,7 +1504,7 @@
         "abilities": "Starshine Splash, Gleamwhirl, Aqua Pulse, Wish Ripple"
     },
     {
-        "id": "74",
+        "id": "80",
         "name": "Sporelax",
         "type": "Elemental",
         "subtype": "Grass",
@@ -1408,7 +1523,7 @@
         "abilities": "Mellow Mist, Lazyleaf, Mind Moss, Dream Sap"
     },
     {
-        "id": "75",
+        "id": "81",
         "name": "Bluffin",
         "type": "Normal",
         "subtype": "",
@@ -1427,7 +1542,7 @@
         "abilities": "Charm Glimmer, Puff Bounce, Daydream Gleam, Joy Burst"
     },
     {
-        "id": "76",
+        "id": "82",
         "name": "Soluna",
         "type": "Magical",
         "subtype": "Fairy",
@@ -1446,7 +1561,7 @@
         "abilities": "Radiant Pounce, Golden Veil, Flashflare, Spirit Crest"
     },
     {
-        "id": "77",
+        "id": "83",
         "name": "Floramene",
         "type": "Elemental",
         "subtype": "Grass",
@@ -1465,7 +1580,7 @@
         "abilities": "Bloomveil, Solar Waltz, Verdant Blade, Nature\ufffds Grace"
     },
     {
-        "id": "78",
+        "id": "84",
         "name": "Mellibee",
         "type": "Elemental",
         "subtype": "Grass",
@@ -1484,7 +1599,7 @@
         "abilities": "Glimmer Dust, Floral Flicker, Pollentide, Wishwing"
     },
     {
-        "id": "79",
+        "id": "85",
         "name": "Veluvielle",
         "type": "Elemental",
         "subtype": "Grass",
@@ -1503,7 +1618,7 @@
         "abilities": "Glimmer Dust, Floral Flicker, Pollentide, Dreamweave Pulse"
     },
     {
-        "id": "80",
+        "id": "86",
         "name": "Thimbla",
         "type": "Magical",
         "subtype": "Fairy",
@@ -1522,7 +1637,7 @@
         "abilities": "Sew Sweep, Pixie Stitch, Meadow Shield, Final Stitch"
     },
     {
-        "id": "81",
+        "id": "87",
         "name": "Pyruffin",
         "type": "Elemental",
         "subtype": "Fire",
@@ -1541,7 +1656,7 @@
         "abilities": "Ember Flick, Warm Up, Sparkle Pounce, Cinder Wings"
     },
     {
-        "id": "82",
+        "id": "88",
         "name": "Solariscreed",
         "type": "Elemental",
         "subtype": "Fire",
@@ -1560,7 +1675,7 @@
         "abilities": "Ember Flick, Sparkle Pounce, Infernal Dive, Scorch Halo"
     },
     {
-        "id": "83",
+        "id": "89",
         "name": "Starnip",
         "type": "Magical",
         "subtype": "Mythic",
@@ -1579,7 +1694,7 @@
         "abilities": "Lunar Pounce, Comet Claws, Charmstep, Startrail"
     },
     {
-        "id": "84",
+        "id": "90",
         "name": "Noctigris",
         "type": "Magical",
         "subtype": "Mythic",
@@ -1598,7 +1713,7 @@
         "abilities": "Lunar Pounce, Comet Claws, Startrail, Nightfang Eclipse"
     },
     {
-        "id": "85",
+        "id": "91",
         "name": "Raindeer",
         "type": "Elemental",
         "subtype": "Water",
@@ -1617,7 +1732,7 @@
         "abilities": "Moonwake, Aqua Prance, Tidecall, Celestial Splash"
     },
     {
-        "id": "86",
+        "id": "92",
         "name": "Avireign",
         "type": "Elemental",
         "subtype": "Fire",
@@ -1636,7 +1751,7 @@
         "abilities": "Sky Ward, Roostguard, Cinderflare, Broodstrike"
     },
     {
-        "id": "87",
+        "id": "93",
         "name": "Pyraethon",
         "type": "Elemental",
         "subtype": "Fire",
@@ -1655,7 +1770,7 @@
         "abilities": "Sky Ward, Cinderflare, Broodstrike, Last Ember"
     },
     {
-        "id": "88",
+        "id": "94",
         "name": "Buoyantor",
         "type": "Elemental",
         "subtype": "Water",
@@ -1674,7 +1789,7 @@
         "abilities": "Wave Coil, Iron Drift, Float Guard, Tidal Ambush"
     },
     {
-        "id": "89",
+        "id": "95",
         "name": "Brutalocust",
         "type": "Elemental",
         "subtype": "Grass",
@@ -1693,7 +1808,7 @@
         "abilities": "Iron Stagger, Pincer Quake, Drill Rush, Megaton Slam"
     },
     {
-        "id": "90",
+        "id": "96",
         "name": "Chronotick",
         "type": "Normal",
         "subtype": "",
@@ -1712,7 +1827,7 @@
         "abilities": "Time Loop, Stitch Slash, Chronoshift, Final Hour"
     },
     {
-        "id": "91",
+        "id": "97",
         "name": "Papyrion",
         "type": "Normal",
         "subtype": "",
@@ -1731,7 +1846,7 @@
         "abilities": "Gale Slice, Paper Cut, Origami Mirage, Crease Storm"
     },
     {
-        "id": "92",
+        "id": "98",
         "name": "Solcub",
         "type": "Elemental",
         "subtype": "Grass",
@@ -1750,7 +1865,7 @@
         "abilities": "Sunbeam Pounce, Bloom Burst, Floral Guard, Radiant Roar"
     },
     {
-        "id": "93",
+        "id": "99",
         "name": "Crescyon",
         "type": "Magical",
         "subtype": "Dark",
@@ -1769,7 +1884,7 @@
         "abilities": "Moonveil Slash, Mind Spiral, Lunar Gaze, Oblivion Anthem"
     },
     {
-        "id": "94",
+        "id": "100",
         "name": "Abylux",
         "type": "Magical",
         "subtype": "Dark",
@@ -1788,7 +1903,7 @@
         "abilities": "Phantom Spiral, Shadowbind, Twilight Pulse, Spectral Wings"
     },
     {
-        "id": "95",
+        "id": "101",
         "name": "Shadebandit",
         "type": "Normal",
         "subtype": "",
@@ -1807,7 +1922,7 @@
         "abilities": "Shadow Scratch, Moonfade, Whisperwalk, Ambush Fang"
     },
     {
-        "id": "96",
+        "id": "102",
         "name": "Dreadmare",
         "type": "Elemental",
         "subtype": "Water",
@@ -1826,7 +1941,7 @@
         "abilities": "Depth Rend, Gloomcurrent, Terror Dive, Finblade"
     },
     {
-        "id": "97",
+        "id": "103",
         "name": "Cryonix",
         "type": "Elemental",
         "subtype": "Water",
@@ -1845,7 +1960,7 @@
         "abilities": "Diamond Beak, Frozen Demeanor, Frost Guard, Polar Plummet"
     },
     {
-        "id": "98",
+        "id": "104",
         "name": "Solissile",
         "type": "Normal",
         "subtype": "Ground",
@@ -1864,7 +1979,7 @@
         "abilities": "Sand Spiral, Mirage Veil, Sun Coil, Burrow Blitz"
     },
     {
-        "id": "99",
+        "id": "105",
         "name": "Noctavain",
         "type": "Normal",
         "subtype": "",
@@ -1883,7 +1998,7 @@
         "abilities": "Hexfeather, Nightpierce, Craven Howl, Gravemist Wing"
     },
     {
-        "id": "100",
+        "id": "106",
         "name": "Pandaloo",
         "type": "Elemental",
         "subtype": "Grass",
@@ -1902,7 +2017,7 @@
         "abilities": "Playful Pounce, Tail Twirl, Gleam Wink, Rebound Roll"
     },
     {
-        "id": "101",
+        "id": "107",
         "name": "Bambuzzleaf",
         "type": "Elemental",
         "subtype": "Grass",
@@ -1921,7 +2036,7 @@
         "abilities": "Playful Pounce, Rebound Roll, Tuff Bloom, Leafy Embrace"
     },
     {
-        "id": "102",
+        "id": "108",
         "name": "Embermane",
         "type": "Elemental",
         "subtype": "Fire",
@@ -1940,7 +2055,7 @@
         "abilities": "Blazing Reins, Ashen Cloak, Inferno Gallop, Smolder Kick"
     },
     {
-        "id": "103",
+        "id": "109",
         "name": "Ignisurge",
         "type": "Elemental",
         "subtype": "Fire",
@@ -1959,7 +2074,7 @@
         "abilities": "Blazing Reins, Ashen Cloak, Inferno Gallop, Firemane Lariat"
     },
     {
-        "id": "104",
+        "id": "110",
         "name": "Neo",
         "type": "Normal",
         "subtype": "",
@@ -1978,7 +2093,7 @@
         "abilities": "Shadow Pounce, Matrix Surge, Code Hack, Slick Swipe"
     },
     {
-        "id": "105",
+        "id": "111",
         "name": "Shroomlingo",
         "type": "Elemental",
         "subtype": "Grass",
@@ -1997,7 +2112,7 @@
         "abilities": "Toxic Pirouette, Regrowth, Spore Waltz, Fungal Flare"
     },
     {
-        "id": "106",
+        "id": "112",
         "name": "Budbaa",
         "type": "Elemental",
         "subtype": "Grass",
@@ -2016,7 +2131,7 @@
         "abilities": "Sun Kiss, Pollen Puff, Seedling Toss, Gleeful Gleam"
     },
     {
-        "id": "107",
+        "id": "113",
         "name": "Skylume",
         "type": "Normal",
         "subtype": "",
@@ -2035,7 +2150,7 @@
         "abilities": "Gleamfeather, Featherveil, Prism Dive, Skydance"
     },
     {
-        "id": "108",
+        "id": "114",
         "name": "Crepuskra",
         "type": "Normal",
         "subtype": "",
@@ -2054,7 +2169,7 @@
         "abilities": "Gleamfeather, Featherveil, Skydance, Dawnfall Horizon"
     },
     {
-        "id": "109",
+        "id": "115",
         "name": "Buzzlette",
         "type": "Elemental",
         "subtype": "Grass",
@@ -2073,7 +2188,7 @@
         "abilities": "Pollen Pop, Nectar Net, Honey Heal, Sunflash"
     },
     {
-        "id": "110",
+        "id": "116",
         "name": "Voltitan",
         "type": "Normal",
         "subtype": "Electric",
@@ -2092,7 +2207,7 @@
         "abilities": "Scepter Bash, Dominion Stare, Thundercrown, Stormcall"
     },
     {
-        "id": "111",
+        "id": "117",
         "name": "Voltarchus",
         "type": "Normal",
         "subtype": "Electric",
@@ -2111,7 +2226,7 @@
         "abilities": "Scepter Bash, Dominion Stare, Thundercrown, Overdrive Mantle"
     },
     {
-        "id": "112",
+        "id": "118",
         "name": "Scorfluff",
         "type": "Elemental",
         "subtype": "Fire",
@@ -2130,7 +2245,7 @@
         "abilities": "Sunny Snarl, Ember Boop, Scorch Pounce, Fluff Blaze"
     },
     {
-        "id": "113",
+        "id": "119",
         "name": "Brinzelda",
         "type": "Magical",
         "subtype": "Fairy",
@@ -2149,7 +2264,7 @@
         "abilities": "Glow Nibble, Pixie Guard, Brine Burst, Ferment Frenzy"
     },
     {
-        "id": "114",
+        "id": "120",
         "name": "Skyrion",
         "type": "Magical",
         "subtype": "Mythic",
@@ -2168,7 +2283,7 @@
         "abilities": "Radiant Gust, Aegis Shine, Winglash, Luster Fang"
     },
     {
-        "id": "115",
+        "id": "121",
         "name": "Zephyrex",
         "type": "Magical",
         "subtype": "Mythic",
@@ -2187,7 +2302,7 @@
         "abilities": "Radiant Gust, Aegis Shine, Winglash, Heaven's Pulse"
     },
     {
-        "id": "116",
+        "id": "122",
         "name": "Charmette",
         "type": "Normal",
         "subtype": "",
@@ -2206,7 +2321,7 @@
         "abilities": "Ribbon Rush, Gleamstep, Charm Pulse, Flair Kick"
     },
     {
-        "id": "117",
+        "id": "123",
         "name": "Regalette",
         "type": "Normal",
         "subtype": "",
@@ -2225,7 +2340,7 @@
         "abilities": "Ribbon Rush, Gleamstep, Charm Pulse, Lance Kick"
     },
     {
-        "id": "118",
+        "id": "124",
         "name": "Voltuff",
         "type": "Normal",
         "subtype": "Electric",
@@ -2244,7 +2359,7 @@
         "abilities": "Shock Spiral, Volt Hop, Wattwave, Thunder Prance"
     },
     {
-        "id": "119",
+        "id": "125",
         "name": "Regastroa",
         "type": "Elemental",
         "subtype": "Grass",
@@ -2263,7 +2378,7 @@
         "abilities": "Tranquil Beam, Shell Pulse, Time Seal, Ancient Glow"
     },
     {
-        "id": "120",
+        "id": "126",
         "name": "Grudgecub",
         "type": "Normal",
         "subtype": "Ground",
@@ -2282,7 +2397,7 @@
         "abilities": "Sand Maul, Dig In, Mean Glare, Mudshock Claws"
     },
     {
-        "id": "121",
+        "id": "127",
         "name": "Zestail",
         "type": "Normal",
         "subtype": "",
@@ -2301,7 +2416,7 @@
         "abilities": "Jolt Dash, Tail Spin, Nut Shock, Cheer Burst"
     },
     {
-        "id": "122",
+        "id": "128",
         "name": "Terrabud",
         "type": "Normal",
         "subtype": "Ground",
@@ -2320,7 +2435,7 @@
         "abilities": "Pebble Toss, Charm Pulse, Graceful Gleam, Sproutstep"
     },
     {
-        "id": "123",
+        "id": "129",
         "name": "Blazaltrix",
         "type": "Elemental",
         "subtype": "Fire",
@@ -2339,7 +2454,7 @@
         "abilities": "Inferno Screech, Skybrand Dive, Emberstorm, Molten Talon"
     },
     {
-        "id": "124",
+        "id": "130",
         "name": "Burrowrex",
         "type": "Normal",
         "subtype": "Ground",
@@ -2358,7 +2473,7 @@
         "abilities": "Tremor Tap, Mud Shard, Quicksand Grip, Earth Echo"
     },
     {
-        "id": "125",
+        "id": "131",
         "name": "Starnap",
         "type": "Magical",
         "subtype": "Fairy",
@@ -2377,7 +2492,7 @@
         "abilities": "Nebula Pulse, Moonlit Veil, Silent Night, Cosmic Alignment"
     },
     {
-        "id": "126",
+        "id": "132",
         "name": "Noctikitten",
         "type": "Magical",
         "subtype": "Dark",
@@ -2396,7 +2511,7 @@
         "abilities": "Shadow Swat, Mischief Veil, Whisptail, Phantom Nudge"
     },
     {
-        "id": "127",
+        "id": "133",
         "name": "Inkryft",
         "type": "Magical",
         "subtype": "Dark",
@@ -2415,10 +2530,10 @@
         "abilities": "Void Lash, Black Miasma, Slickstep, Ebon Surge"
     },
     {
-        "id": "128",
-        "name": "Spiribun",
-        "type": "Magical",
-        "subtype": "Fairy",
+        "id": "134",
+        "name": "Volcubby",
+        "type": "Normal",
+        "subtype": "Ground",
         "hp": "",
         "mp": "",
         "attack": "",
@@ -2430,7 +2545,121 @@
         "evolutionLvl": "",
         "evolutionPreq": "",
         "zones": "",
-        "image": "Spiribun.png",
-        "abilities": "Swirl Glow, Puff Guard, Echo Chirp, Sky Tumble"
+        "image": "Volcubby.png",
+        "abilities": "Ember Stomp, Crater Kick, Sear Roar, Drillbash"
+    },
+    {
+        "id": "135",
+        "name": "Magmaur",
+        "type": "Elemental",
+        "subtype": "Fire",
+        "hp": "",
+        "mp": "",
+        "attack": "",
+        "defese": "",
+        "evasion": "",
+        "classification": "",
+        "canEvolve": "",
+        "evolvesFrom": "Volcubby",
+        "evolutionLvl": "",
+        "evolutionPreq": "",
+        "zones": "",
+        "image": "Magmaur.png",
+        "abilities": "Ember Stomp, Drillbash, Magma Drip, Scorch Pulse"
+    },
+    {
+        "id": "136",
+        "name": "Foggin",
+        "type": "Elemental",
+        "subtype": "Water",
+        "hp": "",
+        "mp": "",
+        "attack": "",
+        "defese": "",
+        "evasion": "",
+        "classification": "",
+        "canEvolve": "Y",
+        "evolvesFrom": "",
+        "evolutionLvl": "",
+        "evolutionPreq": "",
+        "zones": "",
+        "image": "Foggin.png",
+        "abilities": "Misty Veil, Vapor Bite, Aqua Fade, Lurkstep"
+    },
+    {
+        "id": "137",
+        "name": "Baskervapour",
+        "type": "Magical",
+        "subtype": "Dark",
+        "hp": "",
+        "mp": "",
+        "attack": "",
+        "defese": "",
+        "evasion": "",
+        "classification": "",
+        "canEvolve": "",
+        "evolvesFrom": "Foggin",
+        "evolutionLvl": "",
+        "evolutionPreq": "",
+        "zones": "",
+        "image": "Baskervapour.png",
+        "abilities": "Misty Veil, Lurkstep, Ghost Drift, Phase Pounce"
+    },
+    {
+        "id": "138",
+        "name": "Aethermech",
+        "type": "Normal",
+        "subtype": "Electric",
+        "hp": "",
+        "mp": "",
+        "attack": "",
+        "defese": "",
+        "evasion": "",
+        "classification": "",
+        "canEvolve": "",
+        "evolvesFrom": "",
+        "evolutionLvl": "",
+        "evolutionPreq": "",
+        "zones": "",
+        "image": "Aethermech.png",
+        "abilities": "Chrono Bolt, Aether Surge, Mindshock, Stellar Reboot"
+    },
+    {
+        "id": "139",
+        "name": "Dionymph",
+        "type": "Magical",
+        "subtype": "Mythic",
+        "hp": "",
+        "mp": "",
+        "attack": "",
+        "defese": "",
+        "evasion": "",
+        "classification": "",
+        "canEvolve": "",
+        "evolvesFrom": "",
+        "evolutionLvl": "",
+        "evolutionPreq": "",
+        "zones": "",
+        "image": "Dionymph.png",
+        "abilities": "Woodland Grasp, Sylvan Shield, Thornsong, Gaze of Gaia"
+    },
+    {
+        "id": "140",
+        "name": "Floramoss",
+        "type": "Normal",
+        "subtype": "",
+        "hp": "",
+        "mp": "",
+        "attack": "",
+        "defese": "",
+        "evasion": "",
+        "classification": "",
+        "canEvolve": "",
+        "evolvesFrom": "",
+        "evolutionLvl": "",
+        "evolutionPreq": "",
+        "zones": "",
+        "image": "Floramoss.png",
+        "abilities": "Sparkroot Staff, Flickerstep, Verdant Veil, Sunspire Beam"
     }
 ]
