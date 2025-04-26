@@ -3,19 +3,20 @@ import styles from './App.module.css';
 import './glow.css';
 
 function Badge({ text }) {
+
   const colors = {
     Normal: '#a97442',
-    Neutral: '#a97442',
-    Electric: '#dbb30f',
-    Ground: '#73554e',
-    Fairy: '#df90e0',
-    Dark: '#260345',
-    Mythic: '#917d23',
+	Neutral: '#a97442',
+	Electric: '#dbb30f',
+	Ground: '#73554e',
+	Magical: '#9b5de5',
+	Fairy: '#df90e0',
+	Dark: '#260345',
+	Mythic: '#917d23',
+	Elemental: '#3ddc97',
     Fire: '#ff6b35',
     Water: '#1e90ff',
-    Grass: '#2ecc71',
-    Ice: '#73d7f5',
-    Mech: '#b0b0b0',
+    Grass: '#2ecc71'
   };
 
   const bgColor = colors[text] || '#444';
@@ -31,12 +32,11 @@ function Badge({ text }) {
 }
 
 function Entry({ creature, anchorMap, evolvesToMap }) {
-  const { name, type1, type2, type3, image, evolvesFrom, ...rest } = creature;
-  const types = [type1, type2, type3].filter(Boolean);
+  const { name, type, subtype, image, evolvesFrom, ...rest } = creature;
 
-  const abilities = creature.abilities
-    ? creature.abilities.split(',').map((a) => a.trim())
-    : [];
+const abilities = creature.abilities
+  ? creature.abilities.split(',').map((a) => a.trim())
+  : [];
 
   const evolvesFromLinks = evolvesFrom
     ? evolvesFrom.split(',').map((evo, idx) => (
@@ -59,9 +59,8 @@ function Entry({ creature, anchorMap, evolvesToMap }) {
       <div className={styles['entry-details']}>
         <h2>{name}</h2>
         <div>
-          {types.map((t) => (
-            <Badge key={t} text={t} />
-          ))}
+          <Badge text={type} />
+          {subtype && <Badge text={subtype} />}
         </div>
         <div className={styles['evo-tree']}>
           <strong>Evolution chain:</strong>
@@ -91,16 +90,11 @@ function Entry({ creature, anchorMap, evolvesToMap }) {
 function getTypeIcon(type) {
   const icons = {
     Normal: '🐾',
+    Magical: '🔮',
+    Elemental: '🌟',
     Fire: '🔥',
     Water: '💧',
-    Grass: '🌿',
-    Electric: '⚡',
-    Ground: '⛰️',
-    Fairy: '✨',
-    Dark: '🌑',
-    Mythic: '🌟',
-    Ice: '❄️',
-    Mech: '⚙️',
+    Grass: '🌿'
   };
   return icons[type] || '📦';
 }
@@ -109,23 +103,22 @@ function App() {
   const [creatures, setCreatures] = useState([]);
   const [theme, setTheme] = useState('dark');
 
-  useEffect(() => {
-    fetch('pokedex.json')
-      .then((res) => {
-        if (!res.ok) {
-          throw new Error(`Failed to load: ${res.status}`);
-        }
-        return res.json();
-      })
-      .then((data) => {
-        console.log("✅ pokedex.json loaded:", data);
-        setCreatures(data);
-      })
-      .catch((err) => {
-        console.error("❌ Error loading pokedex.json:", err);
-      });
-  }, []);
-
+useEffect(() => {
+  fetch('pokedex.json')
+    .then((res) => {
+      if (!res.ok) {
+        throw new Error(`Failed to load: ${res.status}`);
+      }
+      return res.json();
+    })
+    .then((data) => {
+      console.log("✅ pokedex.json loaded:", data);
+      setCreatures(data);
+    })
+    .catch((err) => {
+      console.error("❌ Error loading pokedex.json:", err);
+    });
+}, []);
   const anchorMap = Object.fromEntries(
     creatures.map((c) => [c.name, c.name.replace(/\s+/g, '_')])
   );
@@ -145,38 +138,32 @@ function App() {
     document.documentElement.setAttribute('data-theme', theme);
   }, [theme]);
 
-  // Group creatures under ALL their types, then sort alphabetically
   const grouped = {};
   creatures.forEach((c) => {
-    const types = [c.type1, c.type2, c.type3].filter(Boolean);
-    if (types.length === 0) types.push('Unknown');
-    types.forEach((type) => {
-      if (!grouped[type]) grouped[type] = [];
-      grouped[type].push(c);
-    });
+    if (!grouped[c.type]) grouped[c.type] = {};
+    if (!grouped[c.type][c.subtype || '']) grouped[c.type][c.subtype || ''] = [];
+    grouped[c.type][c.subtype || ''].push(c);
   });
-
-  // Sort creatures alphabetically inside each type
-  Object.keys(grouped).forEach(type => {
-    grouped[type].sort((a, b) => a.name.localeCompare(b.name));
-  });
-
-  const sortedTypes = Object.keys(grouped).sort((a, b) => a.localeCompare(b));
 
   return (
     <div className={styles.app}>
       <aside className={styles.sidebar} style={{ position: 'sticky', top: 0, height: '100vh', overflowY: 'auto' }}>
         <h2>Index</h2>
-        {sortedTypes.map((type) => (
+        {Object.entries(grouped).map(([type, subtypes]) => (
           <div key={type}>
             <h3>{getTypeIcon(type)} {type}</h3>
-            <ul>
-              {grouped[type].map((c) => (
-                <li key={c.name}>
-                  <a href={`#${anchorMap[c.name]}`}>{c.name}</a>
-                </li>
-              ))}
-            </ul>
+            {Object.entries(subtypes).map(([subtype, items]) => (
+              <div key={subtype}>
+                {subtype && <h4>{subtype}</h4>}
+                <ul>
+                  {items.map((c) => (
+                    <li key={c.name}>
+                      <a href={`#${anchorMap[c.name]}`}>{c.name}</a>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            ))}
           </div>
         ))}
         <button
