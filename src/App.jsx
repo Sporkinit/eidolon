@@ -57,7 +57,7 @@ function Entry({ creature, anchorMap, evolvesToMap }) {
     <div className={`${styles.entry} ${styles.horizontalCard} glow`} id={anchorMap[name]}>
       <img src={image} alt={name} className={styles['entry-img']} />
       <div className={styles['entry-details']}>
-        <h2>{name}</h2>
+        <h2>{`#${String(creature.id).padStart(3, '0')} ${name}`}</h2>
         <div>
           {types.map((t) => (
             <Badge key={t} text={t} />
