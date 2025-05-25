@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import styles from './App.module.css';
 import './glow.css';
-import { BrowserRouter as Router, Route, Routes, Link, useParams } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes, Link, useParams } from 'react-router-dom';
 
 function Badge({ text }) {
   const colors = {
