@@ -201,7 +201,6 @@ function App() {
                 </div>
                 <ul>
                   {filteredCreatures
-                    .slice(0, 8)
                     .map((c) => (
                       <li key={`search-${c.name}`}>
                         <Link to={`/entry/${c.name}`}>{c.name}</Link>
