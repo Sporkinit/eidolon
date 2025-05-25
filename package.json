@@ -4,14 +4,15 @@
   "private": true,
   "homepage": "https://sporkinit.github.io/pokedex-vite/",
   "scripts": {
-  "dev": "vite",
-  "build": "npx vite build",
-  "preview": "npx vite preview",
-  "deploy": "gh-pages -d dist"
-},
+    "dev": "vite",
+    "build": "npx vite build",
+    "preview": "npx vite preview",
+    "deploy": "gh-pages -d dist"
+  },
   "dependencies": {
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^7.6.0"
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^4.1.0",

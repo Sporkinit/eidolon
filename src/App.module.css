@@ -13,6 +13,11 @@ body {
   color: #e0e0e0;
 }
 
+/* === FONT STYLES === */
+.caesar {
+  font-family: 'Caesar Dressing', cursive;
+}
+
 /* === APP STRUCTURE === */
 .app {
   display: flex;
@@ -48,64 +53,52 @@ body {
   text-decoration: underline;
 }
 
-/* === DARK MODE TOGGLE === */
-.toggle-theme {
-  position: absolute;
-  top: 16px;
-  right: 16px;
-  background: #333;
+/* === SEARCH === */
+.sidebar input {
+  width: 100%;
+  padding: 6px;
+  margin: 8px 0;
+  border-radius: 4px;
   border: none;
-  border-radius: 50%;
-  padding: 8px;
-  cursor: pointer;
-  color: white;
 }
 
 /* === CONTENT === */
 .content {
   flex: 1;
   padding: 40px;
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
 }
 
-/* === ENTRY === */
-.entry {
-  display: flex;
-  background: rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur(4px);
-  border-radius: 16px;
-  padding: 24px;
-  gap: 20px;
-  align-items: center;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+/* === GRID LAYOUT === */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+}
+
+/* === CARD STYLE === */
+.summaryCard {
+  background-color: #1e1e1e;
+  border-radius: 12px;
+  padding: 16px;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease;
+}
+
+.summaryCard:hover {
+  transform: scale(1.03);
+}
+
+.cardLink {
+  color: inherit;
+  text-decoration: none;
 }
 
 .entry-img {
-  width: 160px;
-  height: 160px;
-  object-fit: cover;
-  border-radius: 12px;
-}
-
-
-.entry-details {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  padding-left: 20px;
-}
-
-.evo-tree {
-  margin-top: 8px;
-  font-size: 15px;
-}
-
-.evo-tree a {
-  color: #00d4ff;
-  font-weight: bold;
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  margin-bottom: 10px;
 }
 
 /* === BADGES === */
@@ -116,31 +109,46 @@ body {
   padding: 6px 14px;
   font-size: 14px;
   color: #fff;
-  margin: 0 6px 6px 0;
+  margin: 6px 4px 0 4px;
   font-weight: 500;
 }
 
-.horizontalCard {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  gap: 20px;
+/* === DETAILED ENTRY === */
+.entryDetail {
+  max-width: 640px;
+  margin: 40px auto;
+  background: rgba(255, 255, 255, 0.06);
+  padding: 24px;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+  text-align: center;
 }
 
-@media (max-width: 600px) {
-  .horizontalCard {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
+/* === RESPONSIVE === */
+@media (max-width: 1024px) {
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .grid {
+    grid-template-columns: 1fr;
   }
 
-  .entry-img {
+  .sidebar {
     width: 100%;
-    max-width: 300px;
+    position: static;
+    border-right: none;
   }
 
-  .entry-details {
-    padding-left: 0;
-    align-items: center;
+  .content {
+    padding: 20px;
   }
 }

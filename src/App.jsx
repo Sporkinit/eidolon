@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import styles from './App.module.css';
 import './glow.css';
+import { BrowserRouter as Router, Route, Routes, Link, useParams } from 'react-router-dom';
 
 function Badge({ text }) {
   const colors = {
@@ -21,183 +22,209 @@ function Badge({ text }) {
   const bgColor = colors[text] || '#444';
 
   return (
-    <span
-      className={styles.badge}
-      style={{ backgroundColor: bgColor }}
-    >
+    <span className={styles.badge} style={{ backgroundColor: bgColor }}>
       {text}
     </span>
   );
 }
 
-function Entry({ creature, anchorMap, evolvesToMap }) {
-  const { name, type1, type2, type3, image, evolvesFrom, ...rest } = creature;
-  const types = [type1, type2, type3].filter(Boolean);
-
-  const abilities = creature.abilities
-    ? creature.abilities.split(',').map((a) => a.trim())
-    : [];
-
-  const evolvesFromLinks = evolvesFrom
-    ? evolvesFrom.split(',').map((evo, idx) => (
-        <div key={evo.trim()}>
-          {idx === 0 ? '' : 'or '}
-          <span>→ <a href={`#${anchorMap[evo.trim()]}`}>{evo.trim()}</a></span>
-        </div>
-      ))
-    : null;
-
-  const evolvesToLinks = evolvesToMap[name]?.map((next, i) => (
-    <div key={next} style={{ paddingLeft: '20px' }}>
-      → <a href={`#${anchorMap[next]}`}>{next}</a>
-    </div>
-  ));
-
+function SummaryCard({ creature }) {
+  const types = creature.types?.split(',').map(t => t.trim()) || [];
   return (
-    <div className={`${styles.entry} ${styles.horizontalCard} glow`} id={anchorMap[name]}>
-      <img src={image} alt={name} className={styles['entry-img']} />
-      <div className={styles['entry-details']}>
-        <h2>{`#${String(creature.id).padStart(3, '0')} ${name}`}</h2>
+    <Link to={`/entry/${creature.name}`} className={styles.cardLink}>
+      <div className={styles.summaryCard}>
+        <img src={creature.image} alt={creature.name} className={styles['entry-img']} />
+        <h3 className={styles.caesar}>{`#${String(creature.id).padStart(3, '0')} ${creature.name}`}</h3>
         <div>
           {types.map((t) => (
             <Badge key={t} text={t} />
           ))}
         </div>
-        <div className={styles['evo-tree']}>
-          <strong>Evolution chain:</strong>
-          <div>
-            {evolvesFromLinks ? (
-              <div style={{ marginBottom: '4px' }}>{evolvesFromLinks}</div>
-            ) : (
-              <div style={{ color: '#ccc', marginBottom: '4px' }}>Start</div>
-            )}
-            <div style={{ fontWeight: 'bold' }}>{name}</div>
-            {evolvesToLinks}
+      </div>
+    </Link>
+  );
+}
+
+function EntryDetail({ creature, reverseEvolutions, creatures }) {
+  const { name, image, evolutions, pokedex } = creature;
+  const types = creature.types?.split(',').map(t => t.trim()) || [];
+
+  const buildChains = () => {
+    const chains = [];
+    const visited = new Set();
+
+    const dfs = (path, currentName) => {
+      const current = creatures.find(c => c.name === currentName);
+      const evols = Array.isArray(current?.evolutions) ? current.evolutions : [];
+
+      if (evols.length === 0) {
+        chains.push(path);
+      } else {
+        evols.forEach(([next, method, value]) => {
+          dfs([...path, method, value, next], next);
+        });
+      }
+    };
+
+    // Look for all reverse chains into this creature
+    const collectReverse = (name, path = [name]) => {
+      const revs = reverseEvolutions[name] || [];
+      if (revs.length === 0) return [path];
+      const out = [];
+      for (const [prev, method, value] of revs) {
+        const nextPath = [prev, method, value, ...path];
+        out.push(...collectReverse(prev, nextPath));
+      }
+      return out;
+    };
+
+    const backChains = collectReverse(name);
+    for (const base of backChains) {
+      dfs(base, base[base.length - 1]);
+    }
+
+    if (chains.length === 0) {
+      dfs([name], name);
+    }
+
+    return chains;
+  };
+
+  const chains = buildChains();
+
+  return (
+    <div className={styles.entryDetail}>
+      <div style={{ position: 'absolute', top: '20px', left: '20px' }}>
+        <Link to="/" style={{ color: '#90cdf4' }}>← Back to index</Link>
+      </div>
+      <img src={`/combined/${name}.png`} alt={name} className={styles['entry-img']} style={{ width: '400px', height: '200px', objectFit: 'contain' }} />
+      <h2 className={styles.caesar}>{`#${String(creature.id).padStart(3, '0')} ${name}`}</h2>
+      <div>
+        {types.map((t) => (
+          <Badge key={t} text={t} />
+        ))}
+      </div>
+      {pokedex && <p style={{ marginTop: '8px', color: '#ccc' }}>{pokedex}</p>}
+      <div style={{ marginTop: '10px', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+        {chains.map((chain, idx) => (
+          <div key={idx} style={{ display: 'flex', alignItems: 'center', gap: '8px', marginTop: idx > 0 ? '8px' : 0 }}>
+            {chain.map((el, i) => {
+              if (i % 3 === 0) {
+                return (
+                  <React.Fragment key={i}>
+                    <Link to={`/entry/${el}`}><img src={`/${el}.png`} alt={el} style={{ width: '120px', height: '120px', objectFit: 'contain' }} /></Link>
+                  </React.Fragment>
+                );
+              } else if ((i - 1) % 3 === 0) {
+                const method = chain[i];
+                const value = chain[i + 1];
+                return (
+                  <span key={i} className={styles.caesar} style={{ color: '#ccc', fontSize: '16px' }}>
+			  → 	{method === 'Level' ? 'Lv.' : ''} {value}
+				  </span>
+                );
+              } else {
+                return null;
+              }
+            })}
           </div>
-        </div>
-        {abilities.length > 0 && (
-          <p>
-            <strong>Abilities:</strong>{' '}
-            {abilities.map((a) => (
-              <Badge key={a} text={a} />
-            ))}
-          </p>
-        )}
+        ))}
       </div>
     </div>
   );
 }
 
-function getTypeIcon(type) {
-  const icons = {
-    Normal: '🐾',
-    Fire: '🔥',
-    Water: '💧',
-    Grass: '🌿',
-    Electric: '⚡',
-    Ground: '⛰️',
-    Fairy: '✨',
-    Dark: '🌑',
-    Mythic: '🌟',
-    Ice: '❄️',
-    Mech: '⚙️',
-  };
-  return icons[type] || '📦';
+function CreatureDetail({ creatures, reverseEvolutions }) {
+  const { name } = useParams();
+  const creature = creatures.find((c) => c.name === name);
+  if (!creature) return <div style={{ padding: '20px' }}>Loading...</div>;
+  return <EntryDetail creature={creature} reverseEvolutions={reverseEvolutions} creatures={creatures} />;
 }
 
 function App() {
+  const [search, setSearch] = useState('');
+  const [typeFilter, setTypeFilter] = useState('');
   const [creatures, setCreatures] = useState([]);
-  const [theme, setTheme] = useState('dark');
 
   useEffect(() => {
     fetch('pokedex.json')
       .then((res) => {
-        if (!res.ok) {
-          throw new Error(`Failed to load: ${res.status}`);
-        }
+        if (!res.ok) throw new Error(`Failed to load: ${res.status}`);
         return res.json();
       })
-      .then((data) => {
-        console.log("✅ pokedex.json loaded:", data);
-        setCreatures(data);
-      })
-      .catch((err) => {
-        console.error("❌ Error loading pokedex.json:", err);
-      });
+      .then((data) => setCreatures(data))
+      .catch((err) => console.error("❌ Error loading pokedex.json:", err));
   }, []);
 
-  const anchorMap = Object.fromEntries(
-    creatures.map((c) => [c.name, c.name.replace(/\s+/g, '_')])
-  );
+  useEffect(() => {
+    document.documentElement.setAttribute('data-theme', 'dark');
+  }, []);
 
-  const evolvesToMap = {};
+  const reverseEvolutions = {};
   creatures.forEach((c) => {
-    if (c.evolvesFrom) {
-      c.evolvesFrom.split(',').forEach(from => {
-        const fromTrimmed = from.trim();
-        evolvesToMap[fromTrimmed] = evolvesToMap[fromTrimmed] || [];
-        evolvesToMap[fromTrimmed].push(c.name);
+    if (Array.isArray(c.evolutions)) {
+      c.evolutions.forEach(([target, method, value]) => {
+        if (!reverseEvolutions[target]) reverseEvolutions[target] = [];
+        reverseEvolutions[target].push([c.name, method, value]);
       });
     }
   });
 
-  useEffect(() => {
-    document.documentElement.setAttribute('data-theme', theme);
-  }, [theme]);
+  const allTypes = [...new Set(creatures.flatMap(c => c.types?.split(',').map(t => t.trim()) || []))];
 
-  // Group creatures under ALL their types, then sort alphabetically
-  const grouped = {};
-  creatures.forEach((c) => {
-    const types = [c.type1, c.type2, c.type3].filter(Boolean);
-    if (types.length === 0) types.push('Unknown');
-    types.forEach((type) => {
-      if (!grouped[type]) grouped[type] = [];
-      grouped[type].push(c);
-    });
+  const filteredCreatures = creatures.filter(c => {
+    const nameMatch = c.name.toLowerCase().includes(search.toLowerCase());
+    const typeMatch = !typeFilter || c.types?.split(',').map(t => t.trim()).includes(typeFilter);
+    return nameMatch && typeMatch;
   });
-
-  // Sort creatures alphabetically inside each type
-  Object.keys(grouped).forEach(type => {
-    grouped[type].sort((a, b) => a.name.localeCompare(b.name));
-  });
-
-  const sortedTypes = Object.keys(grouped).sort((a, b) => a.localeCompare(b));
 
   return (
-    <div className={styles.app}>
-      <aside className={styles.sidebar} style={{ position: 'sticky', top: 0, height: '100vh', overflowY: 'auto' }}>
-        <h2>Index</h2>
-        {sortedTypes.map((type) => (
-          <div key={type}>
-            <h3>{getTypeIcon(type)} {type}</h3>
-            <ul>
-              {grouped[type].map((c) => (
-                <li key={c.name}>
-                  <a href={`#${anchorMap[c.name]}`}>{c.name}</a>
-                </li>
-              ))}
-            </ul>
-          </div>
-        ))}
-        <button
-          className={styles['toggle-theme']}
-          onClick={() => setTheme(theme === 'light' ? 'dark' : 'light')}
-          title="Toggle dark mode"
-        >
-          🌙
-        </button>
-      </aside>
-      <main className={styles.content}>
-        {creatures.map((c) => (
-          <Entry
-            key={c.name}
-            creature={c}
-            anchorMap={anchorMap}
-            evolvesToMap={evolvesToMap}
-          />
-        ))}
-      </main>
-    </div>
+    <Router>
+      <Routes>
+        <Route
+          path="/"
+          element={
+            <div className={styles.app}>
+              <aside className={styles.sidebar} style={{ position: 'sticky', top: 0, height: '100vh', overflowY: 'auto' }}>
+                <h2>Index</h2>
+                <input
+                  type="text"
+                  placeholder="Search..."
+                  onChange={(e) => setSearch(e.target.value)}
+                  style={{ width: '100%', padding: '6px', margin: '8px 0', borderRadius: '4px' }}
+                />
+                <div style={{ display: 'flex', flexWrap: 'wrap', gap: '6px', marginBottom: '8px' }}>
+                  <button onClick={() => setTypeFilter('')} style={{ padding: '4px 8px', borderRadius: '6px', border: 'none', backgroundColor: typeFilter === '' ? '#555' : '#333', color: '#fff', cursor: 'pointer' }}>All</button>
+                  {allTypes.map(type => (
+                    <button key={type} onClick={() => setTypeFilter(typeFilter === type ? '' : type)} style={{ padding: '4px 8px', borderRadius: '6px', border: 'none', backgroundColor: typeFilter === type ? '#555' : '#333', color: '#fff', cursor: 'pointer' }}>{type}</button>
+                  ))}
+                </div>
+                <ul>
+                  {filteredCreatures
+                    .slice(0, 8)
+                    .map((c) => (
+                      <li key={`search-${c.name}`}>
+                        <Link to={`/entry/${c.name}`}>{c.name}</Link>
+                      </li>
+                    ))}
+                </ul>
+              </aside>
+              <main className={styles.content}>
+                <div className={styles.grid}>
+                  {filteredCreatures.map((c) => (
+                    <SummaryCard key={c.name} creature={c} />
+                  ))}
+                </div>
+              </main>
+            </div>
+          }
+        />
+        <Route
+          path="/entry/:name"
+          element={<CreatureDetail creatures={creatures} reverseEvolutions={reverseEvolutions} />}
+        />
+      </Routes>
+    </Router>
   );
 }
 

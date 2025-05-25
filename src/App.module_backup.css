@@ -1,0 +1,146 @@
+/* === GLOBAL === */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Roboto, Calibri, sans-serif;
+  background: url('/forest-background.jpg') center/cover no-repeat fixed;
+  color: #f0f0f0;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+[data-theme='dark'] body {
+  background-color: #121212;
+  background-image: none;
+  color: #e0e0e0;
+}
+
+/* === APP STRUCTURE === */
+.app {
+  display: flex;
+  min-height: 100vh;
+}
+
+.sidebar {
+  width: 240px;
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(10px);
+  padding: 20px;
+  color: #fff;
+  border-right: 1px solid rgba(255, 255, 255, 0.1);
+  position: relative;
+}
+
+.sidebar h2 {
+  margin-top: 0;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.sidebar a {
+  color: #90cdf4;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.sidebar a:hover {
+  text-decoration: underline;
+}
+
+/* === DARK MODE TOGGLE === */
+.toggle-theme {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  background: #333;
+  border: none;
+  border-radius: 50%;
+  padding: 8px;
+  cursor: pointer;
+  color: white;
+}
+
+/* === CONTENT === */
+.content {
+  flex: 1;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+/* === ENTRY === */
+.entry {
+  display: flex;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(4px);
+  border-radius: 16px;
+  padding: 24px;
+  gap: 20px;
+  align-items: center;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.entry-img {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+
+.entry-details {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-left: 20px;
+}
+
+.evo-tree {
+  margin-top: 8px;
+  font-size: 15px;
+}
+
+.evo-tree a {
+  color: #00d4ff;
+  font-weight: bold;
+}
+
+/* === BADGES === */
+.badge {
+  display: inline-block;
+  background: #444;
+  border-radius: 999px;
+  padding: 6px 14px;
+  font-size: 14px;
+  color: #fff;
+  margin: 0 6px 6px 0;
+  font-weight: 500;
+}
+
+.horizontalCard {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+@media (max-width: 600px) {
+  .horizontalCard {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .entry-img {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .entry-details {
+    padding-left: 0;
+    align-items: center;
+  }
+}
