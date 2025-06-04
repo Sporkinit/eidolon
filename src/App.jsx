@@ -45,6 +45,94 @@ function SummaryCard({ creature }) {
   );
 }
 
+function EntryDetail({ creature, reverseEvolutions, creatures }) {
+  const { name, image, evolutions, pokedex } = creature;
+  const types = creature.types?.split(',').map(t => t.trim()) || [];
+
+  const buildChains = () => {
+    const chains = [];
+    const visited = new Set();
+
+    const dfs = (path, currentName) => {
+      const current = creatures.find(c => c.name === currentName);
+      const evols = Array.isArray(current?.evolutions) ? current.evolutions : [];
+
+      if (evols.length === 0) {
+        chains.push(path);
+      } else {
+        evols.forEach(([next, method, value]) => {
+          dfs([...path, method, value, next], next);
+        });
+      }
+    };
+
+    const collectReverse = (name, path = [name]) => {
+      const revs = reverseEvolutions[name] || [];
+      if (revs.length === 0) return [path];
+      const out = [];
+      for (const [prev, method, value] of revs) {
+        const nextPath = [prev, method, value, ...path];
+        out.push(...collectReverse(prev, nextPath));
+      }
+      return out;
+    };
+
+    const backChains = collectReverse(name);
+    for (const base of backChains) {
+      dfs(base, base[base.length - 1]);
+    }
+
+    if (chains.length === 0) {
+      dfs([name], name);
+    }
+
+    return chains;
+  };
+
+  const chains = buildChains();
+
+  return (
+    <div className={styles.entryDetail}>
+      <div style={{ position: 'absolute', top: '20px', left: '20px' }}>
+        <Link to="/" style={{ color: '#90cdf4' }}>← Back to index</Link>
+      </div>
+      <img src={`${import.meta.env.BASE_URL}combined/${name}.png`} alt={name} className={styles['entry-img']} style={{ width: '400px', height: '200px', objectFit: 'contain' }} />
+      <h2 className={styles.caesar}>{`#${String(creature.id).padStart(3, '0')} ${name}`}</h2>
+      <div>
+        {types.map((t) => (
+          <Badge key={t} text={t} />
+        ))}
+      </div>
+      {pokedex && <p style={{ marginTop: '8px', color: '#ccc' }}>{pokedex}</p>}
+      <div style={{ marginTop: '10px', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+        {chains.map((chain, idx) => (
+          <div key={idx} style={{ display: 'flex', alignItems: 'center', gap: '8px', marginTop: idx > 0 ? '8px' : 0 }}>
+            {chain.map((el, i) => {
+              if (i % 3 === 0) {
+                return (
+                  <React.Fragment key={i}>
+                    <Link to={`/entry/${el}`}><img src={`${import.meta.env.BASE_URL}${el}.png`} alt={el} style={{ width: '120px', height: '120px', objectFit: 'contain' }} /></Link>
+                  </React.Fragment>
+                );
+              } else if ((i - 1) % 3 === 0) {
+                const method = chain[i];
+                const value = chain[i + 1];
+                return (
+                  <span key={i} className={styles.caesar} style={{ color: '#ccc', fontSize: '16px' }}>
+                    → {method === 'Level' ? 'Lv.' : ''} {value}
+                  </span>
+                );
+              } else {
+                return null;
+              }
+            })}
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+}
+
 function CreatureDetail({ creatures, reverseEvolutions }) {
   const { name } = useParams();
   const creature = creatures.find((c) => c.name === name);
