@@ -15,7 +15,7 @@
     "pokedex": "Energetic and endlessly optimistic, Popkit barrels into situations like a fuzzy cannonball. Its metal drum harness amplifies its barks into sonic booms.",
     "front keywords": "fluffy orange fox, metal barrel armor, big ears, raised fists, energetic grin",
     "back keywords": "fox in barrel back view, orange tail, stubby legs, metallic drum body",
-    "image": "POPKIT.png?v=2"
+    "image": "POPKIT.png"
   },
   {
     "id": "2",
@@ -27,7 +27,7 @@
     "pokedex": "Always scheming, this smug little cub causes mischief wherever it roams, daring any who challenge it.",
     "front keywords": "smirking cub, red eyes, scruffy fur, mischievous grin, sharp eyebrows",
     "back keywords": "raised tail, hunched pose, fuzzy outline, challenging posture, feline prankster",
-    "image": "SNEERKIT.png?v=2"
+    "image": "SNEERKIT.png"
   },
   {
     "id": "3",
@@ -45,7 +45,7 @@
     "pokedex": "Always on the move, this spiky critter rolls into a ball to zoom through forests and fields, leaving behind trails of scattered leaves.",
     "front keywords": "dark green hedgehog, sharp quills, big eyes, rounded belly, grassy ground",
     "back keywords": "quill-covered back, low stance, curled-up outline, green blur",
-    "image": "SPINDASH.png?v=2"
+    "image": "SPINDASH.png"
   },
   {
     "id": "4",
@@ -57,7 +57,7 @@
     "pokedex": "Candlepurr is a sacred feline that lights dark shrines with the flames it holds. It never burns what it loves, and its warm glow comforts the fearful.",
     "front keywords": "white cat, candle flames, symmetrical paws, red cape, glowing wicks, cute eyes, sacred expression, shrine companion",
     "back keywords": "cloak trailing behind, candle holders visible, fluffy back silhouette, seated stance, tail under cloak",
-    "image": "CANDLEPURR.png?v=2"
+    "image": "CANDLEPURR.png"
   },
   {
     "id": "5",
@@ -85,7 +85,7 @@
     "pokedex": "Badger is a sprightly forest companion with a heart full of joy. Always sniffing for herbs and berries, it carries the blessing of woodland spirits. The flower tucked on its head is said to bloom only for creatures pure of heart.",
     "front keywords": "cute forest pup, brown fur, flower crown, wide eyes, wagging tongue, round body, cartoon style, sitting pose, fluffy cheeks",
     "back keywords": "round tail, flower visible from above, floppy ears turned slightly back, back fur darker, seated posture, small back paws",
-    "image": "BADGER.png?v=2"
+    "image": "BADGER.png"
   },
   {
     "id": "6",
@@ -97,7 +97,7 @@
     "pokedex": "Cheerful and brave, Leafcub guards the forest floor. It trains by play-fighting with falling leaves and glowing bugs.",
     "front keywords": "bear cub, leafy collar, white stripe, big eyes",
     "back keywords": "bushy tail, forest feet, rounded ears",
-    "image": "LEAFCUB.png?v=2"
+    "image": "LEAFCUB.png"
   },
   {
     "id": "7",
@@ -109,7 +109,7 @@
     "pokedex": "This playful creature splashes through shallow waters with a carefree grin, using its inflatable body to bounce off danger.",
     "front keywords": "blue aquatic dragon, ring-shaped body, playful face, small fins",
     "back keywords": "tail inside ring, curled posture, water toy texture, glossy sheen",
-    "image": "RIPPLASH.png?v=2"
+    "image": "RIPPLASH.png"
   },
   {
     "id": "8",
@@ -121,7 +121,7 @@
     "pokedex": "Flarehound is a loyal ember beast born from volcanic plains. It channels searing heat through its mane and hunts in molten silence.",
     "front keywords": "orange wolf, dark muzzle, fiery eyes, fluffy tail, proud stance, glowing underbelly",
     "back keywords": "large tail fluff, ember glow lines, sleek back fur, pointed ears, muscular limbs",
-    "image": "FLAREHOUND.png?v=2"
+    "image": "FLAREHOUND.png"
   },
   {
     "id": "9",
@@ -139,7 +139,7 @@
     "pokedex": "Flutterbean is a spritely critter of garden paths. With each wingbeat, it spreads pollen and mischief alike.",
     "front keywords": "pink caterpillar, fairy wings, curly antenna, big eyes, striped body, flower sprite",
     "back keywords": "gossamer wings, curled pink tail, back ridges, fairy trail, pudgy back",
-    "image": "FLUTTERBEAN.png?v=2"
+    "image": "FLUTTERBEAN.png"
   },
   {
     "id": "10",
@@ -151,7 +151,7 @@
     "pokedex": "Beeatrice is an elegant insectoid queen known for her graceful movements and commanding presence. With wings like stained glass and an armored gown, she glides through the air as a guardian of balance in floral realms.",
     "front keywords": "bee queen, insect wings, petal gown, pink and black outfit, feminine bug creature, regal pose, segmented limbs, confident stance, graceful flyer",
     "back keywords": "translucent wings from behind, wide petal skirt, sleek torso, twin antennae, wing veins visible, insect back plating",
-    "image": "BEEATRICE.png?v=2"
+    "image": "BEEATRICE.png"
   },
   {
     "id": "11",
@@ -163,7 +163,7 @@
     "pokedex": "A nimble feline that dashes with the wind, its sleek form and fierce eyes make it a guardian of forest clearings.",
     "front keywords": "striped white cat, black zebra pattern, sharp orange eyes, fluffy tail",
     "back keywords": "alert stance, smooth fur, curled tail, elegant poise",
-    "image": "ZEPHYRA.png?v=2"
+    "image": "ZEPHYRA.png"
   },
   {
     "id": "12",
@@ -175,7 +175,7 @@
     "pokedex": "Each step from this brass-beaked beast blasts a booming tune\u2014beloved by parade troupes and sonic battlers alike.",
     "front keywords": "blue elephant, brass trumpet nose, round ears, musical creature",
     "back keywords": "standing upright, trumpet tail raised, sound burst visual, playful blush",
-    "image": "TRUMPLE.png?v=2"
+    "image": "TRUMPLE.png"
   },
   {
     "id": "13",
@@ -187,7 +187,7 @@
     "pokedex": "Cactusk is a sleepy feline who\u2019s fused with a cactus pod. Its flowers bloom when it dreams, and its spikes shoot when threatened.",
     "front keywords": "black cat, green cactus back, orange flowers, sleepy expression, red markings, protective thorns, desert hybrid",
     "back keywords": "large cactus dome, hidden tail, flower blooms from back, cat ears poking out, sleepy pose, thorny surface",
-    "image": "CACTUSK.png?v=2"
+    "image": "CACTUSK.png"
   },
   {
     "id": "14",
@@ -199,7 +199,7 @@
     "pokedex": "Draped in a starless cloak, Nyxent emerges on moonless nights to ferry lost souls and whisper forgotten dreams in a voice of silence.",
     "front keywords": "shadowy figure, starry cloak, mask face, floating ghost, cosmic being, spectral presence",
     "back keywords": "star cloak from behind, ghostly drift, empty hood, space-themed spirit, floating shadow",
-    "image": "NYXENT.png?v=2"
+    "image": "NYXENT.png"
   },
   {
     "id": "15",
@@ -211,7 +211,7 @@
     "pokedex": "This fiery tortoise channels steam through brass exhausts on its shell, fueling short bursts of speed and power.",
     "front keywords": "fire tortoise, brass exhaust vents, glowing lava cracks, steampunk turtle, determined face",
     "back keywords": "lava shell, steam vents, flame tail, mechanical shell plates, low stance",
-    "image": "SHELLTORCH.png?v=2"
+    "image": "SHELLTORCH.png"
   },
   {
     "id": "16",
@@ -223,7 +223,7 @@
     "pokedex": "Regal and fierce, this lion roars to mark its territory, its banana-like mane a source of jungle pride.",
     "front keywords": "banana mane, roaring lion, fierce eyes, leaf tail",
     "back keywords": "leafy tail from behind, powerful stance, rounded mane tips",
-    "image": "LEOFROND.png?v=2"
+    "image": "LEOFROND.png"
   },
   {
     "id": "17",
@@ -235,7 +235,7 @@
     "pokedex": "A musical forest dweller, its joyful strumming brings rain and bloom to nearby plants and listeners alike.",
     "front keywords": "leaf-winged creature, banjo, red gloves, wide smile, forest background",
     "back keywords": "standing upright, strumming banjo, leaf antenna, expressive pose",
-    "image": "STRUMBLEAF.png?v=2"
+    "image": "STRUMBLEAF.png"
   },
   {
     "id": "18",
@@ -247,7 +247,7 @@
     "pokedex": "This jellyfish-like fairy floats through coral groves, spreading bioluminescent charm. Its parasol shell protects it from sun and storm, and many sailors whisper of it guiding lost ships back to shore with its glow.",
     "front keywords": "jellyfish, parasol cap, blue body, pink tendrils, glowing eyes, sea creature, floating, round form, pastel tones, aquatic fairy",
     "back keywords": "underside of parasol, trailing tentacles, small round body, floating posture, jellyfish bell, glistening back",
-    "image": "DRIFTRELLA.png?v=2"
+    "image": "DRIFTRELLA.png"
   },
   {
     "id": "19",
@@ -259,7 +259,7 @@
     "pokedex": "A phantom of the twilight forest, Bagheera stalks the night with glowing lantern eyes and a razor smile. It lures the unwary with its eerie lamp before striking from the shadows. Though feared, it is also respected as a guardian against true evil.",
     "front keywords": "dark feline, glowing yellow eyes, creepy smile, lantern tail, night stalker, spectral design, sharp teeth, shadow panther",
     "back keywords": "lamp glowing behind tail, arched back, sleek fur, bushy tail with hook shape, rear legs crouched, predator stance",
-    "image": "BAGHEERA.png?v=2"
+    "image": "BAGHEERA.png"
   },
   {
     "id": "20",
@@ -271,7 +271,7 @@
     "pokedex": "Crafted by druids of old, Mechleaf is a blend of vine and gear, tirelessly tending to forest glades with robotic precision and a gentle soul.",
     "front keywords": "leaf robot, green plating, plant wings, vine arms, yellow eyes, forest guardian, mechanical creature",
     "back keywords": "leafy wings from back, green shell, vines trailing, mossy back view, forest mech",
-    "image": "MECHLEAF.png?v=2"
+    "image": "MECHLEAF.png"
   },
   {
     "id": "21",
@@ -283,7 +283,7 @@
     "pokedex": "Chillaxodon is a frosty elephant who prefers naps over battles. With a popsicle tail and ice-dome head, it cools everything nearby with its sleepy aura.",
     "front keywords": "lazy ice elephant, popsicle tail, igloo head, droopy eyes, blue body, sleepy posture, cold aura, chubby limbs",
     "back keywords": "rounded icy back, smooth dome, melting trail, tail popsicle exposed, droopy trunk resting",
-    "image": "CHILLAXODON.png?v=2"
+    "image": "CHILLAXODON.png"
   },
   {
     "id": "22",
@@ -295,7 +295,7 @@
     "pokedex": "A loud, lovable beast known for its booming laugh and boundless energy, it startles foes more with its volume than its bite.",
     "front keywords": "blue furry monster, purple accents, wide mouth, small horns",
     "back keywords": "open-mouthed grin, waving arm, wild tufted hair, big feet",
-    "image": "ZOGGO.png?v=2"
+    "image": "ZOGGO.png"
   },
   {
     "id": "23",
@@ -313,7 +313,7 @@
     "pokedex": "Floffle is a cloud-like critter that floats from flower to flower, its antennae vibrating with joy at even the gentlest breeze.",
     "front keywords": "white puff creature, spiral antennae, pink cheeks, tiny wings, curly tail, cute expression",
     "back keywords": "round fuzzy back, fluttering wings, bouncy shape, floating form, soft blush hue",
-    "image": "FLOFFLE.png?v=2"
+    "image": "FLOFFLE.png"
   },
   {
     "id": "24",
@@ -351,7 +351,7 @@
     "pokedex": "This bubbly woolen sprite drifts gently on the breeze, trailing a faint scent of candyfloss and dreams.",
     "front keywords": "pink puffball, sheep wings, antenna orbs, soft wool",
     "back keywords": "hovering midair, cheerful face, fluff swirl, pastel tones",
-    "image": "WHISPUFF.png?v=2"
+    "image": "WHISPUFF.png"
   },
   {
     "id": "25",
@@ -363,7 +363,7 @@
     "pokedex": "Legends say this fluffy being brings peace to those it touches, its wings brushing away sorrow with every beat.",
     "front keywords": "angelic lamb, pink tufts, fluffy wings, heart eyes",
     "back keywords": "curly wool, ribbon tail, pastel swirl fur, winged pose",
-    "image": "SERAPHLUFF.png?v=2"
+    "image": "SERAPHLUFF.png"
   },
   {
     "id": "26",
@@ -375,7 +375,7 @@
     "pokedex": "Born from leftover party magic, Puffetti lives to celebrate. Its hat never falls off, even in flight, and it leaves trails of confetti when happy.",
     "front keywords": "yellow balloon creature, green and yellow party hat, blue spots, blushing cheeks, happy eyes",
     "back keywords": "round party creature back view, fin tail, party hat, small feet",
-    "image": "PUFFETTI.png?v=2"
+    "image": "PUFFETTI.png"
   },
   {
     "id": "27",
@@ -398,7 +398,7 @@
     "pokedex": "Said to be messengers from the spirit realm, these rabbit-like beings are seen only in times of great harmony.",
     "front keywords": "soft pink fur, violet spiral markings, feathered wings, large ears, wide eyes",
     "back keywords": "fluffy wings, spiral tail, seated pose, ethereal shimmer",
-    "image": "SPIRIBUN.png?v=2"
+    "image": "SPIRIBUN.png"
   },
   {
     "id": "28",
@@ -410,7 +410,7 @@
     "pokedex": "Flufflare is a fox of radiant delight, its flames never burn but instead warm the hearts of those nearby.",
     "front keywords": "fluffy fox, yellow fur, pink eyes, ember tails, star forehead, cheerful glow",
     "back keywords": "twin ember tails, soft back fur, light spark effects, rounded ears, plush outline",
-    "image": "FLUFFLARE.png?v=2"
+    "image": "FLUFFLARE.png"
   },
   {
     "id": "29",
@@ -428,7 +428,7 @@
     "pokedex": "A plucky starter creature that\u2019s always ready for adventure, brimming with enthusiasm and verdant energy.",
     "front keywords": "green lizard, cream belly, clenched fist, wide smile, confident stance",
     "back keywords": "long tail, leaf-shaped crest, back arched, dynamic pose",
-    "image": "SPRIGGUP.png?v=2"
+    "image": "SPRIGGUP.png"
   },
   {
     "id": "30",
@@ -446,7 +446,7 @@
     "pokedex": "Grumpy and withdrawn, this leafy spirit hides within layers of cabbage, glaring at intruders with golden eyes.",
     "front keywords": "angry cabbage-like creature, dense green leaves, glowing yellow eyes, squat form",
     "back keywords": "layered leafy back, squat stance, tucked limbs, green tones",
-    "image": "LEAFMEALONE.png?v=2"
+    "image": "LEAFMEALONE.png"
   },
   {
     "id": "31",
@@ -464,7 +464,7 @@
     "pokedex": "This cheerful critter loves lounging in sunny patches, its leafy fluff rustling happily in the breeze.",
     "front keywords": "round leafy creature, wooden wheelbarrow, cheerful smile, grassy setting",
     "back keywords": "leafy back, wheelbarrow from behind, small shadow, grass base",
-    "image": "LEAFLUV.png?v=2"
+    "image": "LEAFLUV.png"
   },
   {
     "id": "32",
@@ -476,7 +476,7 @@
     "pokedex": "A joyful spirit of the glade, always welcoming spring with floral dances and leafy twirls beneath its wide-brimmed hat.",
     "front keywords": "plant fairy, green leafy dress, sun hat, yellow flower collar",
     "back keywords": "open arms, spinning motion, round petal skirt, vibrant leaf wings",
-    "image": "TOPBLOOM.png?v=2"
+    "image": "TOPBLOOM.png"
   },
   {
     "id": "33",
@@ -488,7 +488,7 @@
     "pokedex": "Brutalon is a raging beast of myth, feared for its uncontrollable fury. Its roar echoes through mountains, and it charges with terrifying speed. Ancient ruins often bear its claw marks.",
     "front keywords": "alpha werebeast, orange fur, snarling mouth, bulging muscles, long claws, standing upright, rage-filled face, primal predator",
     "back keywords": "thick furry back, raised arms, clawed fingers, tail low, wide leg stance, power-forward back posture",
-    "image": "BRUTALON.png?v=2"
+    "image": "BRUTALON.png"
   },
   {
     "id": "34",
@@ -500,7 +500,7 @@
     "pokedex": "This colossal sea creature drifts through kelp forests, its back overgrown with algae. Sailors whisper of its songs echoing through the deep.",
     "front keywords": "giant whale, algae-covered back, sleepy eyes, seaweed beard, ancient marine beast",
     "back keywords": "whale back view, green-covered tail, algae strands, ocean giant silhouette, peaceful rear",
-    "image": "NAUTUBLUB.png?v=2"
+    "image": "NAUTUBLUB.png"
   },
   {
     "id": "35",
@@ -512,7 +512,7 @@
     "pokedex": "Fumudge is a volatile creature formed of burnt matter and noxious fumes. Despite its foul appearance, it has explosive bursts of energy.",
     "front keywords": "angry soot blob, smog cloud, smoking swirl head, fiery mouth",
     "back keywords": "curled tail of smoke, bubbling back texture, sulfurous haze",
-    "image": "FUMUDGE.png?v=2"
+    "image": "FUMUDGE.png"
   },
   {
     "id": "36",
@@ -530,7 +530,7 @@
     "pokedex": "A curious primate known for solving puzzles faster than it snacks\u2014often seen adjusting its glasses before a breakthrough.",
     "front keywords": "brown monkey, blue glasses, fluffy fur, large ears, thinking pose",
     "back keywords": "sitting posture, tilted head, bright eyes, curled tail tip",
-    "image": "THINKIT.png?v=2"
+    "image": "THINKIT.png"
   },
   {
     "id": "37",
@@ -542,7 +542,7 @@
     "pokedex": "Brainiog is a primal ape with unmatched strength and ancient instincts. Wielding a massive club made from petrified wood, it dominates forest battles with raw power and territorial roars.",
     "front keywords": "gorilla warrior, dark green fur, wooden club, muscular arms, bare chest, fierce expression, jungle guardian, prehistoric style, combat stance",
     "back keywords": "broad hairy back, club slung behind, hunched posture, long arms, large feet, bristled fur",
-    "image": "BRAINIOG.png?v=2"
+    "image": "BRAINIOG.png"
   },
   {
     "id": "38",
@@ -554,7 +554,7 @@
     "pokedex": "This bizarre hybrid thrives in the darkest woods, where its wings buzz with menace and its tongue lashes like a whip.",
     "front keywords": "moose mosquito hybrid, black fur, red eyes, orange wings, long tongue, strange creature",
     "back keywords": "insect wings from back, moose body silhouette, buzzing pose, strange hybrid rear view",
-    "image": "MOOSQUITO.png?v=2"
+    "image": "MOOSQUITO.png"
   },
   {
     "id": "39",
@@ -566,7 +566,7 @@
     "pokedex": "A wise old creature whose body is entwined with the essence of time itself. The clock embedded in its chest ticks only in moonlight.",
     "front keywords": "owl, clock chest, leafy feathers, intense stare",
     "back keywords": "bushy tail, clock gears, curved talons",
-    "image": "HOOTSPRING.png?v=2"
+    "image": "HOOTSPRING.png"
   },
   {
     "id": "40",
@@ -578,7 +578,7 @@
     "pokedex": "An automaton built by a lost civilization, Gearaffe marches with mechanical grace. Its gears never stop turning.",
     "front keywords": "brass giraffe, segmented neck, gear joints, steampunk design",
     "back keywords": "cogwheel legs, metallic spine, winding key tail",
-    "image": "GEARAFFE.png?v=2"
+    "image": "GEARAFFE.png"
   },
   {
     "id": "41",
@@ -590,7 +590,7 @@
     "pokedex": "This vibrant creature expresses itself through color, its fur shifting hues with its mood and creative energy.",
     "front keywords": "rainbow poodle, curly fur, confident stance, fluffy tail",
     "back keywords": "rainbow gradients, flowing coat, alert pose, soft paws",
-    "image": "PAINTDOODLE.png?v=2"
+    "image": "PAINTDOODLE.png"
   },
   {
     "id": "42",
@@ -602,7 +602,7 @@
     "pokedex": "Its petals conceal venomous thorns, making it a deceptive beauty in the wilderness\u2014admired, but not to be touched.",
     "front keywords": "red scorpion, rose bloom, thorned legs, leafy segments",
     "back keywords": "rose petals opened, stinger arched, segmented tail, green leaves",
-    "image": "ROSCORPION.png?v=2"
+    "image": "ROSCORPION.png"
   },
   {
     "id": "43",
@@ -614,7 +614,7 @@
     "pokedex": "With jaws like a bear trap and roots for limbs, it lies in wait beneath the forest canopy for intruders.",
     "front keywords": "carnivorous plant, red flower maw, gnarled wood limbs, leafy skirt, open jaws",
     "back keywords": "twisted trunk, vines and leaves, blooming flower trap, hidden eyes, root stance",
-    "image": "SNAPROOT.png?v=2"
+    "image": "SNAPROOT.png"
   },
   {
     "id": "44",
@@ -626,7 +626,7 @@
     "pokedex": "Covered in stormy wool, it charges up electricity as it trots through thunderclouds.",
     "front keywords": "cloud puff creature, lightning streaks, purple fluff, curly tail",
     "back keywords": "dark cloud wool, electric swirls, determined stance",
-    "image": "LLAMPURR.png?v=2"
+    "image": "LLAMPURR.png"
   },
   {
     "id": "45",
@@ -638,7 +638,7 @@
     "pokedex": "A posh little creature with impeccable manners, Dapperink always arrives dressed to impress. Donning a formal tuxedo and monocle-topped hat, it uses its tail to sign contracts and invitations in inky flourish. Many believe it governs etiquette among wilder Pok\u00e9mon-like beings.",
     "front keywords": "tuxedo otter, top hat, monocle, bowtie, black and white, polite expression, upright stance, blue eyes, formalwear, charming",
     "back keywords": "short black tail with gray tip, back of tuxedo coat, top hat rim, small rounded ears, short limbs, standing posture",
-    "image": "DAPPERINK.png?v=2"
+    "image": "DAPPERINK.png"
   },
   {
     "id": "46",
@@ -650,7 +650,7 @@
     "pokedex": "Dwelling in shadowy wetlands, this toxic toad uses the spores on its back to lull foes into hallucinations before striking.",
     "front keywords": "spotted teal frog, yellow eyes, mushrooms growing from back, drooling mouth",
     "back keywords": "fungus cluster, warty back, crouching position, toxic aura",
-    "image": "SPORECROAK.png?v=2"
+    "image": "SPORECROAK.png"
   },
   {
     "id": "47",
@@ -662,7 +662,7 @@
     "pokedex": "Radiating warmth and joy, this cub embodies the sun\u2019s gentle power, its mane blooming like a sunflower.",
     "front keywords": "golden lion cub, sunflower mane, big eyes, leaf-tufted tail",
     "back keywords": "sitting upright, floral mane fully open, symmetrical face, fluffy paws",
-    "image": "SUNLEO.png?v=2"
+    "image": "SUNLEO.png"
   },
   {
     "id": "48",
@@ -674,7 +674,7 @@
     "pokedex": "Charging through rivers with explosive force, H2Roar's roar shakes the riverbed and frightens away intruders.",
     "front keywords": "blue hippo, angry face, splash effects, lightning spines",
     "back keywords": "water surge, glowing back, stomping motion",
-    "image": "H2ROAR.png?v=2"
+    "image": "H2ROAR.png"
   },
   {
     "id": "49",
@@ -686,7 +686,7 @@
     "pokedex": "Bamboom is a bold, bushy warrior of the canopy, its bright red fur and tiny wings marking it as a fearless guardian of the wild. It is playful, but when danger threatens the forest, it charges in with explosive force and a booming cry.",
     "front keywords": "red panda creature, star crest, red wings, muscular stance, heroic pose, yellow eyes, small limbs, fluffy tail, confident smile",
     "back keywords": "red mohawk from behind, fluffy striped tail, wing tips visible, stocky build, thick back fur, standing posture, power stance",
-    "image": "BAMBOOM.png?v=2"
+    "image": "BAMBOOM.png"
   },
   {
     "id": "50",
@@ -698,7 +698,7 @@
     "pokedex": "A peaceful spirit said to bring luck to travelers. Its lotus-petal fins gently ripple the surface of sacred ponds.",
     "front keywords": "lotus fish, pink fins, serene eyes, golden scales",
     "back keywords": "petal tail, soft glow, flowing form",
-    "image": "KOIKOI.png?v=2"
+    "image": "KOIKOI.png"
   },
   {
     "id": "51",
@@ -716,7 +716,7 @@
     "pokedex": "A fiery acorn with a mischievous streak, Nutzo charges around forests causing playful chaos. Its bark is worse than its bite\u2014barely.",
     "front keywords": "angry acorn, wooden body, leafy limbs, mischievous face, small forest creature, orange cheeks",
     "back keywords": "acorn cap from behind, leafy back limbs, squat forest figure, stubborn posture",
-    "image": "NUTZO.png?v=2"
+    "image": "NUTZO.png"
   },
   {
     "id": "52",
@@ -728,7 +728,7 @@
     "pokedex": "Chubbybun is a mischievous brawler bunny with oversized cheeks and an even bigger ego. It boxes with pride and hops with unstoppable swagger.",
     "front keywords": "tough bunny, puffed cheeks, orange fur, brown ears, raised fists, cocky smirk, upright tail, fighter stance",
     "back keywords": "bushy striped tail, strong hind legs, back tufts, upright rabbit ears, wide-footed pose",
-    "image": "CHUBBYBUN.png?v=2"
+    "image": "CHUBBYBUN.png"
   },
   {
     "id": "53",
@@ -746,7 +746,7 @@
     "pokedex": "A lovable sprite of cheer, its charm lies in spreading kindness and delight wherever it bounds.",
     "front keywords": "pink cat, white paws, flower tail, cute eyes, gold bands",
     "back keywords": "tail curve, sitting pose, shy smile, pastel fur",
-    "image": "PINKACHU.png?v=2"
+    "image": "PINKACHU.png"
   },
   {
     "id": "54",
@@ -758,7 +758,7 @@
     "pokedex": "This mischievous floral feline uses its camouflage and wide grin to play tricks on wanderers. Bloomgrin thrives in cherry blossom groves, where its petal-covered body lets it blend in effortlessly before pouncing with laughter.",
     "front keywords": "pink floral cat, wide grin, flower fur, cherry blossom petals, smug expression, leafy tail, nature trickster, cute and creepy",
     "back keywords": "petal-covered back, fluffy tail with blossoms, flower-studded fur, rear paw stance, leaf texture on shoulders, floral fluff",
-    "image": "BLOOMGRIN.png?v=2"
+    "image": "BLOOMGRIN.png"
   },
   {
     "id": "55",
@@ -770,7 +770,7 @@
     "pokedex": "This gentle ram uses its icy horn to freeze paths and protect its herd, radiating calm energy in the coldest climates.",
     "front keywords": "blue ram, icy horn, woolly coat, serene expression",
     "back keywords": "fluffy back, icy tail, short legs, frosted wool",
-    "image": "GLACILAMB.png?v=2"
+    "image": "GLACILAMB.png"
   },
   {
     "id": "56",
@@ -782,7 +782,7 @@
     "pokedex": "Cinderlamb is a fiery sheep whose wool burns with undying flames. It brings warmth to cold pastures and scorches enemies with a flash of heat.",
     "front keywords": "fire lamb, orange mane, cream wool, gentle eyes, flame horns, blazing hair, standing still, ember glow",
     "back keywords": "flaming mane behind ears, rounded wool back, slight smoke trail, small hooves, bushy tail flick",
-    "image": "CINDERLAMB.png?v=2"
+    "image": "CINDERLAMB.png"
   },
   {
     "id": "57",
@@ -794,7 +794,7 @@
     "pokedex": "Covered in mossy fleece and crowned with gentle horns, Mosslamb is a forest dweller said to bring peace and regrowth wherever it rests.",
     "front keywords": "green lamb, ram horns, moss coat, cute animal, forest spirit, curled tail, soft features",
     "back keywords": "round mossy back, tail tufts, horned rear, peaceful stance from behind",
-    "image": "MOSSLAMB.png?v=2"
+    "image": "MOSSLAMB.png"
   },
   {
     "id": "58",
@@ -806,7 +806,7 @@
     "pokedex": "Cactini is a potted cactus sprite who cheers on plants with quiet optimism. It is said its presence helps gardens flourish.",
     "front keywords": "potted cactus, smiling face, glasses, soft green color, small arms, pink flowers, friendly expression, decorative plant creature",
     "back keywords": "pot base, cactus arms from behind, flower crown visible, smooth cactus back, stubby round form, symmetrical arm curves",
-    "image": "CACTINI.png?v=2"
+    "image": "CACTINI.png"
   },
   {
     "id": "59",
@@ -818,7 +818,7 @@
     "pokedex": "This stoic behemoth roams ancient tundras, etching ancestral paths with each thundering step. Its patterned hide tells the story of forgotten civilizations.",
     "front keywords": "brown mammoth, ancient markings, tusks, tribal pattern, sturdy legs, solemn eyes, prehistoric creature, powerful build",
     "back keywords": "mammoth from behind, patterned back, swaying tail, curved tusks side view, heavy fur coat",
-    "image": "MAMMOLITH.png?v=2"
+    "image": "MAMMOLITH.png"
   },
   {
     "id": "60",
@@ -830,7 +830,7 @@
     "pokedex": "This nimble critter sparks excitement with its bounding leaps and puffy tail, radiating contagious joy.",
     "front keywords": "black and white fur, fox-like ears, yellow tail tip, bright cheeks",
     "back keywords": "mid-leap, open mouth smile, fluffy chest, lively eyes",
-    "image": "JOLTLAMB.png?v=2"
+    "image": "JOLTLAMB.png"
   },
   {
     "id": "61",
@@ -842,7 +842,7 @@
     "pokedex": "Brambumble is a gentle forest spirit with soft fur and leafy decorations. Golden fruits grow from its branch-like horns, which it shares with kindhearted wanderers.",
     "front keywords": "round forest creature, golden eyes, leafy antlers, bushy fur, standing upright, smiling expression, plant fur, fruit-bearing",
     "back keywords": "leaf crown visible, soft back fluff, rounded shape, short legs, leafy spine details, nature puffball",
-    "image": "BRAMBUMBLE.png?v=2"
+    "image": "BRAMBUMBLE.png"
   },
   {
     "id": "62",
@@ -854,7 +854,7 @@
     "pokedex": "Bellivy is a cheerful forest fox whose leafy mane is always rustling in the wind. It jingles with every step thanks to the enchanted bell around its neck, said to protect those who hear it. Wildflowers bloom in its fur during spring.",
     "front keywords": "forest fox, big leaf mane, red flower crown, golden fur, bell accessory, cheerful expression, leafy creature, cartoon style, standing pose",
     "back keywords": "leaf tuft on back of head, bell seen from ribbon, thick leaf collar from behind, fox tail curled, upright ears, soft fur pattern",
-    "image": "BELLIVY.png?v=2"
+    "image": "BELLIVY.png"
   },
   {
     "id": "63",
@@ -866,7 +866,7 @@
     "pokedex": "Cactraddle is a desert serpent with a crown of cactus blooms. It slithers slowly but surely across sand dunes, trailing fertility in its wake.",
     "front keywords": "green snake dinosaur, flower crown, plant ridges, long neck, smiling face, desert flora, grounded pose, peaceful aura",
     "back keywords": "flower head crest from behind, long tail coils, cactus patches along back, gentle back slope, curved pose",
-    "image": "CACTRADDLE.png?v=2"
+    "image": "CACTRADDLE.png"
   },
   {
     "id": "64",
@@ -878,7 +878,7 @@
     "pokedex": "A perpetually upset blob-like creature, it stomps about in frustration, causing minor tremors when irritated.",
     "front keywords": "angry blob, pink cheeks, squinty eyes, short limbs",
     "back keywords": "rounded back, hunched stance, clenched fists",
-    "image": "GRUMBLIN.png?v=2"
+    "image": "GRUMBLIN.png"
   },
   {
     "id": "65",
@@ -896,7 +896,7 @@
     "pokedex": "Chocobaby is a chirping hatchling of flame, made of toasted fluff and caramel feathers. It bobs with joy and spreads warmth wherever it hops.",
     "front keywords": "round fire chick, golden feathers, happy eyes, small wings, toasted glow, tiny beak, glowing baby bird",
     "back keywords": "rounded back fluff, small tail flick, wing tips raised, chick form silhouette, radiant feathers",
-    "image": "CHOCOBABY.png?v=2"
+    "image": "CHOCOBABY.png"
   },
   {
     "id": "66",
@@ -908,7 +908,7 @@
     "pokedex": "Glidaleaf drifts effortlessly from tree to tree using its leaf-glider arms, spreading pollen that calms agitated creatures.",
     "front keywords": "green flying squirrel, leaf arms, excited pose, open mouth",
     "back keywords": "gliding pose, leafy wings extended, upright tail",
-    "image": "GLIDALEAF.png?v=2"
+    "image": "GLIDALEAF.png"
   },
   {
     "id": "67",
@@ -920,7 +920,7 @@
     "pokedex": "A nocturnal oracle that guards forest secrets, its glowing sigil eyes can read the wind for danger.",
     "front keywords": "purple owl, glowing tribal markings, gemstone pendant, serious gaze",
     "back keywords": "tall stance, wings folded, narrowed eyes, mystic aura",
-    "image": "TWIHOOT.png?v=2"
+    "image": "TWIHOOT.png"
   },
   {
     "id": "68",
@@ -938,7 +938,7 @@
     "pokedex": "A gentle guardian of ponds, it rests in flower petals and shares calm energy with those nearby.",
     "front keywords": "pastel axolotl, pink wings, lotus petal seat, leafy sprout on head",
     "back keywords": "leaf sprout from behind, petal base, serene pond vibe",
-    "image": "LILUXI.png?v=2"
+    "image": "LILUXI.png"
   },
   {
     "id": "69",
@@ -950,7 +950,7 @@
     "pokedex": "Pixlotl is said to be born from the stars that fell into crystal lakes. It communicates with sparkles in its eyes and dances across lily pads under the moonlight.",
     "front keywords": "adorable blue axolotl, pastel pink feathered gills, sparkly anime eyes, smooth skin, magical mascot",
     "back keywords": "blue axolotl back view, gill frills, aquatic tail, rounded body, fantasy creature",
-    "image": "PIXLOTL.png?v=2"
+    "image": "PIXLOTL.png"
   },
   {
     "id": "70",
@@ -968,7 +968,7 @@
     "pokedex": "A gentle soul who embodies the essence of rest, Drowsloth can nap through earthquakes or lull others to sleep with its steady breathing. Its soft fur is rumored to emit calming pheromones.",
     "front keywords": "fluffy sloth, cream and blue, closed eyes, peaceful smile, sitting, round body, sleepy posture, large hands, fuzzy texture, calm",
     "back keywords": "rounded back, small arms folded, blue markings behind head, fluffy hair tufts, tail tucked under",
-    "image": "DROWSLOTH.png?v=2"
+    "image": "DROWSLOTH.png"
   },
   {
     "id": "71",
@@ -980,7 +980,7 @@
     "pokedex": "This sleepy creature lounges under trees all day, gathering spores on its fur which calm even the rowdiest Pok\u00e9mon.",
     "front keywords": "shaggy green fur, mushroom cap on head, droopy eyes, relaxed stance",
     "back keywords": "fluffy back, mushroom sprout, arms hanging, dozing pose",
-    "image": "SPORELAX.png?v=2"
+    "image": "SPORELAX.png"
   },
   {
     "id": "72",
@@ -998,7 +998,7 @@
     "pokedex": "Bluffin is a plump, cream-colored critter with boundless energy and curiosity. It squeaks playfully when excited and often tumbles through soft grass fields in joyful rolls. Its wide ears pick up even the gentlest sounds.",
     "front keywords": "cream puff creature, wide ears, big blue eyes, round fluffy body, playful pose, soft fur, cartoon style, rabbit-fox hybrid",
     "back keywords": "puffy tail, large ear backs, rounded back, chubby haunches, dense fluffy texture, upright cute posture",
-    "image": "BLUFFIN.png?v=2"
+    "image": "BLUFFIN.png"
   },
   {
     "id": "73",
@@ -1010,7 +1010,7 @@
     "pokedex": "A serene fox-like creature that embodies balance between day and night, known for guiding lost travelers under the twin skies.",
     "front keywords": "long-haired fox, golden fur, large upright ears, white chest fur, gentle gaze",
     "back keywords": "flowing hair, split-tone tail, poised sitting, glowing aura",
-    "image": "SOLUNA.png?v=2"
+    "image": "SOLUNA.png"
   },
   {
     "id": "74",
@@ -1022,7 +1022,7 @@
     "pokedex": "Feyflutter is a graceful spirit of dusk, fluttering silently through twilight forests. Its wings shimmer with the last light of day.",
     "front keywords": "fairy moth, lavender wings, glowing antennae, delicate arms, mystical gaze, dusk tones",
     "back keywords": "shimmering wing patterns, tapering tail, slender back, iridescent hues, elegant silhouette",
-    "image": "FEYFLUTTER.png?v=2"
+    "image": "FEYFLUTTER.png"
   },
   {
     "id": "75",
@@ -1034,7 +1034,7 @@
     "pokedex": "Floramene is an elegant plant spirit that governs blooming cycles. Her movements are like wind through petals.",
     "front keywords": "plant goddess, leafy limbs, petal cloak, golden eyes, serene expression, long flowing hair",
     "back keywords": "petal strands, trailing leaf hair, slender back, elegant cape shape, botanical glow",
-    "image": "FLORAMENE.png?v=2"
+    "image": "FLORAMENE.png"
   },
   {
     "id": "76",
@@ -1046,7 +1046,7 @@
     "pokedex": "A mythical serpent said to whisper truths from the underworld, its many heads never sleep, watching in all directions.",
     "front keywords": "hydra, gold scales, many heads, pink eyes, coiling body",
     "back keywords": "serpent tails, diamond pattern, winding limbs, side view",
-    "image": "OPHIDIAX.png?v=2"
+    "image": "OPHIDIAX.png"
   },
   {
     "id": "77",
@@ -1058,7 +1058,7 @@
     "pokedex": "Tiny but brave, it dons a thimble helm like a knight\u2019s helm and defends garden folk with fuzzy valor.",
     "front keywords": "mint green fluffball, thimble helmet, pink ribbon, wide eyes",
     "back keywords": "floating midair, tufted limbs, ribbon trailing, metal helm gleaming",
-    "image": "THIMBLA.png?v=2"
+    "image": "THIMBLA.png"
   },
   {
     "id": "78",
@@ -1070,7 +1070,7 @@
     "pokedex": "Despite its soft appearance, Pyruffin is a fierce protector of the skies. Its tiny wings emit warm updrafts during battle.",
     "front keywords": "fluffy orange fox-dragon, large golden wings, round red eyes, soft fur, fantasy hybrid",
     "back keywords": "fox creature back view, feathery wings extended, curled tail, chubby pose",
-    "image": "PYRUFFIN.png?v=2"
+    "image": "PYRUFFIN.png"
   },
   {
     "id": "79",
@@ -1082,7 +1082,7 @@
     "pokedex": "A mischievous feline from the night sky, it\u2019s said to leap between dreams, biting starlight and scattering sparks of mischief.",
     "front keywords": "midnight blue cat, golden star markings, striped tail, glowing orange eyes",
     "back keywords": "arched pose, tail curled up, glinting fur, star-streaked back",
-    "image": "STARBITE.png?v=2"
+    "image": "STARBITE.png"
   },
   {
     "id": "80",
@@ -1094,7 +1094,7 @@
     "pokedex": "A gentle dragon who treasures comfort above all, often seen clutching a plush companion.",
     "front keywords": "green plush dragon, scarf, toy bear, kind eyes, chubby limbs",
     "back keywords": "tail curl, plush texture, round wings, stuffed companion, soft aesthetic",
-    "image": "SNUGDRAKE.png?v=2"
+    "image": "SNUGDRAKE.png"
   },
   {
     "id": "81",
@@ -1106,7 +1106,7 @@
     "pokedex": "A guardian bird with powerful talons, Galeclaw raises its young in mountain cliffs. Its feathers shimmer with wind energy.",
     "front keywords": "eagle mother, rainbow tail feathers, stern expression, curved beak",
     "back keywords": "spread brown wings, baby chick beside, layered tail plumage",
-    "image": "GALECLAW.png?v=2"
+    "image": "GALECLAW.png"
   },
   {
     "id": "82",
@@ -1118,7 +1118,7 @@
     "pokedex": "Swift and fierce, Galestorm rides the winds during violent storms. Its sharp feathers slice through the air like blades.",
     "front keywords": "snowy raptor, stormy expression, sharp red eyes, maple crest",
     "back keywords": "back swept wings, muscular legs, wind-cutting feather shapes",
-    "image": "GALESTORM.png?v=2"
+    "image": "GALESTORM.png"
   },
   {
     "id": "83",
@@ -1130,7 +1130,7 @@
     "pokedex": "Bristawild is a defensive woodland warrior with razor quills and large claws. It uses its digging skills to create protective burrows and ambush threats with calculated strikes.",
     "front keywords": "hedgehog warrior, sharp quills, strong claws, tan and brown fur, alert eyes, spiky back, combat pose, burrower design",
     "back keywords": "dense quill formation, bristled back arc, long clawed arms, raised rear posture, brown-spined shape",
-    "image": "BRISTAWILD.png?v=2"
+    "image": "BRISTAWILD.png"
   },
   {
     "id": "84",
@@ -1142,7 +1142,7 @@
     "pokedex": "Shaped like a smiling jack-o'-lantern, this creature lures travelers in autumn woods, sharing light and warmth.",
     "front keywords": "pumpkin head, glowing smile, cozy cloak, autumn theme",
     "back keywords": "gourd-shaped back, leaf satchel, curled feet, warm glow",
-    "image": "GOURMUFFIN.png?v=2"
+    "image": "GOURMUFFIN.png"
   },
   {
     "id": "85",
@@ -1154,7 +1154,7 @@
     "pokedex": "A cheerful spirit that dances at dusk, its soft glow guiding travelers toward hope and wonder.",
     "front keywords": "chubby yellow sprite, lavender ribbon arms, star-shaped antenna, smiling face",
     "back keywords": "floating posture, twirling ribbons, soft ombre body, playful tilt",
-    "image": "STARMIRI.png?v=2"
+    "image": "STARMIRI.png"
   },
   {
     "id": "86",
@@ -1172,7 +1172,7 @@
     "pokedex": "Brutalocust is a towering insectoid warrior clad in armor. Its wings slice air like blades, and its drills can burrow into stone. It is revered as a bringer of storms in ancient lore.",
     "front keywords": "black armored bug, red eyes, drill limbs, beetle plating, strong stance, blade wings, insect warrior, menacing form",
     "back keywords": "armored shell back, drills visible from behind, blade wings spread, segmented plates, heavy bug silhouette",
-    "image": "BRUTALOCUST.png?v=2"
+    "image": "BRUTALOCUST.png"
   },
   {
     "id": "87",
@@ -1184,7 +1184,7 @@
     "pokedex": "Born from parchment and wind, this silent flyer is said to be a messenger between realms, light as a whisper.",
     "front keywords": "moth ears, orange wings, folded hands, sandy fur",
     "back keywords": "wing patterns, back claws, sitting pose, light tones",
-    "image": "PAPYRION.png?v=2"
+    "image": "PAPYRION.png"
   },
   {
     "id": "88",
@@ -1196,7 +1196,7 @@
     "pokedex": "This cheerful lion cub absorbs sunlight through its mane of petals, storing energy to share warmth and hope with others.",
     "front keywords": "sunflower mane, golden cub, bright eyes, sitting pose, warm expression",
     "back keywords": "petal mane, golden tail tip, back turned, soft glow",
-    "image": "SOLCUB.png?v=2"
+    "image": "SOLCUB.png"
   },
   {
     "id": "89",
@@ -1208,7 +1208,7 @@
     "pokedex": "Crescyon is a silent moon-runner who bends shadows with its horns. It\u2019s a phantom of twilight and leaves no trail when it strides.",
     "front keywords": "elegant black deer, blue horn swirls, lean body, blue hooves, glowing eyes, nocturnal spirit, sleek stance",
     "back keywords": "horn curls glow from behind, tail sweep to side, back arch in motion, slender leg lines, moonlit silhouette",
-    "image": "CRESCYON.png?v=2"
+    "image": "CRESCYON.png"
   },
   {
     "id": "90",
@@ -1220,7 +1220,7 @@
     "pokedex": "Shrouded in shadows and feared in folklore, Dreadmare is said to gallop across battlefields as a harbinger of ruin. Its fiery mane blazes through the night, and its eyes gleam with an eternal, vengeful fury.",
     "front keywords": "dark horse, flaming mane, red eyes, aggressive stance, black body, fire effects, mythic steed, dramatic lighting, fire aura, spectral",
     "back keywords": "flaming tail, burning mane flow, muscular hind legs, black coat texture, fire trails, smoke effects",
-    "image": "DREADMARE.png?v=2"
+    "image": "DREADMARE.png"
   },
   {
     "id": "91",
@@ -1232,7 +1232,7 @@
     "pokedex": "Cryonix is a holy bird of glaciers, forged in pristine silence. Its diamond-hard feathers reflect starlight and its ring guides lost travelers.",
     "front keywords": "ice penguin, diamond feathers, glowing halo, icy stare, blue sheen, triangular body, snow guardian",
     "back keywords": "halo floats above head, diamond back plating, wing tips from behind, crystal tail, smooth back curve",
-    "image": "CRYONIX.png?v=2"
+    "image": "CRYONIX.png"
   },
   {
     "id": "92",
@@ -1244,7 +1244,7 @@
     "pokedex": "A primal beast cloaked in crystals and moss, its heavy steps shake the ground it treads.",
     "front keywords": "crystal spikes, moss covering, glowing yellow eye, tusked mask",
     "back keywords": "slug-like body, horned faceplate, earthy tones, hunched posture",
-    "image": "WURMCOIL.png?v=2"
+    "image": "WURMCOIL.png"
   },
   {
     "id": "93",
@@ -1262,7 +1262,7 @@
     "pokedex": "Bonecaw is a silent omen perched in graveyards and battlefields, its bone mask hiding an unknowable gaze. It watches from the shadows, speaking only in clicks and caws to those who are marked by fate.",
     "front keywords": "dark crow, bone mask, eerie purple eyes, gothic bird, standing pose, death motif, spectral avian, quiet watcher",
     "back keywords": "black feathered back, mask ridge visible from top, sharp clawed feet, hunched silhouette, matte feathers, long tail feathers",
-    "image": "BONECAW.png?v=2"
+    "image": "BONECAW.png"
   },
   {
     "id": "94",
@@ -1274,7 +1274,7 @@
     "pokedex": "Corvoss is a ghostly harbinger that flies through grave winds. Its skeletal frame and spectral feathers mark it as a guardian of lost souls.",
     "front keywords": "undead crow, skeletal chest, plague mask beak, purple glowing eye, dark feathers, haunting wings, grim reaper bird",
     "back keywords": "spine exposed from behind, feather tips with eye pattern, ghostly mist trail, raised bone wings, talon silhouette",
-    "image": "CORVOSS.png?v=2"
+    "image": "CORVOSS.png"
   },
   {
     "id": "95",
@@ -1286,7 +1286,7 @@
     "pokedex": "Bambuzzleaf is a bamboo forest guardian with a leafy mantle and a boisterous spirit. Though round and cuddly in appearance, it defends its home fiercely with mighty roars and a thumping charge. The leaf sprouting from its head pulses when it senses danger nearby.",
     "front keywords": "leaf panda, chubby body, green leaf collar, bamboo-inspired, cartoon bear, plant creature, open mouth, earthy tones, playful stance",
     "back keywords": "round back, leafy cape from behind, small ears, central leaf sprout, dark fur body, wide plant-textured back",
-    "image": "BAMBUZZLEAF.png?v=2"
+    "image": "BAMBUZZLEAF.png"
   },
   {
     "id": "96",
@@ -1298,7 +1298,7 @@
     "pokedex": "Legends say Piprism carries the first colors of spring in its wings. Wherever it flutters, flowers bloom in its wake.",
     "front keywords": "cute green bird creature, large peacock butterfly wings, bright pink eyes, gem brooch, teal feathers",
     "back keywords": "emerald bird back view, spread teal-blue butterfly wings, feather cape, standing pose",
-    "image": "PIPRISM.png?v=2"
+    "image": "PIPRISM.png"
   },
   {
     "id": "97",
@@ -1316,7 +1316,7 @@
     "pokedex": "With glowing horns and a sunny attitude, this miniature dragon brings light to dark caverns.",
     "front keywords": "small golden dragon, curved horns, soft wings, excited expression",
     "back keywords": "glowing back, light wings, perky tail, golden fluff",
-    "image": "LUMENIP.png?v=2"
+    "image": "LUMENIP.png"
   },
   {
     "id": "98",
@@ -1328,7 +1328,7 @@
     "pokedex": "Born of ice and crystal, this dragon\u2019s body gleams like a frozen gem, with wings as sharp as sapphire blades.",
     "front keywords": "crystal dragon, icy blue body, sapphire wings, small horns",
     "back keywords": "glittering spine, folded crystal wings, reflective tail, gem-like texture",
-    "image": "SHARDSCALE.png?v=2"
+    "image": "SHARDSCALE.png"
   },
   {
     "id": "99",
@@ -1340,7 +1340,7 @@
     "pokedex": "Galloping through burning meadows, Embermane is a fierce stallion made of shadow and flame. Legends speak of it defending sacred volcanic lands, its mane trailing fire and fury.",
     "front keywords": "black fire horse, blazing mane and tail, red eyes, fierce expression, muscular build, rearing pose, fire aura, wild mane, glowing effects, mythic",
     "back keywords": "flowing fire tail, flared hooves, trailing mane, arched back, rearing posture, burning trail",
-    "image": "EMBERMANE.png?v=2"
+    "image": "EMBERMANE.png"
   },
   {
     "id": "100",
@@ -1352,7 +1352,7 @@
     "pokedex": "Camouflaged among mushrooms, this strange flamingo has developed a symbiotic bond with fungal colonies.",
     "front keywords": "mushroom flamingo, orange toadstool hat, thin legs, tan feathers, fungal habitat",
     "back keywords": "mushroom cap, standing in grass, long neck curve, fungal camouflage, odd bird",
-    "image": "SHROOMLINGO.png?v=2"
+    "image": "SHROOMLINGO.png"
   },
   {
     "id": "101",
@@ -1364,7 +1364,7 @@
     "pokedex": "Budbaa is a gentle sun-loving lamb with sunflower blooms on its wool. Its fleece is warm and comforting, and its presence encourages crops to thrive.",
     "front keywords": "white sheep, sunflower on head, petal collar, fluffy wool, pastel fur, smiling face, yellow bloom, plant-lamb hybrid",
     "back keywords": "large flower on back, wooly back body, soft tail, back hooves visible, round sheep silhouette, golden accents",
-    "image": "BUDBAA.png?v=2"
+    "image": "BUDBAA.png"
   },
   {
     "id": "102",
@@ -1382,7 +1382,7 @@
     "pokedex": "A bright and chirpy bird that guides lost travelers by reflecting sunlight with its colorful feathers.",
     "front keywords": "tiny bird, pastel feathers, yellow-pink-green wings, open beak, round body",
     "back keywords": "spread wings, tail fan, glowing tips, soft silhouette, airborne pose",
-    "image": "SKYLUME.png?v=2"
+    "image": "SKYLUME.png"
   },
   {
     "id": "103",
@@ -1394,7 +1394,7 @@
     "pokedex": "Buzzlette is a sprout bee who sleeps in flowerbeds and hums in harmony with sun rays. It blooms with pollen joy, surrounded by petals of protection.",
     "front keywords": "bee fairy, petal dress, round body, yellow fur, pink cheeks, leafy sprout, antennae, joyful, plant-bug hybrid",
     "back keywords": "flower petal skirt, black-striped back, leafy top detail, stubby wings, wide base of petals, bee stripes",
-    "image": "BUZZLETTE.png?v=2"
+    "image": "BUZZLETTE.png"
   },
   {
     "id": "104",
@@ -1406,7 +1406,7 @@
     "pokedex": "Forged in storm and fury, this beast crackles with enough power to black out cities when enraged.",
     "front keywords": "orange demon dragon, horns, lightning eyes, trident staff, fire cape",
     "back keywords": "roaring pose, electric sparks, raised claw, dynamic stance",
-    "image": "VOLTITAN.png?v=2"
+    "image": "VOLTITAN.png"
   },
   {
     "id": "105",
@@ -1418,7 +1418,7 @@
     "pokedex": "Gizmo is a hyperactive creature that zips between gadgets and wires, often leaving sparks behind. It thrives in areas full of technology.",
     "front keywords": "tiny gremlin, wild fur, big grin, energetic pose",
     "back keywords": "fluffy back, stubby tail, faint static arcs",
-    "image": "GIZMO.png?v=2"
+    "image": "GIZMO.png"
   },
   {
     "id": "106",
@@ -1430,7 +1430,7 @@
     "pokedex": "Brinzelda is a cheerful bug-fairy that spreads joy and pollen as it flutters through meadows. Its wings sparkle in sunlight, and its laughter is said to cure gloom.",
     "front keywords": "green insect fairy, sparkly wings, red cheeks, wide grin, tiny antennae, round body, whimsical vibe, flying stance",
     "back keywords": "glassy wings from behind, soft green back, curled tail, antennae barely visible, chubby back figure",
-    "image": "BRINZELDA.png?v=2"
+    "image": "BRINZELDA.png"
   },
   {
     "id": "107",
@@ -1442,7 +1442,7 @@
     "pokedex": "Born from windswept mountain peaks, this noble creature is said to command both lightning and loyalty.",
     "front keywords": "small griffon, orange wings, blue crest, sharp eyes, bow tie",
     "back keywords": "feathered wings, proud stance, tail flare, mountain guardian, regal pose",
-    "image": "SKYRION.png?v=2"
+    "image": "SKYRION.png"
   },
   {
     "id": "108",
@@ -1454,7 +1454,7 @@
     "pokedex": "Charmette is a spunky feline with a flair for drama and ribbons. It\u2019s always prancing and loves attention, charming everyone with its vibrant personality and energetic curls.",
     "front keywords": "stylish cat, red ponytail, blue ribbon, white fur, bright eyes, curled tail, playful pose, fashion flair",
     "back keywords": "hair tie ribbon from behind, curled tail motion, sleek white fur, blue accent trail, back paw lift",
-    "image": "CHARMETTE.png?v=2"
+    "image": "CHARMETTE.png"
   },
   {
     "id": "109",
@@ -1466,7 +1466,7 @@
     "pokedex": "A wise and graceful snail, its ornate shell is said to hold the secrets of ancient rainfall rituals.",
     "front keywords": "ornate snail, cream body, green patterned shell, calm expression, elegant antennae",
     "back keywords": "spiraled shell, floral motifs, trailing slime, slow movement, symmetrical form",
-    "image": "SHELLVIS.png?v=2"
+    "image": "SHELLVIS.png"
   },
   {
     "id": "110",
@@ -1478,7 +1478,7 @@
     "pokedex": "Despite its size, Grudgecub is aggressive and territorial, often baring claws to scare off even larger foes.",
     "front keywords": "angry bear cub, hunched, sharp claws, hostile eyes",
     "back keywords": "crouched posture, back claws visible, fluffy but tense",
-    "image": "GRUDGECUB.png?v=2"
+    "image": "GRUDGECUB.png"
   },
   {
     "id": "111",
@@ -1490,7 +1490,7 @@
     "pokedex": "A gentle spirit of the soil, this cheerful critter sprouts flowers wherever it walks, bringing life to barren ground.",
     "front keywords": "fox-like creature, soft orange fur, green leaf crown with flower, rounded tail",
     "back keywords": "hands to cheeks, tail with blossom, standing upright, fur puffed",
-    "image": "TERRABUD.png?v=2"
+    "image": "TERRABUD.png"
   },
   {
     "id": "112",
@@ -1502,7 +1502,7 @@
     "pokedex": "This celestial beast is believed to soar between stars, guiding lost souls with its burning mane and cosmic aura.",
     "front keywords": "black dragon, gold flames, glowing mane, cosmic wings, fierce eyes",
     "back keywords": "tail swish, burning trail, wings flared, silhouette glow",
-    "image": "ORION.png?v=2"
+    "image": "ORION.png"
   },
   {
     "id": "113",
@@ -1514,7 +1514,7 @@
     "pokedex": "Burrowrex is a reclusive digger that guards buried treasures and roots in the badlands. Its thick shell protects it from predators as it tunnels with sharp claws.",
     "front keywords": "armadillo dinosaur, plated shell, clawed limbs, red mask markings, crouched stance, desert dweller, rugged appearance",
     "back keywords": "rounded back shell, tail visible, armor ridges, large hind claws, back stripes, hunched rear posture",
-    "image": "BURROWREX.png?v=2"
+    "image": "BURROWREX.png"
   },
   {
     "id": "114",
@@ -1526,7 +1526,7 @@
     "pokedex": "This serene being drifts between constellations, its fur mapping the heavens while it slumbers in eternal peace.",
     "front keywords": "soft violet creature, glowing blue eyes, constellation fur patterns, celestial body",
     "back keywords": "sitting still, peaceful expression, back shows star glyphs, tail tucked",
-    "image": "STARNAP.png?v=2"
+    "image": "STARNAP.png"
   },
   {
     "id": "115",
@@ -1538,7 +1538,7 @@
     "pokedex": "Said to be the lost spirit of ancient scholars, it glides silently under starlit skies inscribing runes with each flap.",
     "front keywords": "ghostly bat, rune wings, glowing eye, hooded specter",
     "back keywords": "star sigils, smoky trail, ethereal tail, dark wingspan",
-    "image": "RUNELYFT.png?v=2"
+    "image": "RUNELYFT.png"
   },
   {
     "id": "116",
@@ -1550,7 +1550,7 @@
     "pokedex": "A mysterious creature of shadow and silence, Inkryft is rarely seen in light. Some say it harbors forgotten dreams.",
     "front keywords": "shadow creature, wide eyes, wavy mane, soft silhouette",
     "back keywords": "blacked-out tail, spiked back fur, sleek profile",
-    "image": "INKRYFT.png?v=2"
+    "image": "INKRYFT.png"
   },
   {
     "id": "117",
@@ -1562,7 +1562,7 @@
     "pokedex": "It burrows deep beneath the forest floor, its drill-like claws and earthy scent revealing its subterranean origin.",
     "front keywords": "brown bear cub, drill paws, dirt-covered back, wide orange eyes",
     "back keywords": "sitting position, claws forward, earthy fur, stubby tail",
-    "image": "TERRACUB.png?v=2"
+    "image": "TERRACUB.png"
   },
   {
     "id": "118",
@@ -1580,7 +1580,7 @@
     "pokedex": "Foggin is a spectral pup formed of forest mist. It appears silently at twilight to guide lost travelers home.",
     "front keywords": "misty wolf, glowing eyes, fog mane, blue fur, calm posture, spirit dog",
     "back keywords": "fog trail, cloud-like back, translucent form, ethereal outline, cool blue palette",
-    "image": "FOGGIN.png?v=2"
+    "image": "FOGGIN.png"
   },
   {
     "id": "119",
@@ -1592,7 +1592,7 @@
     "pokedex": "Cerberuff is a three-headed guardian dog born from shadows. Each head has its own bark, but they all agree on protecting the gates of the underworld.",
     "front keywords": "black three-headed dog, red glowing eyes, snarling mouths, smoke cloud, demonic aura, mythic guardian, aggressive posture",
     "back keywords": "three necks from behind, dense black fur, smoke trail, hunched rear legs, muscular canine back, red glow reflection",
-    "image": "CERBERUFF.png?v=2"
+    "image": "CERBERUFF.png"
   },
   {
     "id": "120",
@@ -1604,7 +1604,7 @@
     "pokedex": "Aethermech is a forgotten relic of the skies, forged by ancient hands and powered by divine lightning. With wings of gold and conduits crackling with energy, it serves as both guardian and guide through celestial storms, bound to protect sacred domains from intruders.",
     "front keywords": "mechanical angel, gold wings, glowing blue eyes, electric aura, floating construct, bronze plating, ancient tech, circular energy rings, divine relic, magical automaton",
     "back keywords": "winged helm, circuits glowing from behind, exposed mechanical joints, bronze and gold armor, back-mounted conduits, hovering stance, rear rings visible",
-    "image": "AETHERMECH.png?v=2"
+    "image": "AETHERMECH.png"
   },
   {
     "id": "121",
@@ -1616,7 +1616,7 @@
     "pokedex": "This cheerful creature is a nature mage in training. Its staff sprouts leaves with every spell, and its robe is embroidered with ancient glyphs.",
     "front keywords": "quokka wizard, leafy robe, glowing staff, cartoon mage, flower crown, swirl patterns",
     "back keywords": "robed forest creature back view, floral cape, staff raised, leafy hood",
-    "image": "QUOKKUS.png?v=2"
+    "image": "QUOKKUS.png"
   },
   {
     "id": "122",
@@ -1628,7 +1628,7 @@
     "pokedex": "A clever lurker of shadowy woods, its glowing rings signal an ambush is near\u2014but it\u2019s long gone by the time you notice.",
     "front keywords": "black fox, glowing tail rings, sharp eyes, night hunter",
     "back keywords": "arched back, stealthy step, tail lifted, dark fur glow",
-    "image": "SHADEBANDIT.png?v=2"
+    "image": "SHADEBANDIT.png"
   },
   {
     "id": "123",
@@ -1640,7 +1640,7 @@
     "pokedex": "With a shimmering tail that sparkles like the stars, this cheerful squirrel is known to stash rare magical nuts.",
     "front keywords": "cute squirrel, glitter tail, soft fur, bright eyes",
     "back keywords": "shimmering tail fluff, upright stance, pastel gradient",
-    "image": "GLITTERNUT.png?v=2"
+    "image": "GLITTERNUT.png"
   },
   {
     "id": "124",
@@ -1652,7 +1652,7 @@
     "pokedex": "Often seen weaving through reeds, this shy serpent mimics floating lilies to avoid detection.",
     "front keywords": "aquatic serpent, blue fins, lily mimic tail, peaceful eyes",
     "back keywords": "coiled tail, dorsal fins, spotted texture, low-swim stance",
-    "image": "SERPLASH.png?v=2"
+    "image": "SERPLASH.png"
   },
   {
     "id": "125",
@@ -1664,7 +1664,7 @@
     "pokedex": "A gentle porcupine whose spines surge with electricity when threatened\u2014quiet but not to be underestimated.",
     "front keywords": "golden porcupine, blue electric spines, cute eyes, sitting calmly",
     "back keywords": "fanned spines, calm face, static flickers, paws close together",
-    "image": "WATTQUILL.png?v=2"
+    "image": "WATTQUILL.png"
   },
   {
     "id": "126",
@@ -1676,7 +1676,7 @@
     "pokedex": "Corseal is a cheerful sea creature that camouflages as coral reefs. It bobs through tides, lighting up shallow lagoons with its vibrant charm.",
     "front keywords": "blue seal, coral antlers, orange fins, soft belly, aquatic creature, smiling face, gentle marine glow",
     "back keywords": "coral branches from above, wide fin tail, round back, orange spots trail, sleek aquatic body",
-    "image": "CORSEAL.png?v=2"
+    "image": "CORSEAL.png"
   },
   {
     "id": "127",
@@ -1688,7 +1688,7 @@
     "pokedex": "Florabun is a gentle woodland sprite that nurtures blooming meadows. Its thistle crown marks it as a guardian of flora.",
     "front keywords": "green rabbit, thistle head, leaf fur, big eyes, soft mane, nature creature",
     "back keywords": "leafy spine, fluffy green tail, petal tufts, small paws, thistle bloom from above",
-    "image": "FLORABUN.png?v=2"
+    "image": "FLORABUN.png"
   },
   {
     "id": "128",
@@ -1700,7 +1700,7 @@
     "pokedex": "Ashplume is a regal phoenix of the volcanic isles, reborn through flame and fury. Its fiery crest blazes like the dawn, and its magnificent peacock-like tail glows with ember patterns. When it cries, the wind carries the sound of distant thunder and forgotten flames.",
     "front keywords": "fiery bird, red-orange feathers, peacock tail, glowing eyes, fierce gaze, mythical phoenix, standing posture, elegant wings, fire element",
     "back keywords": "broad tail feathers with glowing patterns, bright crest plume visible from back, wings partially folded, flame-licked edges, feather layering, upright posture",
-    "image": "ASHPLUME.png?v=2"
+    "image": "ASHPLUME.png"
   },
   {
     "id": "129",
@@ -1712,7 +1712,7 @@
     "pokedex": "Shrouded in moss and malice, Moorspite is a vengeful spirit of the bog, haunting those who dare disturb the balance of the wild.",
     "front keywords": "dark green beast, glowing green eyes, mossy fur, antlers, spooky creature, swamp monster",
     "back keywords": "mossy back, shaggy fur, eerie antlers, dark form walking away, ghostly aura",
-    "image": "MOORSPITE.png?v=2"
+    "image": "MOORSPITE.png"
   },
   {
     "id": "130",
@@ -1724,7 +1724,7 @@
     "pokedex": "This mystical dragonfly-like creature flits silently through moonlit groves, leaving trails of glowing wind behind it.",
     "front keywords": "blue moth dragon, glowing eyes, wispy wings, magical aura",
     "back keywords": "fluttering wings, slim body, glow effects, airy motion",
-    "image": "GLIMMOTH.png?v=2"
+    "image": "GLIMMOTH.png"
   },
   {
     "id": "131",
@@ -1736,7 +1736,7 @@
     "pokedex": "Bristlebark is a lumbering forest guardian covered in mossy fur and tree bark. Its antlers and thorny back bristle with warning, and its roar is like wind through the canopy.",
     "front keywords": "green beast, wooden antlers, bark-textured fur, spiked back, forest creature, snarling face, heavy paws, floral accents",
     "back keywords": "branch antlers from behind, mossy back spikes, thick trunk-like limbs, forest green texture, overgrown leaf patches",
-    "image": "BRISTLEBARK.png?v=2"
+    "image": "BRISTLEBARK.png"
   },
   {
     "id": "132",
@@ -1748,7 +1748,7 @@
     "pokedex": "Bowdrake is a rare leafy dragon adorned with a ceremonial bow. It lives in enchanted glades and protects forest paths from those with ill intent. Despite its elegant ribbon, it\u2019s a formidable foe when provoked.",
     "front keywords": "green dragon, pink bow, small wings, leafy back, cute protector, noble expression, spotted belly, tiny horns, magical creature",
     "back keywords": "bow tied behind neck, small dark wings, leaf spine visible, long curling tail, patterned back, draconic silhouette",
-    "image": "BOWDRAKE.png?v=2"
+    "image": "BOWDRAKE.png"
   },
   {
     "id": "133",
@@ -1760,7 +1760,7 @@
     "pokedex": "Beedazzle is a radiant larval creature adorned with dazzling crystals. It crawls slowly through flower fields, spreading pollen-like glitter wherever it goes. Each gem on its back contains stored sunlight to help nearby plants bloom.",
     "front keywords": "crystal caterpillar, pastel gems, yellow body, happy face, gem wings, soft glow, insect baby form, sparkling design, elemental bug",
     "back keywords": "large rainbow crystals, stubby legs, pastel reflections, back-heavy posture, gemstone spread, soft insect curves",
-    "image": "BEEDAZZLE.png?v=2"
+    "image": "BEEDAZZLE.png"
   },
   {
     "id": "134",
@@ -1772,7 +1772,7 @@
     "pokedex": "This lightning-charged feline crackles with power, darting faster than sight on stormy nights.",
     "front keywords": "electric porcupine, glowing quills, golden fur, blue streaks",
     "back keywords": "static sparks, quills bristling, tail curled forward, energetic look",
-    "image": "ZAPTAIL.png?v=2"
+    "image": "ZAPTAIL.png"
   },
   {
     "id": "135",
@@ -1784,7 +1784,7 @@
     "pokedex": "Living atop the coldest peaks, Glacibex is a hardy mountain goat with crystal formations in its fur. Its breath can summon a freezing fog.",
     "front keywords": "icy goat, crystal spines, curved horns, thick winter coat",
     "back keywords": "shaggy back, blue crystal ridges, frost-dusted tail",
-    "image": "GLACIBEX.png?v=2"
+    "image": "GLACIBEX.png"
   },
   {
     "id": "136",
@@ -1796,7 +1796,7 @@
     "pokedex": "This playful fox radiates a gentle heat from its flame-like fur. Emberine is often found frolicking in warm glades, where it stirs embers with its joyful energy and spreads light wherever it goes.",
     "front keywords": "small fox, yellow and orange fur, star marking, big eyes, warm glow, sitting pose, flame-like ears and tail, pink cheeks, friendly",
     "back keywords": "swirling flame tail, back fluff, pointed ears, star-shaped marking, curled seated posture, soft gradient coloring",
-    "image": "EMBERINE.png?v=2"
+    "image": "EMBERINE.png"
   },
   {
     "id": "137",
@@ -1808,7 +1808,7 @@
     "pokedex": "Bubbliss is a playful water spirit that bounces over waves with glee. Its jelly body glows in moonlight, and it brings calm to any who touch its shimmering surface.",
     "front keywords": "blue bubble creature, happy face, glowing cheeks, jelly body, small fins, watery tail, floating pose, water sprite",
     "back keywords": "smooth blue back, light trail droplets, fin ripples, bubbly tail, rounded water shape, glossy texture",
-    "image": "BUBBLISS.png?v=2"
+    "image": "BUBBLISS.png"
   },
   {
     "id": "138",
@@ -1826,7 +1826,7 @@
     "pokedex": "Buffawn is a cheerful plains-dweller known for its joyful gallops and hearty laugh. It often races the wind across open fields, bringing good luck to those it passes.",
     "front keywords": "brown bison calf, large horns, fluffy mane, joyful expression, cartoon hooves, running pose, prairie creature, laughing mouth",
     "back keywords": "curly back fur, short tufted tail, horn arcs from behind, rear leg motion, broad shoulder fluff",
-    "image": "BUFFAWN.png?v=2"
+    "image": "BUFFAWN.png"
   },
   {
     "id": "139",
@@ -1838,7 +1838,7 @@
     "pokedex": "A guardian of moonlit forests, Faewyn flutters between realms with grace. Its wings shimmer like morning dew on leaves, and its presence soothes even the fiercest foes.",
     "front keywords": "fae deer, butterfly wings, blue tones, glowing eyes, elegant, antlers, pastel feathers, magical creature, graceful stance, ethereal",
     "back keywords": "wide wingspan, delicate wing pattern, light blue back, small hooves, ethereal glow, layered feathers",
-    "image": "FAEWYN.png?v=2"
+    "image": "FAEWYN.png"
   },
   {
     "id": "140",
@@ -1850,7 +1850,7 @@
     "pokedex": "This jelly-like being floats through dark forests, glowing with bioluminescence. The mushrooms growing on its body feed on the stars it absorbs.",
     "front keywords": "mushroom jellyfish, night sky pattern, glowing blue, star markings",
     "back keywords": "mushroom cap dome, pulsing spores, luminous jelly tentacles",
-    "image": "FUNGALUX.png?v=2"
+    "image": "FUNGALUX.png"
   },
   {
     "id": "141",
@@ -1862,7 +1862,7 @@
     "pokedex": "A sentinel forged from brass and obsidian, Mechalupine prowls forgotten ruins with a growl like grinding gears. Legends say it guards the secrets of the ancients.",
     "front keywords": "mechanical wolf, black fur, brass armor, glowing red eyes, steampunk, metal limbs, aggressive stance",
     "back keywords": "mechanical back, armored spine, tail plates, brass joints, dark silhouette from rear",
-    "image": "MECHALUPINE.png?v=2"
+    "image": "MECHALUPINE.png"
   },
   {
     "id": "142",
@@ -1874,7 +1874,7 @@
     "pokedex": "Playful and agile, Kelpup glides through underwater forests, nibbling on coral and tickling passing fish with its leafy fur.",
     "front keywords": "aquatic otter, leaf fins, bubbly expression, sleek fur",
     "back keywords": "flowing tail, kelp mane, webbed feet",
-    "image": "KELPUP.png?v=2"
+    "image": "KELPUP.png"
   },
   {
     "id": "143",
@@ -1886,7 +1886,7 @@
     "pokedex": "A guardian of blossom groves, it glows faintly at dusk and summons light with its fluttering wings.",
     "front keywords": "butterfly mouse, green fur, leafy wings, lotus blossom",
     "back keywords": "wing glow, small paws, soft hues, hovering stance",
-    "image": "PETALIGHT.png?v=2"
+    "image": "PETALIGHT.png"
   },
   {
     "id": "144",
@@ -1898,7 +1898,7 @@
     "pokedex": "Buttermew is a sweet-natured critter with wings of syrup and a pat of magical butter atop its head. Its warm scent draws both friends and foes alike.",
     "front keywords": "butter-topped creature, golden wings, chubby body, cartoon style, orange fur, round face, whimsical, joyful vibe",
     "back keywords": "wing tips curved back, butter square on head, fluffy tail, smooth back curves, cozy yellow tones",
-    "image": "BUTTERMEW.png?v=2"
+    "image": "BUTTERMEW.png"
   },
   {
     "id": "145",
@@ -1910,7 +1910,7 @@
     "pokedex": "This elegant monarch of the lakes exudes grace and wisdom, ruling with a calm dignity from her crystal waters.",
     "front keywords": "white swan queen, ice-blue feathers, jeweled gold crown and collar, regal eyes",
     "back keywords": "wings open in greeting, neck arched, shimmering plumage, crown gleam",
-    "image": "SWANAREIGN.png?v=2"
+    "image": "SWANAREIGN.png"
   },
   {
     "id": "146",
@@ -1922,7 +1922,7 @@
     "pokedex": "Flotter is an otter-like swimmer who crafts river tools from shells. Its necklace rings clink as it dashes through streams.",
     "front keywords": "otter creature, red fur, white underbelly, shell necklace, curious face, playful look",
     "back keywords": "smooth tail, sleek fur pattern, necklace shell backs, brown paws, agile shape",
-    "image": "FLOTTER.png?v=2"
+    "image": "FLOTTER.png"
   },
   {
     "id": "147",
@@ -1940,7 +1940,7 @@
     "pokedex": "Coinnip is a sneaky fox who hoards gold in hidden pouches. With every snicker, it plots its next heist, always a step ahead of the greedy.",
     "front keywords": "gold thief fox, smug face, coin in paw, brown fur, sneaky grin, sack bundles, trickster, agile stance",
     "back keywords": "tail raised high, pouch straps visible, ears perked from behind, coin shimmer reflection, quick pose form",
-    "image": "COINNIP.png?v=2"
+    "image": "COINNIP.png"
   },
   {
     "id": "148",
@@ -1952,7 +1952,7 @@
     "pokedex": "Pyrek\u2019s cackling howl foretells wildfires. It lives in volcanic plains and builds dens of obsidian and bone.",
     "front keywords": "feral hyena creature, fiery fur, blue glowing eyes, jagged smile, flame patterns",
     "back keywords": "wild canine back view, ember tail, electric stripes, spiked back fur",
-    "image": "PYREK.png?v=2"
+    "image": "PYREK.png"
   },
   {
     "id": "149",
@@ -1970,7 +1970,7 @@
     "pokedex": "This sprout-like creature hides in ponds and chirps musically in the rain.",
     "front keywords": "round green creature, lily-of-the-valley plant, soft smile, dotted pattern",
     "back keywords": "leafy back, small flower bulbs, seated pose, gentle tones",
-    "image": "LILYPADLE.png?v=2"
+    "image": "LILYPADLE.png"
   },
   {
     "id": "150",
@@ -1982,7 +1982,7 @@
     "pokedex": "This forest sprite is known to chime gently as it walks, bringing luck and blooming flora in its wake.",
     "front keywords": "leafy humanoid, lily of the valley buds, wide eyes, nature spirit",
     "back keywords": "leafy cloak from behind, flower stalks, small barefoot steps",
-    "image": "LILYBELL.png?v=2"
+    "image": "LILYBELL.png"
   },
   {
     "id": "151",
@@ -1994,7 +1994,7 @@
     "pokedex": "Said to embody purity, Halumo floats through the skies, guiding lost souls gently to rest with its angelic glow.",
     "front keywords": "angel cloud, halo, soft wings, cute eyes",
     "back keywords": "cloudy back, halo from behind, light wings, floating",
-    "image": "HALUMO.png?v=2"
+    "image": "HALUMO.png"
   },
   {
     "id": "152",
@@ -2006,7 +2006,7 @@
     "pokedex": "Abyeye is a solitary creature of the deep, a living abyssal sentinel. Its single, hypnotic eye sees through lies and into the soul of its prey. Legends say it drifts silently across the ocean floor, feeding on fear and forgotten memories, its spiked body absorbing all that comes too close.",
     "front keywords": "black spiked orb, single large eye, eerie gaze, sea urchin shape, deep sea creature, floating, horror-inspired, symmetrical design, dark palette, mystical entity",
     "back keywords": "spikes radiating outward, no visible eye, central dark core, orb silhouette, slightly glossy back surface, spiny texture, hollow center illusion",
-    "image": "ABYEYE.png?v=2"
+    "image": "ABYEYE.png"
   },
   {
     "id": "153",
@@ -2024,7 +2024,7 @@
     "pokedex": "Cuboulder is a grumpy forest sentinel with a mossy shell. It carries ancient wisdom in silence and won\u2019t move unless absolutely necessary.",
     "front keywords": "rock turtle bear, mossy stone shell, spiral symbol, angry expression, heavy limbs, earthy tones, grounded creature",
     "back keywords": "craggy stone shell, moss patches, squat hind legs, back spiral glow, stone segments visible",
-    "image": "CUBOULDER.png?v=2"
+    "image": "CUBOULDER.png"
   },
   {
     "id": "154",
@@ -2036,7 +2036,7 @@
     "pokedex": "A unicorn born under starlight, Auravelle glows with celestial grace. Her flowing golden mane shimmers like sunlight on dew, and she dances effortlessly between the clouds. Believed to bring peace to any land she walks, her presence marks a blessed era.",
     "front keywords": "white pegasus unicorn, golden mane, gentle expression, hooved feet, elegant stance, mythical creature, light aura, soft curves, divine mount",
     "back keywords": "flowing mane trailing behind, white wings folded back, tail curled gracefully, golden hooves visible, back legs in proud stance, bright fur texture",
-    "image": "AURAVELLE.png?v=2"
+    "image": "AURAVELLE.png"
   },
   {
     "id": "155",
@@ -2048,7 +2048,7 @@
     "pokedex": "This reclusive critter hides under its shell, revealing its gleaming eyes only when the coast is clear.",
     "front keywords": "clam shell, black body, yellow star eyes, cautious face",
     "back keywords": "back shell dome, glossy pink, tucked feet, flat base",
-    "image": "PERCLAMP.png?v=2"
+    "image": "PERCLAMP.png"
   },
   {
     "id": "156",
@@ -2060,7 +2060,7 @@
     "pokedex": "Forged in ancient mountain furnaces, Forgron\u2019s metal body is powered by steam pressure and molten energy. It tirelessly hammers glowing ores into mysterious shapes.",
     "front keywords": "armored cyclops golem, fire hammer, smoke vents, single eye, furnace-powered",
     "back keywords": "thick metal limbs, chained flame tail, rear vents emitting steam",
-    "image": "FORGRON.png?v=2"
+    "image": "FORGRON.png"
   },
   {
     "id": "157",
@@ -2072,7 +2072,7 @@
     "pokedex": "A fluffy crawler that nests in cherry trees, weaving silk hammocks from its own floral fuzz.",
     "front keywords": "pink fuzzy spider, sakura petals, big eyes, cute floral design",
     "back keywords": "round body, shy expression, petals blooming, soft texture",
-    "image": "WEBLOOM.png?v=2"
+    "image": "WEBLOOM.png"
   },
   {
     "id": "158",
@@ -2084,7 +2084,7 @@
     "pokedex": "Despite its small stature, this red panda possesses the soul of a warrior and trains daily to protect its forest.",
     "front keywords": "cute red panda, large eyes, striped tail, round head, sitting pose",
     "back keywords": "fluffy tail, hunched posture, forest guardian, animal cub, red fur",
-    "image": "SHIFU.png?v=2"
+    "image": "SHIFU.png"
   },
   {
     "id": "159",
@@ -2096,7 +2096,7 @@
     "pokedex": "A playful sea whelp that dances in currents, its bubble breaths signal an oncoming downpour to sailors.",
     "front keywords": "dark blue seahorse dragon, light wings, bubble breath, ocean dweller",
     "back keywords": "hovering upright, curled tail, water droplets, side fins spread",
-    "image": "TIDROAK.png?v=2"
+    "image": "TIDROAK.png"
   },
   {
     "id": "160",
@@ -2108,7 +2108,7 @@
     "pokedex": "An elusive forest dweller whose jewel-like fur patterns shimmer under moonlight, said to bring luck to those who spot it.",
     "front keywords": "graceful ferret, red gems, elegant stance, wide eyes",
     "back keywords": "bushy tail, sleek back, gem-patterned fur, arched posture",
-    "image": "GLEAMIRA.png?v=2"
+    "image": "GLEAMIRA.png"
   },
   {
     "id": "161",
@@ -2120,7 +2120,7 @@
     "pokedex": "A regal and elusive creature, Frosthorn roams the icy highlands. Its antlers shimmer with frost, and its cold gaze can freeze threats in their tracks.",
     "front keywords": "ice stag, crystalline tail, elegant white coat, piercing blue eyes",
     "back keywords": "multiple icy antlers, fluffed winter coat, glacial-patterned tail",
-    "image": "FROSTHORN.png?v=2"
+    "image": "FROSTHORN.png"
   },
   {
     "id": "162",
@@ -2132,7 +2132,7 @@
     "pokedex": "Clamora is a royal mollusk whose pearls hum with ancient songs. It dances atop waves and shelters secrets in its petal crown.",
     "front keywords": "pearl sea creature, pink shell, white pearls, blue eyes, royal headdress, calm face, aquatic jewelry",
     "back keywords": "layered pearl rings, clam shell folds, rear crown detail, circular back body, pink petal texture",
-    "image": "CLAMORA.png?v=2"
+    "image": "CLAMORA.png"
   },
   {
     "id": "163",
@@ -2144,7 +2144,7 @@
     "pokedex": "Chargnode is a power-packed crawler used to ignite old generators and defend power plants. Its lightning bolt antenna surges with electric pulses.",
     "front keywords": "metallic quadruped, lightning bolt head, black and white shell, gold trim, angry expression, tech-creature, electric-type",
     "back keywords": "cable tail, dome-shaped shell, back-mounted coil, robotic limbs, antenna arcs backward, shock markings",
-    "image": "CHARGNODE.png?v=2"
+    "image": "CHARGNODE.png"
   },
   {
     "id": "164",
@@ -2156,7 +2156,7 @@
     "pokedex": "Fueled by sparks and steam, this monkey is a crafty inventor known for building explosive gadgets.",
     "front keywords": "steampunk monkey, goggles, spark tail, brown fur, brass harness",
     "back keywords": "smoke trail, gear backpack, mechanical tail, crouched pose, steamy effect",
-    "image": "SMOKETAIL.png?v=2"
+    "image": "SMOKETAIL.png"
   },
   {
     "id": "165",
@@ -2174,7 +2174,7 @@
     "pokedex": "Wreathed in tribal mystery, Eldrun is a nomadic guardian believed to protect ancient ruins. Its skeletal mask and runic markings tell of countless battles fought and wisdom passed from elder to elder.",
     "front keywords": "spirit deer, skeletal mask, braids, tribal patterns, dark fur, glowing red eyes, ancient markings, long tail, hoofed legs, protector",
     "back keywords": "braided hair, spiral mark on side, back of skull mask, long flowing tail, slender back legs, shadowy silhouette",
-    "image": "ELDRUN.png?v=2"
+    "image": "ELDRUN.png"
   },
   {
     "id": "166",
@@ -2192,7 +2192,7 @@
     "pokedex": "Shrouded in ancient curses, it stalks the earth wearing bones of its prey like armor.",
     "front keywords": "bone mask, skeletal claws, fang tusks, mummy wrappings",
     "back keywords": "crouched position, extended claws, shadowy pelt, red-stained tusks",
-    "image": "WRAITHUSK.png?v=2"
+    "image": "WRAITHUSK.png"
   },
   {
     "id": "167",
@@ -2204,7 +2204,7 @@
     "pokedex": "From the swamp's depths it rises\u2014part guardian, part phantom\u2014wearing bark and bone as armor.",
     "front keywords": "skeletal swamp beast, moss-covered shell, wooden claws, eerie eyes",
     "back keywords": "vine limbs, mossy back, broken skull mask, hunched posture",
-    "image": "SCARAKNIGHT.png?v=2"
+    "image": "SCARAKNIGHT.png"
   },
   {
     "id": "168",
@@ -2222,7 +2222,7 @@
     "pokedex": "Crooklet is a curious hatchling who thinks the world is a game. It bites playfully and often tumbles through its own steps.",
     "front keywords": "baby croc, wide eyes, green back ridges, round snout, orange body, cute pose, early evolution",
     "back keywords": "green scale ridges, stubby tail, rounded back, back feet peeking out, waddling posture",
-    "image": "CROOKLET.png?v=2"
+    "image": "CROOKLET.png"
   },
   {
     "id": "169",
@@ -2234,7 +2234,7 @@
     "pokedex": "Crocclaw is a fierce reptilian brawler that dominates swamp arenas. With heavy fists and a tail smash, it crushes all challengers.",
     "front keywords": "orange crocodile, green spikes, sharp claws, combat stance, thick tail, belly armor, aggressive expression",
     "back keywords": "green back spikes, large curved tail, clawed arms behind, wide back plates, brawler shoulders",
-    "image": "CROCCLAW.png?v=2"
+    "image": "CROCCLAW.png"
   },
   {
     "id": "170",
@@ -2246,7 +2246,7 @@
     "pokedex": "This curious hamster crackles with static energy, using the patterns on its fur to store and release controlled electric bursts.",
     "front keywords": "round hamster, orange-and-white fur, electric markings, upright stance, tiny paws",
     "back keywords": "spark-patterned back, curled tail, whiskers twitching, alert posture",
-    "image": "SPARMLET.png?v=2"
+    "image": "SPARMLET.png"
   },
   {
     "id": "171",
@@ -2258,7 +2258,7 @@
     "pokedex": "Chimeraze is a spectral jelly that jingle-dances through haunted halls. Its bells summon faded memories and lost spirits that shimmer like music.",
     "front keywords": "red ghost blob, golden bells, floating arms, glowing eyes, haunted face, spooky cheerful, sound-based ghost",
     "back keywords": "bell arms extended, smooth cloak shape, top bell visible from above, back flare hem, floaty body tilt",
-    "image": "CHIMERAZE.png?v=2"
+    "image": "CHIMERAZE.png"
   },
   {
     "id": "172",
@@ -2270,7 +2270,7 @@
     "pokedex": "Cryowarden is a lone alpha of frozen tundras, prowling beneath northern lights. Its howl summons blizzards and chills hearts.",
     "front keywords": "frost wolf, glowing cyan markings, white mane, dark fur, icy gaze, thick tail, elemental guardian",
     "back keywords": "diamond patches on back, fluffy tail curled, shoulder fur tufts, ice shard glints, lean snowy figure",
-    "image": "CRYOWARDEN.png?v=2"
+    "image": "CRYOWARDEN.png"
   },
   {
     "id": "173",
@@ -2282,7 +2282,7 @@
     "pokedex": "This enigmatic guardian is woven from ancient roots and bark. Its glowing chest holds the spirit of the forest.",
     "front keywords": "wood beast, faceless, vine limbs, glowing core",
     "back keywords": "knotty texture, tail root, curved back legs",
-    "image": "KNOTSHADE.png?v=2"
+    "image": "KNOTSHADE.png"
   },
   {
     "id": "174",
@@ -2294,7 +2294,7 @@
     "pokedex": "An ancient serpent said to swim through winds like waves\u2014its iridescent scales shimmer like glass.",
     "front keywords": "long feathered dragon, layered sapphire scales, sharp snout, ethereal",
     "back keywords": "coiled S-shape, open mouth, floating midair, wind ripple effects",
-    "image": "VIRELDRAKE.png?v=2"
+    "image": "VIRELDRAKE.png"
   },
   {
     "id": "175",
@@ -2306,7 +2306,7 @@
     "pokedex": "Brambarric is a desert beast whose back is covered in electrified cactus growths. It channels sandstorms through its spines and moves with thundering weight, its steps cracking the dry earth.",
     "front keywords": "cactus beast, tan striped body, green cactus on back, armored limbs, desert creature, grounded pose, electric thorns, savage stance",
     "back keywords": "spiny cactus ridge, striped tail, wide shoulders, earthen textures, desert pattern back, lightning marks",
-    "image": "BRAMBARRIC.png?v=2"
+    "image": "BRAMBARRIC.png"
   },
   {
     "id": "176",
@@ -2318,7 +2318,7 @@
     "pokedex": "This cursed creature weaves webs of fate and sorrow in the darkest corners of the world. Arachne\u2019s shadowy cloak conceals her spider limbs and the haunting skull she wears as a brooch. Those who see her rarely escape her labyrinth of threads and illusions.",
     "front keywords": "dark spider cloak, skull ornament, shadowy veil, glowing blue eyes, gothic creature, web spinner, cloak-covered limbs, draped design, eerie elegance",
     "back keywords": "hooded back, black widow silhouette, multiple legs emerging below, textured spider cape, skull not visible, flowing fabric, pointed limb angles",
-    "image": "ARACHNE.png?v=2"
+    "image": "ARACHNE.png"
   },
   {
     "id": "177",
@@ -2330,7 +2330,7 @@
     "pokedex": "Once a forgotten toy, it came to life with stitched magic and now roams to bring joy\u2014or mischief.",
     "front keywords": "plush cat, button eyes, wide grin, stitched smile, flower neck",
     "back keywords": "mismatched limbs, thread details, cheerful pose, pastel colors",
-    "image": "PATCHY.png?v=2"
+    "image": "PATCHY.png"
   },
   {
     "id": "178",
@@ -2342,7 +2342,7 @@
     "pokedex": "Boomlet is a tiny but volatile rodent with an explosive tail. It\u2019s quick to dart and quicker to spark, leaving trails of fizzing light in its wake. Though small, it\u2019s a favorite companion of demolition crews.",
     "front keywords": "mouse bomb, dark fur, fuse tail, tiny paws, rounded ears, orange eyes, cautious stance, volatile creature, spark element",
     "back keywords": "fuse glowing at tail tip, small rounded back, upright ears from behind, crouched posture, short limbs, explosive detail",
-    "image": "BOOMLET.png?v=2"
+    "image": "BOOMLET.png"
   },
   {
     "id": "179",
@@ -2354,7 +2354,7 @@
     "pokedex": "Said to haunt forgotten roads, its lantern head shines in mourning, leading the lost and warning the wicked.",
     "front keywords": "ghostly lantern, ribbon arms, glowing eyes, floating body",
     "back keywords": "smoky tail, faded limbs, metal top, eerie stance",
-    "image": "PHANTURN.png?v=2"
+    "image": "PHANTURN.png"
   },
   {
     "id": "180",
@@ -2366,7 +2366,7 @@
     "pokedex": "Charmaw is a volcanic wolf born of molten fury. Its cracked hide glows with magma, and its bite can sear rock. It prowls ash-covered slopes as a fire-forged predator.",
     "front keywords": "lava wolf, molten cracks, glowing orange core, black fur, snarling jaws, fire elemental, sharp claws, fierce stance",
     "back keywords": "cracked molten spine, ember trail, thick black tail, glowing shoulder lines, fiery back veins",
-    "image": "CHARMAW.png?v=2"
+    "image": "CHARMAW.png"
   },
   {
     "id": "181",
@@ -2378,7 +2378,7 @@
     "pokedex": "It once thrived in sunlit groves, but now roams shadowed woods, weeping sap and spreading despair with every step.",
     "front keywords": "sad sunflower face, withered petals, gnarled root limbs, vine arms",
     "back keywords": "slouched stance, one flower raised, bark-textured legs, dark yellow-green color",
-    "image": "WILTROOT.png?v=2"
+    "image": "WILTROOT.png"
   },
   {
     "id": "182",
@@ -2390,7 +2390,7 @@
     "pokedex": "An eerie beast that blooms under moonlight, its skull-faced flower warns travelers of deep forest curses.",
     "front keywords": "dark lion, flower skull face, bramble mane, haunting eyes",
     "back keywords": "twisted thorns, skeletal neck, petal fringe, shadowed legs",
-    "image": "ROSGRIM.png?v=2"
+    "image": "ROSGRIM.png"
   },
   {
     "id": "183",
@@ -2402,7 +2402,7 @@
     "pokedex": "",
     "front keywords": "",
     "back keywords": "",
-    "image": "BANANIBBLE.png?v=2"
+    "image": "BANANIBBLE.png"
   },
   {
     "id": "184",
@@ -2420,7 +2420,7 @@
     "pokedex": "",
     "front keywords": "",
     "back keywords": "",
-    "image": "BLOSSFAWN.png?v=2"
+    "image": "BLOSSFAWN.png"
   },
   {
     "id": "185",
@@ -2432,7 +2432,7 @@
     "pokedex": "",
     "front keywords": "",
     "back keywords": "",
-    "image": "BUZZBERRY.png?v=2"
+    "image": "BUZZBERRY.png"
   },
   {
     "id": "186",
@@ -2444,7 +2444,7 @@
     "pokedex": "",
     "front keywords": "",
     "back keywords": "",
-    "image": "CABBUSKID.png?v=2"
+    "image": "CABBUSKID.png"
   },
   {
     "id": "187",
@@ -2456,7 +2456,7 @@
     "pokedex": "",
     "front keywords": "",
     "back keywords": "",
-    "image": "CHURUBLOOM.png?v=2"
+    "image": "CHURUBLOOM.png"
   },
   {
     "id": "188",
@@ -2468,7 +2468,7 @@
     "pokedex": "",
     "front keywords": "",
     "back keywords": "",
-    "image": "CINDRAKE.png?v=2"
+    "image": "CINDRAKE.png"
   },
   {
     "id": "189",
@@ -2480,7 +2480,7 @@
     "pokedex": "",
     "front keywords": "",
     "back keywords": "",
-    "image": "FLORABELL.png?v=2"
+    "image": "FLORABELL.png"
   },
   {
     "id": "190",
@@ -2492,7 +2492,7 @@
     "pokedex": "",
     "front keywords": "",
     "back keywords": "",
-    "image": "GLIDELETTE.png?v=2"
+    "image": "GLIDELETTE.png"
   },
   {
     "id": "191",
@@ -2504,7 +2504,7 @@
     "pokedex": "",
     "front keywords": "",
     "back keywords": "",
-    "image": "KINGRUS.png?v=2"
+    "image": "KINGRUS.png"
   },
   {
     "id": "192",
@@ -2516,7 +2516,7 @@
     "pokedex": "",
     "front keywords": "",
     "back keywords": "",
-    "image": "PETALKA.png?v=2"
+    "image": "PETALKA.png"
   },
   {
     "id": "193",
@@ -2534,7 +2534,7 @@
     "pokedex": "",
     "front keywords": "",
     "back keywords": "",
-    "image": "PINALISK.png?v=2"
+    "image": "PINALISK.png"
   },
   {
     "id": "194",
@@ -2546,7 +2546,7 @@
     "pokedex": "",
     "front keywords": "",
     "back keywords": "",
-    "image": "PRETZYL.png?v=2"
+    "image": "PRETZYL.png"
   },
   {
     "id": "195",
@@ -2558,7 +2558,7 @@
     "pokedex": "",
     "front keywords": "",
     "back keywords": "",
-    "image": "ROSEQUINE.png?v=2"
+    "image": "ROSEQUINE.png"
   },
   {
     "id": "196",
@@ -2576,7 +2576,7 @@
     "pokedex": "",
     "front keywords": "",
     "back keywords": "",
-    "image": "SHELLTROID.png?v=2"
+    "image": "SHELLTROID.png"
   },
   {
     "id": "197",
@@ -2588,7 +2588,7 @@
     "pokedex": "",
     "front keywords": "",
     "back keywords": "",
-    "image": "STRAWPUP.png?v=2"
+    "image": "STRAWPUP.png"
   },
   {
     "id": "198",
@@ -2600,7 +2600,7 @@
     "pokedex": "",
     "front keywords": "",
     "back keywords": "",
-    "image": "SUNGLINT.png?v=2"
+    "image": "SUNGLINT.png"
   },
   {
     "id": "199",
@@ -2612,7 +2612,7 @@
     "pokedex": "",
     "front keywords": "",
     "back keywords": "",
-    "image": "TANGLATO.png?v=2"
+    "image": "TANGLATO.png"
   },
   {
     "id": "200",
@@ -2624,7 +2624,7 @@
     "pokedex": "",
     "front keywords": "",
     "back keywords": "",
-    "image": "TRITOISE.png?v=2"
+    "image": "TRITOISE.png"
   },
   {
     "id": "201",
@@ -2636,7 +2636,7 @@
     "pokedex": "",
     "front keywords": "",
     "back keywords": "",
-    "image": "VINECREST.png?v=2"
+    "image": "VINECREST.png"
   },
   {
     "id": "202",
@@ -2648,7 +2648,7 @@
     "pokedex": "",
     "front keywords": "",
     "back keywords": "",
-    "image": "VOLTUS.png?v=2"
+    "image": "VOLTUS.png"
   },
   {
     "id": "203",
@@ -2660,7 +2660,7 @@
     "pokedex": "",
     "front keywords": "",
     "back keywords": "",
-    "image": "YARNAI.png?v=2"
+    "image": "YARNAI.png"
   },
   {
     "id": "204",
@@ -2678,7 +2678,7 @@
     "pokedex": "",
     "front keywords": "",
     "back keywords": "",
-    "image": "SOLKIT.png?v=2"
+    "image": "SOLKIT.png"
   },
   {
     "id": "205",
@@ -2690,7 +2690,7 @@
     "pokedex": "",
     "front keywords": "",
     "back keywords": "",
-    "image": "FROSTCORE.png?v=2"
+    "image": "FROSTCORE.png"
   },
   {
     "id": "206",
@@ -2702,7 +2702,7 @@
     "pokedex": "",
     "front keywords": "",
     "back keywords": "",
-    "image": "DOOMHAWN.png?v=2"
+    "image": "DOOMHAWN.png"
   },
   {
     "id": "207",
@@ -2714,7 +2714,7 @@
     "pokedex": "",
     "front keywords": "",
     "back keywords": "",
-    "image": "GROTHORN.png?v=2"
+    "image": "GROTHORN.png"
   },
   {
     "id": "208",
@@ -2726,7 +2726,7 @@
     "pokedex": "",
     "front keywords": "",
     "back keywords": "",
-    "image": "JAWBRUTE.png?v=2"
+    "image": "JAWBRUTE.png"
   },
   {
     "id": "209",
@@ -2738,7 +2738,7 @@
     "pokedex": "",
     "front keywords": "",
     "back keywords": "",
-    "image": "GRINLASH.png?v=2"
+    "image": "GRINLASH.png"
   },
   {
     "id": "210",
@@ -2750,7 +2750,7 @@
     "pokedex": "",
     "front keywords": "",
     "back keywords": "",
-    "image": "VOIDLOCUST.png?v=2"
+    "image": "VOIDLOCUST.png"
   },
   {
     "id": "211",
@@ -2762,7 +2762,7 @@
     "pokedex": "",
     "front keywords": "",
     "back keywords": "",
-    "image": "FLAREBEAR.png?v=2"
+    "image": "FLAREBEAR.png"
   },
   {
     "id": "212",
@@ -2774,19 +2774,25 @@
     "pokedex": "",
     "front keywords": "",
     "back keywords": "",
-    "image": "JOLTMAW.png?v=2"
+    "image": "JOLTMAW.png"
   },
   {
     "id": "213",
     "name": "MOOBELL",
-    "old name": "CREAMOO,Level,24",
+    "old name": "",
     "types": "Normal",
-    "evolutions": [],
+    "evolutions": [
+      [
+        "CREAMOO",
+        "Level",
+        "24"
+      ]
+    ],
     "size": "0.8",
     "pokedex": "",
     "front keywords": "",
     "back keywords": "",
-    "image": "MOOBELL.png?v=2"
+    "image": "MOOBELL.png"
   },
   {
     "id": "214",
@@ -2798,19 +2804,25 @@
     "pokedex": "",
     "front keywords": "",
     "back keywords": "",
-    "image": "CREAMOO.png?v=2"
+    "image": "CREAMOO.png"
   },
   {
     "id": "215",
     "name": "CHOCOBLAZE",
-    "old name": "PYROOST,Level,26",
+    "old name": "",
     "types": "Fire",
-    "evolutions": [],
+    "evolutions": [
+      [
+        "PYROOST",
+        "Level",
+        "26"
+      ]
+    ],
     "size": "0.9",
     "pokedex": "",
     "front keywords": "",
     "back keywords": "",
-    "image": "CHOCOBLAZE.png?v=2"
+    "image": "CHOCOBLAZE.png"
   },
   {
     "id": "216",
@@ -2822,6 +2834,6 @@
     "pokedex": "",
     "front keywords": "",
     "back keywords": "",
-    "image": "PYROOST.png?v=2"
+    "image": "PYROOST.png"
   }
 ]
