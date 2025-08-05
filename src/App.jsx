@@ -96,7 +96,7 @@ function EntryDetail({ creature, reverseEvolutions, creatures }) {
       <div style={{ position: 'absolute', top: '20px', left: '20px' }}>
         <Link to="/" style={{ color: '#90cdf4' }}>← Back to index</Link>
       </div>
-      <img src={`${import.meta.env.BASE_URL}combined/${name}.png`} alt={name} className={styles['entry-img']} style={{ width: '400px', height: '200px', objectFit: 'contain' }} />
+	  <img src={`${import.meta.env.BASE_URL}combined/${name}.png`} alt={name} className={styles['entry-img-combined']} />
       <h2 className={styles.caesar}>{`#${String(creature.id).padStart(3, '0')} ${name}`}</h2>
       <div>
         {types.map((t) => (

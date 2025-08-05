@@ -41,7 +41,7 @@
         "13"
       ]
     ],
-    "size": "0.8",
+    "size": "0.6",
     "pokedex": "Always on the move, this spiky critter rolls into a ball to zoom through forests and fields, leaving behind trails of scattered leaves.",
     "front keywords": "dark green hedgehog, sharp quills, big eyes, rounded belly, grassy ground",
     "back keywords": "quill-covered back, low stance, curled-up outline, green blur",
@@ -133,6 +133,11 @@
         "BEEATRICE",
         "Level",
         "16"
+      ],
+      [
+        "FLUTTERBURN",
+        "Item",
+        "THUNDERSTONE"
       ]
     ],
     "size": "0.7",
@@ -157,7 +162,7 @@
     "id": "11",
     "name": "ZEPHYRA",
     "old name": "",
-    "types": "Mythic",
+    "types": "Fire",
     "evolutions": [],
     "size": "1",
     "pokedex": "A nimble feline that dashes with the wind, its sleek form and fierce eyes make it a guardian of forest clearings.",
@@ -416,7 +421,7 @@
     "id": "29",
     "name": "SPRIGGUP",
     "old name": "",
-    "types": "Water,Grass",
+    "types": "Water",
     "evolutions": [
       [
         "SPORECROAK",
@@ -432,26 +437,26 @@
   },
   {
     "id": "30",
-    "name": "LEAFMEALONE",
-    "old name": "Umbraspout",
+    "name": "LEAFLUV",
+    "old name": "Rollherb",
     "types": "Grass",
     "evolutions": [
       [
-        "LEAFLUV",
+        "LEAFMEALONE",
         "Level",
         "12"
       ]
     ],
-    "size": "0.7",
-    "pokedex": "Grumpy and withdrawn, this leafy spirit hides within layers of cabbage, glaring at intruders with golden eyes.",
-    "front keywords": "angry cabbage-like creature, dense green leaves, glowing yellow eyes, squat form",
-    "back keywords": "layered leafy back, squat stance, tucked limbs, green tones",
-    "image": "LEAFMEALONE.png"
+    "size": "0.9",
+    "pokedex": "This cheerful critter loves lounging in sunny patches, its leafy fluff rustling happily in the breeze.",
+    "front keywords": "round leafy creature, wooden wheelbarrow, cheerful smile, grassy setting",
+    "back keywords": "leafy back, wheelbarrow from behind, small shadow, grass base",
+    "image": "LEAFLUV.png"
   },
   {
     "id": "31",
-    "name": "LEAFLUV",
-    "old name": "Rollherb",
+    "name": "LEAFMEALONE",
+    "old name": "Umbraspout",
     "types": "Grass",
     "evolutions": [
       [
@@ -460,11 +465,11 @@
         "24"
       ]
     ],
-    "size": "1",
-    "pokedex": "This cheerful critter loves lounging in sunny patches, its leafy fluff rustling happily in the breeze.",
-    "front keywords": "round leafy creature, wooden wheelbarrow, cheerful smile, grassy setting",
-    "back keywords": "leafy back, wheelbarrow from behind, small shadow, grass base",
-    "image": "LEAFLUV.png"
+    "size": "0.8",
+    "pokedex": "Grumpy and withdrawn, this leafy spirit hides within layers of cabbage, glaring at intruders with golden eyes.",
+    "front keywords": "angry cabbage-like creature, dense green leaves, glowing yellow eyes, squat form",
+    "back keywords": "layered leafy back, squat stance, tucked limbs, green tones",
+    "image": "LEAFMEALONE.png"
   },
   {
     "id": "32",
@@ -521,9 +526,9 @@
     "types": "Normal",
     "evolutions": [
       [
-        "BRAINIOG",
+        "MONKARA",
         "Level",
-        "28"
+        "18"
       ]
     ],
     "size": "0.8",
@@ -534,6 +539,24 @@
   },
   {
     "id": "37",
+    "name": "MONKARA",
+    "old name": "",
+    "types": "Normal",
+    "evolutions": [
+      [
+        "BRAINIOG",
+        "Level",
+        "28"
+      ]
+    ],
+    "size": "0.9",
+    "pokedex": "",
+    "front keywords": "",
+    "back keywords": "",
+    "image": "MONKARA.png"
+  },
+  {
+    "id": "38",
     "name": "BRAINIOG",
     "old name": "",
     "types": "Normal",
@@ -545,7 +568,7 @@
     "image": "BRAINIOG.png"
   },
   {
-    "id": "38",
+    "id": "39",
     "name": "MOOSQUITO",
     "old name": "",
     "types": "Normal",
@@ -557,7 +580,7 @@
     "image": "MOOSQUITO.png"
   },
   {
-    "id": "39",
+    "id": "40",
     "name": "HOOTSPRING",
     "old name": "",
     "types": "Normal",
@@ -569,7 +592,7 @@
     "image": "HOOTSPRING.png"
   },
   {
-    "id": "40",
+    "id": "41",
     "name": "GEARAFFE",
     "old name": "",
     "types": "Normal",
@@ -581,7 +604,7 @@
     "image": "GEARAFFE.png"
   },
   {
-    "id": "41",
+    "id": "42",
     "name": "PAINTDOODLE",
     "old name": "",
     "types": "Normal",
@@ -593,7 +616,7 @@
     "image": "PAINTDOODLE.png"
   },
   {
-    "id": "42",
+    "id": "43",
     "name": "ROSCORPION",
     "old name": "",
     "types": "Ground,Grass",
@@ -605,7 +628,7 @@
     "image": "ROSCORPION.png"
   },
   {
-    "id": "43",
+    "id": "44",
     "name": "SNAPROOT",
     "old name": "",
     "types": "Grass",
@@ -617,11 +640,17 @@
     "image": "SNAPROOT.png"
   },
   {
-    "id": "44",
+    "id": "45",
     "name": "LLAMPURR",
     "old name": "Nimblume",
     "types": "Mythic,Dark",
-    "evolutions": [],
+    "evolutions": [
+      [
+        "ZAPACA",
+        "Level",
+        "30"
+      ]
+    ],
     "size": "0.9",
     "pokedex": "Covered in stormy wool, it charges up electricity as it trots through thunderclouds.",
     "front keywords": "cloud puff creature, lightning streaks, purple fluff, curly tail",
@@ -629,7 +658,19 @@
     "image": "LLAMPURR.png"
   },
   {
-    "id": "45",
+    "id": "46",
+    "name": "ZAPACA",
+    "old name": "",
+    "types": "Mythic,Dark",
+    "evolutions": [],
+    "size": "1",
+    "pokedex": "",
+    "front keywords": "",
+    "back keywords": "",
+    "image": "ZAPACA.png"
+  },
+  {
+    "id": "47",
     "name": "DAPPERINK",
     "old name": "",
     "types": "Normal,Water",
@@ -641,7 +682,7 @@
     "image": "DAPPERINK.png"
   },
   {
-    "id": "46",
+    "id": "48",
     "name": "SPORECROAK",
     "old name": "Mycoglop",
     "types": "Water",
@@ -653,7 +694,7 @@
     "image": "SPORECROAK.png"
   },
   {
-    "id": "47",
+    "id": "49",
     "name": "SUNLEO",
     "old name": "Luxpyrion",
     "types": "Mythic",
@@ -665,7 +706,7 @@
     "image": "SUNLEO.png"
   },
   {
-    "id": "48",
+    "id": "50",
     "name": "H2ROAR",
     "old name": "Hydronox",
     "types": "Water",
@@ -677,7 +718,7 @@
     "image": "H2ROAR.png"
   },
   {
-    "id": "49",
+    "id": "51",
     "name": "BAMBOOM",
     "old name": "Cubruster",
     "types": "Fire",
@@ -689,11 +730,17 @@
     "image": "BAMBOOM.png"
   },
   {
-    "id": "50",
+    "id": "52",
     "name": "KOIKOI",
     "old name": "Lotaflume",
     "types": "Water",
-    "evolutions": [],
+    "evolutions": [
+      [
+        "LOTANARI",
+        "Level",
+        "20"
+      ]
+    ],
     "size": "0.8",
     "pokedex": "A peaceful spirit said to bring luck to travelers. Its lotus-petal fins gently ripple the surface of sacred ponds.",
     "front keywords": "lotus fish, pink fins, serene eyes, golden scales",
@@ -701,7 +748,7 @@
     "image": "KOIKOI.png"
   },
   {
-    "id": "51",
+    "id": "53",
     "name": "NUTZO",
     "old name": "Scuffernut",
     "types": "Ground",
@@ -719,7 +766,7 @@
     "image": "NUTZO.png"
   },
   {
-    "id": "52",
+    "id": "54",
     "name": "CHUBBYBUN",
     "old name": "Scornut",
     "types": "Ground",
@@ -731,7 +778,7 @@
     "image": "CHUBBYBUN.png"
   },
   {
-    "id": "53",
+    "id": "55",
     "name": "PINKACHU",
     "old name": "Charmink",
     "types": "Normal",
@@ -749,7 +796,7 @@
     "image": "PINKACHU.png"
   },
   {
-    "id": "54",
+    "id": "56",
     "name": "BLOOMGRIN",
     "old name": "Cherrifern",
     "types": "Normal,Fairy",
@@ -761,7 +808,7 @@
     "image": "BLOOMGRIN.png"
   },
   {
-    "id": "55",
+    "id": "57",
     "name": "GLACILAMB",
     "old name": "",
     "types": "Water",
@@ -773,7 +820,7 @@
     "image": "GLACILAMB.png"
   },
   {
-    "id": "56",
+    "id": "58",
     "name": "CINDERLAMB",
     "old name": "Emberuff",
     "types": "Fire",
@@ -785,7 +832,7 @@
     "image": "CINDERLAMB.png"
   },
   {
-    "id": "57",
+    "id": "59",
     "name": "MOSSLAMB",
     "old name": "",
     "types": "Grass",
@@ -797,7 +844,7 @@
     "image": "MOSSLAMB.png"
   },
   {
-    "id": "58",
+    "id": "60",
     "name": "CACTINI",
     "old name": "Thornbloom",
     "types": "Ground",
@@ -809,10 +856,10 @@
     "image": "CACTINI.png"
   },
   {
-    "id": "59",
+    "id": "61",
     "name": "MAMMOLITH",
     "old name": "",
-    "types": "Ground",
+    "types": "Ice,Ground",
     "evolutions": [],
     "size": "1.3",
     "pokedex": "This stoic behemoth roams ancient tundras, etching ancestral paths with each thundering step. Its patterned hide tells the story of forgotten civilizations.",
@@ -821,7 +868,7 @@
     "image": "MAMMOLITH.png"
   },
   {
-    "id": "60",
+    "id": "62",
     "name": "JOLTLAMB",
     "old name": "Voltombre",
     "types": "Electric",
@@ -833,7 +880,7 @@
     "image": "JOLTLAMB.png"
   },
   {
-    "id": "61",
+    "id": "63",
     "name": "BRAMBUMBLE",
     "old name": "",
     "types": "Grass",
@@ -845,7 +892,7 @@
     "image": "BRAMBUMBLE.png"
   },
   {
-    "id": "62",
+    "id": "64",
     "name": "BELLIVY",
     "old name": "",
     "types": "Grass",
@@ -857,7 +904,7 @@
     "image": "BELLIVY.png"
   },
   {
-    "id": "63",
+    "id": "65",
     "name": "CACTRADDLE",
     "old name": "",
     "types": "Ground",
@@ -869,7 +916,7 @@
     "image": "CACTRADDLE.png"
   },
   {
-    "id": "64",
+    "id": "66",
     "name": "GRUMBLIN",
     "old name": "",
     "types": "Normal",
@@ -881,7 +928,7 @@
     "image": "GRUMBLIN.png"
   },
   {
-    "id": "65",
+    "id": "67",
     "name": "CHOCOBABY",
     "old name": "Flickerlet",
     "types": "Fire",
@@ -892,14 +939,14 @@
         "11"
       ]
     ],
-    "size": "0.8",
+    "size": "0.7",
     "pokedex": "Chocobaby is a chirping hatchling of flame, made of toasted fluff and caramel feathers. It bobs with joy and spreads warmth wherever it hops.",
     "front keywords": "round fire chick, golden feathers, happy eyes, small wings, toasted glow, tiny beak, glowing baby bird",
     "back keywords": "rounded back fluff, small tail flick, wing tips raised, chick form silhouette, radiant feathers",
     "image": "CHOCOBABY.png"
   },
   {
-    "id": "66",
+    "id": "68",
     "name": "GLIDALEAF",
     "old name": "",
     "types": "Grass",
@@ -911,7 +958,7 @@
     "image": "GLIDALEAF.png"
   },
   {
-    "id": "67",
+    "id": "69",
     "name": "TWIHOOT",
     "old name": "Obscurion",
     "types": "Dark",
@@ -923,7 +970,7 @@
     "image": "TWIHOOT.png"
   },
   {
-    "id": "68",
+    "id": "70",
     "name": "LILUXI",
     "old name": "",
     "types": "Water",
@@ -941,7 +988,7 @@
     "image": "LILUXI.png"
   },
   {
-    "id": "69",
+    "id": "71",
     "name": "PIXLOTL",
     "old name": "Luminelix",
     "types": "Water",
@@ -953,7 +1000,7 @@
     "image": "PIXLOTL.png"
   },
   {
-    "id": "70",
+    "id": "72",
     "name": "DROWSLOTH",
     "old name": "",
     "types": "Normal",
@@ -971,7 +1018,7 @@
     "image": "DROWSLOTH.png"
   },
   {
-    "id": "71",
+    "id": "73",
     "name": "SPORELAX",
     "old name": "",
     "types": "Grass",
@@ -983,7 +1030,7 @@
     "image": "SPORELAX.png"
   },
   {
-    "id": "72",
+    "id": "74",
     "name": "BLUFFIN",
     "old name": "",
     "types": "Normal",
@@ -1001,7 +1048,7 @@
     "image": "BLUFFIN.png"
   },
   {
-    "id": "73",
+    "id": "75",
     "name": "SOLUNA",
     "old name": "",
     "types": "Fairy",
@@ -1013,7 +1060,7 @@
     "image": "SOLUNA.png"
   },
   {
-    "id": "74",
+    "id": "76",
     "name": "FEYFLUTTER",
     "old name": "Veluvielle",
     "types": "Grass",
@@ -1025,7 +1072,7 @@
     "image": "FEYFLUTTER.png"
   },
   {
-    "id": "75",
+    "id": "77",
     "name": "FLORAMENE",
     "old name": "",
     "types": "Grass",
@@ -1037,7 +1084,7 @@
     "image": "FLORAMENE.png"
   },
   {
-    "id": "76",
+    "id": "78",
     "name": "OPHIDIAX",
     "old name": "",
     "types": "Mythic",
@@ -1049,7 +1096,7 @@
     "image": "OPHIDIAX.png"
   },
   {
-    "id": "77",
+    "id": "79",
     "name": "THIMBLA",
     "old name": "",
     "types": "Fairy",
@@ -1061,7 +1108,7 @@
     "image": "THIMBLA.png"
   },
   {
-    "id": "78",
+    "id": "80",
     "name": "PYRUFFIN",
     "old name": "",
     "types": "Fire",
@@ -1073,7 +1120,7 @@
     "image": "PYRUFFIN.png"
   },
   {
-    "id": "79",
+    "id": "81",
     "name": "STARBITE",
     "old name": "Noctigris",
     "types": "Electric,Dark",
@@ -1085,7 +1132,7 @@
     "image": "STARBITE.png"
   },
   {
-    "id": "80",
+    "id": "82",
     "name": "SNUGDRAKE",
     "old name": "Cogsprite",
     "types": "Normal",
@@ -1097,7 +1144,7 @@
     "image": "SNUGDRAKE.png"
   },
   {
-    "id": "81",
+    "id": "83",
     "name": "GALECLAW",
     "old name": "Avireign",
     "types": "Fire",
@@ -1109,7 +1156,7 @@
     "image": "GALECLAW.png"
   },
   {
-    "id": "82",
+    "id": "84",
     "name": "GALESTORM",
     "old name": "Pyraethon",
     "types": "Fire",
@@ -1121,7 +1168,7 @@
     "image": "GALESTORM.png"
   },
   {
-    "id": "83",
+    "id": "85",
     "name": "BRISTAWILD",
     "old name": "",
     "types": "Ground",
@@ -1133,7 +1180,7 @@
     "image": "BRISTAWILD.png"
   },
   {
-    "id": "84",
+    "id": "86",
     "name": "GOURMUFFIN",
     "old name": "",
     "types": "Dark",
@@ -1145,7 +1192,7 @@
     "image": "GOURMUFFIN.png"
   },
   {
-    "id": "85",
+    "id": "87",
     "name": "STARMIRI",
     "old name": "",
     "types": "Fairy",
@@ -1157,7 +1204,7 @@
     "image": "STARMIRI.png"
   },
   {
-    "id": "86",
+    "id": "88",
     "name": "BRUTALOCUST",
     "old name": "",
     "types": "Grass",
@@ -1175,7 +1222,7 @@
     "image": "BRUTALOCUST.png"
   },
   {
-    "id": "87",
+    "id": "89",
     "name": "PAPYRION",
     "old name": "",
     "types": "Normal",
@@ -1187,7 +1234,7 @@
     "image": "PAPYRION.png"
   },
   {
-    "id": "88",
+    "id": "90",
     "name": "SOLCUB",
     "old name": "",
     "types": "Normal,Grass",
@@ -1199,7 +1246,7 @@
     "image": "SOLCUB.png"
   },
   {
-    "id": "89",
+    "id": "91",
     "name": "CRESCYON",
     "old name": "",
     "types": "Dark",
@@ -1211,7 +1258,7 @@
     "image": "CRESCYON.png"
   },
   {
-    "id": "90",
+    "id": "92",
     "name": "DREADMARE",
     "old name": "",
     "types": "Water,Dark",
@@ -1223,7 +1270,7 @@
     "image": "DREADMARE.png"
   },
   {
-    "id": "91",
+    "id": "93",
     "name": "CRYONIX",
     "old name": "",
     "types": "Ice",
@@ -1235,7 +1282,7 @@
     "image": "CRYONIX.png"
   },
   {
-    "id": "92",
+    "id": "94",
     "name": "WURMCOIL",
     "old name": "Solssile",
     "types": "Ground",
@@ -1247,7 +1294,7 @@
     "image": "WURMCOIL.png"
   },
   {
-    "id": "93",
+    "id": "95",
     "name": "BONECAW",
     "old name": "Noctavain",
     "types": "Dark",
@@ -1265,7 +1312,7 @@
     "image": "BONECAW.png"
   },
   {
-    "id": "94",
+    "id": "96",
     "name": "CORVOSS",
     "old name": "",
     "types": "Dark",
@@ -1277,7 +1324,7 @@
     "image": "CORVOSS.png"
   },
   {
-    "id": "95",
+    "id": "97",
     "name": "BAMBUZZLEAF",
     "old name": "",
     "types": "Grass",
@@ -1289,7 +1336,7 @@
     "image": "BAMBUZZLEAF.png"
   },
   {
-    "id": "96",
+    "id": "98",
     "name": "PIPRISM",
     "old name": "",
     "types": "Fairy,Normal",
@@ -1301,7 +1348,7 @@
     "image": "PIPRISM.png"
   },
   {
-    "id": "97",
+    "id": "99",
     "name": "LUMENIP",
     "old name": "",
     "types": "Normal",
@@ -1319,7 +1366,7 @@
     "image": "LUMENIP.png"
   },
   {
-    "id": "98",
+    "id": "100",
     "name": "SHARDSCALE",
     "old name": "",
     "types": "Mythic",
@@ -1331,7 +1378,7 @@
     "image": "SHARDSCALE.png"
   },
   {
-    "id": "99",
+    "id": "101",
     "name": "EMBERMANE",
     "old name": "",
     "types": "Fire",
@@ -1343,7 +1390,7 @@
     "image": "EMBERMANE.png"
   },
   {
-    "id": "100",
+    "id": "102",
     "name": "SHROOMLINGO",
     "old name": "",
     "types": "Grass",
@@ -1355,7 +1402,7 @@
     "image": "SHROOMLINGO.png"
   },
   {
-    "id": "101",
+    "id": "103",
     "name": "BUDBAA",
     "old name": "",
     "types": "Grass",
@@ -1367,7 +1414,7 @@
     "image": "BUDBAA.png"
   },
   {
-    "id": "102",
+    "id": "104",
     "name": "SKYLUME",
     "old name": "",
     "types": "Normal",
@@ -1385,7 +1432,7 @@
     "image": "SKYLUME.png"
   },
   {
-    "id": "103",
+    "id": "105",
     "name": "BUZZLETTE",
     "old name": "",
     "types": "Grass",
@@ -1397,7 +1444,7 @@
     "image": "BUZZLETTE.png"
   },
   {
-    "id": "104",
+    "id": "106",
     "name": "VOLTITAN",
     "old name": "",
     "types": "Electric",
@@ -1409,7 +1456,7 @@
     "image": "VOLTITAN.png"
   },
   {
-    "id": "105",
+    "id": "107",
     "name": "GIZMO",
     "old name": "Scorfluff",
     "types": "Ground,Fire",
@@ -1421,7 +1468,7 @@
     "image": "GIZMO.png"
   },
   {
-    "id": "106",
+    "id": "108",
     "name": "BRINZELDA",
     "old name": "",
     "types": "Fairy",
@@ -1433,7 +1480,7 @@
     "image": "BRINZELDA.png"
   },
   {
-    "id": "107",
+    "id": "109",
     "name": "SKYRION",
     "old name": "",
     "types": "Mythic",
@@ -1445,7 +1492,7 @@
     "image": "SKYRION.png"
   },
   {
-    "id": "108",
+    "id": "110",
     "name": "CHARMETTE",
     "old name": "",
     "types": "Normal",
@@ -1457,7 +1504,7 @@
     "image": "CHARMETTE.png"
   },
   {
-    "id": "109",
+    "id": "111",
     "name": "SHELLVIS",
     "old name": "Regastroa",
     "types": "Grass",
@@ -1469,7 +1516,7 @@
     "image": "SHELLVIS.png"
   },
   {
-    "id": "110",
+    "id": "112",
     "name": "GRUDGECUB",
     "old name": "",
     "types": "Ground",
@@ -1481,7 +1528,7 @@
     "image": "GRUDGECUB.png"
   },
   {
-    "id": "111",
+    "id": "113",
     "name": "TERRABUD",
     "old name": "",
     "types": "Ground",
@@ -1493,7 +1540,7 @@
     "image": "TERRABUD.png"
   },
   {
-    "id": "112",
+    "id": "114",
     "name": "ORION",
     "old name": "Zaptrix",
     "types": "Electric",
@@ -1505,7 +1552,7 @@
     "image": "ORION.png"
   },
   {
-    "id": "113",
+    "id": "115",
     "name": "BURROWREX",
     "old name": "",
     "types": "Ground",
@@ -1517,7 +1564,7 @@
     "image": "BURROWREX.png"
   },
   {
-    "id": "114",
+    "id": "116",
     "name": "STARNAP",
     "old name": "",
     "types": "Fairy",
@@ -1529,7 +1576,7 @@
     "image": "STARNAP.png"
   },
   {
-    "id": "115",
+    "id": "117",
     "name": "RUNELYFT",
     "old name": "Noctiflit",
     "types": "Dark",
@@ -1541,7 +1588,7 @@
     "image": "RUNELYFT.png"
   },
   {
-    "id": "116",
+    "id": "118",
     "name": "INKRYFT",
     "old name": "",
     "types": "Dark",
@@ -1553,7 +1600,7 @@
     "image": "INKRYFT.png"
   },
   {
-    "id": "117",
+    "id": "119",
     "name": "TERRACUB",
     "old name": "Volcubby",
     "types": "Ground,Fire",
@@ -1565,7 +1612,7 @@
     "image": "TERRACUB.png"
   },
   {
-    "id": "118",
+    "id": "120",
     "name": "FOGGIN",
     "old name": "",
     "types": "Ice,Dark",
@@ -1583,7 +1630,7 @@
     "image": "FOGGIN.png"
   },
   {
-    "id": "119",
+    "id": "121",
     "name": "CERBERUFF",
     "old name": "Baskervapour",
     "types": "Dark",
@@ -1595,7 +1642,7 @@
     "image": "CERBERUFF.png"
   },
   {
-    "id": "120",
+    "id": "122",
     "name": "AETHERMECH",
     "old name": "",
     "types": "Electric",
@@ -1607,7 +1654,7 @@
     "image": "AETHERMECH.png"
   },
   {
-    "id": "121",
+    "id": "123",
     "name": "QUOKKUS",
     "old name": "Floramoss",
     "types": "Normal",
@@ -1619,7 +1666,7 @@
     "image": "QUOKKUS.png"
   },
   {
-    "id": "122",
+    "id": "124",
     "name": "SHADEBANDIT",
     "old name": "",
     "types": "Dark",
@@ -1631,7 +1678,7 @@
     "image": "SHADEBANDIT.png"
   },
   {
-    "id": "123",
+    "id": "125",
     "name": "GLITTERNUT",
     "old name": "Moonspire",
     "types": "Fairy,Ground",
@@ -1643,7 +1690,7 @@
     "image": "GLITTERNUT.png"
   },
   {
-    "id": "124",
+    "id": "126",
     "name": "SERPLASH",
     "old name": "Buoyantor",
     "types": "Water",
@@ -1655,7 +1702,7 @@
     "image": "SERPLASH.png"
   },
   {
-    "id": "125",
+    "id": "127",
     "name": "WATTQUILL",
     "old name": "",
     "types": "Electric,Ground",
@@ -1667,7 +1714,7 @@
     "image": "WATTQUILL.png"
   },
   {
-    "id": "126",
+    "id": "128",
     "name": "CORSEAL",
     "old name": "Squorala",
     "types": "Ice,Water",
@@ -1679,7 +1726,7 @@
     "image": "CORSEAL.png"
   },
   {
-    "id": "127",
+    "id": "129",
     "name": "FLORABUN",
     "old name": "Petalune",
     "types": "Grass",
@@ -1691,7 +1738,7 @@
     "image": "FLORABUN.png"
   },
   {
-    "id": "128",
+    "id": "130",
     "name": "ASHPLUME",
     "old name": "Ignaviary",
     "types": "Fire",
@@ -1703,7 +1750,7 @@
     "image": "ASHPLUME.png"
   },
   {
-    "id": "129",
+    "id": "131",
     "name": "MOORSPITE",
     "old name": "",
     "types": "Dark",
@@ -1715,7 +1762,7 @@
     "image": "MOORSPITE.png"
   },
   {
-    "id": "130",
+    "id": "132",
     "name": "GLIMMOTH",
     "old name": "",
     "types": "Fairy",
@@ -1727,7 +1774,7 @@
     "image": "GLIMMOTH.png"
   },
   {
-    "id": "131",
+    "id": "133",
     "name": "BRISTLEBARK",
     "old name": "",
     "types": "Grass,Ground",
@@ -1739,7 +1786,7 @@
     "image": "BRISTLEBARK.png"
   },
   {
-    "id": "132",
+    "id": "134",
     "name": "BOWDRAKE",
     "old name": "",
     "types": "Grass",
@@ -1751,7 +1798,7 @@
     "image": "BOWDRAKE.png"
   },
   {
-    "id": "133",
+    "id": "135",
     "name": "BEEDAZZLE",
     "old name": "Gemilum",
     "types": "Fairy",
@@ -1763,7 +1810,7 @@
     "image": "BEEDAZZLE.png"
   },
   {
-    "id": "134",
+    "id": "136",
     "name": "ZAPTAIL",
     "old name": "",
     "types": "Normal,Electric",
@@ -1775,7 +1822,7 @@
     "image": "ZAPTAIL.png"
   },
   {
-    "id": "135",
+    "id": "137",
     "name": "GLACIBEX",
     "old name": "",
     "types": "Ice",
@@ -1787,7 +1834,7 @@
     "image": "GLACIBEX.png"
   },
   {
-    "id": "136",
+    "id": "138",
     "name": "EMBERINE",
     "old name": "",
     "types": "Fire",
@@ -1799,7 +1846,7 @@
     "image": "EMBERINE.png"
   },
   {
-    "id": "137",
+    "id": "139",
     "name": "BUBBLISS",
     "old name": "",
     "types": "Water",
@@ -1811,7 +1858,7 @@
     "image": "BUBBLISS.png"
   },
   {
-    "id": "138",
+    "id": "140",
     "name": "BUFFAWN",
     "old name": "",
     "types": "Normal",
@@ -1822,14 +1869,14 @@
         "DUSKSTONE"
       ]
     ],
-    "size": "1",
+    "size": "0.8",
     "pokedex": "Buffawn is a cheerful plains-dweller known for its joyful gallops and hearty laugh. It often races the wind across open fields, bringing good luck to those it passes.",
     "front keywords": "brown bison calf, large horns, fluffy mane, joyful expression, cartoon hooves, running pose, prairie creature, laughing mouth",
     "back keywords": "curly back fur, short tufted tail, horn arcs from behind, rear leg motion, broad shoulder fluff",
     "image": "BUFFAWN.png"
   },
   {
-    "id": "139",
+    "id": "141",
     "name": "FAEWYN",
     "old name": "Aurelix",
     "types": "Fairy",
@@ -1841,7 +1888,7 @@
     "image": "FAEWYN.png"
   },
   {
-    "id": "140",
+    "id": "142",
     "name": "FUNGALUX",
     "old name": "",
     "types": "Water,Dark",
@@ -1853,7 +1900,7 @@
     "image": "FUNGALUX.png"
   },
   {
-    "id": "141",
+    "id": "143",
     "name": "MECHALUPINE",
     "old name": "",
     "types": "Normal",
@@ -1865,7 +1912,7 @@
     "image": "MECHALUPINE.png"
   },
   {
-    "id": "142",
+    "id": "144",
     "name": "KELPUP",
     "old name": "",
     "types": "Water,Grass",
@@ -1877,7 +1924,7 @@
     "image": "KELPUP.png"
   },
   {
-    "id": "143",
+    "id": "145",
     "name": "PETALIGHT",
     "old name": "",
     "types": "Grass",
@@ -1889,7 +1936,7 @@
     "image": "PETALIGHT.png"
   },
   {
-    "id": "144",
+    "id": "146",
     "name": "BUTTERMEW",
     "old name": "",
     "types": "Normal",
@@ -1901,7 +1948,7 @@
     "image": "BUTTERMEW.png"
   },
   {
-    "id": "145",
+    "id": "147",
     "name": "SWANAREIGN",
     "old name": "",
     "types": "Mythic",
@@ -1913,7 +1960,7 @@
     "image": "SWANAREIGN.png"
   },
   {
-    "id": "146",
+    "id": "148",
     "name": "FLOTTER",
     "old name": "",
     "types": "Water",
@@ -1925,7 +1972,7 @@
     "image": "FLOTTER.png"
   },
   {
-    "id": "147",
+    "id": "149",
     "name": "COINNIP",
     "old name": "",
     "types": "Normal",
@@ -1943,7 +1990,7 @@
     "image": "COINNIP.png"
   },
   {
-    "id": "148",
+    "id": "150",
     "name": "PYREK",
     "old name": "",
     "types": "Fire",
@@ -1955,7 +2002,7 @@
     "image": "PYREK.png"
   },
   {
-    "id": "149",
+    "id": "151",
     "name": "LILYPADLE",
     "old name": "",
     "types": "Grass",
@@ -1973,7 +2020,7 @@
     "image": "LILYPADLE.png"
   },
   {
-    "id": "150",
+    "id": "152",
     "name": "LILYBELL",
     "old name": "",
     "types": "Grass",
@@ -1985,7 +2032,7 @@
     "image": "LILYBELL.png"
   },
   {
-    "id": "151",
+    "id": "153",
     "name": "HALUMO",
     "old name": "",
     "types": "Mythic",
@@ -1997,7 +2044,7 @@
     "image": "HALUMO.png"
   },
   {
-    "id": "152",
+    "id": "154",
     "name": "ABYEYE",
     "old name": "",
     "types": "Water",
@@ -2009,17 +2056,11 @@
     "image": "ABYEYE.png"
   },
   {
-    "id": "153",
+    "id": "155",
     "name": "CUBOULDER",
     "old name": "",
     "types": "Ground",
-    "evolutions": [
-      [
-        "FLAREBEAR",
-        "Level",
-        "28"
-      ]
-    ],
+    "evolutions": [],
     "size": "0.8",
     "pokedex": "Cuboulder is a grumpy forest sentinel with a mossy shell. It carries ancient wisdom in silence and won\u2019t move unless absolutely necessary.",
     "front keywords": "rock turtle bear, mossy stone shell, spiral symbol, angry expression, heavy limbs, earthy tones, grounded creature",
@@ -2027,7 +2068,7 @@
     "image": "CUBOULDER.png"
   },
   {
-    "id": "154",
+    "id": "156",
     "name": "AURAVELLE",
     "old name": "",
     "types": "Mythic",
@@ -2039,7 +2080,7 @@
     "image": "AURAVELLE.png"
   },
   {
-    "id": "155",
+    "id": "157",
     "name": "PERCLAMP",
     "old name": "",
     "types": "Water",
@@ -2051,7 +2092,7 @@
     "image": "PERCLAMP.png"
   },
   {
-    "id": "156",
+    "id": "158",
     "name": "FORGRON",
     "old name": "",
     "types": "Fire",
@@ -2063,7 +2104,7 @@
     "image": "FORGRON.png"
   },
   {
-    "id": "157",
+    "id": "159",
     "name": "WEBLOOM",
     "old name": "",
     "types": "Normal,Fairy",
@@ -2075,7 +2116,7 @@
     "image": "WEBLOOM.png"
   },
   {
-    "id": "158",
+    "id": "160",
     "name": "SHIFU",
     "old name": "Pandloom",
     "types": "Normal",
@@ -2087,7 +2128,7 @@
     "image": "SHIFU.png"
   },
   {
-    "id": "159",
+    "id": "161",
     "name": "TIDROAK",
     "old name": "",
     "types": "Water",
@@ -2099,7 +2140,7 @@
     "image": "TIDROAK.png"
   },
   {
-    "id": "160",
+    "id": "162",
     "name": "GLEAMIRA",
     "old name": "",
     "types": "Normal",
@@ -2111,7 +2152,7 @@
     "image": "GLEAMIRA.png"
   },
   {
-    "id": "161",
+    "id": "163",
     "name": "FROSTHORN",
     "old name": "",
     "types": "Ice",
@@ -2123,7 +2164,7 @@
     "image": "FROSTHORN.png"
   },
   {
-    "id": "162",
+    "id": "164",
     "name": "CLAMORA",
     "old name": "",
     "types": "Water",
@@ -2135,11 +2176,17 @@
     "image": "CLAMORA.png"
   },
   {
-    "id": "163",
+    "id": "165",
     "name": "CHARGNODE",
     "old name": "",
     "types": "Electric",
-    "evolutions": [],
+    "evolutions": [
+      [
+        "AMPZER",
+        "Level",
+        "26"
+      ]
+    ],
     "size": "1",
     "pokedex": "Chargnode is a power-packed crawler used to ignite old generators and defend power plants. Its lightning bolt antenna surges with electric pulses.",
     "front keywords": "metallic quadruped, lightning bolt head, black and white shell, gold trim, angry expression, tech-creature, electric-type",
@@ -2147,7 +2194,7 @@
     "image": "CHARGNODE.png"
   },
   {
-    "id": "164",
+    "id": "166",
     "name": "SMOKETAIL",
     "old name": "",
     "types": "Electric",
@@ -2159,7 +2206,7 @@
     "image": "SMOKETAIL.png"
   },
   {
-    "id": "165",
+    "id": "167",
     "name": "ELDRUN",
     "old name": "",
     "types": "Ground,Dark",
@@ -2177,9 +2224,9 @@
     "image": "ELDRUN.png"
   },
   {
-    "id": "166",
+    "id": "168",
     "name": "WRAITHUSK",
-    "old name": "",
+    "old name": "WRAITHUSK",
     "types": "Ground,Dark",
     "evolutions": [
       [
@@ -2195,7 +2242,7 @@
     "image": "WRAITHUSK.png"
   },
   {
-    "id": "167",
+    "id": "169",
     "name": "SCARAKNIGHT",
     "old name": "",
     "types": "Water,Dark",
@@ -2207,7 +2254,7 @@
     "image": "SCARAKNIGHT.png"
   },
   {
-    "id": "168",
+    "id": "170",
     "name": "CROOKLET",
     "old name": "",
     "types": "Water",
@@ -2225,7 +2272,7 @@
     "image": "CROOKLET.png"
   },
   {
-    "id": "169",
+    "id": "171",
     "name": "CROCCLAW",
     "old name": "",
     "types": "Water",
@@ -2237,7 +2284,7 @@
     "image": "CROCCLAW.png"
   },
   {
-    "id": "170",
+    "id": "172",
     "name": "SPARMLET",
     "old name": "",
     "types": "Electric",
@@ -2249,10 +2296,10 @@
     "image": "SPARMLET.png"
   },
   {
-    "id": "171",
+    "id": "173",
     "name": "CHIMERAZE",
     "old name": "",
-    "types": "Fire",
+    "types": "Normal",
     "evolutions": [],
     "size": "1",
     "pokedex": "Chimeraze is a spectral jelly that jingle-dances through haunted halls. Its bells summon faded memories and lost spirits that shimmer like music.",
@@ -2261,7 +2308,7 @@
     "image": "CHIMERAZE.png"
   },
   {
-    "id": "172",
+    "id": "174",
     "name": "CRYOWARDEN",
     "old name": "",
     "types": "Ice",
@@ -2273,7 +2320,7 @@
     "image": "CRYOWARDEN.png"
   },
   {
-    "id": "173",
+    "id": "175",
     "name": "KNOTSHADE",
     "old name": "",
     "types": "Dark",
@@ -2285,7 +2332,7 @@
     "image": "KNOTSHADE.png"
   },
   {
-    "id": "174",
+    "id": "176",
     "name": "VIRELDRAKE",
     "old name": "",
     "types": "Water,Dark",
@@ -2297,7 +2344,7 @@
     "image": "VIRELDRAKE.png"
   },
   {
-    "id": "175",
+    "id": "177",
     "name": "BRAMBARRIC",
     "old name": "",
     "types": "Ground,Electric",
@@ -2309,7 +2356,7 @@
     "image": "BRAMBARRIC.png"
   },
   {
-    "id": "176",
+    "id": "178",
     "name": "ARACHNE",
     "old name": "Webmourne",
     "types": "Dark",
@@ -2321,7 +2368,7 @@
     "image": "ARACHNE.png"
   },
   {
-    "id": "177",
+    "id": "179",
     "name": "PATCHY",
     "old name": "Stitcheek",
     "types": "Normal",
@@ -2333,7 +2380,7 @@
     "image": "PATCHY.png"
   },
   {
-    "id": "178",
+    "id": "180",
     "name": "BOOMLET",
     "old name": "",
     "types": "Electric",
@@ -2345,7 +2392,7 @@
     "image": "BOOMLET.png"
   },
   {
-    "id": "179",
+    "id": "181",
     "name": "PHANTURN",
     "old name": "",
     "types": "Dark",
@@ -2357,7 +2404,7 @@
     "image": "PHANTURN.png"
   },
   {
-    "id": "180",
+    "id": "182",
     "name": "CHARMAW",
     "old name": "",
     "types": "Fire",
@@ -2369,7 +2416,7 @@
     "image": "CHARMAW.png"
   },
   {
-    "id": "181",
+    "id": "183",
     "name": "WILTROOT",
     "old name": "",
     "types": "Grass",
@@ -2381,7 +2428,7 @@
     "image": "WILTROOT.png"
   },
   {
-    "id": "182",
+    "id": "184",
     "name": "ROSGRIM",
     "old name": "",
     "types": "Dark,Grass",
@@ -2393,7 +2440,7 @@
     "image": "ROSGRIM.png"
   },
   {
-    "id": "183",
+    "id": "185",
     "name": "BANANIBBLE",
     "old name": "",
     "types": "Normal",
@@ -2405,7 +2452,7 @@
     "image": "BANANIBBLE.png"
   },
   {
-    "id": "184",
+    "id": "186",
     "name": "BLOSSFAWN",
     "old name": "",
     "types": "Fairy",
@@ -2423,7 +2470,7 @@
     "image": "BLOSSFAWN.png"
   },
   {
-    "id": "185",
+    "id": "187",
     "name": "BUZZBERRY",
     "old name": "",
     "types": "Grass",
@@ -2435,7 +2482,7 @@
     "image": "BUZZBERRY.png"
   },
   {
-    "id": "186",
+    "id": "188",
     "name": "CABBUSKID",
     "old name": "",
     "types": "Ground",
@@ -2447,7 +2494,7 @@
     "image": "CABBUSKID.png"
   },
   {
-    "id": "187",
+    "id": "189",
     "name": "CHURUBLOOM",
     "old name": "",
     "types": "Normal",
@@ -2459,7 +2506,7 @@
     "image": "CHURUBLOOM.png"
   },
   {
-    "id": "188",
+    "id": "190",
     "name": "CINDRAKE",
     "old name": "",
     "types": "Fire",
@@ -2471,7 +2518,7 @@
     "image": "CINDRAKE.png"
   },
   {
-    "id": "189",
+    "id": "191",
     "name": "FLORABELL",
     "old name": "",
     "types": "Normal",
@@ -2483,7 +2530,7 @@
     "image": "FLORABELL.png"
   },
   {
-    "id": "190",
+    "id": "192",
     "name": "GLIDELETTE",
     "old name": "",
     "types": "Grass",
@@ -2495,7 +2542,7 @@
     "image": "GLIDELETTE.png"
   },
   {
-    "id": "191",
+    "id": "193",
     "name": "KINGRUS",
     "old name": "",
     "types": "Water",
@@ -2507,7 +2554,7 @@
     "image": "KINGRUS.png"
   },
   {
-    "id": "192",
+    "id": "194",
     "name": "PETALKA",
     "old name": "",
     "types": "Fairy",
@@ -2519,17 +2566,11 @@
     "image": "PETALKA.png"
   },
   {
-    "id": "193",
+    "id": "195",
     "name": "PINALISK",
     "old name": "",
     "types": "Grass",
-    "evolutions": [
-      [
-        "GRINLASH",
-        "Level",
-        "26"
-      ]
-    ],
+    "evolutions": [],
     "size": "0.9",
     "pokedex": "",
     "front keywords": "",
@@ -2537,7 +2578,7 @@
     "image": "PINALISK.png"
   },
   {
-    "id": "194",
+    "id": "196",
     "name": "PRETZYL",
     "old name": "",
     "types": "Normal",
@@ -2549,7 +2590,7 @@
     "image": "PRETZYL.png"
   },
   {
-    "id": "195",
+    "id": "197",
     "name": "ROSEQUINE",
     "old name": "",
     "types": "Normal",
@@ -2561,7 +2602,7 @@
     "image": "ROSEQUINE.png"
   },
   {
-    "id": "196",
+    "id": "198",
     "name": "SHELLTROID",
     "old name": "",
     "types": "Water",
@@ -2579,7 +2620,7 @@
     "image": "SHELLTROID.png"
   },
   {
-    "id": "197",
+    "id": "199",
     "name": "STRAWPUP",
     "old name": "",
     "types": "Grass",
@@ -2591,7 +2632,7 @@
     "image": "STRAWPUP.png"
   },
   {
-    "id": "198",
+    "id": "200",
     "name": "SUNGLINT",
     "old name": "",
     "types": "Normal",
@@ -2603,7 +2644,7 @@
     "image": "SUNGLINT.png"
   },
   {
-    "id": "199",
+    "id": "201",
     "name": "TANGLATO",
     "old name": "",
     "types": "Ground",
@@ -2615,7 +2656,7 @@
     "image": "TANGLATO.png"
   },
   {
-    "id": "200",
+    "id": "202",
     "name": "TRITOISE",
     "old name": "",
     "types": "Water",
@@ -2627,7 +2668,7 @@
     "image": "TRITOISE.png"
   },
   {
-    "id": "201",
+    "id": "203",
     "name": "VINECREST",
     "old name": "",
     "types": "Grass",
@@ -2639,7 +2680,7 @@
     "image": "VINECREST.png"
   },
   {
-    "id": "202",
+    "id": "204",
     "name": "VOLTUS",
     "old name": "",
     "types": "Electric",
@@ -2651,7 +2692,7 @@
     "image": "VOLTUS.png"
   },
   {
-    "id": "203",
+    "id": "205",
     "name": "YARNAI",
     "old name": "",
     "types": "Normal",
@@ -2663,7 +2704,7 @@
     "image": "YARNAI.png"
   },
   {
-    "id": "204",
+    "id": "206",
     "name": "SOLKIT",
     "old name": "",
     "types": "Normal",
@@ -2681,7 +2722,7 @@
     "image": "SOLKIT.png"
   },
   {
-    "id": "205",
+    "id": "207",
     "name": "FROSTCORE",
     "old name": "",
     "types": "Ice",
@@ -2693,19 +2734,19 @@
     "image": "FROSTCORE.png"
   },
   {
-    "id": "206",
+    "id": "208",
     "name": "DOOMHAWN",
     "old name": "",
     "types": "Dark",
     "evolutions": [],
-    "size": "1",
+    "size": "1.2",
     "pokedex": "",
     "front keywords": "",
     "back keywords": "",
     "image": "DOOMHAWN.png"
   },
   {
-    "id": "207",
+    "id": "209",
     "name": "GROTHORN",
     "old name": "",
     "types": "Ground",
@@ -2717,7 +2758,7 @@
     "image": "GROTHORN.png"
   },
   {
-    "id": "208",
+    "id": "210",
     "name": "JAWBRUTE",
     "old name": "",
     "types": "Water",
@@ -2729,7 +2770,7 @@
     "image": "JAWBRUTE.png"
   },
   {
-    "id": "209",
+    "id": "211",
     "name": "GRINLASH",
     "old name": "",
     "types": "Dark",
@@ -2741,7 +2782,7 @@
     "image": "GRINLASH.png"
   },
   {
-    "id": "210",
+    "id": "212",
     "name": "VOIDLOCUST",
     "old name": "",
     "types": "Dark, Grass",
@@ -2753,7 +2794,7 @@
     "image": "VOIDLOCUST.png"
   },
   {
-    "id": "211",
+    "id": "213",
     "name": "FLAREBEAR",
     "old name": "",
     "types": "Electric, Ground",
@@ -2765,7 +2806,7 @@
     "image": "FLAREBEAR.png"
   },
   {
-    "id": "212",
+    "id": "214",
     "name": "JOLTMAW",
     "old name": "",
     "types": "Electric",
@@ -2777,7 +2818,7 @@
     "image": "JOLTMAW.png"
   },
   {
-    "id": "213",
+    "id": "215",
     "name": "MOOBELL",
     "old name": "",
     "types": "Normal",
@@ -2795,7 +2836,7 @@
     "image": "MOOBELL.png"
   },
   {
-    "id": "214",
+    "id": "216",
     "name": "CREAMOO",
     "old name": "",
     "types": "Normal",
@@ -2807,7 +2848,7 @@
     "image": "CREAMOO.png"
   },
   {
-    "id": "215",
+    "id": "217",
     "name": "CHOCOBLAZE",
     "old name": "",
     "types": "Fire",
@@ -2825,7 +2866,7 @@
     "image": "CHOCOBLAZE.png"
   },
   {
-    "id": "216",
+    "id": "218",
     "name": "PYROOST",
     "old name": "",
     "types": "Fire",
@@ -2835,5 +2876,257 @@
     "front keywords": "",
     "back keywords": "",
     "image": "PYROOST.png"
+  },
+  {
+    "id": "219",
+    "name": "WAXIMP",
+    "old name": "",
+    "types": "Fire",
+    "evolutions": [
+      [
+        "CINDRAKE",
+        "Level",
+        "20"
+      ]
+    ],
+    "size": "0.7",
+    "pokedex": "",
+    "front keywords": "",
+    "back keywords": "",
+    "image": "WAXIMP.png"
+  },
+  {
+    "id": "220",
+    "name": "TUSKLET",
+    "old name": "",
+    "types": "Ice",
+    "evolutions": [
+      [
+        "MAMMOLITH",
+        "Level",
+        "26"
+      ]
+    ],
+    "size": "1",
+    "pokedex": "",
+    "front keywords": "",
+    "back keywords": "",
+    "image": "TUSKLET.png"
+  },
+  {
+    "id": "221",
+    "name": "NAPFLAKE",
+    "old name": "",
+    "types": "Ice",
+    "evolutions": [
+      [
+        "MELTMALLOW",
+        "Level",
+        "25"
+      ]
+    ],
+    "size": "0.8",
+    "pokedex": "",
+    "front keywords": "",
+    "back keywords": "",
+    "image": "NAPFLAKE.png"
+  },
+  {
+    "id": "222",
+    "name": "MELTMALLOW",
+    "old name": "",
+    "types": "Ice",
+    "evolutions": [],
+    "size": "0.9",
+    "pokedex": "",
+    "front keywords": "",
+    "back keywords": "",
+    "image": "MELTMALLOW.png"
+  },
+  {
+    "id": "223",
+    "name": "FROZNIP",
+    "old name": "",
+    "types": "Ice",
+    "evolutions": [],
+    "size": "0.8",
+    "pokedex": "",
+    "front keywords": "",
+    "back keywords": "",
+    "image": "FROZNIP.png"
+  },
+  {
+    "id": "224",
+    "name": "FROSTPLUG",
+    "old name": "",
+    "types": "Ice",
+    "evolutions": [],
+    "size": "0.9",
+    "pokedex": "",
+    "front keywords": "",
+    "back keywords": "",
+    "image": "FROSTPLUG.png"
+  },
+  {
+    "id": "225",
+    "name": "FREEZOK",
+    "old name": "",
+    "types": "Ice",
+    "evolutions": [
+      [
+        "FROSTCORE",
+        "Level",
+        "28"
+      ]
+    ],
+    "size": "1",
+    "pokedex": "",
+    "front keywords": "",
+    "back keywords": "",
+    "image": "FREEZOK.png"
+  },
+  {
+    "id": "226",
+    "name": "FLUTTERBURN",
+    "old name": "",
+    "types": "Fairy,Fire",
+    "evolutions": [],
+    "size": "1",
+    "pokedex": "",
+    "front keywords": "",
+    "back keywords": "",
+    "image": "FLUTTERBURN.png"
+  },
+  {
+    "id": "227",
+    "name": "DUSKBLOOM",
+    "old name": "",
+    "types": "Dark",
+    "evolutions": [],
+    "size": "0.9",
+    "pokedex": "",
+    "front keywords": "",
+    "back keywords": "",
+    "image": "DUSKBLOOM.png"
+  },
+  {
+    "id": "228",
+    "name": "CRYOKID",
+    "old name": "",
+    "types": "Ice",
+    "evolutions": [
+      [
+        "CRYOBELL",
+        "Level",
+        "14"
+      ]
+    ],
+    "size": "0.8",
+    "pokedex": "",
+    "front keywords": "",
+    "back keywords": "",
+    "image": "CRYOKID.png"
+  },
+  {
+    "id": "229",
+    "name": "CRYOBELL",
+    "old name": "",
+    "types": "Ice",
+    "evolutions": [
+      [
+        "CRYOBEE",
+        "Level",
+        "22"
+      ]
+    ],
+    "size": "0.9",
+    "pokedex": "",
+    "front keywords": "",
+    "back keywords": "",
+    "image": "CRYOBELL.png"
+  },
+  {
+    "id": "230",
+    "name": "CRYOBEE",
+    "old name": "",
+    "types": "Ice",
+    "evolutions": [],
+    "size": "1",
+    "pokedex": "",
+    "front keywords": "",
+    "back keywords": "",
+    "image": "CRYOBEE.png"
+  },
+  {
+    "id": "231",
+    "name": "CHARLET",
+    "old name": "",
+    "types": "Fire",
+    "evolutions": [
+      [
+        "CHARBOAR",
+        "Level",
+        "30"
+      ]
+    ],
+    "size": "0.8",
+    "pokedex": "",
+    "front keywords": "",
+    "back keywords": "",
+    "image": "CHARLET.png"
+  },
+  {
+    "id": "232",
+    "name": "CHARBOAR",
+    "old name": "",
+    "types": "Fire",
+    "evolutions": [],
+    "size": "1",
+    "pokedex": "",
+    "front keywords": "",
+    "back keywords": "",
+    "image": "CHARBOAR.png"
+  },
+  {
+    "id": "233",
+    "name": "BUDPOLE",
+    "old name": "",
+    "types": "Water",
+    "evolutions": [
+      [
+        "SPRIGGUP",
+        "Level",
+        "11"
+      ]
+    ],
+    "size": "0.8",
+    "pokedex": "",
+    "front keywords": "",
+    "back keywords": "",
+    "image": "BUDPOLE.png"
+  },
+  {
+    "id": "234",
+    "name": "AMPZER",
+    "old name": "",
+    "types": "Electric",
+    "evolutions": [],
+    "size": "1",
+    "pokedex": "",
+    "front keywords": "",
+    "back keywords": "",
+    "image": "AMPZER.png"
+  },
+  {
+    "id": "235",
+    "name": "LOTANARI",
+    "old name": "",
+    "types": "Water",
+    "evolutions": [],
+    "size": "1",
+    "pokedex": "",
+    "front keywords": "",
+    "back keywords": "",
+    "image": "LOTANARI.png"
   }
 ]
