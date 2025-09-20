@@ -808,7 +808,7 @@
     "old name": "",
     "types": "Water",
     "evolutions": [],
-    "size": "1",
+    "size": "0.8",
     "pokedex": "This gentle ram uses its icy horn to freeze paths and protect its herd, radiating calm energy in the coldest climates.",
     "front keywords": "blue ram, icy horn, woolly coat, serene expression",
     "back keywords": "fluffy back, icy tail, short legs, frosted wool",
@@ -820,7 +820,7 @@
     "old name": "Emberuff",
     "types": "Fire",
     "evolutions": [],
-    "size": "1",
+    "size": "0.8",
     "pokedex": "Cinderlamb is a fiery sheep whose wool burns with undying flames. It brings warmth to cold pastures and scorches enemies with a flash of heat.",
     "front keywords": "fire lamb, orange mane, cream wool, gentle eyes, flame horns, blazing hair, standing still, ember glow",
     "back keywords": "flaming mane behind ears, rounded wool back, slight smoke trail, small hooves, bushy tail flick",
@@ -832,7 +832,7 @@
     "old name": "",
     "types": "Grass",
     "evolutions": [],
-    "size": "1",
+    "size": "0.8",
     "pokedex": "Covered in mossy fleece and crowned with gentle horns, Mosslamb is a forest dweller said to bring peace and regrowth wherever it rests.",
     "front keywords": "green lamb, ram horns, moss coat, cute animal, forest spirit, curled tail, soft features",
     "back keywords": "round mossy back, tail tufts, horned rear, peaceful stance from behind",
@@ -868,7 +868,7 @@
     "old name": "Voltombre",
     "types": "Electric",
     "evolutions": [],
-    "size": "0.9",
+    "size": "0.8",
     "pokedex": "This nimble critter sparks excitement with its bounding leaps and puffy tail, radiating contagious joy.",
     "front keywords": "black and white fur, fox-like ears, yellow tail tip, bright cheeks",
     "back keywords": "mid-leap, open mouth smile, fluffy chest, lively eyes",
@@ -892,7 +892,7 @@
     "old name": "",
     "types": "Normal",
     "evolutions": [],
-    "size": "1",
+    "size": "0.8",
     "pokedex": "A perpetually upset blob-like creature, it stomps about in frustration, causing minor tremors when irritated.",
     "front keywords": "angry blob, pink cheeks, squinty eyes, short limbs",
     "back keywords": "rounded back, hunched stance, clenched fists",
@@ -1528,7 +1528,7 @@
     "old name": "",
     "types": "Ground",
     "evolutions": [],
-    "size": "0.8",
+    "size": "0.7",
     "pokedex": "Burrowrex is a reclusive digger that guards buried treasures and roots in the badlands. Its thick shell protects it from predators as it tunnels with sharp claws.",
     "front keywords": "armadillo dinosaur, plated shell, clawed limbs, red mask markings, crouched stance, desert dweller, rugged appearance",
     "back keywords": "rounded back shell, tail visible, armor ridges, large hind claws, back stripes, hunched rear posture",
@@ -1666,7 +1666,7 @@
     "old name": "Buoyantor",
     "types": "Water",
     "evolutions": [],
-    "size": "1",
+    "size": "0.8",
     "pokedex": "Often seen weaving through reeds, this shy serpent mimics floating lilies to avoid detection.",
     "front keywords": "aquatic serpent, blue fins, lily mimic tail, peaceful eyes",
     "back keywords": "coiled tail, dorsal fins, spotted texture, low-swim stance",
@@ -1912,7 +1912,7 @@
     "old name": "",
     "types": "Normal",
     "evolutions": [],
-    "size": "1",
+    "size": "0.7",
     "pokedex": "Buttermew is a sweet-natured critter with wings of syrup and a pat of magical butter atop its head. Its warm scent draws both friends and foes alike.",
     "front keywords": "butter-topped creature, golden wings, chubby body, cartoon style, orange fur, round face, whimsical, joyful vibe",
     "back keywords": "wing tips curved back, butter square on head, fluffy tail, smooth back curves, cozy yellow tones",
@@ -2258,7 +2258,7 @@
     "id": "170",
     "name": "SPARMLET",
     "old name": "",
-    "types": "Grass",
+    "types": "Normal",
     "evolutions": [],
     "size": "0.8",
     "pokedex": "This curious hamster crackles with static energy, using the patterns on its fur to store and release controlled electric bursts.",
@@ -2974,7 +2974,7 @@
     "old name": "",
     "types": "Dark",
     "evolutions": [],
-    "size": "0.9",
+    "size": "1.1",
     "pokedex": "",
     "front keywords": "",
     "back keywords": "",
@@ -3141,7 +3141,13 @@
     "name": "GRUMBUG",
     "old name": "",
     "types": "Fire",
-    "evolutions": [],
+    "evolutions": [
+      [
+        "MADTIS",
+        "Level",
+        "20"
+      ]
+    ],
     "size": "0.8",
     "pokedex": "",
     "front keywords": "",
@@ -3159,5 +3165,287 @@
     "front keywords": "",
     "back keywords": "",
     "image": "CRABAWL.png"
+  },
+  {
+    "id": "238",
+    "name": "AQUAJELL",
+    "old name": "",
+    "types": "Water",
+    "evolutions": [
+      [
+        "CRIMJELL",
+        "Level",
+        "20"
+      ]
+    ],
+    "size": "0.8",
+    "pokedex": "",
+    "front keywords": "",
+    "back keywords": "",
+    "image": "AQUAJELL.png"
+  },
+  {
+    "id": "239",
+    "name": "CRIMJELL",
+    "old name": "",
+    "types": "Water",
+    "evolutions": [],
+    "size": "0.9",
+    "pokedex": "",
+    "front keywords": "",
+    "back keywords": "",
+    "image": "CRIMJELL.png"
+  },
+  {
+    "id": "240",
+    "name": "MOTHLET",
+    "old name": "",
+    "types": "Normal",
+    "evolutions": [
+      [
+        "GLAREVERN",
+        "Level",
+        "18"
+      ]
+    ],
+    "size": "0.6",
+    "pokedex": "",
+    "front keywords": "",
+    "back keywords": "",
+    "image": "MOTHLET.png"
+  },
+  {
+    "id": "241",
+    "name": "GLAREVERN",
+    "old name": "",
+    "types": "Electric,Normal",
+    "evolutions": [
+      [
+        "ARCVERN",
+        "Level",
+        "27"
+      ]
+    ],
+    "size": "0.7",
+    "pokedex": "",
+    "front keywords": "",
+    "back keywords": "",
+    "image": "GLAREVERN.png"
+  },
+  {
+    "id": "242",
+    "name": "ARCVERN",
+    "old name": "",
+    "types": "Electric,Normal",
+    "evolutions": [],
+    "size": "1",
+    "pokedex": "",
+    "front keywords": "",
+    "back keywords": "",
+    "image": "ARCVERN.png"
+  },
+  {
+    "id": "243",
+    "name": "ROSEVEIL",
+    "old name": "",
+    "types": "Dark",
+    "evolutions": [
+      [
+        "BLOOMVESS",
+        "Level",
+        "24"
+      ]
+    ],
+    "size": "0.8",
+    "pokedex": "",
+    "front keywords": "",
+    "back keywords": "",
+    "image": "ROSEVEIL.png"
+  },
+  {
+    "id": "244",
+    "name": "BLOOMVESS",
+    "old name": "",
+    "types": "Dark",
+    "evolutions": [],
+    "size": "0.9",
+    "pokedex": "",
+    "front keywords": "",
+    "back keywords": "",
+    "image": "BLOOMVESS.png"
+  },
+  {
+    "id": "245",
+    "name": "CONEWALKER",
+    "old name": "",
+    "types": "Ice",
+    "evolutions": [],
+    "size": "0.9",
+    "pokedex": "",
+    "front keywords": "",
+    "back keywords": "",
+    "image": "CONEWALKER.png"
+  },
+  {
+    "id": "246",
+    "name": "CUBESICLE",
+    "old name": "",
+    "types": "Ice",
+    "evolutions": [],
+    "size": "0.9",
+    "pokedex": "",
+    "front keywords": "",
+    "back keywords": "",
+    "image": "CUBESICLE.png"
+  },
+  {
+    "id": "247",
+    "name": "FROSTAIL",
+    "old name": "",
+    "types": "Ice",
+    "evolutions": [],
+    "size": "0.9",
+    "pokedex": "",
+    "front keywords": "",
+    "back keywords": "",
+    "image": "FROSTAIL.png"
+  },
+  {
+    "id": "248",
+    "name": "PEBBLUG",
+    "old name": "",
+    "types": "Ground",
+    "evolutions": [
+      [
+        "GRAVOGRE",
+        "Level",
+        "24"
+      ]
+    ],
+    "size": "0.7",
+    "pokedex": "",
+    "front keywords": "",
+    "back keywords": "",
+    "image": "PEBBLUG.png"
+  },
+  {
+    "id": "249",
+    "name": "GRAVOGRE",
+    "old name": "",
+    "types": "Ground",
+    "evolutions": [],
+    "size": "1",
+    "pokedex": "",
+    "front keywords": "",
+    "back keywords": "",
+    "image": "GRAVOGRE.png"
+  },
+  {
+    "id": "250",
+    "name": "GRINSHADE",
+    "old name": "",
+    "types": "Dark",
+    "evolutions": [],
+    "size": "0.8",
+    "pokedex": "",
+    "front keywords": "",
+    "back keywords": "",
+    "image": "GRINSHADE.png"
+  },
+  {
+    "id": "251",
+    "name": "HEXOR",
+    "old name": "",
+    "types": "Dark",
+    "evolutions": [],
+    "size": "0.9",
+    "pokedex": "",
+    "front keywords": "",
+    "back keywords": "",
+    "image": "HEXOR.png"
+  },
+  {
+    "id": "252",
+    "name": "MADTIS",
+    "old name": "",
+    "types": "Fire",
+    "evolutions": [],
+    "size": "0.8",
+    "pokedex": "",
+    "front keywords": "",
+    "back keywords": "",
+    "image": "MADTIS.png"
+  },
+  {
+    "id": "253",
+    "name": "NEONWYRM",
+    "old name": "",
+    "types": "Fairy",
+    "evolutions": [],
+    "size": "0.8",
+    "pokedex": "",
+    "front keywords": "",
+    "back keywords": "",
+    "image": "NEONWYRM.png"
+  },
+  {
+    "id": "254",
+    "name": "PICTO",
+    "old name": "",
+    "types": "Fairy",
+    "evolutions": [],
+    "size": "0.8",
+    "pokedex": "",
+    "front keywords": "",
+    "back keywords": "",
+    "image": "PICTO.png"
+  },
+  {
+    "id": "255",
+    "name": "REGALMANE",
+    "old name": "",
+    "types": "Mythic",
+    "evolutions": [],
+    "size": "0.8",
+    "pokedex": "",
+    "front keywords": "",
+    "back keywords": "",
+    "image": "REGALMANE.png"
+  },
+  {
+    "id": "256",
+    "name": "SHROOMED",
+    "old name": "",
+    "types": "Grass",
+    "evolutions": [],
+    "size": "0.8",
+    "pokedex": "",
+    "front keywords": "",
+    "back keywords": "",
+    "image": "SHROOMED.png"
+  },
+  {
+    "id": "257",
+    "name": "STARMUNCH",
+    "old name": "",
+    "types": "Water",
+    "evolutions": [],
+    "size": "0.9",
+    "pokedex": "",
+    "front keywords": "",
+    "back keywords": "",
+    "image": "STARMUNCH.png"
+  },
+  {
+    "id": "258",
+    "name": "VIPOR",
+    "old name": "",
+    "types": "Dark",
+    "evolutions": [],
+    "size": "0.9",
+    "pokedex": "",
+    "front keywords": "",
+    "back keywords": "",
+    "image": "VIPOR.png"
   }
 ]
