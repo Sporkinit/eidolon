@@ -1,0 +1,1807 @@
+{
+  "WATER-A": [
+    {
+      "id": "1",
+      "name": "Tideclaw",
+      "type": "Water",
+      "category": "Physical",
+      "pp": "20",
+      "power": "65",
+      "accuracy": "1"
+    },
+    {
+      "id": "2",
+      "name": "Brineblast",
+      "type": "Water",
+      "category": "Special",
+      "pp": "15",
+      "power": "80",
+      "accuracy": "1"
+    },
+    {
+      "id": "3",
+      "name": "Aqua Surge",
+      "type": "Water",
+      "category": "Special",
+      "pp": "10",
+      "power": "95",
+      "accuracy": "0.9"
+    },
+    {
+      "id": "4",
+      "name": "Waterfall Rush",
+      "type": "Water",
+      "category": "Physical",
+      "pp": "15",
+      "power": "85",
+      "accuracy": "1"
+    },
+    {
+      "id": "5",
+      "name": "Riptide",
+      "type": "Water",
+      "category": "Special",
+      "pp": "10",
+      "power": "110",
+      "accuracy": "0.85"
+    }
+  ],
+  "WATER-B": [
+    {
+      "id": "6",
+      "name": "Seafoam Veil",
+      "type": "Water",
+      "category": "Status",
+      "pp": "20",
+      "power": "-",
+      "accuracy": "-"
+    },
+    {
+      "id": "7",
+      "name": "Deluge Strike",
+      "type": "Water",
+      "category": "Special",
+      "pp": "5",
+      "power": "130",
+      "accuracy": "0.7"
+    },
+    {
+      "id": "8",
+      "name": "Whirlpool Trap",
+      "type": "Water",
+      "category": "Special",
+      "pp": "15",
+      "power": "35",
+      "accuracy": "0.85"
+    },
+    {
+      "id": "9",
+      "name": "Crashing Wave",
+      "type": "Water",
+      "category": "Physical",
+      "pp": "10",
+      "power": "100",
+      "accuracy": "0.8"
+    },
+    {
+      "id": "10",
+      "name": "Saltwater Spray",
+      "type": "Water",
+      "category": "Special",
+      "pp": "25",
+      "power": "40",
+      "accuracy": "1"
+    }
+  ],
+  "WATER-C": [
+    {
+      "id": "11",
+      "name": "Deep Dive",
+      "type": "Water",
+      "category": "Physical",
+      "pp": "10",
+      "power": "80",
+      "accuracy": "1"
+    },
+    {
+      "id": "12",
+      "name": "Mist Veil",
+      "type": "Water",
+      "category": "Status",
+      "pp": "30",
+      "power": "-",
+      "accuracy": "-"
+    },
+    {
+      "id": "13",
+      "name": "Coral Crush",
+      "type": "Water",
+      "category": "Physical",
+      "pp": "15",
+      "power": "70",
+      "accuracy": "1"
+    },
+    {
+      "id": "14",
+      "name": "Hydro Cannon",
+      "type": "Water",
+      "category": "Special",
+      "pp": "5",
+      "power": "150",
+      "accuracy": "0.9"
+    },
+    {
+      "id": "15",
+      "name": "Undertow",
+      "type": "Water",
+      "category": "Physical",
+      "pp": "20",
+      "power": "55",
+      "accuracy": "0.95"
+    }
+  ],
+  "WATER-D": [
+    {
+      "id": "16",
+      "name": "Rain Dance Slash",
+      "type": "Water",
+      "category": "Physical",
+      "pp": "15",
+      "power": "75",
+      "accuracy": "1"
+    },
+    {
+      "id": "17",
+      "name": "Tidal Lock",
+      "type": "Water",
+      "category": "Status",
+      "pp": "10",
+      "power": "-",
+      "accuracy": "-"
+    },
+    {
+      "id": "18",
+      "name": "Pearl Burst",
+      "type": "Water",
+      "category": "Special",
+      "pp": "20",
+      "power": "60",
+      "accuracy": "1"
+    },
+    {
+      "id": "19",
+      "name": "Abyssal Pulse",
+      "type": "Water",
+      "category": "Special",
+      "pp": "10",
+      "power": "120",
+      "accuracy": "0.75"
+    },
+    {
+      "id": "20",
+      "name": "Surf Slam",
+      "type": "Water",
+      "category": "Physical",
+      "pp": "15",
+      "power": "90",
+      "accuracy": "0.95"
+    }
+  ],
+  "PRIMAL-A": [
+    {
+      "id": "21",
+      "name": "Knuckle Down",
+      "type": "Primal",
+      "category": "Physical",
+      "pp": "25",
+      "power": "50",
+      "accuracy": "1"
+    },
+    {
+      "id": "22",
+      "name": "Gut Charge",
+      "type": "Primal",
+      "category": "Physical",
+      "pp": "20",
+      "power": "65",
+      "accuracy": "1"
+    },
+    {
+      "id": "23",
+      "name": "Primal Roar",
+      "type": "Primal",
+      "category": "Status",
+      "pp": "20",
+      "power": "-",
+      "accuracy": "-"
+    },
+    {
+      "id": "24",
+      "name": "Wild Haymaker",
+      "type": "Primal",
+      "category": "Physical",
+      "pp": "10",
+      "power": "100",
+      "accuracy": "0.8"
+    },
+    {
+      "id": "25",
+      "name": "Instinct Slash",
+      "type": "Primal",
+      "category": "Physical",
+      "pp": "15",
+      "power": "80",
+      "accuracy": "0.95"
+    }
+  ],
+  "PRIMAL-B": [
+    {
+      "id": "26",
+      "name": "Iron Will Strike",
+      "type": "Primal",
+      "category": "Physical",
+      "pp": "15",
+      "power": "75",
+      "accuracy": "1"
+    },
+    {
+      "id": "27",
+      "name": "Berserk Rush",
+      "type": "Primal",
+      "category": "Physical",
+      "pp": "5",
+      "power": "120",
+      "accuracy": "0.85"
+    },
+    {
+      "id": "28",
+      "name": "Ground Pound",
+      "type": "Primal",
+      "category": "Physical",
+      "pp": "20",
+      "power": "60",
+      "accuracy": "1"
+    },
+    {
+      "id": "29",
+      "name": "Rough Tumble",
+      "type": "Primal",
+      "category": "Physical",
+      "pp": "25",
+      "power": "40",
+      "accuracy": "0.95"
+    },
+    {
+      "id": "30",
+      "name": "Primal Surge",
+      "type": "Primal",
+      "category": "Special",
+      "pp": "10",
+      "power": "90",
+      "accuracy": "0.9"
+    }
+  ],
+  "PRIMAL-C": [
+    {
+      "id": "31",
+      "name": "Headbutt Charge",
+      "type": "Primal",
+      "category": "Physical",
+      "pp": "15",
+      "power": "70",
+      "accuracy": "1"
+    },
+    {
+      "id": "32",
+      "name": "Savagery",
+      "type": "Primal",
+      "category": "Status",
+      "pp": "10",
+      "power": "-",
+      "accuracy": "-"
+    },
+    {
+      "id": "33",
+      "name": "Uproar Slam",
+      "type": "Primal",
+      "category": "Special",
+      "pp": "15",
+      "power": "70",
+      "accuracy": "1"
+    },
+    {
+      "id": "34",
+      "name": "Feral Bite",
+      "type": "Primal",
+      "category": "Physical",
+      "pp": "20",
+      "power": "55",
+      "accuracy": "0.95"
+    },
+    {
+      "id": "35",
+      "name": "Concussive Blow",
+      "type": "Primal",
+      "category": "Physical",
+      "pp": "10",
+      "power": "85",
+      "accuracy": "0.9"
+    }
+  ],
+  "PRIMAL-D": [
+    {
+      "id": "36",
+      "name": "Body Press Crush",
+      "type": "Primal",
+      "category": "Physical",
+      "pp": "10",
+      "power": "100",
+      "accuracy": "1"
+    },
+    {
+      "id": "37",
+      "name": "Primal Howl",
+      "type": "Primal",
+      "category": "Status",
+      "pp": "20",
+      "power": "-",
+      "accuracy": "-"
+    },
+    {
+      "id": "38",
+      "name": "Bone Rattler",
+      "type": "Primal",
+      "category": "Physical",
+      "pp": "15",
+      "power": "75",
+      "accuracy": "0.85"
+    },
+    {
+      "id": "39",
+      "name": "Endure Break",
+      "type": "Primal",
+      "category": "Physical",
+      "pp": "10",
+      "power": "95",
+      "accuracy": "0.9"
+    },
+    {
+      "id": "40",
+      "name": "Apex Strike",
+      "type": "Primal",
+      "category": "Physical",
+      "pp": "5",
+      "power": "130",
+      "accuracy": "0.75"
+    }
+  ],
+  "TERRA-A": [
+    {
+      "id": "41",
+      "name": "Dustcloud",
+      "type": "Terra",
+      "category": "Status",
+      "pp": "20",
+      "power": "-",
+      "accuracy": "-"
+    },
+    {
+      "id": "42",
+      "name": "Rockslide",
+      "type": "Terra",
+      "category": "Physical",
+      "pp": "10",
+      "power": "75",
+      "accuracy": "0.9"
+    },
+    {
+      "id": "43",
+      "name": "Terra Fissure",
+      "type": "Terra",
+      "category": "Physical",
+      "pp": "10",
+      "power": "100",
+      "accuracy": "0.8"
+    },
+    {
+      "id": "44",
+      "name": "Mudshot",
+      "type": "Terra",
+      "category": "Special",
+      "pp": "20",
+      "power": "55",
+      "accuracy": "0.95"
+    },
+    {
+      "id": "45",
+      "name": "Quake Stomp",
+      "type": "Terra",
+      "category": "Physical",
+      "pp": "15",
+      "power": "80",
+      "accuracy": "1"
+    }
+  ],
+  "TERRA-B": [
+    {
+      "id": "46",
+      "name": "Boulder Barrage",
+      "type": "Terra",
+      "category": "Physical",
+      "pp": "10",
+      "power": "90",
+      "accuracy": "0.85"
+    },
+    {
+      "id": "47",
+      "name": "Sandstorm Surge",
+      "type": "Terra",
+      "category": "Special",
+      "pp": "10",
+      "power": "65",
+      "accuracy": "0.9"
+    },
+    {
+      "id": "48",
+      "name": "Gravel Pelt",
+      "type": "Terra",
+      "category": "Physical",
+      "pp": "25",
+      "power": "40",
+      "accuracy": "1"
+    },
+    {
+      "id": "49",
+      "name": "Tectonic Slam",
+      "type": "Terra",
+      "category": "Physical",
+      "pp": "5",
+      "power": "130",
+      "accuracy": "0.7"
+    },
+    {
+      "id": "50",
+      "name": "Mineral Burst",
+      "type": "Terra",
+      "category": "Special",
+      "pp": "15",
+      "power": "70",
+      "accuracy": "0.9"
+    }
+  ],
+  "TERRA-C": [
+    {
+      "id": "51",
+      "name": "Sinkhole",
+      "type": "Terra",
+      "category": "Special",
+      "pp": "10",
+      "power": "95",
+      "accuracy": "0.8"
+    },
+    {
+      "id": "52",
+      "name": "Stone Edge",
+      "type": "Terra",
+      "category": "Physical",
+      "pp": "5",
+      "power": "100",
+      "accuracy": "0.8"
+    },
+    {
+      "id": "53",
+      "name": "Clay Mold",
+      "type": "Terra",
+      "category": "Status",
+      "pp": "15",
+      "power": "-",
+      "accuracy": "-"
+    },
+    {
+      "id": "54",
+      "name": "Sediment Wave",
+      "type": "Terra",
+      "category": "Special",
+      "pp": "10",
+      "power": "80",
+      "accuracy": "0.85"
+    },
+    {
+      "id": "55",
+      "name": "Cavern Crash",
+      "type": "Terra",
+      "category": "Physical",
+      "pp": "10",
+      "power": "90",
+      "accuracy": "0.85"
+    }
+  ],
+  "TERRA-D": [
+    {
+      "id": "56",
+      "name": "Pebble Rain",
+      "type": "Terra",
+      "category": "Special",
+      "pp": "20",
+      "power": "50",
+      "accuracy": "1"
+    },
+    {
+      "id": "57",
+      "name": "Earth Veil",
+      "type": "Terra",
+      "category": "Status",
+      "pp": "10",
+      "power": "-",
+      "accuracy": "-"
+    },
+    {
+      "id": "58",
+      "name": "Geo Break",
+      "type": "Terra",
+      "category": "Physical",
+      "pp": "15",
+      "power": "75",
+      "accuracy": "0.9"
+    },
+    {
+      "id": "59",
+      "name": "Stonewall Smash",
+      "type": "Terra",
+      "category": "Physical",
+      "pp": "10",
+      "power": "100",
+      "accuracy": "0.85"
+    },
+    {
+      "id": "60",
+      "name": "Magma Crust",
+      "type": "Terra",
+      "category": "Special",
+      "pp": "5",
+      "power": "120",
+      "accuracy": "0.75"
+    }
+  ],
+  "FLORA-A": [
+    {
+      "id": "61",
+      "name": "Vine Lash",
+      "type": "Flora",
+      "category": "Physical",
+      "pp": "25",
+      "power": "45",
+      "accuracy": "1"
+    },
+    {
+      "id": "62",
+      "name": "Spore Burst",
+      "type": "Flora",
+      "category": "Status",
+      "pp": "15",
+      "power": "-",
+      "accuracy": "-"
+    },
+    {
+      "id": "63",
+      "name": "Leaf Blade",
+      "type": "Flora",
+      "category": "Physical",
+      "pp": "15",
+      "power": "90",
+      "accuracy": "1"
+    },
+    {
+      "id": "64",
+      "name": "Thorn Volley",
+      "type": "Flora",
+      "category": "Physical",
+      "pp": "20",
+      "power": "60",
+      "accuracy": "0.95"
+    },
+    {
+      "id": "65",
+      "name": "Overgrow Slam",
+      "type": "Flora",
+      "category": "Physical",
+      "pp": "10",
+      "power": "100",
+      "accuracy": "0.85"
+    }
+  ],
+  "FLORA-B": [
+    {
+      "id": "66",
+      "name": "Pollen Guard",
+      "type": "Flora",
+      "category": "Status",
+      "pp": "20",
+      "power": "-",
+      "accuracy": "-"
+    },
+    {
+      "id": "67",
+      "name": "Seed Bomb",
+      "type": "Flora",
+      "category": "Physical",
+      "pp": "15",
+      "power": "80",
+      "accuracy": "1"
+    },
+    {
+      "id": "68",
+      "name": "Flora Pulse",
+      "type": "Flora",
+      "category": "Special",
+      "pp": "10",
+      "power": "95",
+      "accuracy": "0.9"
+    },
+    {
+      "id": "69",
+      "name": "Silkwrap",
+      "type": "Flora",
+      "category": "Status",
+      "pp": "15",
+      "power": "-",
+      "accuracy": "-"
+    },
+    {
+      "id": "70",
+      "name": "Canopy Crush",
+      "type": "Flora",
+      "category": "Physical",
+      "pp": "10",
+      "power": "80",
+      "accuracy": "0.85"
+    }
+  ],
+  "FLORA-C": [
+    {
+      "id": "71",
+      "name": "Nettle Sting",
+      "type": "Flora",
+      "category": "Special",
+      "pp": "25",
+      "power": "40",
+      "accuracy": "0.95"
+    },
+    {
+      "id": "72",
+      "name": "Root Bind",
+      "type": "Flora",
+      "category": "Status",
+      "pp": "10",
+      "power": "-",
+      "accuracy": "-"
+    },
+    {
+      "id": "73",
+      "name": "Bloom Burst",
+      "type": "Flora",
+      "category": "Special",
+      "pp": "10",
+      "power": "110",
+      "accuracy": "0.8"
+    },
+    {
+      "id": "74",
+      "name": "Chloro Slash",
+      "type": "Flora",
+      "category": "Physical",
+      "pp": "15",
+      "power": "70",
+      "accuracy": "1"
+    },
+    {
+      "id": "75",
+      "name": "Mushroom Spore",
+      "type": "Flora",
+      "category": "Status",
+      "pp": "20",
+      "power": "-",
+      "accuracy": "-"
+    }
+  ],
+  "FLORA-D": [
+    {
+      "id": "76",
+      "name": "Briar Tangle",
+      "type": "Flora",
+      "category": "Physical",
+      "pp": "15",
+      "power": "65",
+      "accuracy": "0.95"
+    },
+    {
+      "id": "77",
+      "name": "Verdant Torrent",
+      "type": "Flora",
+      "category": "Special",
+      "pp": "5",
+      "power": "130",
+      "accuracy": "0.7"
+    },
+    {
+      "id": "78",
+      "name": "Larva Barrage",
+      "type": "Flora",
+      "category": "Physical",
+      "pp": "20",
+      "power": "55",
+      "accuracy": "0.95"
+    },
+    {
+      "id": "79",
+      "name": "Web Snare",
+      "type": "Flora",
+      "category": "Status",
+      "pp": "20",
+      "power": "-",
+      "accuracy": "-"
+    },
+    {
+      "id": "80",
+      "name": "Petal Hurricane",
+      "type": "Flora",
+      "category": "Special",
+      "pp": "10",
+      "power": "100",
+      "accuracy": "0.85"
+    }
+  ],
+  "FIRE-A": [
+    {
+      "id": "81",
+      "name": "Ember Claw",
+      "type": "Fire",
+      "category": "Physical",
+      "pp": "25",
+      "power": "45",
+      "accuracy": "1"
+    },
+    {
+      "id": "82",
+      "name": "Inferno Blast",
+      "type": "Fire",
+      "category": "Special",
+      "pp": "5",
+      "power": "130",
+      "accuracy": "0.85"
+    },
+    {
+      "id": "83",
+      "name": "Singe",
+      "type": "Fire",
+      "category": "Special",
+      "pp": "30",
+      "power": "40",
+      "accuracy": "1"
+    },
+    {
+      "id": "84",
+      "name": "Magma Punch",
+      "type": "Fire",
+      "category": "Physical",
+      "pp": "15",
+      "power": "80",
+      "accuracy": "1"
+    },
+    {
+      "id": "85",
+      "name": "Flamethrower",
+      "type": "Fire",
+      "category": "Special",
+      "pp": "15",
+      "power": "90",
+      "accuracy": "1"
+    }
+  ],
+  "FIRE-B": [
+    {
+      "id": "86",
+      "name": "Cinder Dash",
+      "type": "Fire",
+      "category": "Physical",
+      "pp": "20",
+      "power": "60",
+      "accuracy": "1"
+    },
+    {
+      "id": "87",
+      "name": "Pyre Strike",
+      "type": "Fire",
+      "category": "Physical",
+      "pp": "10",
+      "power": "100",
+      "accuracy": "0.85"
+    },
+    {
+      "id": "88",
+      "name": "Heat Wave",
+      "type": "Fire",
+      "category": "Special",
+      "pp": "10",
+      "power": "95",
+      "accuracy": "0.9"
+    },
+    {
+      "id": "89",
+      "name": "Ashen Veil",
+      "type": "Fire",
+      "category": "Status",
+      "pp": "15",
+      "power": "-",
+      "accuracy": "-"
+    },
+    {
+      "id": "90",
+      "name": "Wildfire Surge",
+      "type": "Fire",
+      "category": "Special",
+      "pp": "10",
+      "power": "110",
+      "accuracy": "0.8"
+    }
+  ],
+  "FIRE-C": [
+    {
+      "id": "91",
+      "name": "Scorchbite",
+      "type": "Fire",
+      "category": "Physical",
+      "pp": "20",
+      "power": "65",
+      "accuracy": "0.95"
+    },
+    {
+      "id": "92",
+      "name": "Molten Slam",
+      "type": "Fire",
+      "category": "Physical",
+      "pp": "10",
+      "power": "90",
+      "accuracy": "0.85"
+    },
+    {
+      "id": "93",
+      "name": "Spark Plume",
+      "type": "Fire",
+      "category": "Special",
+      "pp": "20",
+      "power": "55",
+      "accuracy": "1"
+    },
+    {
+      "id": "94",
+      "name": "Infernal Rush",
+      "type": "Fire",
+      "category": "Physical",
+      "pp": "15",
+      "power": "75",
+      "accuracy": "1"
+    },
+    {
+      "id": "95",
+      "name": "Volcano Burst",
+      "type": "Fire",
+      "category": "Special",
+      "pp": "5",
+      "power": "150",
+      "accuracy": "0.9"
+    }
+  ],
+  "FIRE-D": [
+    {
+      "id": "96",
+      "name": "Brand Mark",
+      "type": "Fire",
+      "category": "Status",
+      "pp": "20",
+      "power": "-",
+      "accuracy": "-"
+    },
+    {
+      "id": "97",
+      "name": "Solar Flare",
+      "type": "Fire",
+      "category": "Special",
+      "pp": "10",
+      "power": "120",
+      "accuracy": "0.75"
+    },
+    {
+      "id": "98",
+      "name": "Torch Tackle",
+      "type": "Fire",
+      "category": "Physical",
+      "pp": "15",
+      "power": "80",
+      "accuracy": "1"
+    },
+    {
+      "id": "99",
+      "name": "Char Swipe",
+      "type": "Fire",
+      "category": "Physical",
+      "pp": "25",
+      "power": "50",
+      "accuracy": "0.95"
+    },
+    {
+      "id": "100",
+      "name": "Combustion Fist",
+      "type": "Fire",
+      "category": "Physical",
+      "pp": "10",
+      "power": "95",
+      "accuracy": "0.9"
+    }
+  ],
+  "ICE-A": [
+    {
+      "id": "101",
+      "name": "Frost Claw",
+      "type": "Ice",
+      "category": "Physical",
+      "pp": "20",
+      "power": "65",
+      "accuracy": "1"
+    },
+    {
+      "id": "102",
+      "name": "Blizzard Shot",
+      "type": "Ice",
+      "category": "Special",
+      "pp": "5",
+      "power": "110",
+      "accuracy": "0.7"
+    },
+    {
+      "id": "103",
+      "name": "Icicle Spear",
+      "type": "Ice",
+      "category": "Physical",
+      "pp": "30",
+      "power": "25",
+      "accuracy": "1"
+    },
+    {
+      "id": "104",
+      "name": "Glacial Slam",
+      "type": "Ice",
+      "category": "Physical",
+      "pp": "10",
+      "power": "90",
+      "accuracy": "0.85"
+    }
+  ],
+  "ICE-B": [
+    {
+      "id": "105",
+      "name": "Snowdrift Veil",
+      "type": "Ice",
+      "category": "Status",
+      "pp": "20",
+      "power": "-",
+      "accuracy": "-"
+    },
+    {
+      "id": "106",
+      "name": "Subzero Pulse",
+      "type": "Ice",
+      "category": "Special",
+      "pp": "10",
+      "power": "95",
+      "accuracy": "0.9"
+    },
+    {
+      "id": "107",
+      "name": "Permafrost",
+      "type": "Ice",
+      "category": "Status",
+      "pp": "15",
+      "power": "-",
+      "accuracy": "-"
+    },
+    {
+      "id": "108",
+      "name": "Crystal Lance",
+      "type": "Ice",
+      "category": "Special",
+      "pp": "15",
+      "power": "80",
+      "accuracy": "1"
+    }
+  ],
+  "ICE-C": [
+    {
+      "id": "109",
+      "name": "Freeze Ray",
+      "type": "Ice",
+      "category": "Special",
+      "pp": "10",
+      "power": "90",
+      "accuracy": "1"
+    },
+    {
+      "id": "110",
+      "name": "Avalanche Rush",
+      "type": "Ice",
+      "category": "Physical",
+      "pp": "10",
+      "power": "75",
+      "accuracy": "0.9"
+    },
+    {
+      "id": "111",
+      "name": "Hailstone Burst",
+      "type": "Ice",
+      "category": "Special",
+      "pp": "15",
+      "power": "70",
+      "accuracy": "0.9"
+    },
+    {
+      "id": "112",
+      "name": "Tundra Crash",
+      "type": "Ice",
+      "category": "Physical",
+      "pp": "10",
+      "power": "100",
+      "accuracy": "0.8"
+    }
+  ],
+  "DARK-A": [
+    {
+      "id": "113",
+      "name": "Shadow Lunge",
+      "type": "Dark",
+      "category": "Physical",
+      "pp": "20",
+      "power": "65",
+      "accuracy": "1"
+    },
+    {
+      "id": "114",
+      "name": "Nightfall Pulse",
+      "type": "Dark",
+      "category": "Special",
+      "pp": "10",
+      "power": "90",
+      "accuracy": "1"
+    },
+    {
+      "id": "115",
+      "name": "Umbra Slash",
+      "type": "Dark",
+      "category": "Physical",
+      "pp": "15",
+      "power": "80",
+      "accuracy": "0.95"
+    },
+    {
+      "id": "116",
+      "name": "Dread Aura",
+      "type": "Dark",
+      "category": "Status",
+      "pp": "15",
+      "power": "-",
+      "accuracy": "-"
+    }
+  ],
+  "DARK-B": [
+    {
+      "id": "117",
+      "name": "Curse Mark",
+      "type": "Dark",
+      "category": "Status",
+      "pp": "10",
+      "power": "-",
+      "accuracy": "-"
+    },
+    {
+      "id": "118",
+      "name": "Void Strike",
+      "type": "Dark",
+      "category": "Physical",
+      "pp": "10",
+      "power": "100",
+      "accuracy": "0.85"
+    },
+    {
+      "id": "119",
+      "name": "Eclipse Bolt",
+      "type": "Dark",
+      "category": "Special",
+      "pp": "10",
+      "power": "110",
+      "accuracy": "0.8"
+    },
+    {
+      "id": "120",
+      "name": "Nightmare Claw",
+      "type": "Dark",
+      "category": "Physical",
+      "pp": "15",
+      "power": "75",
+      "accuracy": "0.95"
+    }
+  ],
+  "DARK-C": [
+    {
+      "id": "121",
+      "name": "Obsidian Fang",
+      "type": "Dark",
+      "category": "Physical",
+      "pp": "20",
+      "power": "60",
+      "accuracy": "1"
+    },
+    {
+      "id": "122",
+      "name": "Shadowstep",
+      "type": "Dark",
+      "category": "Status",
+      "pp": "20",
+      "power": "-",
+      "accuracy": "-"
+    },
+    {
+      "id": "123",
+      "name": "Gloom Blast",
+      "type": "Dark",
+      "category": "Special",
+      "pp": "10",
+      "power": "95",
+      "accuracy": "0.9"
+    },
+    {
+      "id": "124",
+      "name": "Shade Siphon",
+      "type": "Dark",
+      "category": "Special",
+      "pp": "15",
+      "power": "70",
+      "accuracy": "1"
+    }
+  ],
+  "VOLT-A": [
+    {
+      "id": "125",
+      "name": "Thunder Jab",
+      "type": "Volt",
+      "category": "Physical",
+      "pp": "20",
+      "power": "65",
+      "accuracy": "1"
+    },
+    {
+      "id": "126",
+      "name": "Voltbeam",
+      "type": "Volt",
+      "category": "Special",
+      "pp": "15",
+      "power": "90",
+      "accuracy": "1"
+    },
+    {
+      "id": "127",
+      "name": "Arc Surge",
+      "type": "Volt",
+      "category": "Special",
+      "pp": "10",
+      "power": "100",
+      "accuracy": "0.85"
+    },
+    {
+      "id": "128",
+      "name": "Static Clap",
+      "type": "Volt",
+      "category": "Special",
+      "pp": "25",
+      "power": "40",
+      "accuracy": "1"
+    }
+  ],
+  "VOLT-B": [
+    {
+      "id": "129",
+      "name": "Charge Crash",
+      "type": "Volt",
+      "category": "Physical",
+      "pp": "10",
+      "power": "90",
+      "accuracy": "0.85"
+    },
+    {
+      "id": "130",
+      "name": "Overload",
+      "type": "Volt",
+      "category": "Status",
+      "pp": "10",
+      "power": "-",
+      "accuracy": "-"
+    },
+    {
+      "id": "131",
+      "name": "Lightning Dash",
+      "type": "Volt",
+      "category": "Physical",
+      "pp": "20",
+      "power": "60",
+      "accuracy": "1"
+    },
+    {
+      "id": "132",
+      "name": "Plasma Burst",
+      "type": "Volt",
+      "category": "Special",
+      "pp": "10",
+      "power": "110",
+      "accuracy": "0.8"
+    }
+  ],
+  "VOLT-C": [
+    {
+      "id": "133",
+      "name": "Conductor Claw",
+      "type": "Volt",
+      "category": "Physical",
+      "pp": "15",
+      "power": "75",
+      "accuracy": "0.95"
+    },
+    {
+      "id": "134",
+      "name": "Shock Grid",
+      "type": "Volt",
+      "category": "Status",
+      "pp": "20",
+      "power": "-",
+      "accuracy": "-"
+    },
+    {
+      "id": "135",
+      "name": "Zap Cannon",
+      "type": "Volt",
+      "category": "Special",
+      "pp": "5",
+      "power": "120",
+      "accuracy": "0.5"
+    },
+    {
+      "id": "136",
+      "name": "Galvanic Slam",
+      "type": "Volt",
+      "category": "Physical",
+      "pp": "10",
+      "power": "95",
+      "accuracy": "0.9"
+    }
+  ],
+  "FAE-A": [
+    {
+      "id": "137",
+      "name": "Glimmer Touch",
+      "type": "Fae",
+      "category": "Special",
+      "pp": "25",
+      "power": "40",
+      "accuracy": "1"
+    },
+    {
+      "id": "138",
+      "name": "Enchant Wave",
+      "type": "Fae",
+      "category": "Status",
+      "pp": "20",
+      "power": "-",
+      "accuracy": "-"
+    },
+    {
+      "id": "139",
+      "name": "Pixie Blast",
+      "type": "Fae",
+      "category": "Special",
+      "pp": "15",
+      "power": "90",
+      "accuracy": "1"
+    },
+    {
+      "id": "140",
+      "name": "Faerie Ring",
+      "type": "Fae",
+      "category": "Status",
+      "pp": "10",
+      "power": "-",
+      "accuracy": "-"
+    },
+    {
+      "id": "141",
+      "name": "Gossamer Strike",
+      "type": "Fae",
+      "category": "Physical",
+      "pp": "20",
+      "power": "65",
+      "accuracy": "0.95"
+    }
+  ],
+  "FAE-B": [
+    {
+      "id": "142",
+      "name": "Moonveil Pulse",
+      "type": "Fae",
+      "category": "Special",
+      "pp": "10",
+      "power": "95",
+      "accuracy": "0.9"
+    },
+    {
+      "id": "143",
+      "name": "Blossom Charm",
+      "type": "Fae",
+      "category": "Status",
+      "pp": "15",
+      "power": "-",
+      "accuracy": "-"
+    },
+    {
+      "id": "144",
+      "name": "Stardust Surge",
+      "type": "Fae",
+      "category": "Special",
+      "pp": "10",
+      "power": "110",
+      "accuracy": "0.8"
+    },
+    {
+      "id": "145",
+      "name": "Wisp Slash",
+      "type": "Fae",
+      "category": "Physical",
+      "pp": "15",
+      "power": "70",
+      "accuracy": "1"
+    },
+    {
+      "id": "146",
+      "name": "Dreamweave",
+      "type": "Fae",
+      "category": "Status",
+      "pp": "10",
+      "power": "-",
+      "accuracy": "-"
+    }
+  ],
+  "AVIAN-A": [
+    {
+      "id": "147",
+      "name": "Gale Dive",
+      "type": "Flex",
+      "category": "Physical",
+      "pp": "20",
+      "power": "65",
+      "accuracy": "1"
+    },
+    {
+      "id": "148",
+      "name": "Talon Strike",
+      "type": "Flex",
+      "category": "Physical",
+      "pp": "15",
+      "power": "80",
+      "accuracy": "0.95"
+    },
+    {
+      "id": "149",
+      "name": "Featherstorm",
+      "type": "Flex",
+      "category": "Special",
+      "pp": "10",
+      "power": "90",
+      "accuracy": "0.85"
+    },
+    {
+      "id": "150",
+      "name": "Soaring Peck",
+      "type": "Flex",
+      "category": "Physical",
+      "pp": "25",
+      "power": "50",
+      "accuracy": "1"
+    }
+  ],
+  "FELINE-A": [
+    {
+      "id": "151",
+      "name": "Pounce",
+      "type": "Flex",
+      "category": "Physical",
+      "pp": "20",
+      "power": "65",
+      "accuracy": "1"
+    },
+    {
+      "id": "152",
+      "name": "Claw Flurry",
+      "type": "Flex",
+      "category": "Physical",
+      "pp": "15",
+      "power": "80",
+      "accuracy": "0.95"
+    },
+    {
+      "id": "153",
+      "name": "Hiss Aura",
+      "type": "Flex",
+      "category": "Status",
+      "pp": "20",
+      "power": "-",
+      "accuracy": "-"
+    },
+    {
+      "id": "154",
+      "name": "Night Prowl",
+      "type": "Flex",
+      "category": "Physical",
+      "pp": "10",
+      "power": "70",
+      "accuracy": "1"
+    }
+  ],
+  "HARVEST-A": [
+    {
+      "id": "155",
+      "name": "Pulp Burst",
+      "type": "Flex",
+      "category": "Special",
+      "pp": "20",
+      "power": "55",
+      "accuracy": "1"
+    },
+    {
+      "id": "156",
+      "name": "Juicy Splash",
+      "type": "Flex",
+      "category": "Special",
+      "pp": "15",
+      "power": "70",
+      "accuracy": "0.95"
+    },
+    {
+      "id": "157",
+      "name": "Pit Hurl",
+      "type": "Flex",
+      "category": "Physical",
+      "pp": "20",
+      "power": "65",
+      "accuracy": "1"
+    }
+  ],
+  "FLORAL-A": [
+    {
+      "id": "158",
+      "name": "Petal Shower",
+      "type": "Flex",
+      "category": "Special",
+      "pp": "25",
+      "power": "40",
+      "accuracy": "1"
+    },
+    {
+      "id": "159",
+      "name": "Bloom Aura",
+      "type": "Flex",
+      "category": "Status",
+      "pp": "20",
+      "power": "-",
+      "accuracy": "-"
+    },
+    {
+      "id": "160",
+      "name": "Nectar Pulse",
+      "type": "Flex",
+      "category": "Special",
+      "pp": "15",
+      "power": "70",
+      "accuracy": "0.95"
+    },
+    {
+      "id": "161",
+      "name": "Stamen Sting",
+      "type": "Flex",
+      "category": "Physical",
+      "pp": "20",
+      "power": "60",
+      "accuracy": "1"
+    }
+  ],
+  "URSINE-A": [
+    {
+      "id": "162",
+      "name": "Maul",
+      "type": "Flex",
+      "category": "Physical",
+      "pp": "15",
+      "power": "90",
+      "accuracy": "0.85"
+    },
+    {
+      "id": "163",
+      "name": "Bear Hug",
+      "type": "Flex",
+      "category": "Physical",
+      "pp": "10",
+      "power": "80",
+      "accuracy": "1"
+    },
+    {
+      "id": "164",
+      "name": "Hibernation Wake",
+      "type": "Flex",
+      "category": "Status",
+      "pp": "10",
+      "power": "-",
+      "accuracy": "-"
+    },
+    {
+      "id": "165",
+      "name": "Cub Swipe",
+      "type": "Flex",
+      "category": "Physical",
+      "pp": "20",
+      "power": "60",
+      "accuracy": "1"
+    }
+  ],
+  "CARAPACE-A": [
+    {
+      "id": "166",
+      "name": "Shell Bash",
+      "type": "Flex",
+      "category": "Physical",
+      "pp": "15",
+      "power": "80",
+      "accuracy": "1"
+    },
+    {
+      "id": "167",
+      "name": "Withdraw Guard",
+      "type": "Flex",
+      "category": "Status",
+      "pp": "20",
+      "power": "-",
+      "accuracy": "-"
+    },
+    {
+      "id": "168",
+      "name": "Spiral Slam",
+      "type": "Flex",
+      "category": "Physical",
+      "pp": "10",
+      "power": "90",
+      "accuracy": "0.85"
+    }
+  ],
+  "CACTOID-A": [
+    {
+      "id": "169",
+      "name": "Spine Volley",
+      "type": "Flex",
+      "category": "Physical",
+      "pp": "20",
+      "power": "55",
+      "accuracy": "0.95"
+    },
+    {
+      "id": "170",
+      "name": "Needle Rush",
+      "type": "Flex",
+      "category": "Physical",
+      "pp": "15",
+      "power": "70",
+      "accuracy": "1"
+    },
+    {
+      "id": "171",
+      "name": "Desert Thorn",
+      "type": "Flex",
+      "category": "Special",
+      "pp": "10",
+      "power": "85",
+      "accuracy": "0.9"
+    }
+  ],
+  "CANINE-A": [
+    {
+      "id": "172",
+      "name": "Jaw Clamp",
+      "type": "Flex",
+      "category": "Physical",
+      "pp": "20",
+      "power": "70",
+      "accuracy": "1"
+    },
+    {
+      "id": "173",
+      "name": "Howl Surge",
+      "type": "Flex",
+      "category": "Status",
+      "pp": "20",
+      "power": "-",
+      "accuracy": "-"
+    },
+    {
+      "id": "174",
+      "name": "Fetch Fling",
+      "type": "Flex",
+      "category": "Physical",
+      "pp": "20",
+      "power": "55",
+      "accuracy": "1"
+    },
+    {
+      "id": "175",
+      "name": "Pack Tackle",
+      "type": "Flex",
+      "category": "Physical",
+      "pp": "15",
+      "power": "80",
+      "accuracy": "0.95"
+    }
+  ],
+  "OVINE-A": [
+    {
+      "id": "176",
+      "name": "Wool Wrap",
+      "type": "Flex",
+      "category": "Status",
+      "pp": "20",
+      "power": "-",
+      "accuracy": "-"
+    },
+    {
+      "id": "177",
+      "name": "Headbutt Bleat",
+      "type": "Flex",
+      "category": "Physical",
+      "pp": "20",
+      "power": "65",
+      "accuracy": "1"
+    },
+    {
+      "id": "178",
+      "name": "Fleecy Guard",
+      "type": "Flex",
+      "category": "Status",
+      "pp": "15",
+      "power": "-",
+      "accuracy": "-"
+    }
+  ],
+  "EQUINE-A": [
+    {
+      "id": "179",
+      "name": "Hoofstrike",
+      "type": "Flex",
+      "category": "Physical",
+      "pp": "20",
+      "power": "80",
+      "accuracy": "1"
+    },
+    {
+      "id": "180",
+      "name": "Gallop Charge",
+      "type": "Flex",
+      "category": "Physical",
+      "pp": "15",
+      "power": "90",
+      "accuracy": "0.95"
+    },
+    {
+      "id": "181",
+      "name": "Mane Whip",
+      "type": "Flex",
+      "category": "Physical",
+      "pp": "20",
+      "power": "65",
+      "accuracy": "1"
+    },
+    {
+      "id": "182",
+      "name": "Stampede",
+      "type": "Flex",
+      "category": "Physical",
+      "pp": "5",
+      "power": "120",
+      "accuracy": "0.8"
+    }
+  ],
+  "DRAGON-A": [
+    {
+      "id": "183",
+      "name": "Scale Slash",
+      "type": "Flex",
+      "category": "Physical",
+      "pp": "15",
+      "power": "80",
+      "accuracy": "1"
+    },
+    {
+      "id": "184",
+      "name": "Dragon Roar",
+      "type": "Flex",
+      "category": "Status",
+      "pp": "20",
+      "power": "-",
+      "accuracy": "-"
+    },
+    {
+      "id": "185",
+      "name": "Dragonsbreath Bite",
+      "type": "Flex",
+      "category": "Physical",
+      "pp": "10",
+      "power": "90",
+      "accuracy": "0.85"
+    },
+    {
+      "id": "186",
+      "name": "Serpent Coil",
+      "type": "Flex",
+      "category": "Physical",
+      "pp": "10",
+      "power": "75",
+      "accuracy": "0.95"
+    },
+    {
+      "id": "187",
+      "name": "Ancient Surge",
+      "type": "Flex",
+      "category": "Special",
+      "pp": "5",
+      "power": "120",
+      "accuracy": "0.8"
+    }
+  ],
+  "MECH-A": [
+    {
+      "id": "188",
+      "name": "Gear Grind",
+      "type": "Flex",
+      "category": "Physical",
+      "pp": "20",
+      "power": "65",
+      "accuracy": "1"
+    },
+    {
+      "id": "189",
+      "name": "Laser Array",
+      "type": "Flex",
+      "category": "Special",
+      "pp": "10",
+      "power": "100",
+      "accuracy": "0.85"
+    },
+    {
+      "id": "190",
+      "name": "Coolant Spray",
+      "type": "Flex",
+      "category": "Status",
+      "pp": "20",
+      "power": "-",
+      "accuracy": "-"
+    },
+    {
+      "id": "191",
+      "name": "Overclocked Strike",
+      "type": "Flex",
+      "category": "Physical",
+      "pp": "10",
+      "power": "110",
+      "accuracy": "0.8"
+    }
+  ]
+}
