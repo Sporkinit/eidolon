@@ -1,247 +1,387 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, useMemo } from 'react';
+import { HashRouter as Router, Route, Routes, Link, useParams } from 'react-router-dom';
 import styles from './App.module.css';
 import './glow.css';
-import { HashRouter as Router, Route, Routes, Link, useParams } from 'react-router-dom';
 
-function Badge({ text }) {
-  const colors = {
-    Normal: '#a97442',
-    Neutral: '#a97442',
-    Electric: '#dbb30f',
-    Ground: '#73554e',
-    Fairy: '#df90e0',
-    Dark: '#260345',
-    Mythic: '#917d23',
-    Fire: '#ff6b35',
-    Water: '#1e90ff',
-    Grass: '#2ecc71',
-    Ice: '#73d7f5',
-    Mech: '#b0b0b0',
-  };
+// ── Configuration ────────────────────────────────────────────────────────────
+const TYPE_COLORS = {
+  primal:   '#c0614a',
+  flora:    '#3aad5e',
+  water:    '#2680d4',
+  fire:     '#e8601f',
+  terra:    '#8b6840',
+  fae:      '#c760d4',
+  dark:     '#3a2260',
+  volt:     '#c9a800',
+  ice:      '#58c8e8',
+  flex:     '#888888',
+};
 
-  const bgColor = colors[text] || '#444';
+const typeColor = (t) => TYPE_COLORS[t?.toLowerCase()] || 'transparent';
 
+const getSplitList = (list) => {
+  if (!list) return [];
+  return list.flatMap(item => item.includes(';') ? item.split(';').map(s => s.trim()) : item);
+};
+
+// ── Badge Component ──────────────────────────────────────────────────────────
+function Badge({ text, isTag = false }) {
+  const items = text.includes(';') ? text.split(';').map(s => s.trim()) : [text];
+  
   return (
-    <span className={styles.badge} style={{ backgroundColor: bgColor }}>
-      {text}
-    </span>
+    <>
+      {items.map((t, i) => (
+        <span 
+          key={`${t}-${i}`} 
+          className={isTag ? styles.tagBadge : styles.badge} 
+          style={{ 
+            backgroundColor: isTag ? 'transparent' : typeColor(t),
+            border: isTag ? '1px solid rgba(255,255,255,0.3)' : 'none',
+            marginRight: '4px' 
+          }}
+        >
+          {t}
+        </span>
+      ))}
+    </>
   );
 }
 
+// ── Stat bar ──────────────────────────────────────────────────────────────────
+function StatBar({ label, value }) {
+  const STAT_MAX = 45; 
+  const pct = value != null ? Math.min(100, (value / STAT_MAX) * 100) : 0;
+  const hasValue = value != null && value !== 0;
+  
+  return (
+    <div className={styles.statRow}>
+      <span className={styles.statLabel}>{label}</span>
+      <div className={styles.statTrack}>
+        {hasValue && (
+          <div
+            className={styles.statFill}
+            style={{ 
+              width: `${pct}%`, 
+              backgroundColor: pct > 66 ? '#4ade80' : pct > 33 ? '#facc15' : '#f87171' 
+            }}
+          />
+        )}
+      </div>
+      <span className={styles.statValue}>{hasValue ? value : '—'}</span>
+    </div>
+  );
+}
+
+// ── Type Matchup Section ─────────────────────────────────────────────────────
+function TypeMatchup({ types }) {
+  const chart = {
+    volt:   { strong: ['water', 'ice'],   weak: ['terra', 'dark'] },
+    water:  { strong: ['fire', 'terra'],  weak: ['flora', 'volt'] },
+    flora:  { strong: ['water', 'terra'], weak: ['fire', 'ice'] },
+    fire:   { strong: ['flora', 'ice'],   weak: ['water', 'terra'] },
+    terra:  { strong: ['volt', 'fire'],   weak: ['water', 'flora'] },
+    ice:    { strong: ['flora', 'dark'],  weak: ['fire', 'volt'] },
+    dark:   { strong: ['fae', 'volt'],    weak: ['primal', 'ice'] },
+    fae:    { strong: ['primal', 'terra'],weak: ['dark', 'fire'] },
+    primal: { strong: ['dark', 'ice'],    weak: ['fae', 'volt'] },
+  };
+
+  const strengths = new Set();
+  const weaknesses = new Set();
+
+  types.forEach(t => {
+    const data = chart[t.toLowerCase()];
+    if (data) {
+      data.strong.forEach(s => strengths.add(s));
+      data.weak.forEach(w => weaknesses.add(w));
+    }
+  });
+
+  // Pokémon-style Canceling Logic:
+  // If a type is in both sets, it becomes neutral (1x), so remove it from both.
+  strengths.forEach(s => {
+    if (weaknesses.has(s)) {
+      strengths.delete(s);
+      weaknesses.delete(s);
+    }
+  });
+
+  if (strengths.size === 0 && weaknesses.size === 0) return null;
+
+  return (
+    <div className={styles.statsPanel} style={{ marginTop: '20px' }}>
+      <h4 className={styles.sectionTitle}>Type Matchups</h4>
+      <div style={{ marginBottom: '12px' }}>
+        <div style={{ fontSize: '0.65rem', opacity: 0.6, letterSpacing: '1px', marginBottom: '6px' }}>STRENGTHS</div>
+        {[...strengths].map(s => <Badge key={s} text={s} />)}
+      </div>
+      <div>
+        <div style={{ fontSize: '0.65rem', opacity: 0.6, letterSpacing: '1px', marginBottom: '6px' }}>WEAKNESSES</div>
+        {[...weaknesses].map(w => <Badge key={w} text={w} />)}
+      </div>
+    </div>
+  );
+}
+
+// ── Summary card ──────────────────────────────────────────────────────────────
 function SummaryCard({ creature }) {
-  const types = creature.types?.split(',').map(t => t.trim()) || [];
   return (
     <Link to={`/entry/${creature.name}`} className={styles.cardLink}>
       <div className={styles.summaryCard}>
-        <img src={creature.image} alt={creature.name} className={styles['entry-img']} />
-        <h3 className={styles.caesar}>{`#${String(creature.id).padStart(3, '0')} ${creature.name}`}</h3>
-        <div>
-          {types.map((t) => (
-            <Badge key={t} text={t} />
-          ))}
+        <img
+          src={`${import.meta.env.BASE_URL}front/${creature.name}.png`}
+          alt={creature.name}
+          className={styles.cardImg}
+          onError={(e) => { e.target.style.opacity = '0.2'; }}
+        />
+        <div className={styles.cardNum}>#{String(creature.id).padStart(3, '0')}</div>
+        <h3 className={`${styles.cardName} ${styles.caesar}`}>{creature.name}</h3>
+        <div className={styles.badgeRow}>
+          {creature.types.map((t) => <Badge key={t} text={t} />)}
         </div>
       </div>
     </Link>
   );
 }
 
-function EntryDetail({ creature, reverseEvolutions, creatures }) {
-  const { name, image, evolutions, pokedex } = creature;
-  const types = creature.types?.split(',').map(t => t.trim()) || [];
+// ── Move table ────────────────────────────────────────────────────────────────
+function MovesPanel({ moveGroups, movesDb }) {
+  if (!moveGroups || moveGroups.length === 0) return null;
 
-  const buildChains = () => {
-    const chains = [];
-    const visited = new Set();
+  const sortedGroups = [...moveGroups].sort((a, b) => {
+    const aIsFlex = a.toUpperCase().includes('FLEX');
+    const bIsFlex = b.toUpperCase().includes('FLEX');
+    if (aIsFlex && !bIsFlex) return 1;
+    if (!aIsFlex && bIsFlex) return -1;
+    return 0; 
+  });
 
-    const dfs = (path, currentName) => {
-      const current = creatures.find(c => c.name === currentName);
-      const evols = Array.isArray(current?.evolutions) ? current.evolutions : [];
-
-      if (evols.length === 0) {
-        chains.push(path);
-      } else {
-        evols.forEach(([next, method, value]) => {
-          dfs([...path, method, value, next], next);
-        });
-      }
-    };
-
-    const collectReverse = (name, path = [name]) => {
-      const revs = reverseEvolutions[name] || [];
-      if (revs.length === 0) return [path];
-      const out = [];
-      for (const [prev, method, value] of revs) {
-        const nextPath = [prev, method, value, ...path];
-        out.push(...collectReverse(prev, nextPath));
-      }
-      return out;
-    };
-
-    const backChains = collectReverse(name);
-    for (const base of backChains) {
-      dfs(base, base[base.length - 1]);
-    }
-
-    if (chains.length === 0) {
-      dfs([name], name);
-    }
-
-    return chains;
-  };
-
-  const chains = buildChains();
+  const allMoves = sortedGroups.flatMap((group) => {
+    const entries = movesDb[group] || [];
+    return entries.map((m) => ({ ...m, group }));
+  });
 
   return (
-    <div className={styles.entryDetail}>
-      <div style={{ position: 'absolute', top: '20px', left: '20px' }}>
-        <Link to="/" style={{ color: '#90cdf4' }}>← Back to index</Link>
+    <div className={styles.movesPanel}>
+      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '10px' }}>
+        <h4 className={styles.sectionTitle} style={{ margin: 0 }}>Moves</h4>
+        <div>
+          {sortedGroups.map(g => (
+            <span key={g} className={styles.tagBadge} style={{ marginLeft: '5px', fontSize: '0.7rem' }}>{g}</span>
+          ))}
+        </div>
       </div>
-	  <img src={`${import.meta.env.BASE_URL}combined/${name}.png`} alt={name} className={styles['entry-img-combined']} />
-      <h2 className={styles.caesar}>{`#${String(creature.id).padStart(3, '0')} ${name}`}</h2>
-      <div>
-        {types.map((t) => (
-          <Badge key={t} text={t} />
-        ))}
-      </div>
-      {pokedex && <p style={{ marginTop: '8px', color: '#ccc' }}>{pokedex}</p>}
-      <div style={{ marginTop: '10px', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-        {chains.map((chain, idx) => (
-          <div key={idx} style={{ display: 'flex', alignItems: 'center', gap: '8px', marginTop: idx > 0 ? '8px' : 0 }}>
-            {chain.map((el, i) => {
-              if (i % 3 === 0) {
-                return (
-                  <React.Fragment key={i}>
-                    <Link to={`/entry/${el}`}><img src={`${import.meta.env.BASE_URL}${el}.png`} alt={el} style={{ width: '120px', height: '120px', objectFit: 'contain' }} /></Link>
-                  </React.Fragment>
-                );
-              } else if ((i - 1) % 3 === 0) {
-                const method = chain[i];
-                const value = chain[i + 1];
-                return (
-                  <span key={i} className={styles.caesar} style={{ color: '#ccc', fontSize: '16px' }}>
-                    → {method === 'Level' ? 'Lv.' : ''} {value}
-                  </span>
-                );
-              } else {
-                return null;
-              }
-            })}
+      <table className={styles.moveTable}>
+        <thead>
+          <tr>
+            <th>Name</th><th>Type</th><th>Cat.</th><th>PP</th><th>Pwr</th><th>Acc</th><th>Group</th>
+          </tr>
+        </thead>
+        <tbody>
+          {allMoves.map((m, i) => (
+            <tr key={i}>
+              <td>{m.name}</td>
+              <td>
+                <span className={styles.moveBadge} style={{ backgroundColor: typeColor(m.type) }}>
+                  {m.type}
+                </span>
+              </td>
+              <td className={styles.catCell}>{m.category}</td>
+              <td>{m.pp}</td>
+              <td>{m.power || '—'}</td>
+              <td>{m.accuracy || '—'}</td>
+              <td><span style={{ fontSize: '0.7rem', opacity: 0.6 }}>{m.group}</span></td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  );
+}
+
+// ── Evolution Section ────────────────────────────────────────────────────────
+function EvoChain({ creature, all }) {
+  const allPossiblePaths = all.reduce((acc, curr) => {
+    if (curr.evolution && Array.isArray(curr.evolution)) {
+      curr.evolution.forEach(path => {
+        if (path.some(name => name.toLowerCase() === creature.name.toLowerCase())) {
+          acc[JSON.stringify(path)] = path;
+        }
+      });
+    }
+    return acc;
+  }, {});
+
+  const paths = Object.values(allPossiblePaths);
+  if (paths.length === 0) return null;
+
+  return (
+    <div className={styles.evoSection}>
+      <h4 className={styles.sectionTitle}>Evolution</h4>
+      {paths.map((path, pIdx) => (
+        <div key={pIdx} className={styles.evoChain}>
+          {path.map((name, i) => (
+            <React.Fragment key={`${pIdx}-${name}`}>
+              <Link to={`/entry/${name}`} className={styles.evoLink}>
+                <img
+                  src={`${import.meta.env.BASE_URL}front/${name}.png`}
+                  alt={name}
+                  className={styles.evoImg}
+                  style={{ outline: name.toLowerCase() === creature.name.toLowerCase() ? '2px solid #90cdf4' : 'none' }}
+                  onError={(e) => { e.target.style.opacity = '0.2'; }}
+                />
+                <span className={styles.evoName}>{name}</span>
+              </Link>
+              {i < path.length - 1 && <span className={styles.evoArrow}>→</span>}
+            </React.Fragment>
+          ))}
+        </div>
+      ))}
+    </div>
+  );
+}
+
+// ── Detail page ───────────────────────────────────────────────────────────────
+function CreatureDetail({ all, movesDb }) {
+  const { name } = useParams();
+  const creature = all.find((c) => c.name.toLowerCase() === name.toLowerCase());
+
+  if (!creature) return <div className={styles.loadingPage}>Loading...</div>;
+
+  const base = import.meta.env.BASE_URL;
+  const stats = creature.stats || {};
+  const totalStats = Object.values(stats).reduce((s, v) => s + (v || 0), 0);
+  const STAT_LABELS = { hp: 'HP', atk: 'ATK', def: 'DEF', special: 'SPECIAL', spd: 'SPD' };
+
+  return (
+    <div className={styles.detailPage}>
+      <Link to="/" className={styles.backLink}>← Back to index</Link>
+      <div className={styles.detailCard}>
+        <div className={styles.detailHeader}>
+          <span className={styles.detailNum}>#{String(creature.id).padStart(3, '0')}</span>
+          <h2 className={`${styles.detailName} ${styles.caesar}`}>{creature.name}</h2>
+          <div className={styles.badgeRow}>
+            {creature.types.map((t) => <Badge key={t} text={t} />)}
+            {creature.tags.map((t) => (
+              <Badge key={t} text={t} isTag={true} />
+            ))}
           </div>
-        ))}
+        </div>
+
+        <div className={styles.imagesRow}>
+          <div className={styles.mainImgWrap}>
+            <img src={`${base}front/${creature.name}.png`} className={styles.mainImg} onError={(e) => { e.target.style.opacity = '0.15'; }} />
+          </div>
+          <div className={styles.sideImgs}>
+            <img src={`${base}side/${creature.name}.png`} className={styles.secondaryImg} onError={(e) => { e.target.style.opacity = '0.15'; }} />
+            <img src={`${base}back/${creature.name}.png`} className={styles.secondaryImg} onError={(e) => { e.target.style.opacity = '0.15'; }} />
+          </div>
+        </div>
+
+        {creature.bio && <p className={styles.bio}>{creature.bio}</p>}
+
+        <div className={styles.statsPanel}>
+          <h4 className={styles.sectionTitle}>Base Stats <span className={styles.totalStat}>Total: {totalStats}</span></h4>
+          {Object.entries(STAT_LABELS).map(([key, label]) => (
+            <StatBar key={key} label={label} value={stats[key]} />
+          ))}
+        </div>
+
+        <EvoChain creature={creature} all={all} />
+
+        <TypeMatchup types={creature.types} />
+
+        <MovesPanel moveGroups={creature.moves} movesDb={movesDb} />
       </div>
     </div>
   );
 }
 
-function CreatureDetail({ creatures, reverseEvolutions }) {
-  const { name } = useParams();
-  const creature = creatures.find((c) => c.name === name);
-  if (!creature) return <div style={{ padding: '20px' }}>Loading...</div>;
-  return <EntryDetail creature={creature} reverseEvolutions={reverseEvolutions} creatures={creatures} />;
-}
-
-function App() {
-  const [search, setSearch] = useState('');
+// ── Main index ────────────────────────────────────────────────────────────────
+function IndexPage({ all }) {
+  const [search, setSearch]       = useState('');
   const [typeFilter, setTypeFilter] = useState('');
-  const [creatures, setCreatures] = useState([]);
   const [sortByName, setSortByName] = useState(false);
 
-  useEffect(() => {
-    fetch('pokedex.json')
-      .then((res) => {
-        if (!res.ok) throw new Error(`Failed to load: ${res.status}`);
-        return res.json();
-      })
-      .then((data) => setCreatures(data))
-      .catch((err) => console.error("❌ Error loading pokedex.json:", err));
-  }, []);
+  const allTypes = useMemo(() =>
+    [...new Set(all.flatMap(c => getSplitList(c.types)))].sort(),
+    [all]
+  );
+
+  const filtered = useMemo(() => {
+    let list = all.filter(c => {
+      const nm = c.name.toLowerCase().includes(search.toLowerCase());
+      const split = getSplitList(c.types);
+      const tp = !typeFilter || split.includes(typeFilter.toLowerCase());
+      return nm && tp;
+    });
+    return [...list].sort((a, b) =>
+      sortByName ? a.name.localeCompare(b.name) : parseInt(a.id) - parseInt(b.id)
+    );
+  }, [all, search, typeFilter, sortByName]);
+
+  return (
+    <div className={styles.layout}>
+      <aside className={styles.sidebar}>
+        <div className={styles.sidebarInner}>
+          <h1 className={`${styles.sidebarTitle} ${styles.caesar}`}>Codex</h1>
+          <input className={styles.searchInput} type="text" placeholder="Search…" value={search} onChange={(e) => setSearch(e.target.value)} />
+          <button className={styles.sortBtn} onClick={() => setSortByName(s => !s)}>
+            Sorting: {sortByName ? 'A–Z' : 'By #'}
+          </button>
+          <div className={styles.filterRow}>
+            <button className={`${styles.filterBtn} ${!typeFilter ? styles.filterActive : ''}`} onClick={() => setTypeFilter('')}>All</button>
+            {allTypes.map(t => (
+              <button
+                key={t}
+                className={`${styles.filterBtn} ${typeFilter === t ? styles.filterActive : ''}`}
+                style={typeFilter === t ? { backgroundColor: typeColor(t) } : {}}
+                onClick={() => setTypeFilter(typeFilter === t ? '' : t)}
+              >{t}</button>
+            ))}
+          </div>
+          <ul className={styles.nameList}>
+            {filtered.map(c => (
+              <li key={c.name}>
+                <Link to={`/entry/${c.name}`} className={styles.nameLink}>
+                  <span className={styles.nameListNum}>#{String(c.id).padStart(3,'0')}</span> {c.name}
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </aside>
+      <main className={styles.main}>
+        <div className={styles.grid}>
+          {filtered.map(c => <SummaryCard key={c.name} creature={c} />)}
+        </div>
+      </main>
+    </div>
+  );
+}
+
+// ── Root ──────────────────────────────────────────────────────────────────────
+export default function App() {
+  const [all, setAll]         = useState([]);
+  const [movesDb, setMovesDb] = useState({});
 
   useEffect(() => {
     document.documentElement.setAttribute('data-theme', 'dark');
+    Promise.all([
+      fetch('pokedex.json').then(r => r.json()),
+      fetch('moves_db.json').then(r => r.json()),
+    ]).then(([poke, moves]) => {
+      setAll(poke);
+      setMovesDb(moves);
+    }).catch(err => console.error('Load error:', err));
   }, []);
-
-  const reverseEvolutions = {};
-  creatures.forEach((c) => {
-    if (Array.isArray(c.evolutions)) {
-      c.evolutions.forEach(([target, method, value]) => {
-        if (!reverseEvolutions[target]) reverseEvolutions[target] = [];
-        reverseEvolutions[target].push([c.name, method, value]);
-      });
-    }
-  });
-
-  const allTypes = [...new Set(creatures.flatMap(c => c.types?.split(',').map(t => t.trim()) || []))];
-
-  const filteredCreatures = creatures.filter(c => {
-    const nameMatch = c.name.toLowerCase().includes(search.toLowerCase());
-    const typeMatch = !typeFilter || c.types?.split(',').map(t => t.trim()).includes(typeFilter);
-    return nameMatch && typeMatch;
-  });
-
-  const sortedCreatures = [...filteredCreatures].sort((a, b) => {
-    return sortByName ? a.name.localeCompare(b.name) : parseInt(a.id) - parseInt(b.id);
-  });
 
   return (
     <Router>
       <Routes>
-        <Route
-          path="/"
-          element={
-            <div className={styles.app}>
-              <aside className={styles.sidebar} style={{ position: 'sticky', top: 0, height: '100vh', overflowY: 'auto' }}>
-                <h2>Index</h2>
-                <input
-                  type="text"
-                  placeholder="Search..."
-                  onChange={(e) => setSearch(e.target.value)}
-                  style={{ width: '100%', padding: '6px', margin: '8px 0', borderRadius: '4px' }}
-                />
-                <button
-                  onClick={() => setSortByName(!sortByName)}
-                  style={{
-                    padding: '4px 8px',
-                    borderRadius: '6px',
-                    border: 'none',
-                    backgroundColor: '#444',
-                    color: '#fff',
-                    cursor: 'pointer',
-                    marginBottom: '8px'
-                  }}
-                >
-                  Sort: {sortByName ? 'A–Z' : 'By ID'}
-                </button>
-                <div style={{ display: 'flex', flexWrap: 'wrap', gap: '6px', marginBottom: '8px' }}>
-                  <button onClick={() => setTypeFilter('')} style={{ padding: '4px 8px', borderRadius: '6px', border: 'none', backgroundColor: typeFilter === '' ? '#555' : '#333', color: '#fff', cursor: 'pointer' }}>All</button>
-                  {allTypes.map(type => (
-                    <button key={type} onClick={() => setTypeFilter(typeFilter === type ? '' : type)} style={{ padding: '4px 8px', borderRadius: '6px', border: 'none', backgroundColor: typeFilter === type ? '#555' : '#333', color: '#fff', cursor: 'pointer' }}>{type}</button>
-                  ))}
-                </div>
-                <ul>
-                  {sortedCreatures.map((c) => (
-                    <li key={`search-${c.name}`}>
-                      <Link to={`/entry/${c.name}`}>{c.name}</Link>
-                    </li>
-                  ))}
-                </ul>
-              </aside>
-              <main className={styles.content}>
-                <div className={styles.grid}>
-                  {sortedCreatures.map((c) => (
-                    <SummaryCard key={c.name} creature={c} />
-                  ))}
-                </div>
-              </main>
-            </div>
-          }
-        />
-        <Route
-          path="/entry/:name"
-          element={<CreatureDetail creatures={creatures} reverseEvolutions={reverseEvolutions} />}
-        />
+        <Route path="/" element={<IndexPage all={all} />} />
+        <Route path="/entry/:name" element={<CreatureDetail all={all} movesDb={movesDb} />} />
       </Routes>
     </Router>
   );
 }
-
-export default App;
