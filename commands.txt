@@ -1,0 +1,9 @@
+cd D:\11-Mar-26-bak\pokemon essentials\pokedex_vite
+npm run dev
+http://localhost:5173/eidolon/
+
+push to github:
+
+git add .
+git commit -m "Optimize: Switch to WebP, add thumbnails, and update App logic"
+git push origin main

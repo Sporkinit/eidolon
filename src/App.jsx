@@ -75,15 +75,15 @@ function StatBar({ label, value }) {
 // ── Type Matchup Section ─────────────────────────────────────────────────────
 function TypeMatchup({ types }) {
   const chart = {
-    volt:   { strong: ['water', 'ice'],   weak: ['terra', 'dark'] },
+    volt:   { strong: ['water', 'ice'],    weak: ['terra', 'dark'] },
     water:  { strong: ['fire', 'terra'],  weak: ['flora', 'volt'] },
     flora:  { strong: ['water', 'terra'], weak: ['fire', 'ice'] },
-    fire:   { strong: ['flora', 'ice'],   weak: ['water', 'terra'] },
-    terra:  { strong: ['volt', 'fire'],   weak: ['water', 'flora'] },
+    fire:   { strong: ['flora', 'ice'],    weak: ['water', 'terra'] },
+    terra:  { strong: ['volt', 'fire'],    weak: ['water', 'flora'] },
     ice:    { strong: ['flora', 'dark'],  weak: ['fire', 'volt'] },
-    dark:   { strong: ['fae', 'volt'],    weak: ['primal', 'ice'] },
-    fae:    { strong: ['primal', 'terra'],weak: ['dark', 'fire'] },
-    primal: { strong: ['dark', 'ice'],    weak: ['fae', 'volt'] },
+    dark:   { strong: ['fae', 'volt'],     weak: ['primal', 'ice'] },
+    fae:    { strong: ['primal', 'terra'], weak: ['dark', 'fire'] },
+    primal: { strong: ['dark', 'ice'],     weak: ['fae', 'volt'] },
   };
 
   const strengths = new Set();
@@ -97,8 +97,6 @@ function TypeMatchup({ types }) {
     }
   });
 
-  // Pokémon-style Canceling Logic:
-  // If a type is in both sets, it becomes neutral (1x), so remove it from both.
   strengths.forEach(s => {
     if (weaknesses.has(s)) {
       strengths.delete(s);
@@ -123,13 +121,13 @@ function TypeMatchup({ types }) {
   );
 }
 
-// ── Summary card ──────────────────────────────────────────────────────────────
+// ── Summary card (UPDATED: front_thumb + .webp) ──────────────────────────────
 function SummaryCard({ creature }) {
   return (
     <Link to={`/entry/${creature.name}`} className={styles.cardLink}>
       <div className={styles.summaryCard}>
         <img
-          src={`${import.meta.env.BASE_URL}front/${creature.name}.png`}
+          src={`${import.meta.env.BASE_URL}front_thumb/${creature.name}.webp`}
           alt={creature.name}
           className={styles.cardImg}
           onError={(e) => { e.target.style.opacity = '0.2'; }}
@@ -199,7 +197,7 @@ function MovesPanel({ moveGroups, movesDb }) {
   );
 }
 
-// ── Evolution Section ────────────────────────────────────────────────────────
+// ── Evolution Section (UPDATED: front_thumb + .webp) ─────────────────────────
 function EvoChain({ creature, all }) {
   const allPossiblePaths = all.reduce((acc, curr) => {
     if (curr.evolution && Array.isArray(curr.evolution)) {
@@ -224,7 +222,7 @@ function EvoChain({ creature, all }) {
             <React.Fragment key={`${pIdx}-${name}`}>
               <Link to={`/entry/${name}`} className={styles.evoLink}>
                 <img
-                  src={`${import.meta.env.BASE_URL}front/${name}.png`}
+                  src={`${import.meta.env.BASE_URL}front_thumb/${name}.webp`}
                   alt={name}
                   className={styles.evoImg}
                   style={{ outline: name.toLowerCase() === creature.name.toLowerCase() ? '2px solid #90cdf4' : 'none' }}
@@ -241,7 +239,7 @@ function EvoChain({ creature, all }) {
   );
 }
 
-// ── Detail page ───────────────────────────────────────────────────────────────
+// ── Detail page (UPDATED: front (512px) + side/back + .webp) ──────────────────
 function CreatureDetail({ all, movesDb }) {
   const { name } = useParams();
   const creature = all.find((c) => c.name.toLowerCase() === name.toLowerCase());
@@ -270,11 +268,11 @@ function CreatureDetail({ all, movesDb }) {
 
         <div className={styles.imagesRow}>
           <div className={styles.mainImgWrap}>
-            <img src={`${base}front/${creature.name}.png`} className={styles.mainImg} onError={(e) => { e.target.style.opacity = '0.15'; }} />
+            <img src={`${base}front/${creature.name}.webp`} className={styles.mainImg} onError={(e) => { e.target.style.opacity = '0.15'; }} />
           </div>
           <div className={styles.sideImgs}>
-            <img src={`${base}side/${creature.name}.png`} className={styles.secondaryImg} onError={(e) => { e.target.style.opacity = '0.15'; }} />
-            <img src={`${base}back/${creature.name}.png`} className={styles.secondaryImg} onError={(e) => { e.target.style.opacity = '0.15'; }} />
+            <img src={`${base}side/${creature.name}.webp`} className={styles.secondaryImg} onError={(e) => { e.target.style.opacity = '0.15'; }} />
+            <img src={`${base}back/${creature.name}.webp`} className={styles.secondaryImg} onError={(e) => { e.target.style.opacity = '0.15'; }} />
           </div>
         </div>
 
@@ -288,9 +286,7 @@ function CreatureDetail({ all, movesDb }) {
         </div>
 
         <EvoChain creature={creature} all={all} />
-
         <TypeMatchup types={creature.types} />
-
         <MovesPanel moveGroups={creature.moves} movesDb={movesDb} />
       </div>
     </div>

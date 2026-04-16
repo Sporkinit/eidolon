@@ -198,7 +198,7 @@ id,name,types,tags,evolution,scale,bio,hp,atk,def,s.atk,spd,rank,moves
 261,lurkin,primal,,,0.8,"This creature peeks out from beneath an ornate chest, revealing curiosity as it explores its surroundings.",33,29,13,11,14,B,PRIMAL-C
 131,magworm,fire,,,0.6,This creature emits heat pulses from its body whenever it encounters high-temperature environments.,15,25,16,12,32,B,FIRE-C
 329,mallowick,fire,,,0.7,"This creature emits bright light from its core during nighttime activity, possibly signaling territorial boundaries.",14,30,11,15,30,B,FIRE-D
-178,mammolith,ice,bovine,tusket; taskara; mammolith,1.3,This mammoth-like creature uses its large tusks as tools to dig up roots in dense forest undergrowth.,14,14,35,25,12,S,ICE-B
+178,mammolith,ice,bovine,tusket; tuskara; mammolith,1.3,This mammoth-like creature uses its large tusks as tools to dig up roots in dense forest undergrowth.,14,14,35,25,12,S,ICE-B
 334,manemage,volt,,,0.9,"This creature emits bright energy from its hands whenever it approaches warm surfaces, possibly signaling an alert or preparing for action.",16,12,14,29,29,A,VOLT-A
 161,mechleaf,flora,,,0.8,This researcher carries leafy botanicals in specialized containers as part of their field study protocol.,33,13,13,26,15,A,FLORA-A
 227,monkara,primal,,monkiri; monkara; monkilla,0.8,This creature emits bright blue light from its forehead whenever it detects an unfamiliar scent in the environment.,27,34,12,16,11,A,PRIMAL-D
@@ -311,8 +311,8 @@ id,name,types,tags,evolution,scale,bio,hp,atk,def,s.atk,spd,rank,moves
 308,tristing,terra,,,0.6,This creature uses rapid leg movements to create vibrations that help it detect prey in dark environments.,24,15,31,17,13,B,TERRA-A
 298,tropinix,primal,avian,,0.7,This bird uses rapid wing flaps to generate upward momentum while ascending through dense canopy layers during dawn patrols.,33,30,14,12,11,A,AVIAN-A; PRIMAL-A
 285,turtmoss,terra,carapace,,1,This creature uses its powerful claws to dig into loose earth in search of underground roots.,28,13,33,11,15,A,CARAPACE-A; TERRA-D
-177,tuskara,ice,bovine,tusket; taskara; mammolith,1,This creature uses its large horns as tools to dig into soft ground in search of roots and insects.,16,12,28,31,13,A,ICE-C
-176,tusket,ice,bovine,tusket; taskara; mammolith,0.7,This animal uses its large curved horns to dig into soft earth in search of underground roots.,11,12,30,33,14,B,ICE-C
+177,tuskara,ice,bovine,tusket; tuskara; mammolith,1,This creature uses its large horns as tools to dig into soft ground in search of roots and insects.,16,12,28,31,13,A,ICE-C
+176,tusket,ice,bovine,tusket; tuskara; mammolith,0.7,This animal uses its large curved horns to dig into soft earth in search of underground roots.,11,12,30,33,14,B,ICE-C
 337,tuskurrent,ice,,,1.1,This creature emits electric pulses from its tusks while standing in waterlogged terrain.,11,13,29,32,15,A,ICE-A
 180,twihoot,dark,avian,churu; twihoot,0.8,"This owl perches quietly in twilight forests, using keen senses to detect nocturnal insect prey movement before dawn.",16,32,16,11,25,B,AVIAN-A; DARK-B
 260,ursteel,terra,ursine; mech,,1.2,This bear-like creature aggressively defends its territory by stamping down on any intruders near its den entrance.,32,15,29,11,13,A,MECH-A; TERRA-C; URSINE-A
