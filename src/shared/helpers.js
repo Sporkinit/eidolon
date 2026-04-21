@@ -75,20 +75,10 @@ export function toast(msg, dur = 2500) {
 // Integrated patch for showPoolTip and hidePoolTip
 
 // ── Hover tooltip (pool / roster / draft cards) ───────────────────────────────
-// Touch guard — same pattern as battle-ui.js
-let _poolTipTouch = false;
-window.addEventListener('touchstart', () => { _poolTipTouch = true; }, { once: true, passive: true });
-// Tap outside to dismiss on touch
-document.addEventListener('touchstart', e => {
-  if (!_poolTipTouch) return;
-  const tip = document.getElementById('pool-tip-global');
-  if (tip && tip.style.opacity !== '0' && !tip.contains(e.target)) {
-    tip.style.opacity = '0';
-    setTimeout(() => { if (tip.style.opacity === '0') tip.style.display = 'none'; }, 120);
-  }
-}, { passive: true });
+const _isTouchDevice = ('ontouchstart' in window) || (navigator.maxTouchPoints > 0);
 
 export function showPoolTip(c, movesDb, anchorEl) {
+  if (_isTouchDevice) return;
   let tip = document.getElementById('pool-tip-global');
   if (!tip) {
     tip = document.createElement('div');

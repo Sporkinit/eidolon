@@ -15,49 +15,8 @@ export let myIndex = 0;
 let battleBgSrc = '', playerTrainerSrc = '', enemyTrainerSrc = '';
 let turnNumber = 0;
 
-// ── Touch detection ───────────────────────────────────────────────────────────
-// On touch devices tooltips use tap-to-toggle instead of hover.
-// We detect once; a single touch event on the document sets the flag.
-let _isTouch = false;
-window.addEventListener('touchstart', () => { _isTouch = true; }, { once: true, passive: true });
-
-// Close any open floating tooltip when tapping outside it
-document.addEventListener('touchstart', e => {
-  if (!_isTouch) return;
-  const openTips = [
-    document.getElementById('move-hover-tip'),
-    document.getElementById('switch-bench-tip'),
-    document.getElementById('player-tip'),
-    document.getElementById('enemy-tip'),
-  ];
-  openTips.forEach(tip => {
-    if (tip && !tip.classList.contains('tip-hidden') && !tip.contains(e.target)) {
-      tip.classList.add('tip-hidden');
-    }
-  });
-}, { passive: true });
-
-// Attach tooltip behaviour to an element — hover on desktop, tap-toggle on touch.
-// showFn() should show the tip; hideFn() should hide it.
-function attachTip(el, showFn, hideFn) {
-  if (_isTouch) {
-    // Bind lazily so _isTouch is evaluated at event time (first touch sets it)
-    el.addEventListener('touchend', e => {
-      e.preventDefault(); // prevent ghost click
-      e.stopPropagation();
-      showFn();
-    }, { passive: false });
-  } else {
-    el.addEventListener('mouseenter', showFn);
-    el.addEventListener('mouseleave', hideFn);
-    // Also handle the case where touch is detected later (user plugs in touchscreen)
-    el.addEventListener('touchend', e => {
-      e.preventDefault();
-      e.stopPropagation();
-      showFn();
-    }, { passive: false });
-  }
-}
+// ── Touch detection — disable all hover tooltips on touch devices ─────────────
+const _isTouch = ('ontouchstart' in window) || (navigator.maxTouchPoints > 0);
 
 // ── Image discovery (probe up to 50 files) ────────────────────────────────────
 async function pickRandom(folder, prefix, suffix, maxScan = 10) {
@@ -340,11 +299,7 @@ function statBarsHtml(stats) {
 
 // ── Hover tooltips ────────────────────────────────────────────────────────────
 export function showCreatureTip(side, evt, slotIdx) {
-  // On touch devices the sprite tips are toggled by tap, not hover
-  // The ontouchend handler on the sprite element calls this same function
-  // so we allow it through — but block the hover-triggered calls
-  if (_isTouch && evt && evt.type === 'mouseenter') return;
-
+  if (_isTouch) return;
   const sideState = side === 'player' ? battle.player : battle.enemy;
   const slot = slotIdx !== undefined ? sideState.team[slotIdx] : sideState.team[sideState.activeIdx];
   const tip  = document.getElementById(`${side}-tip`);
@@ -402,7 +357,7 @@ export function showCreatureTip(side, evt, slotIdx) {
 }
 
 export function hideTip(side) {
-  if (_isTouch) return; // dismissed by tap-outside handler instead
+  if (_isTouch) return;
   document.getElementById(`${side}-tip`)?.classList.add('tip-hidden');
 }
 
@@ -508,7 +463,10 @@ function renderMoveButtons() {
     if (!isOut) {
       btn.onclick = () => doPlayerAction({ type: 'move', moveName: move.name });
     }
-    attachTip(btn, () => showMoveTip(move, btn, enemy), hideMoveTip);
+    if (!_isTouch) {
+      btn.addEventListener('mouseenter', () => showMoveTip(move, btn, enemy));
+      btn.addEventListener('mouseleave', () => hideMoveTip());
+    }
     panel.appendChild(btn);
   });
 }
@@ -551,7 +509,10 @@ function renderSwitchButtons() {
         </div>` : ''}
       </div>`;
     btn.onclick = () => doPlayerAction({ type: 'switch', idx });
-    attachTip(btn, () => showSwitchTip(slot, btn), hideSwitchTip);
+    if (!_isTouch) {
+      btn.addEventListener('mouseenter', () => showSwitchTip(slot, btn));
+      btn.addEventListener('mouseleave', () => hideSwitchTip());
+    }
     panel.appendChild(btn);
   });
 }

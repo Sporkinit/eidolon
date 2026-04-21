@@ -1,15 +1,10 @@
 import { POKEDEX, MOVES_DB } from './data.js';
 import { typeBadge, typeDots, rankStars, showPoolTip, hidePoolTip, shuffle } from '../shared/helpers.js';
 
-// Touch-aware tooltip attachment — mirrors the pattern in battle-ui.js
+// Hover tooltips are desktop-only — disabled on touch devices via showPoolTip guard
 function attachPoolTip(el, c) {
   el.onmouseenter = () => showPoolTip(c, MOVES_DB, el);
   el.onmouseleave = () => hidePoolTip();
-  el.addEventListener('touchend', e => {
-    e.preventDefault();
-    e.stopPropagation();
-    showPoolTip(c, MOVES_DB, el);
-  }, { passive: false });
 }
 import { POOL_MAX, PUBLIC_PATH, TYPE_COLORS } from '../shared/constants.js';
 import { getSave, isUnlocked } from './save.js';
