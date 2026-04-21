@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Battle Champions</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Caesar+Dressing&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/src/game/game.css">
+</head>
+<body>
+
+<!-- ═══════════════ TITLE ═══════════════ -->
+<div id="screen-title" class="screen active">
+  <div class="title-logo">Battle Champions</div>
+  <div class="title-sub">Turn-based creature battle</div>
+  <div class="title-coin-display"><span class="coin-icon">⬡</span> <span id="title-coins">0</span> coins</div>
+  <div class="btn-row">
+    <button class="btn" onclick="showScreen('roster')">📋 My Roster</button>
+    <button class="btn btn-gold" onclick="showScreen('lobby')">⚔ Play Battle</button>
+  </div>
+  <div class="title-nav">
+    <a class="title-link" href="index.html" target="_blank">📖 Codex ↗</a>
+  </div>
+</div>
+
+<!-- ═══════════════ MY ROSTER ═══════════════ -->
+<div id="screen-roster" class="screen" style="padding:1.5rem;gap:1rem">
+  <div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:0.75rem">
+    <h2 class="caesar" style="font-size:1.6rem;color:var(--accent)">My Roster</h2>
+    <div style="display:flex;align-items:center;gap:1rem;flex-wrap:wrap">
+      <div class="title-coin-display"><span class="coin-icon">⬡</span> <span id="my-roster-coins">0</span></div>
+      <button class="btn btn-sm" onclick="showScreen('title')">← Back</button>
+    </div>
+  </div>
+  <div style="display:flex;flex-direction:column;gap:0.4rem">
+    <input class="input-field" id="roster-search-input" placeholder="Search by name…"
+      oninput="setRosterSearch(this.value)" style="max-width:320px">
+    <div class="filter-row" id="roster-rank-filters"></div>
+    <div class="filter-row" id="roster-type-filters"></div>
+  </div>
+  <div class="creature-grid" id="my-roster-grid"></div>
+</div>
+
+<!-- ═══════════════ LOBBY ═══════════════ -->
+<div id="screen-lobby" class="screen">
+  <div class="lobby-box">
+    <h2>Battle Lobby</h2>
+    <div class="btn-row" style="margin-bottom:1.5rem">
+      <button class="btn btn-green" onclick="startSolo()">⚔ Solo vs AI</button>
+    </div>
+    <div style="text-align:center;color:var(--muted);margin-bottom:1.25rem;font-size:0.85rem">— or play vs friend online —</div>
+    <div style="margin-bottom:0.75rem">
+      <div style="font-size:0.78rem;color:var(--muted);margin-bottom:0.35rem">Server IP</div>
+      <input class="input-field" id="server-ip" value="localhost" placeholder="192.168.x.x">
+    </div>
+    <div class="btn-row" style="margin-bottom:0.75rem">
+      <button class="btn" onclick="createRoom()">Create Room</button>
+      <button class="btn btn-red" onclick="showJoinInput()">Join Room</button>
+    </div>
+    <div id="join-input-wrap" style="display:none;margin-bottom:0.75rem">
+      <input class="input-field" id="join-code" placeholder="ROOM CODE" maxlength="5"
+        style="text-transform:uppercase;letter-spacing:0.2em;font-size:1.2rem;text-align:center">
+      <div class="btn-row"><button class="btn" onclick="joinRoom()">Join</button></div>
+    </div>
+    <div id="lobby-status" class="status-text"></div>
+    <div id="room-code-wrap" style="display:none;margin-top:0.75rem">
+      <div style="color:var(--muted);font-size:0.78rem;text-align:center;margin-bottom:0.25rem">Share this code:</div>
+      <div class="room-code-display" id="room-code-display"></div>
+    </div>
+  </div>
+  <button class="btn btn-sm" style="margin-top:0.75rem" onclick="showScreen('title')">← Back</button>
+</div>
+
+<!-- ═══════════════ POOL SELECTION ═══════════════ -->
+<div id="screen-pool" class="screen">
+  <div class="pool-header">
+    <h2>Select Your Pool</h2>
+    <div>Selected: <span class="pool-count-badge" id="pool-count">0</span> / <span id="pool-max-label">8</span></div>
+    <button class="btn btn-green btn-sm" id="pool-confirm-btn" onclick="confirmPool()" disabled>Confirm Pool →</button>
+  </div>
+  <div style="background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:0.75rem">
+    <div style="font-size:0.7rem;color:var(--muted);text-transform:uppercase;letter-spacing:0.1em;margin-bottom:0.4rem">Your pool (click to remove)</div>
+    <div class="pool-selected-row" id="pool-selected-row"></div>
+  </div>
+  <div style="display:flex;flex-direction:column;gap:0.4rem;padding:0 0.25rem">
+    <input class="input-field" id="pool-search-input" placeholder="Search by name…"
+      oninput="setPoolSearch(this.value)" style="max-width:320px">
+    <div class="filter-row" id="pool-rank-filters"></div>
+    <div class="filter-row" id="pool-type-filters"></div>
+  </div>
+  <div class="creature-grid" id="pool-grid"></div>
+</div>
+
+<!-- ═══════════════ DRAFT ═══════════════ -->
+<div id="screen-draft" class="screen">
+  <div class="draft-header">
+    <h2>Draft Phase</h2>
+    <div style="color:var(--muted);font-size:0.85rem" id="draft-status">Pick 3 for your battle team</div>
+    <button class="btn btn-green btn-sm" id="draft-confirm-btn" onclick="confirmDraft()" disabled>Lock In →</button>
+  </div>
+  <div class="draft-layout">
+    <div>
+      <div class="draft-col-label">Your Pool — pick 3</div>
+      <div class="draft-grid" id="my-draft-grid"></div>
+      <div style="margin-top:0.75rem">
+        <div class="draft-col-label">Your team (<span id="my-pick-count">0</span>/3)</div>
+        <div class="draft-picks-row" id="my-draft-picks"></div>
+      </div>
+    </div>
+    <div>
+      <div class="draft-col-label">Opponent's Pool</div>
+      <div class="opp-pool-grid" id="opp-pool-display"></div>
+    </div>
+  </div>
+</div>
+
+<!-- ═══════════════ BATTLE ═══════════════ -->
+<div id="screen-battle" class="screen">
+  <div class="battle-scene">
+    <img class="battle-bg-img" id="battle-bg-img" src="" alt="" onerror="this.style.display='none'">
+    <div class="hp-panels-row">
+      <div class="hp-panel" id="player-hp-panel">
+        <div class="hp-panel-name" id="p-name">—</div>
+        <div class="hp-panel-types" id="p-types"></div>
+        <div class="hp-bar-bg"><div class="hp-bar-fill" id="p-hp-bar" style="width:100%"></div></div>
+        <div class="hp-nums" id="p-hp-nums">—</div>
+        <div class="bench-hp-rows" id="p-bench-hp"></div>
+      </div>
+      <div class="hp-panel enemy-panel" id="enemy-hp-panel">
+        <div class="hp-panel-name" id="e-name">—</div>
+        <div class="hp-panel-types" id="e-types"></div>
+        <div class="hp-bar-bg"><div class="hp-bar-fill" id="e-hp-bar" style="width:100%"></div></div>
+        <div class="hp-nums" id="e-hp-nums">—</div>
+        <div class="bench-hp-rows" id="e-bench-hp"></div>
+      </div>
+    </div>
+    <div class="battle-field">
+      <div class="battle-side" id="player-battle-side">
+        <div style="display:flex;align-items:flex-end;gap:4px" id="player-bench-sprites"></div>
+        <img class="trainer-img" id="player-trainer-img" src="" alt="" onerror="this.style.opacity='0'" style="opacity:0">
+        <div class="active-sprite-wrap" id="player-active-wrap" style="position:relative">
+          <img class="active-side-img" id="player-active-img" src="" alt=""
+            onmouseenter="showCreatureTip('player',event)" onmouseleave="hideTip('player')"
+            onerror="this.style.opacity='0.1'">
+        </div>
+        <div class="creature-tooltip tip-hidden" id="player-tip"></div>
+      </div>
+      <div class="battle-side enemy-side" id="enemy-battle-side">
+        <div style="display:flex;align-items:flex-end;gap:4px;justify-content:flex-end" id="enemy-bench-sprites"></div>
+        <img class="trainer-img" id="enemy-trainer-img" src="" alt="" onerror="this.style.opacity='0'" style="opacity:0">
+        <div class="active-sprite-wrap" id="enemy-active-wrap" style="position:relative">
+          <img class="active-side-img flip" id="enemy-active-img" src="" alt=""
+            onmouseenter="showCreatureTip('enemy',event)" onmouseleave="hideTip('enemy')"
+            onerror="this.style.opacity='0.1'">
+        </div>
+        <div class="creature-tooltip tip-hidden" id="enemy-tip"></div>
+      </div>
+    </div>
+  </div>
+  <div class="battle-bottom">
+    <div class="battle-log" id="battle-log"></div>
+    <div class="battle-actions">
+      <div class="action-tabs">
+        <button class="action-tab tab-active" id="tab-moves" onclick="switchBattleTab('moves')">Moves</button>
+        <button class="action-tab" id="tab-switch" onclick="switchBattleTab('switch')">Switch</button>
+      </div>
+      <div class="action-panel" id="action-panel"></div>
+    </div>
+  </div>
+</div>
+
+<!-- ═══════════════ RESULT ═══════════════ -->
+<div id="screen-result" class="screen">
+  <div class="result-title" id="result-title">—</div>
+  <div class="result-sub" id="result-sub"></div>
+  <div class="result-coins" id="result-coins"></div>
+  <div class="btn-row">
+    <button class="btn" onclick="showScreen('title')">Main Menu</button>
+    <button class="btn btn-gold" onclick="playAgain()">Play Again</button>
+  </div>
+</div>
+
+<!-- ═══════════════ MODAL ═══════════════ -->
+<div class="modal-bg" id="creature-modal">
+  <div class="modal">
+    <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:1rem">
+      <div>
+        <div class="caesar" style="font-size:1.4rem;text-transform:capitalize" id="modal-name"></div>
+        <div class="badge-row" id="modal-types"></div>
+      </div>
+      <button class="modal-close" onclick="document.getElementById('creature-modal').classList.remove('modal-open')">×</button>
+    </div>
+    <div id="modal-body"></div>
+  </div>
+</div>
+
+<div class="toast" id="toast"></div>
+
+<script type="module" src="/src/game/main.js"></script>
+</body>
+</html>

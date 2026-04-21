@@ -11,7 +11,8 @@ config = {
         (128, "front_thumb")  # Tiny version for Grid page
     ],
     "side": [(256, "side")],
-    "back": [(256, "back")]
+    "back": [(256, "back")],
+    "side_battle": [(512, "side_battle")]
 }
 
 def optimize_pokedex():

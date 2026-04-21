@@ -2,8 +2,36 @@ cd D:\11-Mar-26-bak\pokemon essentials\pokedex_vite
 npm run dev
 http://localhost:5173/eidolon/
 
+game:
+http://localhost:5173/eidolon/game.html
+
+
+
 push to github:
 
 git add .
 git commit -m "Optimize: Switch to WebP, add thumbnails, and update App logic"
 git push origin main
+
+
+
+
+
+Drop these into pokedex_vite/:
+
+game.html → root of the project (alongside index.html)
+vite.config.js → replaces your existing one
+
+Drop these into pokedex_vite/src/:
+
+shared/constants.js — TYPE_COLORS, TYPE_CHART, RANK_UNLOCK, RANK_STARS
+shared/helpers.js — typeColor, typeBadge, rankStars, getEffectiveness, showPoolTip, plus a "View in Codex ↗" link in every tooltip
+game/data.js — fetches pokedex.json + moves_db.json once
+game/save.js — localStorage read/write
+game/battle.js — pure battle engine (no DOM)
+game/battle-ui.js — renders battle screen, HP panels, action buttons
+game/roster.js — My Roster + Unlock Creatures screens
+game/pool.js — pool selection + draft phase
+game/lobby.js — solo/multiplayer entry, WebSocket handler
+game/main.js — screen router, init, exposes functions to window for HTML onclick
+game/game.css — all game styles (extracted from the HTML)
