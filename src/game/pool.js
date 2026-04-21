@@ -1,5 +1,16 @@
 import { POKEDEX, MOVES_DB } from './data.js';
 import { typeBadge, typeDots, rankStars, showPoolTip, hidePoolTip, shuffle } from '../shared/helpers.js';
+
+// Touch-aware tooltip attachment — mirrors the pattern in battle-ui.js
+function attachPoolTip(el, c) {
+  el.onmouseenter = () => showPoolTip(c, MOVES_DB, el);
+  el.onmouseleave = () => hidePoolTip();
+  el.addEventListener('touchend', e => {
+    e.preventDefault();
+    e.stopPropagation();
+    showPoolTip(c, MOVES_DB, el);
+  }, { passive: false });
+}
 import { POOL_MAX, PUBLIC_PATH, TYPE_COLORS } from '../shared/constants.js';
 import { getSave, isUnlocked } from './save.js';
 import { toast, showScreen } from './main.js';
@@ -156,8 +167,7 @@ function _buildCreatureCard(c) {
     toggleFavourite(c.name, e.currentTarget);
   });
   div.onclick = () => togglePool(c.name);
-  div.onmouseenter = () => showPoolTip(c, MOVES_DB, div);
-  div.onmouseleave = () => hidePoolTip();
+  attachPoolTip(div, c);
   return div;
 }
 
@@ -253,8 +263,7 @@ export function renderDraftScreen() {
       <div class="draft-card-name">${name}</div>
       <div class="badge-row" style="justify-content:center">${c.types.map(typeBadge).join('')}</div>`;
     div.onclick = () => toggleDraft(name);
-    div.onmouseenter = () => showPoolTip(c, MOVES_DB, div);
-    div.onmouseleave = () => hidePoolTip();
+    attachPoolTip(div, c);
     myGrid.appendChild(div);
   });
   renderOppPoolDisplay();
@@ -273,8 +282,7 @@ export function renderOppPoolDisplay() {
     el.innerHTML = `<img src="${PUBLIC_PATH}front_thumb/${name}.webp" alt="${name}" onerror="this.style.opacity='0.1'">
       <div class="opp-pool-mini-name">${name}</div>
       ${typeDots(c.types)}`;
-    el.onmouseenter = () => showPoolTip(c, MOVES_DB, el);
-    el.onmouseleave = () => hidePoolTip();
+    attachPoolTip(el, c);
     cont.appendChild(el);
   });
 }

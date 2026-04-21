@@ -72,6 +72,37 @@ export function startBattleUI(battleState, solo, websocket, playerIndex) {
   }
 }
 
+// ── Animated WebP support ─────────────────────────────────────────────────────
+// Cache: name → 'anim' | 'static' | undefined (pending)
+const _animCache = {};
+
+// Probe whether name_anim.webp exists; resolves to the correct src string.
+// Result is cached so subsequent renders are instant.
+function resolveSpriteSrc(name, folder) {
+  const animSrc   = `${PUBLIC_PATH}${folder}/${name}_anim.webp`;
+  const staticSrc = `${PUBLIC_PATH}${folder}/${name}.webp`;
+
+  return new Promise(resolve => {
+    if (_animCache[name] === 'anim')   { resolve(animSrc);   return; }
+    if (_animCache[name] === 'static') { resolve(staticSrc); return; }
+    // Probe
+    const probe = new Image();
+    probe.onload  = () => { _animCache[name] = 'anim';   resolve(animSrc);   };
+    probe.onerror = () => { _animCache[name] = 'static'; resolve(staticSrc); };
+    probe.src = animSrc;
+  });
+}
+
+// Set src on an img element, using animated WebP if available.
+// el      — the <img> DOM element
+// name    — creature name
+// folder  — e.g. 'side_battle'
+function setAnimatedSrc(el, name, folder) {
+  resolveSpriteSrc(name, folder).then(src => {
+    if (el.src !== src) el.src = src;
+  });
+}
+
 // ── Render battle field ───────────────────────────────────────────────────────
 export function renderBattle() {
   renderBattleSide('player', battle.player);
@@ -92,12 +123,12 @@ function renderBattleSide(side, sideState) {
 
   const activeImg = document.getElementById(`${side}-active-img`);
   if (activeImg) {
-    activeImg.src = `${PUBLIC_PATH}${folder}/${active.name}.webp`;
     activeImg.style.opacity = '';
     activeImg.className = `active-side-img${active.fainted ? ' fainted-sprite' : ''}`;
     const activeScale = getPokedexScale(active.name);
     const flipX = isEnemy ? -1 : 1;
     activeImg.style.transform = `scaleX(${flipX * activeScale}) scaleY(${activeScale})`;
+    setAnimatedSrc(activeImg, active.name, folder);
   }
 
   const benchEl = document.getElementById(`${side}-bench-sprites`);
@@ -111,10 +142,14 @@ function renderBattleSide(side, sideState) {
       const wrap = document.createElement('div');
       wrap.style.cssText = 'margin-left:-14px;' + (idx === 0 ? 'margin-left:0;' : '');
       wrap.className = 'bench-sprite-wrap' + (slot.fainted ? ' fainted-bench' : '');
-      wrap.innerHTML = `<img class="bench-side-img"
-        style="transform:scaleX(${isEnemy ? -benchScale : benchScale}) scaleY(${benchScale})"
-        src="${PUBLIC_PATH}${folder}/${slot.name}.webp" alt="${slot.name}"
-        onerror="this.style.opacity='0.1'" title="${slot.name}">`;
+      const img = document.createElement('img');
+      img.className = 'bench-side-img';
+      img.style.transform = `scaleX(${isEnemy ? -benchScale : benchScale}) scaleY(${benchScale})`;
+      img.alt   = slot.name;
+      img.title = slot.name;
+      img.onerror = () => { img.style.opacity = '0.1'; };
+      setAnimatedSrc(img, slot.name, folder);
+      wrap.appendChild(img);
       benchEl.appendChild(wrap);
     });
     if (benchEl.firstChild) benchEl.firstChild.style.marginLeft = '0';
@@ -241,6 +276,24 @@ function getMoveDescription(move) {
   return lines.join(' ');
 }
 
+// ── Shared stat bar renderer for battle tooltips ──────────────────────────────
+// Battle stats are scaled (battleStat(45) = 145), HP max is ~410 (battleHP(45))
+const TIP_STAT_MAX = { HP: 410, ATK: 145, DEF: 145, 'SP.ATK': 145, SPD: 145 };
+function statBarsHtml(stats) {
+  return Object.entries(stats).map(([k, v]) => {
+    const max = TIP_STAT_MAX[k] || 145;
+    const pct = Math.min(100, (v / max) * 100);
+    const col = pct > 66 ? '#4ade80' : pct > 33 ? '#facc15' : '#f87171';
+    return `<div style="display:grid;grid-template-columns:46px 1fr 28px;align-items:center;gap:5px;margin-bottom:2px">
+      <span style="font-size:10px;font-weight:600;color:var(--muted);text-transform:uppercase;text-align:right">${k}</span>
+      <div style="height:5px;background:var(--surface2);border-radius:3px;overflow:hidden">
+        <div style="width:${pct}%;height:100%;background:${col};border-radius:3px"></div>
+      </div>
+      <span style="font-size:11px;font-weight:600;text-align:right">${v}</span>
+    </div>`;
+  }).join('');
+}
+
 // ── Hover tooltips ────────────────────────────────────────────────────────────
 export function showCreatureTip(side, evt, slotIdx) {
   const sideState = side === 'player' ? battle.player : battle.enemy;
@@ -262,13 +315,11 @@ export function showCreatureTip(side, evt, slotIdx) {
     <div class="tip-id">#${tipId}</div>
     <div class="badge-row" style="margin-bottom:5px">${slot.types.map(typeBadge).join('')}</div>
     <div class="tip-hp-bar"><div class="tip-hp-fill" style="width:${pct * 100}%;background:${barCol}"></div></div>
-    <div style="font-size:0.7rem;color:var(--muted);margin-bottom:4px">
+    <div style="font-size:0.7rem;color:var(--muted);margin-bottom:6px">
       ${Math.max(0, slot.currentHp)} / ${slot.maxHp} HP
       ${slot.status ? `<span class="status-pip pip-${slot.status}">${slot.status.slice(0, 3).toUpperCase()}</span>` : ''}
     </div>
-    ${Object.entries(statBattle).map(([k, v]) =>
-      `<div class="tip-stat-row"><span class="tip-stat-label">${k}</span><span class="tip-stat-val">${v}</span></div>`
-    ).join('')}
+    ${statBarsHtml(statBattle)}
     <div style="margin-top:6px;font-size:0.68rem;color:var(--muted);letter-spacing:0.05em;margin-bottom:3px">MOVES</div>
     <div class="tip-moves">${slot.moves.slice(0, 4).map(m => `
       <div class="tip-move">
@@ -495,13 +546,11 @@ function showSwitchTip(slot, anchorEl) {
     <div class="tip-id">#${tipId2}</div>
     <div class="badge-row" style="margin-bottom:5px">${slot.types.map(typeBadge).join('')}</div>
     <div class="tip-hp-bar"><div class="tip-hp-fill" style="width:${pct * 100}%;background:${barCol}"></div></div>
-    <div style="font-size:0.7rem;color:var(--muted);margin-bottom:4px">
+    <div style="font-size:0.7rem;color:var(--muted);margin-bottom:6px">
       ${Math.max(0, slot.currentHp)} / ${slot.maxHp} HP
       ${slot.status ? `<span class="status-pip pip-${slot.status}">${slot.status.slice(0,3).toUpperCase()}</span>` : ''}
     </div>
-    ${Object.entries(statBattle).map(([k, v]) =>
-      `<div class="tip-stat-row"><span class="tip-stat-label">${k}</span><span class="tip-stat-val">${v}</span></div>`
-    ).join('')}
+    ${statBarsHtml(statBattle)}
     <div style="margin-top:6px;font-size:0.68rem;color:var(--muted);letter-spacing:0.05em;margin-bottom:3px">MOVES</div>
     <div class="tip-moves">${slot.moves.slice(0, 4).map(m => `
       <div class="tip-move">

@@ -71,6 +71,18 @@ function applyPoolFilters() {
     const typeOk = !poolTypeFilter || c.types.includes(poolTypeFilter);
     const nameOk = !search || name.toLowerCase().includes(search);
     el.style.display = (rankOk && typeOk && nameOk) ? '' : 'none';
+    // Keep selected state in sync
+    el.classList.toggle('selected-card', myPool.includes(name));
+  });
+  // Hide section labels if no visible cards follow them
+  document.querySelectorAll('#pool-grid .pool-section-label').forEach(label => {
+    let next = label.nextElementSibling;
+    let hasVisible = false;
+    while (next && !next.classList.contains('pool-section-label')) {
+      if (next.style.display !== 'none') { hasVisible = true; break; }
+      next = next.nextElementSibling;
+    }
+    label.style.display = hasVisible ? '' : 'none';
   });
 }
 
@@ -87,6 +99,30 @@ export function resetDraftState() {
   poolConfirmed = false; teamConfirmed = false;
 }
 
+// ── Favourites — persisted in localStorage ────────────────────────────────────
+const FAV_KEY = 'creature_favourites';
+function loadFavourites() {
+  try { return new Set(JSON.parse(localStorage.getItem(FAV_KEY) || '[]')); }
+  catch { return new Set(); }
+}
+function saveFavourites(set) {
+  localStorage.setItem(FAV_KEY, JSON.stringify([...set]));
+}
+let favourites = loadFavourites();
+
+function toggleFavourite(name, btnEl) {
+  if (favourites.has(name)) {
+    favourites.delete(name);
+  } else {
+    favourites.add(name);
+  }
+  saveFavourites(favourites);
+  btnEl.classList.toggle('fav-active', favourites.has(name));
+  btnEl.title = favourites.has(name) ? 'Remove from favourites' : 'Add to favourites';
+  // Re-render so the favourites section at the top updates
+  _renderPoolCards();
+}
+
 // ── Pool grid ─────────────────────────────────────────────────────────────────
 export function renderPoolGrid() {
   myPool = []; poolConfirmed = false;
@@ -94,29 +130,63 @@ export function renderPoolGrid() {
   document.getElementById('pool-max-label').textContent = POOL_MAX;
   updatePoolUI();
   buildPoolFilters();
-  // Reset search input if present
   const si = document.getElementById('pool-search-input');
   if (si) si.value = '';
+  _renderPoolCards();
+}
 
+function _buildCreatureCard(c) {
+  const isFav = favourites.has(c.name);
+  const div = document.createElement('div');
+  div.className = 'creature-card';
+  div.id = `pc-${c.name}`;
+  div.dataset.name = c.name;
+
+  const dots = c.types.map(t =>
+    `<span class="type-dot" style="background:${typeColor(t)}" title="${t}"></span>`
+  ).join('');
+
+  div.innerHTML = `
+    <button class="fav-btn${isFav ? ' fav-active' : ''}" title="${isFav ? 'Remove from favourites' : 'Add to favourites'}">★</button>
+    <img class="card-thumb" src="${PUBLIC_PATH}front_thumb/${c.name}.webp" alt="${c.name}" onerror="this.style.opacity='0.1'">
+    <div class="card-name-row"><div class="type-dots">${dots}</div><div class="card-name">${c.name}</div></div>`;
+
+  div.querySelector('.fav-btn').addEventListener('click', e => {
+    e.stopPropagation();
+    toggleFavourite(c.name, e.currentTarget);
+  });
+  div.onclick = () => togglePool(c.name);
+  div.onmouseenter = () => showPoolTip(c, MOVES_DB, div);
+  div.onmouseleave = () => hidePoolTip();
+  return div;
+}
+
+function _sectionLabel(text, isFav = false) {
+  const el = document.createElement('div');
+  el.className = 'pool-section-label' + (isFav ? ' fav-label' : '');
+  el.style.gridColumn = '1 / -1';
+  el.textContent = text;
+  return el;
+}
+
+function _renderPoolCards() {
   const grid = document.getElementById('pool-grid');
   grid.innerHTML = '';
-  POKEDEX.filter(c => isUnlocked(c.name))
-    .sort((a, b) => parseInt(a.id) - parseInt(b.id))
-    .forEach(c => {
-      const div = document.createElement('div');
-      div.className = 'creature-card';
-      div.id = `pc-${c.name}`;
-      div.dataset.name = c.name;
-      div.innerHTML = `
-        <img class="card-thumb" src="${PUBLIC_PATH}front_thumb/${c.name}.webp" alt="${c.name}" onerror="this.style.opacity='0.1'">
-        <div class="card-num">#${String(c.id).padStart(3, '0')}</div>
-        <div class="card-name">${c.name}</div>
-        <div class="badge-row">${c.types.map(typeBadge).join('')}</div>`;
-      div.onclick = () => togglePool(c.name);
-      div.onmouseenter = () => showPoolTip(c, MOVES_DB, div);
-      div.onmouseleave = () => hidePoolTip();
-      grid.appendChild(div);
-    });
+
+  const unlocked = POKEDEX.filter(c => isUnlocked(c.name))
+    .sort((a, b) => a.name.localeCompare(b.name));
+
+  const favList  = unlocked.filter(c => favourites.has(c.name));
+  const restList = unlocked.filter(c => !favourites.has(c.name));
+
+  if (favList.length > 0) {
+    grid.appendChild(_sectionLabel('★  Favourites', true));
+    favList.forEach(c => grid.appendChild(_buildCreatureCard(c)));
+    grid.appendChild(_sectionLabel('All Creatures'));
+  }
+  restList.forEach(c => grid.appendChild(_buildCreatureCard(c)));
+
+  applyPoolFilters();
 }
 
 export function togglePool(name) {
@@ -143,10 +213,8 @@ export function updatePoolUI() {
     pill.onclick = () => togglePool(name);
     row.appendChild(pill);
   });
-  POKEDEX.forEach(c => {
-    const el = document.getElementById(`pc-${c.name}`);
-    if (el) el.classList.toggle('selected-card', myPool.includes(c.name));
-  });
+  // Sync selected state on all visible cards
+  applyPoolFilters();
   const btn = document.getElementById('pool-confirm-btn');
   if (btn) btn.disabled = myPool.length < 3;
 }

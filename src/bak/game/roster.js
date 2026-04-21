@@ -71,7 +71,7 @@ export function renderMyRoster() {
     if (rosterTypeFilter && !c.types.includes(rosterTypeFilter)) return false;
     if (search && !c.name.toLowerCase().includes(search)) return false;
     return true;
-  }).sort((a, b) => parseInt(a.id) - parseInt(b.id));
+  }).sort((a, b) => a.name.localeCompare(b.name));
 
   all.forEach(c => {
     const locked = !isUnlocked(c.name);
@@ -80,10 +80,8 @@ export function renderMyRoster() {
     div.className = 'creature-card' + (locked ? ' locked-card' : '');
     div.innerHTML = `
       <img class="card-thumb" src="${PUBLIC_PATH}front_thumb/${c.name}.webp" alt="${c.name}" onerror="this.style.opacity='0.1'">
-      <div class="card-num">#${String(c.id).padStart(3, '0')}</div>
-      <div class="card-name">${c.name}</div>
+      <div class="card-name-row">${typeDots(c.types)}<div class="card-name">${c.name}</div></div>
       <div class="rank-stars">${rankStars(c.rank)}</div>
-      ${typeDots(c.types)}
       ${locked
         ? `<div class="lock-tag">🔒 ${cost > 0 ? cost.toLocaleString() + '⬡' : 'Free'}</div>`
         : `<div style="font-size:0.65rem;color:#3aad5e;margin-top:2px">✓ Unlocked</div>`}`;

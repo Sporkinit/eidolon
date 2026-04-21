@@ -1,5 +1,15 @@
 import { POKEDEX, MOVES_DB } from './data.js';
 import { typeBadge, typeDots, rankStars, showPoolTip, hidePoolTip, codexUrl, typeColor } from '../shared/helpers.js';
+
+function attachPoolTip(el, c) {
+  el.onmouseenter = () => showPoolTip(c, MOVES_DB, el);
+  el.onmouseleave = () => hidePoolTip();
+  el.addEventListener('touchend', e => {
+    e.preventDefault();
+    e.stopPropagation();
+    showPoolTip(c, MOVES_DB, el);
+  }, { passive: false });
+}
 import { RANK_UNLOCK, PUBLIC_PATH, TYPE_COLORS } from '../shared/constants.js';
 import { getSave, isUnlocked, unlock, spendCoins } from './save.js';
 import { toast, updateCoinDisplay } from './main.js';
@@ -86,8 +96,7 @@ export function renderMyRoster() {
         ? `<div class="lock-tag">🔒 ${cost > 0 ? cost.toLocaleString() + '⬡' : 'Free'}</div>`
         : `<div style="font-size:0.65rem;color:#3aad5e;margin-top:2px">✓ Unlocked</div>`}`;
     div.onclick = () => { if (locked) tryUnlock(c.name); else window.open(codexUrl(c.name), '_blank'); };
-    div.onmouseenter = () => showPoolTip(c, MOVES_DB, div);
-    div.onmouseleave = () => hidePoolTip();
+    attachPoolTip(div, c);
     grid.appendChild(div);
   });
 

@@ -72,39 +72,39 @@ export function toast(msg, dur = 2500) {
 }
 
 // ── Hover tooltip (pool / roster / draft cards) ───────────────────────────────
-let _tipEl = null;
-
-function ensureTip() {
-  if (!_tipEl) {
-    _tipEl = document.createElement('div');
-    _tipEl.id = 'pool-tip-global';
-    _tipEl.style.cssText = [
-      'position:fixed', 'z-index:200',
-      'background:rgba(13,13,18,0.97)', 'border:1px solid rgba(255,255,255,0.1)',
-      'border-radius:10px', 'padding:0.75rem', 'min-width:210px', 'max-width:240px',
-      'pointer-events:none', 'box-shadow:0 8px 32px rgba(0,0,0,0.7)',
-      'backdrop-filter:blur(8px)', "font-family:'Outfit',sans-serif",
-      'font-size:13px', 'transition:opacity 0.12s', 'opacity:0',
-    ].join(';');
-    document.body.appendChild(_tipEl);
-  }
-  return _tipEl;
-}
+// Integrated patch for showPoolTip and hidePoolTip
 
 export function showPoolTip(c, movesDb, anchorEl) {
-  const tip = ensureTip();
-  const allMoves = (c.moves || []).flatMap(g => (movesDb[g] || []).map(m => m));
+  let tip = document.getElementById('pool-tip-global');
+  if (!tip) {
+    tip = document.createElement('div');
+    tip.id = 'pool-tip-global';
+    tip.className = 'creature-tooltip';
+    tip.style.cssText = 'position:fixed;z-index:200;pointer-events:none;max-width:240px;min-width:210px;background:rgba(13,13,18,0.97);border:1px solid rgba(255,255,255,0.1);border-radius:10px;padding:0.75rem;box-shadow:0 8px 32px rgba(0,0,0,0.7);backdrop-filter:blur(8px);font-family:"Outfit",sans-serif;font-size:13px;transition:opacity 0.12s';
+    document.body.appendChild(tip);
+  }
+
+  // Build flat name→move lookup
+  const byName = {};
+  for (const group of Object.values(movesDb)) {
+    for (const m of group) {
+      if (m.name) byName[m.name.toLowerCase()] = m;
+    }
+  }
+  const moves = (c.moves || []).map(n => byName[n.toLowerCase()]).filter(Boolean);
+
+  const idStr  = String(c.id).padStart(3, '0');
   const STAT_LABELS = { hp: 'HP', atk: 'ATK', def: 'DEF', special: 'SP.ATK', spd: 'SPD' };
   const STAT_MAX = 45;
   const total = Object.values(c.stats || {}).reduce((s, v) => s + (v || 0), 0);
 
   tip.innerHTML = `
-    <div style="font-family:'Caesar Dressing',cursive;font-size:1rem;text-transform:capitalize;margin-bottom:4px">${c.name}</div>
-    <div style="display:flex;gap:4px;margin-bottom:6px;flex-wrap:wrap">
+    <div style="font-family:'Caesar Dressing',cursive;font-size:1rem;text-transform:capitalize;margin-bottom:2px">${c.name}</div>
+    <div style="display:flex;align-items:center;gap:6px;margin-bottom:6px;flex-wrap:wrap">
+      <span style="font-size:11px;color:var(--muted)">#${idStr}</span>
       ${(c.types || []).map(typeBadge).join('')}
-      <span style="font-size:11px;color:#c9a800;margin-left:4px;align-self:center">${rankStars(c.rank)}</span>
+      <span style="font-size:11px;color:#c9a800;margin-left:2px">${rankStars(c.rank)}</span>
     </div>
-    ${c.bio ? `<div style="color:var(--muted);font-size:11px;font-style:italic;margin-bottom:7px;line-height:1.4">${c.bio}</div>` : ''}
     <div style="display:flex;flex-direction:column;gap:4px;margin-bottom:7px">
       ${Object.entries(STAT_LABELS).map(([k, label]) => {
         const val = c.stats?.[k] || 0;
@@ -120,42 +120,43 @@ export function showPoolTip(c, movesDb, anchorEl) {
       }).join('')}
       <div style="font-size:10px;color:var(--muted);text-align:right;margin-top:1px">Total: ${total}</div>
     </div>
-    ${allMoves.length ? `
+    ${moves.length ? `
       <div style="font-size:10px;color:var(--muted);letter-spacing:0.05em;margin-bottom:3px">MOVES</div>
       <div style="display:flex;flex-direction:column;gap:2px">
-        ${allMoves.slice(0, 4).map(m => `
+        ${moves.slice(0, 5).map(m => `
           <div style="background:var(--surface2);border-radius:4px;padding:2px 6px;font-size:11px;display:flex;align-items:center;gap:5px">
             <span style="font-weight:600">${m.name}</span>
-            <span class="type-badge" style="background:${typeColor(m.type)};font-size:9px">${m.type}</span>
+            <span class="type-badge" style="background:${typeColor(m.type)};font-size:9px;padding:0 4px;border-radius:3px;color:#fff">${m.type}</span>
             ${m.category !== 'Status'
               ? `<span style="color:var(--muted);margin-left:auto">${m.power || '—'} pwr</span>`
               : `<span style="color:var(--muted);margin-left:auto">status</span>`}
           </div>`).join('')}
-      </div>` : ''}
-    <a href="${PUBLIC_PATH}#/entry/${c.name}" target="_blank"
-       style="display:block;margin-top:8px;font-size:10px;color:var(--accent);text-decoration:none;opacity:0.8">
-      View in Codex ↗
-    </a>`;
+      </div>` : ''}`;
 
-  // Position: prefer right of anchor, flip left if needed
+  // Position: prefer right of anchor, flip left if near edge
   const rect = anchorEl.getBoundingClientRect();
-  const tipW = 240, tipH = 340;
+  const tipW = 240, tipH = 360;
   let left = rect.right + 8;
   let top  = rect.top;
-  if (left + tipW > window.innerWidth - 8)  left = rect.left - tipW - 8;
+  if (left + tipW > window.innerWidth  - 8) left = rect.left - tipW - 8;
   if (top  + tipH > window.innerHeight - 8) top  = window.innerHeight - tipH - 8;
   if (top < 8) top = 8;
-  _tipEl.style.left = left + 'px';
-  _tipEl.style.top  = top  + 'px';
-  _tipEl.style.opacity = '1';
+  tip.style.left    = left + 'px';
+  tip.style.top     = top  + 'px';
+  tip.style.opacity = '1';
+  tip.style.display = 'block';
 }
 
 export function hidePoolTip() {
-  if (_tipEl) _tipEl.style.opacity = '0';
+  const tip = document.getElementById('pool-tip-global');
+  if (tip) {
+    tip.style.opacity = '0';
+    // Small delay for the fade transition if desired, or just hide
+    setTimeout(() => { if(tip.style.opacity === '0') tip.style.display = 'none'; }, 120);
+  }
 }
 
-// ── Codex deep-link URL (works for both hash and path router) ─────────────────
+// ── Codex deep-link URL ──────────────────────────────────────────────────────
 export function codexUrl(creatureName) {
-  // The React codex uses HashRouter at /eidolon/#/entry/:name
   return `${PUBLIC_PATH}#/entry/${encodeURIComponent(creatureName)}`;
 }

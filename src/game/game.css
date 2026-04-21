@@ -38,7 +38,6 @@ html,body{height:100%;background:var(--bg);color:var(--text);font-family:'Outfit
   flex-shrink:0;
   box-shadow:0 0 0 1px rgba(255,255,255,0.03), 0 24px 64px rgba(0,0,0,0.7);
 }
-
 /* ── Type badges ── */
 .type-badge{display:inline-block;padding:2px 10px;border-radius:20px;font-size:11px;font-weight:500;color:#fff;text-transform:capitalize;letter-spacing:0.3px}
 .type-primal{background:var(--c-primal)}.type-flora{background:var(--c-flora)}.type-water{background:var(--c-water)}
@@ -243,8 +242,8 @@ html,body{height:100%;background:var(--bg);color:var(--text);font-family:'Outfit
 ═══════════════════════════════════════════════════ */
 #screen-battle{overflow:hidden}
 .battle-scene{
-  /* Shorter scene matches 1280×400 BG aspect ratio; bottom panel fills the rest */
-  height:390px;
+  /* 1280×400 ratio ≈ 3.2:1 → at 1200px wide that's ~375px tall */
+  height:375px;
   flex-shrink:0;
   display:flex;flex-direction:column;
   background:linear-gradient(180deg,#0d0f1a 0%,#151825 50%,#1e2235 100%);
@@ -337,18 +336,17 @@ html,body{height:100%;background:var(--bg);color:var(--text);font-family:'Outfit
 
 /* Bottom: log + actions — fills the rest of the frame */
 .battle-bottom{background:var(--bg);border-top:2px solid var(--border);display:flex;flex:1;min-height:0;overflow:hidden}
-.battle-log{flex:1;padding:0.6rem 1rem;overflow-y:auto;min-width:0}
+.battle-log{flex:2;padding:0.6rem 1rem;overflow-y:auto;min-width:0}
 .log-line{font-size:0.8rem;padding:0.18rem 0;border-bottom:1px solid rgba(255,255,255,0.03);color:var(--text)}
 .log-line.log-hit{color:#7eb8f7}.log-line.log-dmg{color:#c0614a}.log-line.log-heal{color:#3aad5e}
 .log-line.log-status{color:#c760d4}.log-line.log-highlight{color:#c9a800;font-weight:600}
 .log-line.log-muted{color:var(--muted);font-size:0.72rem}
-/* Turn header — bold separator between turns */
 .log-turn-header{
   font-family:'Caesar Dressing',cursive;font-size:0.78rem;letter-spacing:0.08em;
   color:var(--muted);padding:0.35rem 0 0.15rem;margin-top:0.25rem;
   border-bottom:1px solid rgba(255,255,255,0.07);display:block
 }
-.battle-actions{width:300px;flex-shrink:0;display:flex;flex-direction:column;border-left:1px solid var(--border);overflow:hidden}
+.battle-actions{flex:1;min-width:0;display:flex;flex-direction:column;border-left:1px solid var(--border);overflow:hidden}
 .action-tabs{display:flex;border-bottom:1px solid var(--border)}
 .action-tab{flex:1;padding:0.4rem;text-align:center;font-size:0.75rem;font-weight:600;text-transform:uppercase;
   letter-spacing:0.05em;cursor:pointer;color:var(--muted);transition:all 0.1s;font-family:'Outfit',sans-serif;background:none;border:none}
