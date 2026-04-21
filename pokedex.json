@@ -23,7 +23,11 @@
       "spd": 31
     },
     "moves": [
-      "VOLT-A"
+      "Thunder Jab",
+      "Voltbeam",
+      "Overload",
+      "Arc Surge",
+      "Static Clap"
     ]
   },
   {
@@ -55,8 +59,11 @@
       "spd": 30
     },
     "moves": [
-      "WATER-B",
-      "VOLT-C"
+      "Deep Dive",
+      "Hydro Torrent",
+      "Bubble Shield",
+      "Spark Burst",
+      "Maelstrom"
     ]
   },
   {
@@ -85,8 +92,11 @@
       "spd": 34
     },
     "moves": [
-      "VOLT-C",
-      "AVIAN-A"
+      "Spark Burst",
+      "Charge Crash",
+      "Dynamo Stance",
+      "Gale Dive",
+      "Talon Strike"
     ]
   },
   {
@@ -100,7 +110,7 @@
       "equine"
     ],
     "evolution": [],
-    "scale": "1",
+    "scale": "0.8",
     "bio": "This creature uses its tail tip as a tool to probe soft ground for hidden roots during nocturnal foraging.",
     "stats": {
       "hp": 13,
@@ -110,8 +120,11 @@
       "spd": 14
     },
     "moves": [
-      "FAE-B",
-      "EQUINE-A"
+      "Wisp Slash",
+      "Moonveil Pulse",
+      "Dreamweave",
+      "Hoofstrike",
+      "Gallop Charge"
     ]
   },
   {
@@ -138,7 +151,11 @@
       "spd": 27
     },
     "moves": [
-      "FIRE-C"
+      "Char Swipe",
+      "Combustion Fist",
+      "Ashen Veil",
+      "Wildfire Surge",
+      "Infernal Rush"
     ]
   },
   {
@@ -158,7 +175,7 @@
         "pandemone"
       ]
     ],
-    "scale": "0.7",
+    "scale": "0.8",
     "bio": "This panda uses bamboo leaves as a natural collar during feeding sessions in forested areas.",
     "stats": {
       "hp": 33,
@@ -168,8 +185,11 @@
       "spd": 12
     },
     "moves": [
-      "FLORA-B",
-      "URSINE-A"
+      "Pollen Guard",
+      "Seed Bomb",
+      "Briar Tangle",
+      "Bear Hug",
+      "Canopy Crush"
     ]
   },
   {
@@ -193,8 +213,11 @@
       "spd": 11
     },
     "moves": [
-      "FAE-A",
-      "FELINE-A"
+      "Petal Barrage",
+      "Starfall",
+      "Lullaby Dust",
+      "Pounce",
+      "Claw Flurry"
     ]
   },
   {
@@ -221,7 +244,11 @@
       "spd": 12
     },
     "moves": [
-      "FAE-A"
+      "Petal Barrage",
+      "Starfall",
+      "Lullaby Dust",
+      "Charm Aura",
+      "Blossom Charm"
     ]
   },
   {
@@ -248,7 +275,11 @@
       "spd": 14
     },
     "moves": [
-      "PRIMAL-C"
+      "Body Press Crush",
+      "Primal Surge",
+      "Savage Aura",
+      "Apex Strike",
+      "Berserk Rush"
     ]
   },
   {
@@ -270,7 +301,11 @@
       "spd": 13
     },
     "moves": [
-      "FAE-B"
+      "Glimmer Touch",
+      "Pixie Blast",
+      "Enchant Wave",
+      "Gossamer Strike",
+      "Petal Barrage"
     ]
   },
   {
@@ -294,8 +329,11 @@
       "spd": 14
     },
     "moves": [
-      "TERRA-A",
-      "CACTOID-A"
+      "Pebble Rain",
+      "Cavern Crash",
+      "Clay Mold",
+      "Spine Volley",
+      "Needle Rush"
     ]
   },
   {
@@ -317,7 +355,11 @@
       "spd": 14
     },
     "moves": [
-      "FLORA-B"
+      "Vine Lash",
+      "Leaf Blade",
+      "Spore Burst",
+      "Thorn Volley",
+      "Flora Pulse"
     ]
   },
   {
@@ -347,9 +389,11 @@
       "spd": 14
     },
     "moves": [
-      "ICE-C",
-      "TERRA-A",
-      "URSINE-A"
+      "Cryo Snap",
+      "Tundra Crash",
+      "Snowdrift Veil",
+      "Earth Veil",
+      "Maul"
     ]
   },
   {
@@ -373,8 +417,11 @@
       "spd": 33
     },
     "moves": [
-      "FIRE-A",
-      "CANINE-A"
+      "Ember Claw",
+      "Flamethrower",
+      "Scorch Mark",
+      "Jaw Clamp",
+      "Howl Surge"
     ]
   },
   {
@@ -396,7 +443,11 @@
       "spd": 12
     },
     "moves": [
-      "PRIMAL-A"
+      "Knuckle Down",
+      "Instinct Slash",
+      "Primal Roar",
+      "Gut Charge",
+      "Feral Bite"
     ]
   },
   {
@@ -426,8 +477,11 @@
       "spd": 30
     },
     "moves": [
-      "FIRE-A",
-      "AVIAN-A"
+      "Char Swipe",
+      "Heat Wave",
+      "Ashen Veil",
+      "Gale Dive",
+      "Talon Strike"
     ]
   },
   {
@@ -460,8 +514,11 @@
       "spd": 9
     },
     "moves": [
-      "PRIMAL-C",
-      "AVIAN-A"
+      "Headbutt Charge",
+      "Concussive Blow",
+      "Primal Howl",
+      "Gale Dive",
+      "Talon Strike"
     ]
   },
   {
@@ -475,7 +532,7 @@
       "dragon"
     ],
     "evolution": [],
-    "scale": "1",
+    "scale": "0.8",
     "bio": "This creature holds lanterns in both paws, illuminating its surroundings as it moves through dim environments.",
     "stats": {
       "hp": 10,
@@ -485,8 +542,11 @@
       "spd": 28
     },
     "moves": [
-      "FIRE-D",
-      "DRAGON-A"
+      "Singe",
+      "Magma Punch",
+      "Blaze Aura",
+      "Scale Slash",
+      "Dragon Roar"
     ]
   },
   {
@@ -510,8 +570,11 @@
       "spd": 30
     },
     "moves": [
-      "DARK-B",
-      "DRAGON-A"
+      "Shade Siphon",
+      "Gloom Blast",
+      "Shadowstep",
+      "Scale Slash",
+      "Dragon Roar"
     ]
   },
   {
@@ -539,8 +602,11 @@
       "spd": 29
     },
     "moves": [
-      "WATER-B",
-      "VOLT-C"
+      "Brineblast",
+      "Crashing Wave",
+      "Mist Veil",
+      "Conductor Claw",
+      "Pearl Burst"
     ]
   },
   {
@@ -567,7 +633,11 @@
       "spd": 11
     },
     "moves": [
-      "ICE-B"
+      "Cryo Snap",
+      "Tundra Crash",
+      "Snowdrift Veil",
+      "Freeze Ray",
+      "Deep Freeze"
     ]
   },
   {
@@ -594,7 +664,11 @@
       "spd": 11
     },
     "moves": [
-      "ICE-C"
+      "Cryo Snap",
+      "Tundra Crash",
+      "Snowdrift Veil",
+      "Freeze Ray",
+      "Deep Freeze"
     ]
   },
   {
@@ -618,8 +692,11 @@
       "spd": 17
     },
     "moves": [
-      "ICE-A",
-      "CANINE-A"
+      "Cryo Snap",
+      "Tundra Crash",
+      "Snowdrift Veil",
+      "Jaw Clamp",
+      "Howl Surge"
     ]
   },
   {
@@ -641,7 +718,11 @@
       "spd": 29
     },
     "moves": [
-      "WATER-A"
+      "Deep Dive",
+      "Hydro Torrent",
+      "Bubble Shield",
+      "Maelstrom",
+      "Abyssal Surge"
     ]
   },
   {
@@ -666,9 +747,11 @@
       "spd": 13
     },
     "moves": [
-      "PRIMAL-C",
-      "OVINE-A",
-      "FLORAL-A"
+      "Knuckle Down",
+      "Instinct Slash",
+      "Primal Roar",
+      "Wool Wrap",
+      "Headbutt Bleat"
     ]
   },
   {
@@ -680,7 +763,7 @@
     ],
     "tags": [],
     "evolution": [],
-    "scale": "0.8",
+    "scale": "0.6",
     "bio": "This creature consistently uses its tail tip as a tool to probe soft ground surfaces in search of small insects.",
     "stats": {
       "hp": 30,
@@ -690,13 +773,17 @@
       "spd": 12
     },
     "moves": [
-      "PRIMAL-D"
+      "Body Press Crush",
+      "Primal Surge",
+      "Savage Aura",
+      "Apex Strike",
+      "Berserk Rush"
     ]
   },
   {
     "id": "27",
     "name": "rootle",
-    "rank": "B",
+    "rank": "C",
     "types": [
       "flora"
     ],
@@ -705,20 +792,24 @@
     "scale": "0.5",
     "bio": "This creature uses leaf-like appendages to absorb nutrients from decomposing organic matter in forest litter.",
     "stats": {
-      "hp": 26,
-      "atk": 11,
-      "def": 15,
-      "special": 27,
-      "spd": 11
+      "hp": 23,
+      "atk": 10,
+      "def": 14,
+      "special": 24,
+      "spd": 10
     },
     "moves": [
-      "FLORA-C"
+      "Root Bind",
+      "Bloom Burst",
+      "Chloro Slash",
+      "Photosynthesis",
+      "Larva Barrage"
     ]
   },
   {
     "id": "28",
     "name": "buzzlette",
-    "rank": "B",
+    "rank": "C",
     "types": [
       "primal"
     ],
@@ -740,14 +831,18 @@
     "scale": "0.4",
     "bio": "This insect uses its antennae to detect chemical signals in decaying fruit matter near forested streams.",
     "stats": {
-      "hp": 24,
-      "atk": 31,
-      "def": 13,
-      "special": 13,
-      "spd": 10
+      "hp": 22,
+      "atk": 27,
+      "def": 11,
+      "special": 11,
+      "spd": 9
     },
     "moves": [
-      "PRIMAL-A"
+      "Body Press Crush",
+      "Primal Surge",
+      "Savage Aura",
+      "Apex Strike",
+      "Berserk Rush"
     ]
   },
   {
@@ -776,8 +871,11 @@
       "spd": 13
     },
     "moves": [
-      "TERRA-D",
-      "CACTOID-A"
+      "Pebble Rain",
+      "Cavern Crash",
+      "Clay Mold",
+      "Spine Volley",
+      "Needle Rush"
     ]
   },
   {
@@ -801,8 +899,11 @@
       "spd": 15
     },
     "moves": [
-      "TERRA-C",
-      "CACTOID-A"
+      "Earth Veil",
+      "Stonewall Smash",
+      "Magma Crust",
+      "Spine Volley",
+      "Needle Rush"
     ]
   },
   {
@@ -826,8 +927,11 @@
       "spd": 13
     },
     "moves": [
-      "TERRA-B",
-      "CACTOID-A"
+      "Pebble Rain",
+      "Cavern Crash",
+      "Clay Mold",
+      "Spine Volley",
+      "Needle Rush"
     ]
   },
   {
@@ -852,15 +956,17 @@
       "spd": 27
     },
     "moves": [
-      "VOLT-B",
-      "ICE-C",
-      "MECH-A"
+      "Thunder Jab",
+      "Voltbeam",
+      "Overload",
+      "Icicle Spear",
+      "Gear Grind"
     ]
   },
   {
     "id": "33",
     "name": "doomhawn",
-    "rank": "S",
+    "rank": "A",
     "types": [
       "dark"
     ],
@@ -876,14 +982,18 @@
     "scale": "1.1",
     "bio": "This creature uses its powerful horns to intimidate prey by creating loud roaring sounds during territorial disputes.",
     "stats": {
-      "hp": 18,
-      "atk": 28,
-      "def": 13,
-      "special": 12,
-      "spd": 40
+      "hp": 16,
+      "atk": 25,
+      "def": 12,
+      "special": 11,
+      "spd": 36
     },
     "moves": [
-      "DARK-C"
+      "Shade Siphon",
+      "Gloom Blast",
+      "Shadowstep",
+      "Headbutt Bleat",
+      "Body Press Crush"
     ]
   },
   {
@@ -905,7 +1015,11 @@
       "spd": 15
     },
     "moves": [
-      "PRIMAL-C"
+      "Body Press Crush",
+      "Primal Surge",
+      "Savage Aura",
+      "Apex Strike",
+      "Berserk Rush"
     ]
   },
   {
@@ -930,9 +1044,11 @@
       "spd": 22
     },
     "moves": [
-      "DARK-B",
-      "TERRA-B",
-      "EQUINE-A"
+      "Shadow Lunge",
+      "Nightfall Pulse",
+      "Curse Mark",
+      "Boulder Barrage",
+      "Hoofstrike"
     ]
   },
   {
@@ -956,8 +1072,11 @@
       "spd": 34
     },
     "moves": [
-      "FIRE-D",
-      "FELINE-A"
+      "Char Swipe",
+      "Combustion Fist",
+      "Ashen Veil",
+      "Pounce",
+      "Claw Flurry"
     ]
   },
   {
@@ -979,7 +1098,11 @@
       "spd": 9
     },
     "moves": [
-      "FAE-B"
+      "Glimmer Touch",
+      "Pixie Blast",
+      "Enchant Wave",
+      "Gossamer Strike",
+      "Petal Barrage"
     ]
   },
   {
@@ -1006,7 +1129,11 @@
       "spd": 11
     },
     "moves": [
-      "FAE-B"
+      "Glimmer Touch",
+      "Pixie Blast",
+      "Enchant Wave",
+      "Gossamer Strike",
+      "Petal Barrage"
     ]
   },
   {
@@ -1028,7 +1155,11 @@
       "spd": 14
     },
     "moves": [
-      "ICE-B"
+      "Cryo Snap",
+      "Tundra Crash",
+      "Snowdrift Veil",
+      "Freeze Ray",
+      "Deep Freeze"
     ]
   },
   {
@@ -1052,8 +1183,11 @@
       "spd": 14
     },
     "moves": [
-      "FAE-A",
-      "AVIAN-A"
+      "Glimmer Touch",
+      "Pixie Blast",
+      "Enchant Wave",
+      "Gale Dive",
+      "Talon Strike"
     ]
   },
   {
@@ -1077,8 +1211,11 @@
       "spd": 17
     },
     "moves": [
-      "PRIMAL-B",
-      "AVIAN-A"
+      "Rough Tumble",
+      "Iron Will Strike",
+      "Savagery",
+      "Gale Dive",
+      "Talon Strike"
     ]
   },
   {
@@ -1107,8 +1244,11 @@
       "spd": 14
     },
     "moves": [
-      "ICE-B",
-      "OVINE-A"
+      "Icicle Spear",
+      "Subzero Pulse",
+      "Frost Armor",
+      "Wool Wrap",
+      "Headbutt Bleat"
     ]
   },
   {
@@ -1133,9 +1273,11 @@
       "spd": 20
     },
     "moves": [
-      "ICE-B",
-      "WATER-D",
-      "OVINE-A"
+      "Icicle Spear",
+      "Subzero Pulse",
+      "Frost Armor",
+      "Saltwater Spray",
+      "Wool Wrap"
     ]
   },
   {
@@ -1162,7 +1304,11 @@
       "spd": 27
     },
     "moves": [
-      "VOLT-C"
+      "Spark Burst",
+      "Charge Crash",
+      "Dynamo Stance",
+      "Plasma Burst",
+      "Lightning Dash"
     ]
   },
   {
@@ -1184,7 +1330,11 @@
       "spd": 14
     },
     "moves": [
-      "FAE-A"
+      "Glimmer Touch",
+      "Pixie Blast",
+      "Enchant Wave",
+      "Gossamer Strike",
+      "Petal Barrage"
     ]
   },
   {
@@ -1207,8 +1357,11 @@
       "spd": 12
     },
     "moves": [
-      "FAE-B",
-      "TERRA-C"
+      "Glimmer Touch",
+      "Pixie Blast",
+      "Enchant Wave",
+      "Boulder Barrage",
+      "Gossamer Strike"
     ]
   },
   {
@@ -1230,7 +1383,11 @@
       "spd": 28
     },
     "moves": [
-      "DARK-A"
+      "Shadow Lunge",
+      "Nightfall Pulse",
+      "Curse Mark",
+      "Obsidian Fang",
+      "Dark Pulse"
     ]
   },
   {
@@ -1258,7 +1415,11 @@
       "spd": 12
     },
     "moves": [
-      "TERRA-C"
+      "Earth Veil",
+      "Stonewall Smash",
+      "Magma Crust",
+      "Tectonic Slam",
+      "Stone Edge"
     ]
   },
   {
@@ -1285,7 +1446,11 @@
       "spd": 25
     },
     "moves": [
-      "DARK-C"
+      "Shade Siphon",
+      "Gloom Blast",
+      "Shadowstep",
+      "Void Strike",
+      "Nightmare Claw"
     ]
   },
   {
@@ -1309,8 +1474,11 @@
       "spd": 25
     },
     "moves": [
-      "DARK-B",
-      "DRAGON-A"
+      "Shade Siphon",
+      "Gloom Blast",
+      "Shadowstep",
+      "Scale Slash",
+      "Dragon Roar"
     ]
   },
   {
@@ -1332,7 +1500,11 @@
       "spd": 31
     },
     "moves": [
-      "WATER-A"
+      "Tideclaw",
+      "Waterfall Rush",
+      "Soakwave",
+      "Riptide",
+      "Coral Crush"
     ]
   },
   {
@@ -1356,8 +1528,11 @@
       "spd": 28
     },
     "moves": [
-      "VOLT-C",
-      "OVINE-A"
+      "Conductor Claw",
+      "Galvanic Slam",
+      "Shock Grid",
+      "Wool Wrap",
+      "Headbutt Bleat"
     ]
   },
   {
@@ -1380,8 +1555,11 @@
       "spd": 25
     },
     "moves": [
-      "WATER-C",
-      "VOLT-B"
+      "Deep Dive",
+      "Hydro Torrent",
+      "Bubble Shield",
+      "Spark Burst",
+      "Maelstrom"
     ]
   },
   {
@@ -1403,7 +1581,11 @@
       "spd": 22
     },
     "moves": [
-      "WATER-B"
+      "Brineblast",
+      "Crashing Wave",
+      "Mist Veil",
+      "Pearl Burst",
+      "Undertow"
     ]
   },
   {
@@ -1434,9 +1616,11 @@
       "spd": 22
     },
     "moves": [
-      "WATER-A",
-      "FAE-A",
-      "FLORAL-A"
+      "Deep Dive",
+      "Hydro Torrent",
+      "Bubble Shield",
+      "Wisp Slash",
+      "Petal Shower"
     ]
   },
   {
@@ -1465,8 +1649,11 @@
       "spd": 12
     },
     "moves": [
-      "FLORA-C",
-      "HARVEST-A"
+      "Vine Lash",
+      "Leaf Blade",
+      "Spore Burst",
+      "Pulp Burst",
+      "Juicy Splash"
     ]
   },
   {
@@ -1495,8 +1682,11 @@
       "spd": 11
     },
     "moves": [
-      "FLORA-D",
-      "FLORAL-A"
+      "Vine Lash",
+      "Leaf Blade",
+      "Spore Burst",
+      "Petal Shower",
+      "Bloom Aura"
     ]
   },
   {
@@ -1525,8 +1715,11 @@
       "spd": 16
     },
     "moves": [
-      "FLORA-D",
-      "FLORAL-A"
+      "Root Bind",
+      "Bloom Burst",
+      "Chloro Slash",
+      "Petal Shower",
+      "Bloom Aura"
     ]
   },
   {
@@ -1557,9 +1750,11 @@
       "spd": 19
     },
     "moves": [
-      "WATER-A",
-      "FAE-A",
-      "FLORAL-A"
+      "Deep Dive",
+      "Hydro Torrent",
+      "Bubble Shield",
+      "Wisp Slash",
+      "Petal Shower"
     ]
   },
   {
@@ -1581,7 +1776,11 @@
       "spd": 14
     },
     "moves": [
-      "FAE-B"
+      "Petal Barrage",
+      "Starfall",
+      "Lullaby Dust",
+      "Charm Aura",
+      "Blossom Charm"
     ]
   },
   {
@@ -1604,8 +1803,11 @@
       "spd": 34
     },
     "moves": [
-      "WATER-B",
-      "DARK-C"
+      "Tideclaw",
+      "Waterfall Rush",
+      "Soakwave",
+      "Shade Siphon",
+      "Riptide"
     ]
   },
   {
@@ -1627,7 +1829,11 @@
       "spd": 28
     },
     "moves": [
-      "WATER-B"
+      "Tideclaw",
+      "Waterfall Rush",
+      "Soakwave",
+      "Riptide",
+      "Coral Crush"
     ]
   },
   {
@@ -1656,7 +1862,11 @@
       "spd": 12
     },
     "moves": [
-      "FLORA-D"
+      "Pollen Guard",
+      "Seed Bomb",
+      "Briar Tangle",
+      "Pulp Burst",
+      "Juicy Splash"
     ]
   },
   {
@@ -1679,8 +1889,11 @@
       "spd": 33
     },
     "moves": [
-      "VOLT-B",
-      "DARK-C"
+      "Conductor Claw",
+      "Galvanic Slam",
+      "Shock Grid",
+      "Shadow Lunge",
+      "Zap Cannon"
     ]
   },
   {
@@ -1702,7 +1915,11 @@
       "spd": 14
     },
     "moves": [
-      "TERRA-D"
+      "Pebble Rain",
+      "Cavern Crash",
+      "Clay Mold",
+      "Sediment Wave",
+      "Geo Break"
     ]
   },
   {
@@ -1726,8 +1943,11 @@
       "spd": 29
     },
     "moves": [
-      "WATER-B",
-      "CARAPACE-A"
+      "Tideclaw",
+      "Waterfall Rush",
+      "Soakwave",
+      "Shell Bash",
+      "Withdraw Guard"
     ]
   },
   {
@@ -1754,7 +1974,11 @@
       "spd": 13
     },
     "moves": [
-      "FAE-A"
+      "Petal Barrage",
+      "Starfall",
+      "Lullaby Dust",
+      "Charm Aura",
+      "Blossom Charm"
     ]
   },
   {
@@ -1778,8 +2002,11 @@
       "spd": 14
     },
     "moves": [
-      "PRIMAL-C",
-      "FELINE-A"
+      "Body Press Crush",
+      "Primal Surge",
+      "Savage Aura",
+      "Pounce",
+      "Claw Flurry"
     ]
   },
   {
@@ -1803,8 +2030,11 @@
       "spd": 11
     },
     "moves": [
-      "PRIMAL-D",
-      "FELINE-A"
+      "Body Press Crush",
+      "Primal Surge",
+      "Savage Aura",
+      "Pounce",
+      "Claw Flurry"
     ]
   },
   {
@@ -1828,8 +2058,11 @@
       "spd": 29
     },
     "moves": [
-      "FIRE-C",
-      "AVIAN-A"
+      "Ember Claw",
+      "Flamethrower",
+      "Scorch Mark",
+      "Gale Dive",
+      "Talon Strike"
     ]
   },
   {
@@ -1851,7 +2084,11 @@
       "spd": 10
     },
     "moves": [
-      "PRIMAL-B"
+      "Body Press Crush",
+      "Primal Surge",
+      "Savage Aura",
+      "Apex Strike",
+      "Berserk Rush"
     ]
   },
   {
@@ -1873,7 +2110,11 @@
       "spd": 33
     },
     "moves": [
-      "WATER-B"
+      "Deep Dive",
+      "Hydro Torrent",
+      "Bubble Shield",
+      "Maelstrom",
+      "Abyssal Surge"
     ]
   },
   {
@@ -1895,7 +2136,11 @@
       "spd": 28
     },
     "moves": [
-      "DARK-B"
+      "Dread Aura",
+      "Hex Blast",
+      "Abyssal Gaze",
+      "Eclipse Bolt",
+      "Nightmare Claw"
     ]
   },
   {
@@ -1917,7 +2162,11 @@
       "spd": 14
     },
     "moves": [
-      "TERRA-D"
+      "Pebble Rain",
+      "Cavern Crash",
+      "Clay Mold",
+      "Sediment Wave",
+      "Geo Break"
     ]
   },
   {
@@ -1947,9 +2196,11 @@
       "spd": 11
     },
     "moves": [
-      "PRIMAL-C",
-      "FAE-B",
-      "OVINE-A"
+      "Knuckle Down",
+      "Instinct Slash",
+      "Primal Roar",
+      "Wisp Slash",
+      "Wool Wrap"
     ]
   },
   {
@@ -1971,7 +2222,11 @@
       "spd": 35
     },
     "moves": [
-      "WATER-C"
+      "Deep Dive",
+      "Hydro Torrent",
+      "Bubble Shield",
+      "Maelstrom",
+      "Abyssal Surge"
     ]
   },
   {
@@ -1998,7 +2253,11 @@
       "spd": 13
     },
     "moves": [
-      "PRIMAL-D"
+      "Body Press Crush",
+      "Primal Surge",
+      "Savage Aura",
+      "Apex Strike",
+      "Berserk Rush"
     ]
   },
   {
@@ -2016,7 +2275,7 @@
       ]
     ],
     "scale": "0.8",
-    "bio": "This three-headed creature emits loud vocalizations during social gatherings in forest clearings.",
+    "bio": "This plant-like creature extends its long tongue to capture prey from nearby foliage as part of its feeding behavior.",
     "stats": {
       "hp": 29,
       "atk": 12,
@@ -2025,7 +2284,11 @@
       "spd": 12
     },
     "moves": [
-      "FLORA-A"
+      "Web Snare",
+      "Petal Hurricane",
+      "Verdant Torrent",
+      "Spore Cloud",
+      "Overgrow Slam"
     ]
   },
   {
@@ -2049,8 +2312,11 @@
       "spd": 12
     },
     "moves": [
-      "PRIMAL-C",
-      "FELINE-A"
+      "Body Press Crush",
+      "Primal Surge",
+      "Savage Aura",
+      "Pounce",
+      "Claw Flurry"
     ]
   },
   {
@@ -2072,7 +2338,11 @@
       "spd": 13
     },
     "moves": [
-      "PRIMAL-A"
+      "Knuckle Down",
+      "Instinct Slash",
+      "Primal Roar",
+      "Gut Charge",
+      "Feral Bite"
     ]
   },
   {
@@ -2094,7 +2364,11 @@
       "spd": 14
     },
     "moves": [
-      "FLORA-A"
+      "Vine Lash",
+      "Leaf Blade",
+      "Spore Burst",
+      "Thorn Volley",
+      "Flora Pulse"
     ]
   },
   {
@@ -2123,8 +2397,11 @@
       "spd": 11
     },
     "moves": [
-      "PRIMAL-C",
-      "HARVEST-A"
+      "Knuckle Down",
+      "Instinct Slash",
+      "Primal Roar",
+      "Pulp Burst",
+      "Juicy Splash"
     ]
   },
   {
@@ -2151,7 +2428,11 @@
       "spd": 12
     },
     "moves": [
-      "FAE-B"
+      "Wisp Slash",
+      "Moonveil Pulse",
+      "Dreamweave",
+      "Stardust Surge",
+      "Mirage Slash"
     ]
   },
   {
@@ -2173,7 +2454,11 @@
       "spd": 11
     },
     "moves": [
-      "PRIMAL-B"
+      "Body Press Crush",
+      "Primal Surge",
+      "Savage Aura",
+      "Apex Strike",
+      "Berserk Rush"
     ]
   },
   {
@@ -2195,7 +2480,11 @@
       "spd": 13
     },
     "moves": [
-      "FAE-B"
+      "Wisp Slash",
+      "Moonveil Pulse",
+      "Dreamweave",
+      "Stardust Surge",
+      "Mirage Slash"
     ]
   },
   {
@@ -2222,7 +2511,11 @@
       "spd": 31
     },
     "moves": [
-      "WATER-B"
+      "Deep Dive",
+      "Hydro Torrent",
+      "Bubble Shield",
+      "Maelstrom",
+      "Abyssal Surge"
     ]
   },
   {
@@ -2244,7 +2537,11 @@
       "spd": 10
     },
     "moves": [
-      "FAE-A"
+      "Glimmer Touch",
+      "Pixie Blast",
+      "Enchant Wave",
+      "Gossamer Strike",
+      "Petal Barrage"
     ]
   },
   {
@@ -2266,7 +2563,11 @@
       "spd": 10
     },
     "moves": [
-      "FLORA-D"
+      "Root Bind",
+      "Bloom Burst",
+      "Chloro Slash",
+      "Photosynthesis",
+      "Larva Barrage"
     ]
   },
   {
@@ -2288,7 +2589,11 @@
       "spd": 13
     },
     "moves": [
-      "FAE-B"
+      "Glimmer Touch",
+      "Pixie Blast",
+      "Enchant Wave",
+      "Gossamer Strike",
+      "Petal Barrage"
     ]
   },
   {
@@ -2312,8 +2617,11 @@
       "spd": 11
     },
     "moves": [
-      "FLORA-A",
-      "HARVEST-A"
+      "Pollen Guard",
+      "Seed Bomb",
+      "Briar Tangle",
+      "Pulp Burst",
+      "Juicy Splash"
     ]
   },
   {
@@ -2335,7 +2643,11 @@
       "spd": 11
     },
     "moves": [
-      "FLORA-C"
+      "Pollen Guard",
+      "Seed Bomb",
+      "Briar Tangle",
+      "Nettle Sting",
+      "Canopy Crush"
     ]
   },
   {
@@ -2359,8 +2671,11 @@
       "spd": 15
     },
     "moves": [
-      "PRIMAL-B",
-      "OVINE-A"
+      "Headbutt Charge",
+      "Concussive Blow",
+      "Primal Howl",
+      "Wool Wrap",
+      "Headbutt Bleat"
     ]
   },
   {
@@ -2390,9 +2705,11 @@
       "spd": 12
     },
     "moves": [
-      "PRIMAL-C",
-      "ICE-B",
-      "AVIAN-A"
+      "Body Press Crush",
+      "Primal Surge",
+      "Savage Aura",
+      "Icicle Spear",
+      "Gale Dive"
     ]
   },
   {
@@ -2414,7 +2731,11 @@
       "spd": 13
     },
     "moves": [
-      "PRIMAL-B"
+      "Rough Tumble",
+      "Iron Will Strike",
+      "Savagery",
+      "Wild Haymaker",
+      "Bone Rattler"
     ]
   },
   {
@@ -2436,7 +2757,11 @@
       "spd": 13
     },
     "moves": [
-      "FAE-B"
+      "Petal Barrage",
+      "Starfall",
+      "Lullaby Dust",
+      "Charm Aura",
+      "Blossom Charm"
     ]
   },
   {
@@ -2458,7 +2783,11 @@
       "spd": 12
     },
     "moves": [
-      "PRIMAL-D"
+      "Body Press Crush",
+      "Primal Surge",
+      "Savage Aura",
+      "Apex Strike",
+      "Berserk Rush"
     ]
   },
   {
@@ -2480,7 +2809,11 @@
       "spd": 11
     },
     "moves": [
-      "PRIMAL-C"
+      "Headbutt Charge",
+      "Concussive Blow",
+      "Primal Howl",
+      "Ground Pound",
+      "Endure Break"
     ]
   },
   {
@@ -2509,8 +2842,11 @@
       "spd": 14
     },
     "moves": [
-      "FAE-B",
-      "FLORAL-A"
+      "Wisp Slash",
+      "Moonveil Pulse",
+      "Dreamweave",
+      "Petal Shower",
+      "Bloom Aura"
     ]
   },
   {
@@ -2539,8 +2875,11 @@
       "spd": 11
     },
     "moves": [
-      "FLORA-B",
-      "FLORAL-A"
+      "Root Bind",
+      "Bloom Burst",
+      "Chloro Slash",
+      "Petal Shower",
+      "Bloom Aura"
     ]
   },
   {
@@ -2562,7 +2901,11 @@
       "spd": 31
     },
     "moves": [
-      "VOLT-C"
+      "Conductor Claw",
+      "Galvanic Slam",
+      "Shock Grid",
+      "Zap Cannon",
+      "Arc Surge"
     ]
   },
   {
@@ -2592,8 +2935,11 @@
       "spd": 11
     },
     "moves": [
-      "FLORA-B",
-      "URSINE-A"
+      "Root Bind",
+      "Bloom Burst",
+      "Photosynthesis",
+      "Maul",
+      "Hibernation Wake"
     ]
   },
   {
@@ -2622,8 +2968,11 @@
       "spd": 12
     },
     "moves": [
-      "FAE-B",
-      "FLORAL-A"
+      "Glimmer Touch",
+      "Pixie Blast",
+      "Enchant Wave",
+      "Petal Shower",
+      "Bloom Aura"
     ]
   },
   {
@@ -2652,8 +3001,11 @@
       "spd": 13
     },
     "moves": [
-      "PRIMAL-C",
-      "HARVEST-A"
+      "Body Press Crush",
+      "Primal Surge",
+      "Savage Aura",
+      "Pulp Burst",
+      "Juicy Splash"
     ]
   },
   {
@@ -2682,8 +3034,11 @@
       "spd": 14
     },
     "moves": [
-      "FLORA-B",
-      "FLORAL-A"
+      "Vine Lash",
+      "Leaf Blade",
+      "Spore Burst",
+      "Petal Shower",
+      "Bloom Aura"
     ]
   },
   {
@@ -2711,7 +3066,11 @@
       "spd": 14
     },
     "moves": [
-      "PRIMAL-D"
+      "Knuckle Down",
+      "Instinct Slash",
+      "Primal Roar",
+      "Gut Charge",
+      "Feral Bite"
     ]
   },
   {
@@ -2740,7 +3099,11 @@
       "spd": 29
     },
     "moves": [
-      "DARK-C"
+      "Shade Siphon",
+      "Gloom Blast",
+      "Shadowstep",
+      "Headbutt Bleat",
+      "Body Press Crush"
     ]
   },
   {
@@ -2770,9 +3133,11 @@
       "spd": 12
     },
     "moves": [
-      "PRIMAL-C",
-      "ICE-B",
-      "AVIAN-A"
+      "Knuckle Down",
+      "Instinct Slash",
+      "Primal Roar",
+      "Icicle Spear",
+      "Gale Dive"
     ]
   },
   {
@@ -2802,8 +3167,11 @@
       "spd": 38
     },
     "moves": [
-      "FIRE-A",
-      "AVIAN-A"
+      "Ember Claw",
+      "Flamethrower",
+      "Scorch Mark",
+      "Gale Dive",
+      "Talon Strike"
     ]
   },
   {
@@ -2833,8 +3201,11 @@
       "spd": 25
     },
     "moves": [
-      "FIRE-A",
-      "AVIAN-A"
+      "Singe",
+      "Magma Punch",
+      "Blaze Aura",
+      "Gale Dive",
+      "Soaring Peck"
     ]
   },
   {
@@ -2864,9 +3235,11 @@
       "spd": 14
     },
     "moves": [
-      "ICE-C",
-      "TERRA-A",
-      "URSINE-A"
+      "Cryo Snap",
+      "Tundra Crash",
+      "Snowdrift Veil",
+      "Earth Veil",
+      "Maul"
     ]
   },
   {
@@ -2888,7 +3261,11 @@
       "spd": 14
     },
     "moves": [
-      "FAE-A"
+      "Wisp Slash",
+      "Moonveil Pulse",
+      "Dreamweave",
+      "Stardust Surge",
+      "Mirage Slash"
     ]
   },
   {
@@ -2917,8 +3294,11 @@
       "spd": 12
     },
     "moves": [
-      "PRIMAL-C",
-      "AVIAN-A"
+      "Headbutt Charge",
+      "Concussive Blow",
+      "Primal Howl",
+      "Gale Dive",
+      "Talon Strike"
     ]
   },
   {
@@ -2941,8 +3321,11 @@
       "spd": 30
     },
     "moves": [
-      "WATER-D",
-      "VOLT-B"
+      "Deep Dive",
+      "Hydro Torrent",
+      "Bubble Shield",
+      "Spark Burst",
+      "Maelstrom"
     ]
   },
   {
@@ -2969,7 +3352,11 @@
       "spd": 12
     },
     "moves": [
-      "FLORA-B"
+      "Vine Lash",
+      "Leaf Blade",
+      "Spore Burst",
+      "Thorn Volley",
+      "Flora Pulse"
     ]
   },
   {
@@ -2996,7 +3383,11 @@
       "spd": 32
     },
     "moves": [
-      "WATER-C"
+      "Brineblast",
+      "Crashing Wave",
+      "Mist Veil",
+      "Pearl Burst",
+      "Undertow"
     ]
   },
   {
@@ -3018,7 +3409,11 @@
       "spd": 36
     },
     "moves": [
-      "DARK-A"
+      "Dread Aura",
+      "Hex Blast",
+      "Abyssal Gaze",
+      "Eclipse Bolt",
+      "Nightmare Claw"
     ]
   },
   {
@@ -3036,7 +3431,7 @@
       ]
     ],
     "scale": "0.6",
-    "bio": "This plant-like creature extends its long tongue to capture prey from nearby foliage as part of its feeding behavior.",
+    "bio": "This three-headed creature emits loud vocalizations during social gatherings in forest clearings.",
     "stats": {
       "hp": 28,
       "atk": 15,
@@ -3045,7 +3440,11 @@
       "spd": 16
     },
     "moves": [
-      "FLORA-A"
+      "Pollen Guard",
+      "Seed Bomb",
+      "Briar Tangle",
+      "Nettle Sting",
+      "Canopy Crush"
     ]
   },
   {
@@ -3070,9 +3469,11 @@
       "spd": 16
     },
     "moves": [
-      "PRIMAL-C",
-      "AVIAN-A",
-      "HARVEST-A"
+      "Headbutt Charge",
+      "Concussive Blow",
+      "Primal Howl",
+      "Gale Dive",
+      "Talon Strike"
     ]
   },
   {
@@ -3094,7 +3495,11 @@
       "spd": 24
     },
     "moves": [
-      "FIRE-D"
+      "Ember Claw",
+      "Flamethrower",
+      "Scorch Mark",
+      "Pyre Strike",
+      "Kindling Spark"
     ]
   },
   {
@@ -3116,7 +3521,11 @@
       "spd": 28
     },
     "moves": [
-      "FIRE-C"
+      "Torch Tackle",
+      "Inferno Blast",
+      "Brand Mark",
+      "Solar Flare",
+      "Kindling Spark"
     ]
   },
   {
@@ -3138,7 +3547,11 @@
       "spd": 29
     },
     "moves": [
-      "DARK-B"
+      "Shade Siphon",
+      "Gloom Blast",
+      "Shadowstep",
+      "Void Strike",
+      "Nightmare Claw"
     ]
   },
   {
@@ -3163,9 +3576,11 @@
       "spd": 12
     },
     "moves": [
-      "TERRA-B",
-      "CACTOID-A",
-      "AVIAN-A"
+      "Earth Veil",
+      "Stonewall Smash",
+      "Magma Crust",
+      "Spine Volley",
+      "Needle Rush"
     ]
   },
   {
@@ -3187,7 +3602,11 @@
       "spd": 10
     },
     "moves": [
-      "FLORA-B"
+      "Root Bind",
+      "Bloom Burst",
+      "Chloro Slash",
+      "Photosynthesis",
+      "Larva Barrage"
     ]
   },
   {
@@ -3214,7 +3633,11 @@
       "spd": 12
     },
     "moves": [
-      "PRIMAL-A"
+      "Rough Tumble",
+      "Iron Will Strike",
+      "Savagery",
+      "Wild Haymaker",
+      "Bone Rattler"
     ]
   },
   {
@@ -3236,7 +3659,11 @@
       "spd": 13
     },
     "moves": [
-      "FAE-B"
+      "Petal Barrage",
+      "Starfall",
+      "Lullaby Dust",
+      "Charm Aura",
+      "Blossom Charm"
     ]
   },
   {
@@ -3258,7 +3685,11 @@
       "spd": 27
     },
     "moves": [
-      "DARK-C"
+      "Dread Aura",
+      "Hex Blast",
+      "Abyssal Gaze",
+      "Eclipse Bolt",
+      "Nightmare Claw"
     ]
   },
   {
@@ -3289,9 +3720,11 @@
       "spd": 23
     },
     "moves": [
-      "WATER-A",
-      "FAE-A",
-      "FLORAL-A"
+      "Brineblast",
+      "Crashing Wave",
+      "Mist Veil",
+      "Petal Barrage",
+      "Petal Shower"
     ]
   },
   {
@@ -3318,7 +3751,11 @@
       "spd": 27
     },
     "moves": [
-      "WATER-B"
+      "Deep Dive",
+      "Hydro Torrent",
+      "Bubble Shield",
+      "Maelstrom",
+      "Abyssal Surge"
     ]
   },
   {
@@ -3342,8 +3779,11 @@
       "spd": 31
     },
     "moves": [
-      "FIRE-B",
-      "FELINE-A"
+      "Torch Tackle",
+      "Inferno Blast",
+      "Brand Mark",
+      "Pounce",
+      "Claw Flurry"
     ]
   },
   {
@@ -3367,8 +3807,11 @@
       "spd": 10
     },
     "moves": [
-      "TERRA-C",
-      "CARAPACE-A"
+      "Gravel Pelt",
+      "Rockslide",
+      "Sinkhole",
+      "Shell Bash",
+      "Withdraw Guard"
     ]
   },
   {
@@ -3390,7 +3833,11 @@
       "spd": 29
     },
     "moves": [
-      "FIRE-C"
+      "Ember Claw",
+      "Flamethrower",
+      "Scorch Mark",
+      "Pyre Strike",
+      "Kindling Spark"
     ]
   },
   {
@@ -3412,7 +3859,11 @@
       "spd": 13
     },
     "moves": [
-      "ICE-B"
+      "Icicle Spear",
+      "Subzero Pulse",
+      "Frost Armor",
+      "Avalanche Rush",
+      "Hailstone Burst"
     ]
   },
   {
@@ -3436,8 +3887,11 @@
       "spd": 12
     },
     "moves": [
-      "TERRA-B",
-      "AVIAN-A"
+      "Earth Veil",
+      "Stonewall Smash",
+      "Magma Crust",
+      "Gale Dive",
+      "Talon Strike"
     ]
   },
   {
@@ -3460,8 +3914,11 @@
       "spd": 26
     },
     "moves": [
-      "FLORA-B",
-      "WATER-C"
+      "Web Snare",
+      "Petal Hurricane",
+      "Verdant Torrent",
+      "Tideclaw",
+      "Spore Cloud"
     ]
   },
   {
@@ -3485,8 +3942,11 @@
       "spd": 28
     },
     "moves": [
-      "VOLT-C",
-      "EQUINE-A"
+      "Thunder Jab",
+      "Voltbeam",
+      "Overload",
+      "Hoofstrike",
+      "Gallop Charge"
     ]
   },
   {
@@ -3515,8 +3975,11 @@
       "spd": 11
     },
     "moves": [
-      "PRIMAL-A",
-      "AVIAN-A"
+      "Knuckle Down",
+      "Instinct Slash",
+      "Primal Roar",
+      "Gale Dive",
+      "Talon Strike"
     ]
   },
   {
@@ -3539,8 +4002,11 @@
       "spd": 29
     },
     "moves": [
-      "DARK-A",
-      "ICE-B"
+      "Shade Siphon",
+      "Gloom Blast",
+      "Shadowstep",
+      "Cryo Snap",
+      "Void Strike"
     ]
   },
   {
@@ -3567,7 +4033,11 @@
       "spd": 13
     },
     "moves": [
-      "PRIMAL-A"
+      "Headbutt Charge",
+      "Concussive Blow",
+      "Primal Howl",
+      "Ground Pound",
+      "Endure Break"
     ]
   },
   {
@@ -3589,7 +4059,11 @@
       "spd": 12
     },
     "moves": [
-      "FLORA-B"
+      "Root Bind",
+      "Bloom Burst",
+      "Chloro Slash",
+      "Photosynthesis",
+      "Larva Barrage"
     ]
   },
   {
@@ -3617,8 +4091,11 @@
       "spd": 24
     },
     "moves": [
-      "WATER-B",
-      "ICE-A"
+      "Brineblast",
+      "Crashing Wave",
+      "Mist Veil",
+      "Cryo Snap",
+      "Pearl Burst"
     ]
   },
   {
@@ -3641,8 +4118,11 @@
       "spd": 31
     },
     "moves": [
-      "DARK-B",
-      "ICE-A"
+      "Shade Siphon",
+      "Gloom Blast",
+      "Shadowstep",
+      "Cryo Snap",
+      "Void Strike"
     ]
   },
   {
@@ -3665,8 +4145,11 @@
       "spd": 12
     },
     "moves": [
-      "TERRA-B",
-      "FIRE-D"
+      "Pebble Rain",
+      "Cavern Crash",
+      "Clay Mold",
+      "Torch Tackle",
+      "Sediment Wave"
     ]
   },
   {
@@ -3695,8 +4178,11 @@
       "spd": 16
     },
     "moves": [
-      "FLORA-C",
-      "FLORAL-A"
+      "Vine Lash",
+      "Leaf Blade",
+      "Spore Burst",
+      "Petal Shower",
+      "Bloom Aura"
     ]
   },
   {
@@ -3718,7 +4204,11 @@
       "spd": 11
     },
     "moves": [
-      "ICE-C"
+      "Frost Claw",
+      "Crystal Lance",
+      "Permafrost",
+      "Glacial Slam",
+      "Blizzard"
     ]
   },
   {
@@ -3742,8 +4232,11 @@
       "spd": 12
     },
     "moves": [
-      "FAE-A",
-      "FELINE-A"
+      "Petal Barrage",
+      "Starfall",
+      "Lullaby Dust",
+      "Pounce",
+      "Claw Flurry"
     ]
   },
   {
@@ -3765,7 +4258,11 @@
       "spd": 12
     },
     "moves": [
-      "PRIMAL-C"
+      "Body Press Crush",
+      "Primal Surge",
+      "Savage Aura",
+      "Apex Strike",
+      "Berserk Rush"
     ]
   },
   {
@@ -3787,7 +4284,11 @@
       "spd": 9
     },
     "moves": [
-      "TERRA-C"
+      "Pebble Rain",
+      "Cavern Crash",
+      "Clay Mold",
+      "Sediment Wave",
+      "Geo Break"
     ]
   },
   {
@@ -3811,8 +4312,11 @@
       "spd": 13
     },
     "moves": [
-      "FAE-A",
-      "FELINE-A"
+      "Wisp Slash",
+      "Moonveil Pulse",
+      "Dreamweave",
+      "Pounce",
+      "Claw Flurry"
     ]
   },
   {
@@ -3841,8 +4345,11 @@
       "spd": 13
     },
     "moves": [
-      "FLORA-C",
-      "CANINE-A"
+      "Vine Lash",
+      "Leaf Blade",
+      "Spore Burst",
+      "Jaw Clamp",
+      "Howl Surge"
     ]
   },
   {
@@ -3871,8 +4378,11 @@
       "spd": 31
     },
     "moves": [
-      "WATER-C",
-      "CANINE-A"
+      "Saltwater Spray",
+      "Surf Slam",
+      "Tidal Lock",
+      "Jaw Clamp",
+      "Howl Surge"
     ]
   },
   {
@@ -3894,7 +4404,11 @@
       "spd": 9
     },
     "moves": [
-      "FLORA-B"
+      "Vine Lash",
+      "Leaf Blade",
+      "Spore Burst",
+      "Thorn Volley",
+      "Flora Pulse"
     ]
   },
   {
@@ -3921,7 +4435,11 @@
       "spd": 11
     },
     "moves": [
-      "PRIMAL-A"
+      "Knuckle Down",
+      "Instinct Slash",
+      "Primal Roar",
+      "Gut Charge",
+      "Feral Bite"
     ]
   },
   {
@@ -3970,8 +4488,11 @@
       "spd": 11
     },
     "moves": [
-      "PRIMAL-D",
-      "CANINE-A"
+      "Knuckle Down",
+      "Instinct Slash",
+      "Primal Roar",
+      "Jaw Clamp",
+      "Howl Surge"
     ]
   },
   {
@@ -4000,8 +4521,11 @@
       "spd": 26
     },
     "moves": [
-      "DARK-A",
-      "AVIAN-A"
+      "Shadow Lunge",
+      "Nightfall Pulse",
+      "Curse Mark",
+      "Gale Dive",
+      "Talon Strike"
     ]
   },
   {
@@ -4030,8 +4554,11 @@
       "spd": 17
     },
     "moves": [
-      "FIRE-A",
-      "CARAPACE-A"
+      "Char Swipe",
+      "Combustion Fist",
+      "Ashen Veil",
+      "Shell Bash",
+      "Withdraw Guard"
     ]
   },
   {
@@ -4060,14 +4587,17 @@
       "spd": 24
     },
     "moves": [
-      "FIRE-A",
-      "CARAPACE-A"
+      "Singe",
+      "Magma Punch",
+      "Blaze Aura",
+      "Shell Bash",
+      "Withdraw Guard"
     ]
   },
   {
     "id": "157",
     "name": "driftquill",
-    "rank": "B",
+    "rank": "C",
     "types": [
       "water"
     ],
@@ -4081,14 +4611,18 @@
     "scale": "0.6",
     "bio": "This creature uses its tentacles to gently fan water currents around its burrow entrance during low tide.",
     "stats": {
-      "hp": 10,
-      "atk": 12,
-      "def": 13,
-      "special": 24,
-      "spd": 32
+      "hp": 9,
+      "atk": 10,
+      "def": 11,
+      "special": 22,
+      "spd": 28
     },
     "moves": [
-      "WATER-D"
+      "Saltwater Spray",
+      "Surf Slam",
+      "Tidal Lock",
+      "Deluge Strike",
+      "Current Boost"
     ]
   },
   {
@@ -4115,7 +4649,11 @@
       "spd": 37
     },
     "moves": [
-      "WATER-D"
+      "Tideclaw",
+      "Waterfall Rush",
+      "Soakwave",
+      "Riptide",
+      "Coral Crush"
     ]
   },
   {
@@ -4139,8 +4677,11 @@
       "spd": 32
     },
     "moves": [
-      "DARK-C",
-      "FELINE-A"
+      "Shade Siphon",
+      "Gloom Blast",
+      "Shadowstep",
+      "Pounce",
+      "Claw Flurry"
     ]
   },
   {
@@ -4162,7 +4703,11 @@
       "spd": 9
     },
     "moves": [
-      "FLORA-D"
+      "Web Snare",
+      "Petal Hurricane",
+      "Verdant Torrent",
+      "Spore Cloud",
+      "Overgrow Slam"
     ]
   },
   {
@@ -4184,7 +4729,11 @@
       "spd": 15
     },
     "moves": [
-      "FLORA-A"
+      "Vine Lash",
+      "Leaf Blade",
+      "Spore Burst",
+      "Thorn Volley",
+      "Flora Pulse"
     ]
   },
   {
@@ -4206,7 +4755,11 @@
       "spd": 13
     },
     "moves": [
-      "PRIMAL-C"
+      "Body Press Crush",
+      "Primal Surge",
+      "Savage Aura",
+      "Apex Strike",
+      "Berserk Rush"
     ]
   },
   {
@@ -4228,7 +4781,11 @@
       "spd": 26
     },
     "moves": [
-      "WATER-D"
+      "Tideclaw",
+      "Waterfall Rush",
+      "Soakwave",
+      "Riptide",
+      "Coral Crush"
     ]
   },
   {
@@ -4252,8 +4809,11 @@
       "spd": 12
     },
     "moves": [
-      "FLORA-D",
-      "FLORAL-A"
+      "Root Bind",
+      "Bloom Burst",
+      "Chloro Slash",
+      "Petal Shower",
+      "Bloom Aura"
     ]
   },
   {
@@ -4275,7 +4835,11 @@
       "spd": 16
     },
     "moves": [
-      "FLORA-C"
+      "Root Bind",
+      "Bloom Burst",
+      "Chloro Slash",
+      "Photosynthesis",
+      "Larva Barrage"
     ]
   },
   {
@@ -4297,7 +4861,11 @@
       "spd": 15
     },
     "moves": [
-      "PRIMAL-A"
+      "Knuckle Down",
+      "Instinct Slash",
+      "Primal Roar",
+      "Gut Charge",
+      "Feral Bite"
     ]
   },
   {
@@ -4319,7 +4887,11 @@
       "spd": 28
     },
     "moves": [
-      "DARK-A"
+      "Shade Siphon",
+      "Gloom Blast",
+      "Shadowstep",
+      "Void Strike",
+      "Nightmare Claw"
     ]
   },
   {
@@ -4341,7 +4913,11 @@
       "spd": 11
     },
     "moves": [
-      "FAE-B"
+      "Petal Barrage",
+      "Starfall",
+      "Lullaby Dust",
+      "Charm Aura",
+      "Blossom Charm"
     ]
   },
   {
@@ -4371,9 +4947,11 @@
       "spd": 14
     },
     "moves": [
-      "PRIMAL-C",
-      "AVIAN-A",
-      "MECH-A"
+      "Rough Tumble",
+      "Iron Will Strike",
+      "Savagery",
+      "Gale Dive",
+      "Talon Strike"
     ]
   },
   {
@@ -4397,8 +4975,11 @@
       "spd": 38
     },
     "moves": [
-      "VOLT-A",
-      "MECH-A"
+      "Conductor Claw",
+      "Galvanic Slam",
+      "Shock Grid",
+      "Gear Grind",
+      "Laser Array"
     ]
   },
   {
@@ -4422,8 +5003,11 @@
       "spd": 9
     },
     "moves": [
-      "PRIMAL-D",
-      "CANINE-A"
+      "Headbutt Charge",
+      "Concussive Blow",
+      "Primal Howl",
+      "Jaw Clamp",
+      "Howl Surge"
     ]
   },
   {
@@ -4446,8 +5030,11 @@
       "spd": 14
     },
     "moves": [
-      "FAE-B",
-      "VOLT-A"
+      "Wisp Slash",
+      "Moonveil Pulse",
+      "Dreamweave",
+      "Conductor Claw",
+      "Stardust Surge"
     ]
   },
   {
@@ -4474,7 +5061,11 @@
       "spd": 27
     },
     "moves": [
-      "WATER-B"
+      "Saltwater Spray",
+      "Surf Slam",
+      "Tidal Lock",
+      "Deluge Strike",
+      "Current Boost"
     ]
   },
   {
@@ -4502,8 +5093,11 @@
       "spd": 21
     },
     "moves": [
-      "WATER-D",
-      "TERRA-A"
+      "Saltwater Spray",
+      "Surf Slam",
+      "Tidal Lock",
+      "Earth Veil",
+      "Deluge Strike"
     ]
   },
   {
@@ -4527,8 +5121,11 @@
       "spd": 24
     },
     "moves": [
-      "FIRE-B",
-      "OVINE-A"
+      "Char Swipe",
+      "Combustion Fist",
+      "Ashen Veil",
+      "Wool Wrap",
+      "Headbutt Bleat"
     ]
   },
   {
@@ -4558,7 +5155,11 @@
       "spd": 13
     },
     "moves": [
-      "ICE-C"
+      "Frost Claw",
+      "Crystal Lance",
+      "Permafrost",
+      "Headbutt Bleat",
+      "Body Press Crush"
     ]
   },
   {
@@ -4588,7 +5189,11 @@
       "spd": 13
     },
     "moves": [
-      "ICE-C"
+      "Cryo Snap",
+      "Tundra Crash",
+      "Snowdrift Veil",
+      "Headbutt Bleat",
+      "Body Press Crush"
     ]
   },
   {
@@ -4618,7 +5223,11 @@
       "spd": 13
     },
     "moves": [
-      "ICE-B"
+      "Icicle Spear",
+      "Subzero Pulse",
+      "Frost Armor",
+      "Headbutt Bleat",
+      "Body Press Crush"
     ]
   },
   {
@@ -4640,7 +5249,11 @@
       "spd": 15
     },
     "moves": [
-      "PRIMAL-B"
+      "Knuckle Down",
+      "Instinct Slash",
+      "Primal Roar",
+      "Gut Charge",
+      "Feral Bite"
     ]
   },
   {
@@ -4669,8 +5282,11 @@
       "spd": 22
     },
     "moves": [
-      "DARK-B",
-      "AVIAN-A"
+      "Shadow Lunge",
+      "Nightfall Pulse",
+      "Curse Mark",
+      "Gale Dive",
+      "Talon Strike"
     ]
   },
   {
@@ -4692,7 +5308,11 @@
       "spd": 12
     },
     "moves": [
-      "PRIMAL-A"
+      "Headbutt Charge",
+      "Concussive Blow",
+      "Primal Howl",
+      "Ground Pound",
+      "Endure Break"
     ]
   },
   {
@@ -4720,8 +5340,11 @@
       "spd": 24
     },
     "moves": [
-      "WATER-D",
-      "TERRA-A"
+      "Brineblast",
+      "Crashing Wave",
+      "Mist Veil",
+      "Pebble Rain",
+      "Pearl Burst"
     ]
   },
   {
@@ -4743,7 +5366,11 @@
       "spd": 32
     },
     "moves": [
-      "DARK-A"
+      "Shadow Lunge",
+      "Nightfall Pulse",
+      "Curse Mark",
+      "Obsidian Fang",
+      "Dark Pulse"
     ]
   },
   {
@@ -4767,8 +5394,11 @@
       "spd": 34
     },
     "moves": [
-      "VOLT-C",
-      "MECH-A"
+      "Thunder Jab",
+      "Voltbeam",
+      "Overload",
+      "Gear Grind",
+      "Laser Array"
     ]
   },
   {
@@ -4790,7 +5420,11 @@
       "spd": 25
     },
     "moves": [
-      "VOLT-B"
+      "Thunder Jab",
+      "Voltbeam",
+      "Overload",
+      "Arc Surge",
+      "Static Clap"
     ]
   },
   {
@@ -4819,8 +5453,11 @@
       "spd": 25
     },
     "moves": [
-      "FIRE-A",
-      "AVIAN-A"
+      "Singe",
+      "Magma Punch",
+      "Blaze Aura",
+      "Gale Dive",
+      "Talon Strike"
     ]
   },
   {
@@ -4848,8 +5485,11 @@
       "spd": 15
     },
     "moves": [
-      "TERRA-B",
-      "FIRE-C"
+      "Boulder Barrage",
+      "Sandstorm Surge",
+      "Stone Bastion",
+      "Char Swipe",
+      "Quake Stomp"
     ]
   },
   {
@@ -4876,7 +5516,11 @@
       "spd": 29
     },
     "moves": [
-      "WATER-A"
+      "Brineblast",
+      "Crashing Wave",
+      "Mist Veil",
+      "Pearl Burst",
+      "Undertow"
     ]
   },
   {
@@ -4903,7 +5547,11 @@
       "spd": 31
     },
     "moves": [
-      "WATER-A"
+      "Tideclaw",
+      "Waterfall Rush",
+      "Soakwave",
+      "Riptide",
+      "Coral Crush"
     ]
   },
   {
@@ -4925,7 +5573,11 @@
       "spd": 12
     },
     "moves": [
-      "TERRA-C"
+      "Gravel Pelt",
+      "Rockslide",
+      "Sinkhole",
+      "Terra Fissure",
+      "Mudshot"
     ]
   },
   {
@@ -4952,13 +5604,17 @@
       "spd": 13
     },
     "moves": [
-      "FLORA-B"
+      "Pollen Guard",
+      "Seed Bomb",
+      "Briar Tangle",
+      "Nettle Sting",
+      "Canopy Crush"
     ]
   },
   {
     "id": "192",
     "name": "cerberuff",
-    "rank": "S",
+    "rank": "A",
     "types": [
       "dark"
     ],
@@ -4969,15 +5625,18 @@
     "scale": "1.1",
     "bio": "This trio of dogs stands in formation, baring teeth as if preparing to attack prey from their shared territory.",
     "stats": {
-      "hp": 13,
-      "atk": 29,
-      "def": 13,
-      "special": 14,
-      "spd": 41
+      "hp": 12,
+      "atk": 26,
+      "def": 12,
+      "special": 13,
+      "spd": 37
     },
     "moves": [
-      "DARK-C",
-      "CANINE-A"
+      "Shade Siphon",
+      "Gloom Blast",
+      "Shadowstep",
+      "Jaw Clamp",
+      "Howl Surge"
     ]
   },
   {
@@ -4999,7 +5658,11 @@
       "spd": 28
     },
     "moves": [
-      "FIRE-A"
+      "Char Swipe",
+      "Combustion Fist",
+      "Ashen Veil",
+      "Wildfire Surge",
+      "Infernal Rush"
     ]
   },
   {
@@ -5021,7 +5684,11 @@
       "spd": 26
     },
     "moves": [
-      "WATER-C"
+      "Deep Dive",
+      "Hydro Torrent",
+      "Bubble Shield",
+      "Maelstrom",
+      "Abyssal Surge"
     ]
   },
   {
@@ -5043,7 +5710,11 @@
       "spd": 14
     },
     "moves": [
-      "PRIMAL-A"
+      "Knuckle Down",
+      "Instinct Slash",
+      "Primal Roar",
+      "Gut Charge",
+      "Feral Bite"
     ]
   },
   {
@@ -5065,7 +5736,11 @@
       "spd": 12
     },
     "moves": [
-      "ICE-C"
+      "Frost Claw",
+      "Crystal Lance",
+      "Permafrost",
+      "Glacial Slam",
+      "Blizzard"
     ]
   },
   {
@@ -5087,7 +5762,11 @@
       "spd": 23
     },
     "moves": [
-      "WATER-B"
+      "Brineblast",
+      "Crashing Wave",
+      "Mist Veil",
+      "Pearl Burst",
+      "Undertow"
     ]
   },
   {
@@ -5109,7 +5788,11 @@
       "spd": 28
     },
     "moves": [
-      "WATER-B"
+      "Brineblast",
+      "Crashing Wave",
+      "Mist Veil",
+      "Pearl Burst",
+      "Undertow"
     ]
   },
   {
@@ -5133,7 +5816,11 @@
       "spd": 11
     },
     "moves": [
-      "PRIMAL-C"
+      "Body Press Crush",
+      "Primal Surge",
+      "Savage Aura",
+      "Headbutt Bleat",
+      "Knuckle Down"
     ]
   },
   {
@@ -5160,7 +5847,11 @@
       "spd": 30
     },
     "moves": [
-      "WATER-B"
+      "Saltwater Spray",
+      "Surf Slam",
+      "Tidal Lock",
+      "Deluge Strike",
+      "Current Boost"
     ]
   },
   {
@@ -5183,8 +5874,11 @@
       "spd": 12
     },
     "moves": [
-      "FAE-A",
-      "FLORA-D"
+      "Petal Barrage",
+      "Starfall",
+      "Lullaby Dust",
+      "Web Snare",
+      "Charm Aura"
     ]
   },
   {
@@ -5211,7 +5905,11 @@
       "spd": 33
     },
     "moves": [
-      "WATER-B"
+      "Tideclaw",
+      "Waterfall Rush",
+      "Soakwave",
+      "Riptide",
+      "Coral Crush"
     ]
   },
   {
@@ -5238,7 +5936,11 @@
       "spd": 12
     },
     "moves": [
-      "ICE-C"
+      "Cryo Snap",
+      "Tundra Crash",
+      "Snowdrift Veil",
+      "Freeze Ray",
+      "Deep Freeze"
     ]
   },
   {
@@ -5260,7 +5962,11 @@
       "spd": 11
     },
     "moves": [
-      "ICE-B"
+      "Cryo Snap",
+      "Tundra Crash",
+      "Snowdrift Veil",
+      "Freeze Ray",
+      "Deep Freeze"
     ]
   },
   {
@@ -5282,7 +5988,11 @@
       "spd": 14
     },
     "moves": [
-      "ICE-B"
+      "Icicle Spear",
+      "Subzero Pulse",
+      "Frost Armor",
+      "Avalanche Rush",
+      "Hailstone Burst"
     ]
   },
   {
@@ -5315,8 +6025,11 @@
       "spd": 14
     },
     "moves": [
-      "TERRA-D",
-      "URSINE-A"
+      "Pebble Rain",
+      "Cavern Crash",
+      "Clay Mold",
+      "Maul",
+      "Bear Hug"
     ]
   },
   {
@@ -5346,9 +6059,11 @@
       "spd": 23
     },
     "moves": [
-      "DARK-A",
-      "WATER-A",
-      "DRAGON-A"
+      "Shade Siphon",
+      "Gloom Blast",
+      "Shadowstep",
+      "Saltwater Spray",
+      "Scale Slash"
     ]
   },
   {
@@ -5378,9 +6093,11 @@
       "spd": 33
     },
     "moves": [
-      "DARK-A",
-      "WATER-A",
-      "DRAGON-A"
+      "Shadow Lunge",
+      "Nightfall Pulse",
+      "Curse Mark",
+      "Brineblast",
+      "Scale Slash"
     ]
   },
   {
@@ -5405,9 +6122,11 @@
       "spd": 20
     },
     "moves": [
-      "DARK-C",
-      "FLORA-D",
-      "FLORAL-A"
+      "Shadow Lunge",
+      "Nightfall Pulse",
+      "Curse Mark",
+      "Pollen Guard",
+      "Petal Shower"
     ]
   },
   {
@@ -5437,8 +6156,11 @@
       "spd": 13
     },
     "moves": [
-      "TERRA-A",
-      "CANINE-A"
+      "Pebble Rain",
+      "Cavern Crash",
+      "Clay Mold",
+      "Jaw Clamp",
+      "Howl Surge"
     ]
   },
   {
@@ -5468,8 +6190,11 @@
       "spd": 15
     },
     "moves": [
-      "TERRA-A",
-      "CANINE-A"
+      "Earth Veil",
+      "Stonewall Smash",
+      "Magma Crust",
+      "Jaw Clamp",
+      "Howl Surge"
     ]
   },
   {
@@ -5499,8 +6224,11 @@
       "spd": 16
     },
     "moves": [
-      "TERRA-A",
-      "CANINE-A"
+      "Boulder Barrage",
+      "Sandstorm Surge",
+      "Stone Bastion",
+      "Jaw Clamp",
+      "Howl Surge"
     ]
   },
   {
@@ -5524,8 +6252,11 @@
       "spd": 31
     },
     "moves": [
-      "FIRE-B",
-      "EQUINE-A"
+      "Ember Claw",
+      "Flamethrower",
+      "Scorch Mark",
+      "Hoofstrike",
+      "Gallop Charge"
     ]
   },
   {
@@ -5555,9 +6286,11 @@
       "spd": 14
     },
     "moves": [
-      "PRIMAL-C",
-      "FAE-B",
-      "OVINE-A"
+      "Knuckle Down",
+      "Instinct Slash",
+      "Primal Roar",
+      "Wisp Slash",
+      "Wool Wrap"
     ]
   },
   {
@@ -5581,8 +6314,11 @@
       "spd": 26
     },
     "moves": [
-      "VOLT-C",
-      "URSINE-A"
+      "Conductor Claw",
+      "Galvanic Slam",
+      "Shock Grid",
+      "Maul",
+      "Bear Hug"
     ]
   },
   {
@@ -5611,8 +6347,11 @@
       "spd": 25
     },
     "moves": [
-      "FIRE-A",
-      "CANINE-A"
+      "Singe",
+      "Magma Punch",
+      "Blaze Aura",
+      "Jaw Clamp",
+      "Howl Surge"
     ]
   },
   {
@@ -5634,7 +6373,11 @@
       "spd": 32
     },
     "moves": [
-      "WATER-A"
+      "Deep Dive",
+      "Hydro Torrent",
+      "Bubble Shield",
+      "Maelstrom",
+      "Abyssal Surge"
     ]
   },
   {
@@ -5661,7 +6404,11 @@
       "spd": 36
     },
     "moves": [
-      "FIRE-C"
+      "Ember Claw",
+      "Flamethrower",
+      "Scorch Mark",
+      "Pyre Strike",
+      "Kindling Spark"
     ]
   },
   {
@@ -5690,8 +6437,11 @@
       "spd": 33
     },
     "moves": [
-      "VOLT-C",
-      "MECH-A"
+      "Conductor Claw",
+      "Galvanic Slam",
+      "Shock Grid",
+      "Gear Grind",
+      "Laser Array"
     ]
   },
   {
@@ -5720,8 +6470,11 @@
       "spd": 26
     },
     "moves": [
-      "VOLT-C",
-      "MECH-A"
+      "Thunder Jab",
+      "Voltbeam",
+      "Overload",
+      "Gear Grind",
+      "Laser Array"
     ]
   },
   {
@@ -5743,7 +6496,11 @@
       "spd": 11
     },
     "moves": [
-      "ICE-B"
+      "Frost Claw",
+      "Crystal Lance",
+      "Permafrost",
+      "Glacial Slam",
+      "Blizzard"
     ]
   },
   {
@@ -5768,9 +6525,11 @@
       "spd": 20
     },
     "moves": [
-      "ICE-A",
-      "VOLT-C",
-      "FELINE-A"
+      "Icicle Spear",
+      "Subzero Pulse",
+      "Frost Armor",
+      "Conductor Claw",
+      "Pounce"
     ]
   },
   {
@@ -5792,7 +6551,11 @@
       "spd": 10
     },
     "moves": [
-      "ICE-A"
+      "Icicle Spear",
+      "Subzero Pulse",
+      "Frost Armor",
+      "Avalanche Rush",
+      "Hailstone Burst"
     ]
   },
   {
@@ -5815,14 +6578,17 @@
       "spd": 27
     },
     "moves": [
-      "DARK-A",
-      "FIRE-C"
+      "Dread Aura",
+      "Hex Blast",
+      "Abyssal Gaze",
+      "Torch Tackle",
+      "Eclipse Bolt"
     ]
   },
   {
     "id": "225",
     "name": "knotshade",
-    "rank": "A",
+    "rank": "S",
     "types": [
       "dark"
     ],
@@ -5836,14 +6602,18 @@
     "scale": "1.1",
     "bio": "This tree-like entity emits light from its chest cavity during periods of heightened energy activity in forested environments.",
     "stats": {
-      "hp": 11,
-      "atk": 33,
-      "def": 13,
-      "special": 12,
-      "spd": 31
+      "hp": 12,
+      "atk": 36,
+      "def": 14,
+      "special": 13,
+      "spd": 34
     },
     "moves": [
-      "DARK-C"
+      "Shadow Lunge",
+      "Nightfall Pulse",
+      "Curse Mark",
+      "Obsidian Fang",
+      "Dark Pulse"
     ]
   },
   {
@@ -5870,7 +6640,11 @@
       "spd": 32
     },
     "moves": [
-      "DARK-C"
+      "Dread Aura",
+      "Hex Blast",
+      "Abyssal Gaze",
+      "Eclipse Bolt",
+      "Nightmare Claw"
     ]
   },
   {
@@ -5898,7 +6672,11 @@
       "spd": 11
     },
     "moves": [
-      "PRIMAL-D"
+      "Body Press Crush",
+      "Primal Surge",
+      "Savage Aura",
+      "Apex Strike",
+      "Berserk Rush"
     ]
   },
   {
@@ -5926,8 +6704,11 @@
       "spd": 26
     },
     "moves": [
-      "DARK-A",
-      "VOLT-C"
+      "Shade Siphon",
+      "Gloom Blast",
+      "Shadowstep",
+      "Conductor Claw",
+      "Void Strike"
     ]
   },
   {
@@ -5955,8 +6736,11 @@
       "spd": 36
     },
     "moves": [
-      "DARK-A",
-      "VOLT-C"
+      "Dread Aura",
+      "Hex Blast",
+      "Abyssal Gaze",
+      "Thunder Jab",
+      "Eclipse Bolt"
     ]
   },
   {
@@ -5985,8 +6769,11 @@
       "spd": 13
     },
     "moves": [
-      "PRIMAL-A",
-      "AVIAN-A"
+      "Rough Tumble",
+      "Iron Will Strike",
+      "Savagery",
+      "Gale Dive",
+      "Talon Strike"
     ]
   },
   {
@@ -6015,8 +6802,11 @@
       "spd": 13
     },
     "moves": [
-      "PRIMAL-A",
-      "AVIAN-A"
+      "Knuckle Down",
+      "Instinct Slash",
+      "Primal Roar",
+      "Gale Dive",
+      "Talon Strike"
     ]
   },
   {
@@ -6040,8 +6830,11 @@
       "spd": 9
     },
     "moves": [
-      "PRIMAL-B",
-      "FELINE-A"
+      "Knuckle Down",
+      "Instinct Slash",
+      "Primal Roar",
+      "Pounce",
+      "Claw Flurry"
     ]
   },
   {
@@ -6068,7 +6861,11 @@
       "spd": 30
     },
     "moves": [
-      "DARK-A"
+      "Shadow Lunge",
+      "Nightfall Pulse",
+      "Curse Mark",
+      "Obsidian Fang",
+      "Dark Pulse"
     ]
   },
   {
@@ -6092,7 +6889,11 @@
       "spd": 17
     },
     "moves": [
-      "TERRA-C"
+      "Boulder Barrage",
+      "Sandstorm Surge",
+      "Stone Bastion",
+      "Headbutt Bleat",
+      "Body Press Crush"
     ]
   },
   {
@@ -6116,8 +6917,11 @@
       "spd": 11
     },
     "moves": [
-      "FAE-B",
-      "FLORAL-A"
+      "Glimmer Touch",
+      "Pixie Blast",
+      "Enchant Wave",
+      "Petal Shower",
+      "Bloom Aura"
     ]
   },
   {
@@ -6144,7 +6948,11 @@
       "spd": 14
     },
     "moves": [
-      "FLORA-B"
+      "Vine Lash",
+      "Leaf Blade",
+      "Spore Burst",
+      "Thorn Volley",
+      "Flora Pulse"
     ]
   },
   {
@@ -6172,8 +6980,11 @@
       "spd": 12
     },
     "moves": [
-      "TERRA-B",
-      "FIRE-C"
+      "Boulder Barrage",
+      "Sandstorm Surge",
+      "Stone Bastion",
+      "Char Swipe",
+      "Quake Stomp"
     ]
   },
   {
@@ -6200,13 +7011,17 @@
       "spd": 25
     },
     "moves": [
-      "WATER-C"
+      "Saltwater Spray",
+      "Surf Slam",
+      "Tidal Lock",
+      "Deluge Strike",
+      "Current Boost"
     ]
   },
   {
     "id": "240",
     "name": "brutalon",
-    "rank": "S",
+    "rank": "A",
     "types": [
       "terra"
     ],
@@ -6222,15 +7037,18 @@
     "scale": "1.4",
     "bio": "This bear carries rocks on its back as part of a natural defense mechanism against predators in rocky terrain.",
     "stats": {
-      "hp": 37,
-      "atk": 12,
-      "def": 33,
-      "special": 16,
-      "spd": 11
+      "hp": 34,
+      "atk": 11,
+      "def": 30,
+      "special": 15,
+      "spd": 10
     },
     "moves": [
-      "TERRA-D",
-      "URSINE-A"
+      "Pebble Rain",
+      "Cavern Crash",
+      "Clay Mold",
+      "Maul",
+      "Bear Hug"
     ]
   },
   {
@@ -6259,8 +7077,11 @@
       "spd": 11
     },
     "moves": [
-      "PRIMAL-A",
-      "AVIAN-A"
+      "Body Press Crush",
+      "Primal Surge",
+      "Savage Aura",
+      "Gale Dive",
+      "Talon Strike"
     ]
   },
   {
@@ -6288,7 +7109,11 @@
       "spd": 10
     },
     "moves": [
-      "PRIMAL-D"
+      "Knuckle Down",
+      "Instinct Slash",
+      "Primal Roar",
+      "Gut Charge",
+      "Feral Bite"
     ]
   },
   {
@@ -6315,7 +7140,11 @@
       "spd": 32
     },
     "moves": [
-      "VOLT-A"
+      "Spark Burst",
+      "Charge Crash",
+      "Dynamo Stance",
+      "Plasma Burst",
+      "Lightning Dash"
     ]
   },
   {
@@ -6337,7 +7166,11 @@
       "spd": 14
     },
     "moves": [
-      "PRIMAL-B"
+      "Knuckle Down",
+      "Instinct Slash",
+      "Primal Roar",
+      "Gut Charge",
+      "Feral Bite"
     ]
   },
   {
@@ -6364,7 +7197,11 @@
       "spd": 33
     },
     "moves": [
-      "WATER-B"
+      "Tideclaw",
+      "Waterfall Rush",
+      "Soakwave",
+      "Riptide",
+      "Coral Crush"
     ]
   },
   {
@@ -6397,8 +7234,11 @@
       "spd": 11
     },
     "moves": [
-      "PRIMAL-C",
-      "AVIAN-A"
+      "Knuckle Down",
+      "Instinct Slash",
+      "Primal Roar",
+      "Gale Dive",
+      "Talon Strike"
     ]
   },
   {
@@ -6429,7 +7269,11 @@
       "spd": 12
     },
     "moves": [
-      "PRIMAL-C"
+      "Headbutt Charge",
+      "Concussive Blow",
+      "Primal Howl",
+      "Ground Pound",
+      "Endure Break"
     ]
   },
   {
@@ -6458,8 +7302,11 @@
       "spd": 34
     },
     "moves": [
-      "DARK-B",
-      "CANINE-A"
+      "Shadow Lunge",
+      "Nightfall Pulse",
+      "Curse Mark",
+      "Jaw Clamp",
+      "Howl Surge"
     ]
   },
   {
@@ -6488,8 +7335,11 @@
       "spd": 14
     },
     "moves": [
-      "ICE-B",
-      "CANINE-A"
+      "Cryo Snap",
+      "Tundra Crash",
+      "Snowdrift Veil",
+      "Jaw Clamp",
+      "Howl Surge"
     ]
   },
   {
@@ -6518,8 +7368,11 @@
       "spd": 33
     },
     "moves": [
-      "VOLT-C",
-      "CANINE-A"
+      "Thunder Jab",
+      "Voltbeam",
+      "Overload",
+      "Jaw Clamp",
+      "Howl Surge"
     ]
   },
   {
@@ -6546,7 +7399,11 @@
       "spd": 12
     },
     "moves": [
-      "PRIMAL-A"
+      "Body Press Crush",
+      "Primal Surge",
+      "Savage Aura",
+      "Apex Strike",
+      "Berserk Rush"
     ]
   },
   {
@@ -6570,8 +7427,11 @@
       "spd": 26
     },
     "moves": [
-      "VOLT-A",
-      "MECH-A"
+      "Spark Burst",
+      "Charge Crash",
+      "Dynamo Stance",
+      "Gear Grind",
+      "Laser Array"
     ]
   },
   {
@@ -6599,7 +7459,11 @@
       "spd": 13
     },
     "moves": [
-      "TERRA-C"
+      "Pebble Rain",
+      "Cavern Crash",
+      "Clay Mold",
+      "Sediment Wave",
+      "Geo Break"
     ]
   },
   {
@@ -6623,8 +7487,11 @@
       "spd": 14
     },
     "moves": [
-      "PRIMAL-D",
-      "AVIAN-A"
+      "Rough Tumble",
+      "Iron Will Strike",
+      "Savagery",
+      "Gale Dive",
+      "Talon Strike"
     ]
   },
   {
@@ -6652,13 +7519,17 @@
       "spd": 9
     },
     "moves": [
-      "TERRA-C"
+      "Boulder Barrage",
+      "Sandstorm Surge",
+      "Stone Bastion",
+      "Quake Stomp",
+      "Mineral Burst"
     ]
   },
   {
     "id": "256",
     "name": "abyssalisk",
-    "rank": "A",
+    "rank": "S",
     "types": [
       "dark"
     ],
@@ -6669,15 +7540,18 @@
     "scale": "1.4",
     "bio": "This creature uses its powerful claws to grip and pull apart dense foliage while navigating through forest underbrush during twilight hours.",
     "stats": {
-      "hp": 12,
-      "atk": 29,
-      "def": 16,
-      "special": 11,
-      "spd": 32
+      "hp": 13,
+      "atk": 32,
+      "def": 18,
+      "special": 12,
+      "spd": 35
     },
     "moves": [
-      "DARK-C",
-      "DRAGON-A"
+      "Dread Aura",
+      "Hex Blast",
+      "Abyssal Gaze",
+      "Scale Slash",
+      "Dragon Roar"
     ]
   },
   {
@@ -6699,7 +7573,11 @@
       "spd": 12
     },
     "moves": [
-      "FLORA-A"
+      "Pollen Guard",
+      "Seed Bomb",
+      "Briar Tangle",
+      "Nettle Sting",
+      "Canopy Crush"
     ]
   },
   {
@@ -6723,8 +7601,11 @@
       "spd": 25
     },
     "moves": [
-      "VOLT-B",
-      "AVIAN-A"
+      "Spark Burst",
+      "Charge Crash",
+      "Dynamo Stance",
+      "Gale Dive",
+      "Talon Strike"
     ]
   },
   {
@@ -6747,8 +7628,11 @@
       "spd": 24
     },
     "moves": [
-      "WATER-C",
-      "FLORA-C"
+      "Deep Dive",
+      "Hydro Torrent",
+      "Bubble Shield",
+      "Vine Lash",
+      "Maelstrom"
     ]
   },
   {
@@ -6773,9 +7657,11 @@
       "spd": 13
     },
     "moves": [
-      "TERRA-C",
-      "URSINE-A",
-      "MECH-A"
+      "Gravel Pelt",
+      "Rockslide",
+      "Sinkhole",
+      "Maul",
+      "Bear Hug"
     ]
   },
   {
@@ -6797,7 +7683,11 @@
       "spd": 13
     },
     "moves": [
-      "PRIMAL-C"
+      "Knuckle Down",
+      "Instinct Slash",
+      "Primal Roar",
+      "Gut Charge",
+      "Feral Bite"
     ]
   },
   {
@@ -6821,8 +7711,11 @@
       "spd": 13
     },
     "moves": [
-      "PRIMAL-B",
-      "HARVEST-A"
+      "Headbutt Charge",
+      "Concussive Blow",
+      "Primal Howl",
+      "Pulp Burst",
+      "Juicy Splash"
     ]
   },
   {
@@ -6846,8 +7739,11 @@
       "spd": 12
     },
     "moves": [
-      "TERRA-C",
-      "FLORAL-A"
+      "Gravel Pelt",
+      "Rockslide",
+      "Sinkhole",
+      "Petal Shower",
+      "Bloom Aura"
     ]
   },
   {
@@ -6876,8 +7772,11 @@
       "spd": 13
     },
     "moves": [
-      "FLORA-D",
-      "HARVEST-A"
+      "Web Snare",
+      "Petal Hurricane",
+      "Verdant Torrent",
+      "Pulp Burst",
+      "Juicy Splash"
     ]
   },
   {
@@ -6899,7 +7798,11 @@
       "spd": 12
     },
     "moves": [
-      "FIRE-A"
+      "Torch Tackle",
+      "Inferno Blast",
+      "Brand Mark",
+      "Solar Flare",
+      "Kindling Spark"
     ]
   },
   {
@@ -6921,7 +7824,11 @@
       "spd": 12
     },
     "moves": [
-      "PRIMAL-C"
+      "Body Press Crush",
+      "Primal Surge",
+      "Savage Aura",
+      "Apex Strike",
+      "Berserk Rush"
     ]
   },
   {
@@ -6945,8 +7852,11 @@
       "spd": 13
     },
     "moves": [
-      "PRIMAL-A",
-      "FLORAL-A"
+      "Knuckle Down",
+      "Instinct Slash",
+      "Primal Roar",
+      "Petal Shower",
+      "Bloom Aura"
     ]
   },
   {
@@ -6954,7 +7864,7 @@
     "name": "bananibble",
     "rank": "B",
     "types": [
-      "primal"
+      "flora"
     ],
     "tags": [
       "harvest"
@@ -6970,8 +7880,11 @@
       "spd": 11
     },
     "moves": [
-      "PRIMAL-A",
-      "HARVEST-A"
+      "Vine Lash",
+      "Leaf Blade",
+      "Spore Burst",
+      "Pulp Burst",
+      "Juicy Splash"
     ]
   },
   {
@@ -6995,8 +7908,11 @@
       "spd": 12
     },
     "moves": [
-      "FLORA-C",
-      "HARVEST-A"
+      "Web Snare",
+      "Petal Hurricane",
+      "Verdant Torrent",
+      "Pulp Burst",
+      "Juicy Splash"
     ]
   },
   {
@@ -7020,8 +7936,11 @@
       "spd": 42
     },
     "moves": [
-      "VOLT-B",
-      "DRAGON-A"
+      "Spark Burst",
+      "Charge Crash",
+      "Dynamo Stance",
+      "Scale Slash",
+      "Dragon Roar"
     ]
   },
   {
@@ -7045,8 +7964,11 @@
       "spd": 14
     },
     "moves": [
-      "ICE-A",
-      "DRAGON-A"
+      "Icicle Spear",
+      "Subzero Pulse",
+      "Frost Armor",
+      "Scale Slash",
+      "Dragon Roar"
     ]
   },
   {
@@ -7068,7 +7990,11 @@
       "spd": 14
     },
     "moves": [
-      "ICE-C"
+      "Cryo Snap",
+      "Tundra Crash",
+      "Snowdrift Veil",
+      "Freeze Ray",
+      "Deep Freeze"
     ]
   },
   {
@@ -7097,8 +8023,11 @@
       "spd": 10
     },
     "moves": [
-      "FLORA-C",
-      "HARVEST-A"
+      "Pollen Guard",
+      "Seed Bomb",
+      "Briar Tangle",
+      "Pulp Burst",
+      "Juicy Splash"
     ]
   },
   {
@@ -7120,7 +8049,11 @@
       "spd": 11
     },
     "moves": [
-      "FLORA-B"
+      "Pollen Guard",
+      "Seed Bomb",
+      "Briar Tangle",
+      "Nettle Sting",
+      "Canopy Crush"
     ]
   },
   {
@@ -7149,8 +8082,11 @@
       "spd": 12
     },
     "moves": [
-      "FLORA-C",
-      "URSINE-A"
+      "Web Snare",
+      "Petal Hurricane",
+      "Verdant Torrent",
+      "Maul",
+      "Bear Hug"
     ]
   },
   {
@@ -7173,8 +8109,11 @@
       "spd": 11
     },
     "moves": [
-      "FLORA-A",
-      "TERRA-B"
+      "Web Snare",
+      "Petal Hurricane",
+      "Verdant Torrent",
+      "Gravel Pelt",
+      "Spore Cloud"
     ]
   },
   {
@@ -7196,7 +8135,11 @@
       "spd": 29
     },
     "moves": [
-      "DARK-C"
+      "Shade Siphon",
+      "Gloom Blast",
+      "Shadowstep",
+      "Void Strike",
+      "Nightmare Claw"
     ]
   },
   {
@@ -7223,7 +8166,11 @@
       "spd": 12
     },
     "moves": [
-      "FLORA-C"
+      "Web Snare",
+      "Petal Hurricane",
+      "Verdant Torrent",
+      "Spore Cloud",
+      "Overgrow Slam"
     ]
   },
   {
@@ -7250,7 +8197,11 @@
       "spd": 16
     },
     "moves": [
-      "TERRA-B"
+      "Earth Veil",
+      "Stonewall Smash",
+      "Magma Crust",
+      "Tectonic Slam",
+      "Stone Edge"
     ]
   },
   {
@@ -7277,7 +8228,11 @@
       "spd": 12
     },
     "moves": [
-      "TERRA-B"
+      "Pebble Rain",
+      "Cavern Crash",
+      "Clay Mold",
+      "Sediment Wave",
+      "Geo Break"
     ]
   },
   {
@@ -7290,7 +8245,7 @@
     "tags": [],
     "evolution": [
       [
-        "blusbud",
+        "blushbud",
         "petalbud"
       ]
     ],
@@ -7304,7 +8259,11 @@
       "spd": 12
     },
     "moves": [
-      "FLORA-C"
+      "Vine Lash",
+      "Leaf Blade",
+      "Spore Burst",
+      "Thorn Volley",
+      "Flora Pulse"
     ]
   },
   {
@@ -7327,8 +8286,11 @@
       "spd": 21
     },
     "moves": [
-      "FLORA-A",
-      "DARK-B"
+      "Pollen Guard",
+      "Seed Bomb",
+      "Briar Tangle",
+      "Dread Aura",
+      "Nettle Sting"
     ]
   },
   {
@@ -7357,8 +8319,11 @@
       "spd": 10
     },
     "moves": [
-      "TERRA-D",
-      "CACTOID-A"
+      "Gravel Pelt",
+      "Rockslide",
+      "Sinkhole",
+      "Spine Volley",
+      "Needle Rush"
     ]
   },
   {
@@ -7386,8 +8351,11 @@
       "spd": 11
     },
     "moves": [
-      "FLORA-A",
-      "FAE-B"
+      "Pollen Guard",
+      "Seed Bomb",
+      "Briar Tangle",
+      "Petal Barrage",
+      "Nettle Sting"
     ]
   },
   {
@@ -7411,8 +8379,11 @@
       "spd": 15
     },
     "moves": [
-      "TERRA-D",
-      "CARAPACE-A"
+      "Boulder Barrage",
+      "Sandstorm Surge",
+      "Stone Bastion",
+      "Shell Bash",
+      "Withdraw Guard"
     ]
   },
   {
@@ -7434,7 +8405,11 @@
       "spd": 15
     },
     "moves": [
-      "FLORA-C"
+      "Pollen Guard",
+      "Seed Bomb",
+      "Briar Tangle",
+      "Nettle Sting",
+      "Canopy Crush"
     ]
   },
   {
@@ -7456,7 +8431,11 @@
       "spd": 29
     },
     "moves": [
-      "WATER-B"
+      "Brineblast",
+      "Crashing Wave",
+      "Mist Veil",
+      "Pearl Burst",
+      "Undertow"
     ]
   },
   {
@@ -7478,7 +8457,11 @@
       "spd": 13
     },
     "moves": [
-      "FLORA-D"
+      "Root Bind",
+      "Bloom Burst",
+      "Chloro Slash",
+      "Photosynthesis",
+      "Larva Barrage"
     ]
   },
   {
@@ -7502,8 +8485,11 @@
       "spd": 14
     },
     "moves": [
-      "FLORA-C",
-      "AVIAN-A"
+      "Pollen Guard",
+      "Seed Bomb",
+      "Briar Tangle",
+      "Gale Dive",
+      "Talon Strike"
     ]
   },
   {
@@ -7525,7 +8511,11 @@
       "spd": 12
     },
     "moves": [
-      "TERRA-D"
+      "Pebble Rain",
+      "Cavern Crash",
+      "Clay Mold",
+      "Sediment Wave",
+      "Geo Break"
     ]
   },
   {
@@ -7549,8 +8539,11 @@
       "spd": 12
     },
     "moves": [
-      "FLORA-D",
-      "FLORAL-A"
+      "Web Snare",
+      "Petal Hurricane",
+      "Verdant Torrent",
+      "Petal Shower",
+      "Bloom Aura"
     ]
   },
   {
@@ -7577,7 +8570,11 @@
       "spd": 27
     },
     "moves": [
-      "FIRE-A"
+      "Torch Tackle",
+      "Inferno Blast",
+      "Brand Mark",
+      "Solar Flare",
+      "Kindling Spark"
     ]
   },
   {
@@ -7604,7 +8601,11 @@
       "spd": 36
     },
     "moves": [
-      "FIRE-A"
+      "Ember Claw",
+      "Flamethrower",
+      "Scorch Mark",
+      "Pyre Strike",
+      "Kindling Spark"
     ]
   },
   {
@@ -7629,9 +8630,11 @@
       "spd": 21
     },
     "moves": [
-      "VOLT-A",
-      "TERRA-D",
-      "CARAPACE-A"
+      "Conductor Claw",
+      "Galvanic Slam",
+      "Shock Grid",
+      "Earth Veil",
+      "Shell Bash"
     ]
   },
   {
@@ -7655,8 +8658,11 @@
       "spd": 13
     },
     "moves": [
-      "TERRA-A",
-      "AVIAN-A"
+      "Pebble Rain",
+      "Cavern Crash",
+      "Clay Mold",
+      "Gale Dive",
+      "Talon Strike"
     ]
   },
   {
@@ -7680,8 +8686,11 @@
       "spd": 15
     },
     "moves": [
-      "TERRA-A",
-      "CARAPACE-A"
+      "Gravel Pelt",
+      "Rockslide",
+      "Sinkhole",
+      "Shell Bash",
+      "Withdraw Guard"
     ]
   },
   {
@@ -7706,9 +8715,11 @@
       "spd": 18
     },
     "moves": [
-      "FLORA-D",
-      "DARK-B",
-      "FLORAL-A"
+      "Pollen Guard",
+      "Seed Bomb",
+      "Briar Tangle",
+      "Dread Aura",
+      "Petal Shower"
     ]
   },
   {
@@ -7732,8 +8743,11 @@
       "spd": 11
     },
     "moves": [
-      "PRIMAL-A",
-      "AVIAN-A"
+      "Knuckle Down",
+      "Instinct Slash",
+      "Primal Roar",
+      "Gale Dive",
+      "Talon Strike"
     ]
   },
   {
@@ -7755,7 +8769,11 @@
       "spd": 27
     },
     "moves": [
-      "WATER-B"
+      "Tideclaw",
+      "Waterfall Rush",
+      "Soakwave",
+      "Riptide",
+      "Coral Crush"
     ]
   },
   {
@@ -7777,7 +8795,11 @@
       "spd": 27
     },
     "moves": [
-      "WATER-A"
+      "Saltwater Spray",
+      "Surf Slam",
+      "Tidal Lock",
+      "Deluge Strike",
+      "Current Boost"
     ]
   },
   {
@@ -7801,8 +8823,11 @@
       "spd": 32
     },
     "moves": [
-      "DARK-C",
-      "FELINE-A"
+      "Shadow Lunge",
+      "Nightfall Pulse",
+      "Curse Mark",
+      "Pounce",
+      "Claw Flurry"
     ]
   },
   {
@@ -7831,8 +8856,11 @@
       "spd": 27
     },
     "moves": [
-      "WATER-B",
-      "CARAPACE-A"
+      "Brineblast",
+      "Crashing Wave",
+      "Mist Veil",
+      "Shell Bash",
+      "Withdraw Guard"
     ]
   },
   {
@@ -7861,8 +8889,11 @@
       "spd": 31
     },
     "moves": [
-      "WATER-B",
-      "CARAPACE-A"
+      "Saltwater Spray",
+      "Surf Slam",
+      "Tidal Lock",
+      "Shell Bash",
+      "Withdraw Guard"
     ]
   },
   {
@@ -7886,8 +8917,11 @@
       "spd": 38
     },
     "moves": [
-      "WATER-A",
-      "AVIAN-A"
+      "Tideclaw",
+      "Waterfall Rush",
+      "Soakwave",
+      "Gale Dive",
+      "Talon Strike"
     ]
   },
   {
@@ -7916,8 +8950,11 @@
       "spd": 12
     },
     "moves": [
-      "FLORA-D",
-      "FLORAL-A"
+      "Web Snare",
+      "Petal Hurricane",
+      "Verdant Torrent",
+      "Petal Shower",
+      "Bloom Aura"
     ]
   },
   {
@@ -7941,8 +8978,11 @@
       "spd": 12
     },
     "moves": [
-      "FAE-B",
-      "FELINE-A"
+      "Glimmer Touch",
+      "Pixie Blast",
+      "Enchant Wave",
+      "Pounce",
+      "Claw Flurry"
     ]
   },
   {
@@ -7964,7 +9004,11 @@
       "spd": 32
     },
     "moves": [
-      "WATER-D"
+      "Saltwater Spray",
+      "Surf Slam",
+      "Tidal Lock",
+      "Deluge Strike",
+      "Current Boost"
     ]
   },
   {
@@ -7986,7 +9030,11 @@
       "spd": 12
     },
     "moves": [
-      "TERRA-A"
+      "Pebble Rain",
+      "Cavern Crash",
+      "Clay Mold",
+      "Sediment Wave",
+      "Geo Break"
     ]
   },
   {
@@ -8015,8 +9063,11 @@
       "spd": 12
     },
     "moves": [
-      "FLORA-D",
-      "FLORAL-A"
+      "Web Snare",
+      "Petal Hurricane",
+      "Verdant Torrent",
+      "Petal Shower",
+      "Bloom Aura"
     ]
   },
   {
@@ -8040,8 +9091,11 @@
       "spd": 11
     },
     "moves": [
-      "PRIMAL-A",
-      "CARAPACE-A"
+      "Body Press Crush",
+      "Primal Surge",
+      "Savage Aura",
+      "Shell Bash",
+      "Withdraw Guard"
     ]
   },
   {
@@ -8068,7 +9122,11 @@
       "spd": 32
     },
     "moves": [
-      "DARK-B"
+      "Dread Aura",
+      "Hex Blast",
+      "Abyssal Gaze",
+      "Eclipse Bolt",
+      "Nightmare Claw"
     ]
   },
   {
@@ -8095,7 +9153,11 @@
       "spd": 27
     },
     "moves": [
-      "DARK-B"
+      "Shade Siphon",
+      "Gloom Blast",
+      "Shadowstep",
+      "Void Strike",
+      "Nightmare Claw"
     ]
   },
   {
@@ -8119,8 +9181,11 @@
       "spd": 10
     },
     "moves": [
-      "PRIMAL-C",
-      "CARAPACE-A"
+      "Headbutt Charge",
+      "Concussive Blow",
+      "Primal Howl",
+      "Shell Bash",
+      "Withdraw Guard"
     ]
   },
   {
@@ -8147,7 +9212,11 @@
       "spd": 37
     },
     "moves": [
-      "DARK-C"
+      "Dread Aura",
+      "Hex Blast",
+      "Abyssal Gaze",
+      "Eclipse Bolt",
+      "Nightmare Claw"
     ]
   },
   {
@@ -8177,8 +9246,11 @@
       "spd": 13
     },
     "moves": [
-      "FLORA-B",
-      "URSINE-A"
+      "Vine Lash",
+      "Leaf Blade",
+      "Spore Burst",
+      "Maul",
+      "Cub Swipe"
     ]
   },
   {
@@ -8201,8 +9273,11 @@
       "spd": 26
     },
     "moves": [
-      "FIRE-C",
-      "TERRA-B"
+      "Singe",
+      "Magma Punch",
+      "Blaze Aura",
+      "Pebble Rain",
+      "Heat Wave"
     ]
   },
   {
@@ -8224,7 +9299,11 @@
       "spd": 28
     },
     "moves": [
-      "FIRE-C"
+      "Singe",
+      "Magma Punch",
+      "Blaze Aura",
+      "Heat Wave",
+      "Scorchbite"
     ]
   },
   {
@@ -8246,7 +9325,11 @@
       "spd": 32
     },
     "moves": [
-      "DARK-C"
+      "Shade Siphon",
+      "Gloom Blast",
+      "Shadowstep",
+      "Void Strike",
+      "Nightmare Claw"
     ]
   },
   {
@@ -8275,8 +9358,11 @@
       "spd": 13
     },
     "moves": [
-      "FLORA-C",
-      "HARVEST-A"
+      "Pollen Guard",
+      "Seed Bomb",
+      "Briar Tangle",
+      "Pulp Burst",
+      "Juicy Splash"
     ]
   },
   {
@@ -8300,8 +9386,11 @@
       "spd": 11
     },
     "moves": [
-      "FAE-A",
-      "CANINE-A"
+      "Wisp Slash",
+      "Moonveil Pulse",
+      "Dreamweave",
+      "Jaw Clamp",
+      "Howl Surge"
     ]
   },
   {
@@ -8325,8 +9414,11 @@
       "spd": 29
     },
     "moves": [
-      "FIRE-A",
-      "CANINE-A"
+      "Char Swipe",
+      "Combustion Fist",
+      "Ashen Veil",
+      "Jaw Clamp",
+      "Howl Surge"
     ]
   },
   {
@@ -8355,14 +9447,17 @@
       "spd": 25
     },
     "moves": [
-      "VOLT-B",
-      "AVIAN-A"
+      "Thunder Jab",
+      "Voltbeam",
+      "Overload",
+      "Gale Dive",
+      "Talon Strike"
     ]
   },
   {
     "id": "323",
     "name": "solair",
-    "rank": "A",
+    "rank": "S",
     "types": [
       "volt"
     ],
@@ -8373,15 +9468,18 @@
     "scale": "1",
     "bio": "This bird uses powerful wing flaps to generate lift while hovering above ground at high altitudes during migration seasons.",
     "stats": {
-      "hp": 12,
-      "atk": 11,
-      "def": 14,
-      "special": 28,
-      "spd": 35
+      "hp": 13,
+      "atk": 12,
+      "def": 15,
+      "special": 31,
+      "spd": 38
     },
     "moves": [
-      "VOLT-B",
-      "AVIAN-A"
+      "Spark Burst",
+      "Charge Crash",
+      "Dynamo Stance",
+      "Gale Dive",
+      "Talon Strike"
     ]
   },
   {
@@ -8405,8 +9503,11 @@
       "spd": 36
     },
     "moves": [
-      "FIRE-B",
-      "AVIAN-A"
+      "Ember Claw",
+      "Flamethrower",
+      "Scorch Mark",
+      "Gale Dive",
+      "Talon Strike"
     ]
   },
   {
@@ -8430,8 +9531,11 @@
       "spd": 13
     },
     "moves": [
-      "ICE-C",
-      "AVIAN-A"
+      "Icicle Spear",
+      "Subzero Pulse",
+      "Frost Armor",
+      "Gale Dive",
+      "Talon Strike"
     ]
   },
   {
@@ -8453,7 +9557,11 @@
       "spd": 30
     },
     "moves": [
-      "VOLT-B"
+      "Thunder Jab",
+      "Voltbeam",
+      "Overload",
+      "Arc Surge",
+      "Static Clap"
     ]
   },
   {
@@ -8475,7 +9583,11 @@
       "spd": 32
     },
     "moves": [
-      "FIRE-A"
+      "Singe",
+      "Magma Punch",
+      "Blaze Aura",
+      "Heat Wave",
+      "Scorchbite"
     ]
   },
   {
@@ -8499,7 +9611,11 @@
       "spd": 31
     },
     "moves": [
-      "FIRE-A"
+      "Ember Claw",
+      "Flamethrower",
+      "Scorch Mark",
+      "Headbutt Bleat",
+      "Body Press Crush"
     ]
   },
   {
@@ -8521,7 +9637,11 @@
       "spd": 27
     },
     "moves": [
-      "FIRE-D"
+      "Singe",
+      "Magma Punch",
+      "Blaze Aura",
+      "Heat Wave",
+      "Scorchbite"
     ]
   },
   {
@@ -8545,8 +9665,11 @@
       "spd": 25
     },
     "moves": [
-      "FIRE-B",
-      "CANINE-A"
+      "Ember Claw",
+      "Flamethrower",
+      "Scorch Mark",
+      "Jaw Clamp",
+      "Howl Surge"
     ]
   },
   {
@@ -8568,7 +9691,11 @@
       "spd": 29
     },
     "moves": [
-      "VOLT-B"
+      "Conductor Claw",
+      "Galvanic Slam",
+      "Shock Grid",
+      "Zap Cannon",
+      "Arc Surge"
     ]
   },
   {
@@ -8593,9 +9720,11 @@
       "spd": 32
     },
     "moves": [
-      "VOLT-B",
-      "MECH-A",
-      "AVIAN-A"
+      "Spark Burst",
+      "Charge Crash",
+      "Dynamo Stance",
+      "Gear Grind",
+      "Laser Array"
     ]
   },
   {
@@ -8624,8 +9753,11 @@
       "spd": 31
     },
     "moves": [
-      "DARK-A",
-      "AVIAN-A"
+      "Dread Aura",
+      "Hex Blast",
+      "Abyssal Gaze",
+      "Gale Dive",
+      "Talon Strike"
     ]
   },
   {
@@ -8647,7 +9779,11 @@
       "spd": 29
     },
     "moves": [
-      "VOLT-A"
+      "Thunder Jab",
+      "Voltbeam",
+      "Overload",
+      "Arc Surge",
+      "Static Clap"
     ]
   },
   {
@@ -8669,7 +9805,11 @@
       "spd": 27
     },
     "moves": [
-      "VOLT-C"
+      "Thunder Jab",
+      "Voltbeam",
+      "Overload",
+      "Arc Surge",
+      "Static Clap"
     ]
   },
   {
@@ -8691,7 +9831,11 @@
       "spd": 26
     },
     "moves": [
-      "VOLT-B"
+      "Spark Burst",
+      "Charge Crash",
+      "Dynamo Stance",
+      "Plasma Burst",
+      "Lightning Dash"
     ]
   },
   {
@@ -8713,7 +9857,11 @@
       "spd": 15
     },
     "moves": [
-      "ICE-A"
+      "Icicle Spear",
+      "Subzero Pulse",
+      "Frost Armor",
+      "Avalanche Rush",
+      "Hailstone Burst"
     ]
   },
   {
@@ -8735,7 +9883,11 @@
       "spd": 13
     },
     "moves": [
-      "ICE-B"
+      "Frost Claw",
+      "Crystal Lance",
+      "Permafrost",
+      "Glacial Slam",
+      "Blizzard"
     ]
   }
 ]

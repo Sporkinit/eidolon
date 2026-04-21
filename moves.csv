@@ -1,192 +1,211 @@
-id,name,type,category,tag,pp,power,accuracy,group
-1,Tideclaw,Water,Physical,-,20,65,1,WATER-A
-2,Brineblast,Water,Special,-,15,80,1,WATER-A
-3,Aqua Surge,Water,Special,-,10,95,0.9,WATER-A
-4,Waterfall Rush,Water,Physical,-,15,85,1,WATER-A
-5,Riptide,Water,Special,-,10,110,0.85,WATER-A
-6,Seafoam Veil,Water,Status,-,20,-,-,WATER-B
-7,Deluge Strike,Water,Special,-,5,130,0.7,WATER-B
-8,Whirlpool Trap,Water,Special,-,15,35,0.85,WATER-B
-9,Crashing Wave,Water,Physical,-,10,100,0.8,WATER-B
-10,Saltwater Spray,Water,Special,-,25,40,1,WATER-B
-11,Deep Dive,Water,Physical,-,10,80,1,WATER-C
-12,Mist Veil,Water,Status,-,30,-,-,WATER-C
-13,Coral Crush,Water,Physical,-,15,70,1,WATER-C
-14,Hydro Cannon,Water,Special,-,5,150,0.9,WATER-C
-15,Undertow,Water,Physical,-,20,55,0.95,WATER-C
-16,Rain Dance Slash,Water,Physical,-,15,75,1,WATER-D
-17,Tidal Lock,Water,Status,-,10,-,-,WATER-D
-18,Pearl Burst,Water,Special,-,20,60,1,WATER-D
-19,Abyssal Pulse,Water,Special,-,10,120,0.75,WATER-D
-20,Surf Slam,Water,Physical,-,15,90,0.95,WATER-D
-21,Knuckle Down,Primal,Physical,-,25,50,1,PRIMAL-A
-22,Gut Charge,Primal,Physical,-,20,65,1,PRIMAL-A
-23,Primal Roar,Primal,Status,-,20,-,-,PRIMAL-A
-24,Wild Haymaker,Primal,Physical,-,10,100,0.8,PRIMAL-A
-25,Instinct Slash,Primal,Physical,-,15,80,0.95,PRIMAL-A
-26,Iron Will Strike,Primal,Physical,-,15,75,1,PRIMAL-B
-27,Berserk Rush,Primal,Physical,-,5,120,0.85,PRIMAL-B
-28,Ground Pound,Primal,Physical,-,20,60,1,PRIMAL-B
-29,Rough Tumble,Primal,Physical,-,25,40,0.95,PRIMAL-B
-30,Primal Surge,Primal,Special,-,10,90,0.9,PRIMAL-B
-31,Headbutt Charge,Primal,Physical,-,15,70,1,PRIMAL-C
-32,Savagery,Primal,Status,-,10,-,-,PRIMAL-C
-33,Uproar Slam,Primal,Special,-,15,70,1,PRIMAL-C
-34,Feral Bite,Primal,Physical,-,20,55,0.95,PRIMAL-C
-35,Concussive Blow,Primal,Physical,-,10,85,0.9,PRIMAL-C
-36,Body Press Crush,Primal,Physical,-,10,100,1,PRIMAL-D
-37,Primal Howl,Primal,Status,-,20,-,-,PRIMAL-D
-38,Bone Rattler,Primal,Physical,-,15,75,0.85,PRIMAL-D
-39,Endure Break,Primal,Physical,-,10,95,0.9,PRIMAL-D
-40,Apex Strike,Primal,Physical,-,5,130,0.75,PRIMAL-D
-41,Dustcloud,Terra,Status,-,20,-,-,TERRA-A
-42,Rockslide,Terra,Physical,-,10,75,0.9,TERRA-A
-43,Terra Fissure,Terra,Physical,-,10,100,0.8,TERRA-A
-44,Mudshot,Terra,Special,-,20,55,0.95,TERRA-A
-45,Quake Stomp,Terra,Physical,-,15,80,1,TERRA-A
-46,Boulder Barrage,Terra,Physical,-,10,90,0.85,TERRA-B
-47,Sandstorm Surge,Terra,Special,-,10,65,0.9,TERRA-B
-48,Gravel Pelt,Terra,Physical,-,25,40,1,TERRA-B
-49,Tectonic Slam,Terra,Physical,-,5,130,0.7,TERRA-B
-50,Mineral Burst,Terra,Special,-,15,70,0.9,TERRA-B
-51,Sinkhole,Terra,Special,-,10,95,0.8,TERRA-C
-52,Stone Edge,Terra,Physical,-,5,100,0.8,TERRA-C
-53,Clay Mold,Terra,Status,-,15,-,-,TERRA-C
-54,Sediment Wave,Terra,Special,-,10,80,0.85,TERRA-C
-55,Cavern Crash,Terra,Physical,-,10,90,0.85,TERRA-C
-56,Pebble Rain,Terra,Special,-,20,50,1,TERRA-D
-57,Earth Veil,Terra,Status,-,10,-,-,TERRA-D
-58,Geo Break,Terra,Physical,-,15,75,0.9,TERRA-D
-59,Stonewall Smash,Terra,Physical,-,10,100,0.85,TERRA-D
-60,Magma Crust,Terra,Special,-,5,120,0.75,TERRA-D
-61,Vine Lash,Flora,Physical,-,25,45,1,FLORA-A
-62,Spore Burst,Flora,Status,-,15,-,-,FLORA-A
-63,Leaf Blade,Flora,Physical,-,15,90,1,FLORA-A
-64,Thorn Volley,Flora,Physical,-,20,60,0.95,FLORA-A
-65,Overgrow Slam,Flora,Physical,-,10,100,0.85,FLORA-A
-66,Pollen Guard,Flora,Status,-,20,-,-,FLORA-B
-67,Seed Bomb,Flora,Physical,-,15,80,1,FLORA-B
-68,Flora Pulse,Flora,Special,-,10,95,0.9,FLORA-B
-69,Silkwrap,Flora,Status,-,15,-,-,FLORA-B
-70,Canopy Crush,Flora,Physical,-,10,80,0.85,FLORA-B
-71,Nettle Sting,Flora,Special,-,25,40,0.95,FLORA-C
-72,Root Bind,Flora,Status,-,10,-,-,FLORA-C
-73,Bloom Burst,Flora,Special,-,10,110,0.8,FLORA-C
-74,Chloro Slash,Flora,Physical,-,15,70,1,FLORA-C
-75,Mushroom Spore,Flora,Status,-,20,-,-,FLORA-C
-76,Briar Tangle,Flora,Physical,-,15,65,0.95,FLORA-D
-77,Verdant Torrent,Flora,Special,-,5,130,0.7,FLORA-D
-78,Larva Barrage,Flora,Physical,-,20,55,0.95,FLORA-D
-79,Web Snare,Flora,Status,-,20,-,-,FLORA-D
-80,Petal Hurricane,Flora,Special,-,10,100,0.85,FLORA-D
-81,Ember Claw,Fire,Physical,-,25,45,1,FIRE-A
-82,Inferno Blast,Fire,Special,-,5,130,0.85,FIRE-A
-83,Singe,Fire,Special,-,30,40,1,FIRE-A
-84,Magma Punch,Fire,Physical,-,15,80,1,FIRE-A
-85,Flamethrower,Fire,Special,-,15,90,1,FIRE-A
-86,Cinder Dash,Fire,Physical,-,20,60,1,FIRE-B
-87,Pyre Strike,Fire,Physical,-,10,100,0.85,FIRE-B
-88,Heat Wave,Fire,Special,-,10,95,0.9,FIRE-B
-89,Ashen Veil,Fire,Status,-,15,-,-,FIRE-B
-90,Wildfire Surge,Fire,Special,-,10,110,0.8,FIRE-B
-91,Scorchbite,Fire,Physical,-,20,65,0.95,FIRE-C
-92,Molten Slam,Fire,Physical,-,10,90,0.85,FIRE-C
-93,Spark Plume,Fire,Special,-,20,55,1,FIRE-C
-94,Infernal Rush,Fire,Physical,-,15,75,1,FIRE-C
-95,Volcano Burst,Fire,Special,-,5,150,0.9,FIRE-C
-96,Brand Mark,Fire,Status,-,20,-,-,FIRE-D
-97,Solar Flare,Fire,Special,-,10,120,0.75,FIRE-D
-98,Torch Tackle,Fire,Physical,-,15,80,1,FIRE-D
-99,Char Swipe,Fire,Physical,-,25,50,0.95,FIRE-D
-100,Combustion Fist,Fire,Physical,-,10,95,0.9,FIRE-D
-101,Frost Claw,Ice,Physical,-,20,65,1,ICE-A
-102,Blizzard Shot,Ice,Special,-,5,110,0.7,ICE-A
-103,Icicle Spear,Ice,Physical,-,30,25,1,ICE-A
-104,Glacial Slam,Ice,Physical,-,10,90,0.85,ICE-A
-105,Snowdrift Veil,Ice,Status,-,20,-,-,ICE-B
-106,Subzero Pulse,Ice,Special,-,10,95,0.9,ICE-B
-107,Permafrost,Ice,Status,-,15,-,-,ICE-B
-108,Crystal Lance,Ice,Special,-,15,80,1,ICE-B
-109,Freeze Ray,Ice,Special,-,10,90,1,ICE-C
-110,Avalanche Rush,Ice,Physical,-,10,75,0.9,ICE-C
-111,Hailstone Burst,Ice,Special,-,15,70,0.9,ICE-C
-112,Tundra Crash,Ice,Physical,-,10,100,0.8,ICE-C
-113,Shadow Lunge,Dark,Physical,-,20,65,1,DARK-A
-114,Nightfall Pulse,Dark,Special,-,10,90,1,DARK-A
-115,Umbra Slash,Dark,Physical,-,15,80,0.95,DARK-A
-116,Dread Aura,Dark,Status,-,15,-,-,DARK-A
-117,Curse Mark,Dark,Status,-,10,-,-,DARK-B
-118,Void Strike,Dark,Physical,-,10,100,0.85,DARK-B
-119,Eclipse Bolt,Dark,Special,-,10,110,0.8,DARK-B
-120,Nightmare Claw,Dark,Physical,-,15,75,0.95,DARK-B
-121,Obsidian Fang,Dark,Physical,-,20,60,1,DARK-C
-122,Shadowstep,Dark,Status,-,20,-,-,DARK-C
-123,Gloom Blast,Dark,Special,-,10,95,0.9,DARK-C
-124,Shade Siphon,Dark,Special,-,15,70,1,DARK-C
-125,Thunder Jab,Volt,Physical,-,20,65,1,VOLT-A
-126,Voltbeam,Volt,Special,-,15,90,1,VOLT-A
-127,Arc Surge,Volt,Special,-,10,100,0.85,VOLT-A
-128,Static Clap,Volt,Special,-,25,40,1,VOLT-A
-129,Charge Crash,Volt,Physical,-,10,90,0.85,VOLT-B
-130,Overload,Volt,Status,-,10,-,-,VOLT-B
-131,Lightning Dash,Volt,Physical,-,20,60,1,VOLT-B
-132,Plasma Burst,Volt,Special,-,10,110,0.8,VOLT-B
-133,Conductor Claw,Volt,Physical,-,15,75,0.95,VOLT-C
-134,Shock Grid,Volt,Status,-,20,-,-,VOLT-C
-135,Zap Cannon,Volt,Special,-,5,120,0.5,VOLT-C
-136,Galvanic Slam,Volt,Physical,-,10,95,0.9,VOLT-C
-137,Glimmer Touch,Fae,Special,-,25,40,1,FAE-A
-138,Enchant Wave,Fae,Status,-,20,-,-,FAE-A
-139,Pixie Blast,Fae,Special,-,15,90,1,FAE-A
-140,Faerie Ring,Fae,Status,-,10,-,-,FAE-A
-141,Gossamer Strike,Fae,Physical,-,20,65,0.95,FAE-A
-142,Moonveil Pulse,Fae,Special,-,10,95,0.9,FAE-B
-143,Blossom Charm,Fae,Status,-,15,-,-,FAE-B
-144,Stardust Surge,Fae,Special,-,10,110,0.8,FAE-B
-145,Wisp Slash,Fae,Physical,-,15,70,1,FAE-B
-146,Dreamweave,Fae,Status,-,10,-,-,FAE-B
-147,Gale Dive,Flex,Physical,Avian,20,65,1,AVIAN-A
-148,Talon Strike,Flex,Physical,Avian,15,80,0.95,AVIAN-A
-149,Featherstorm,Flex,Special,Avian,10,90,0.85,AVIAN-A
-150,Soaring Peck,Flex,Physical,Avian,25,50,1,AVIAN-A
-151,Pounce,Flex,Physical,Feline,20,65,1,FELINE-A
-152,Claw Flurry,Flex,Physical,Feline,15,80,0.95,FELINE-A
-153,Hiss Aura,Flex,Status,Feline,20,-,-,FELINE-A
-154,Night Prowl,Flex,Physical,Feline,10,70,1,FELINE-A
-155,Pulp Burst,Flex,Special,Harvest,20,55,1,HARVEST-A
-156,Juicy Splash,Flex,Special,Harvest,15,70,0.95,HARVEST-A
-157,Pit Hurl,Flex,Physical,Harvest,20,65,1,HARVEST-A
-158,Petal Shower,Flex,Special,Floral,25,40,1,FLORAL-A
-159,Bloom Aura,Flex,Status,Floral,20,-,-,FLORAL-A
-160,Nectar Pulse,Flex,Special,Floral,15,70,0.95,FLORAL-A
-161,Stamen Sting,Flex,Physical,Floral,20,60,1,FLORAL-A
-162,Maul,Flex,Physical,Ursine,15,90,0.85,URSINE-A
-163,Bear Hug,Flex,Physical,Ursine,10,80,1,URSINE-A
-164,Hibernation Wake,Flex,Status,Ursine,10,-,-,URSINE-A
-165,Cub Swipe,Flex,Physical,Ursine,20,60,1,URSINE-A
-166,Shell Bash,Flex,Physical,Carapace,15,80,1,CARAPACE-A
-167,Withdraw Guard,Flex,Status,Carapace,20,-,-,CARAPACE-A
-168,Spiral Slam,Flex,Physical,Carapace,10,90,0.85,CARAPACE-A
-169,Spine Volley,Flex,Physical,Cactoid,20,55,0.95,CACTOID-A
-170,Needle Rush,Flex,Physical,Cactoid,15,70,1,CACTOID-A
-171,Desert Thorn,Flex,Special,Cactoid,10,85,0.9,CACTOID-A
-172,Jaw Clamp,Flex,Physical,Canine,20,70,1,CANINE-A
-173,Howl Surge,Flex,Status,Canine,20,-,-,CANINE-A
-174,Fetch Fling,Flex,Physical,Canine,20,55,1,CANINE-A
-175,Pack Tackle,Flex,Physical,Canine,15,80,0.95,CANINE-A
-176,Wool Wrap,Flex,Status,Ovine,20,-,-,OVINE-A
-177,Headbutt Bleat,Flex,Physical,Ovine,20,65,1,OVINE-A
-178,Fleecy Guard,Flex,Status,Ovine,15,-,-,OVINE-A
-179,Hoofstrike,Flex,Physical,Equine,20,80,1,EQUINE-A
-180,Gallop Charge,Flex,Physical,Equine,15,90,0.95,EQUINE-A
-181,Mane Whip,Flex,Physical,Equine,20,65,1,EQUINE-A
-182,Stampede,Flex,Physical,Equine,5,120,0.8,EQUINE-A
-183,Scale Slash,Flex,Physical,Dragon,15,80,1,DRAGON-A
-184,Dragon Roar,Flex,Status,Dragon,20,-,-,DRAGON-A
-185,Dragonsbreath Bite,Flex,Physical,Dragon,10,90,0.85,DRAGON-A
-186,Serpent Coil,Flex,Physical,Dragon,10,75,0.95,DRAGON-A
-187,Ancient Surge,Flex,Special,Dragon,5,120,0.8,DRAGON-A
-188,Gear Grind,Flex,Physical,Mech,20,65,1,MECH-A
-189,Laser Array,Flex,Special,Mech,10,100,0.85,MECH-A
-190,Coolant Spray,Flex,Status,Mech,20,-,-,MECH-A
-191,Overclocked Strike,Flex,Physical,Mech,10,110,0.8,MECH-A
+id,name,type,category,tag,pp,power,accuracy,priority,effect,effectChance,effectTarget,group,sprite,target,count,rotate
+1,Tideclaw,Water,Physical,-,25,50,1,0,,0,foe,WATER-A,blue_orb,Projectile,1.0,Y
+2,Brineblast,Water,Special,-,25,55,1,0,,0,foe,WATER-A,water_blast,Projectile,2.0,N
+3,Riptide,Water,Special,-,15,85,0.9,0,soak,30,foe,WATER-A,water_blast,Projectile,2.0,N
+4,Waterfall Rush,Water,Physical,-,15,80,1,0,,0,foe,WATER-A,blue_orb,Projectile,1.0,Y
+5,Abyssal Surge,Water,Special,-,5,120,0.75,-1,,0,foe,WATER-A,water_splash,Enemy,2.0,N
+6,Soakwave,Water,Status,-,20,,1,0,soak,100,foe,WATER-B,water_blast,Projectile,2.0,N
+7,Deluge Strike,Water,Special,-,10,100,0.85,0,,0,foe,WATER-B,water_blast,Projectile,2.0,N
+8,Pearl Burst,Water,Special,-,20,60,1,0,,0,foe,WATER-B,water_blast,Projectile,2.0,N
+9,Crashing Wave,Water,Physical,-,10,90,0.85,0,,0,foe,WATER-B,blue_orb,Projectile,1.0,Y
+10,Mist Veil,Water,Status,-,20,,,0,def_up,100,self,WATER-B,blue_orb,Projectile,1.0,Y
+11,Saltwater Spray,Water,Special,-,25,45,1,1,,0,foe,WATER-C,blue_orb,Projectile,1.0,Y
+12,Tidal Lock,Water,Status,-,15,,1,0,soak,100,foe,WATER-C,water_blast,Projectile,2.0,N
+13,Undertow,Water,Physical,-,20,65,0.95,0,soak,35,foe,WATER-C,blue_orb,Projectile,1.0,Y
+14,Maelstrom,Water,Special,-,5,130,0.7,-1,,0,foe,WATER-C,water_blast,Projectile,2.0,N
+15,Current Boost,Water,Status,-,20,,,0,spd_up,100,self,WATER-C,blue_orb,Projectile,1.0,Y
+16,Deep Dive,Water,Physical,-,15,80,1,0,,0,foe,WATER-D,water_splash,Enemy,2.0,N
+17,Surf Slam,Water,Physical,-,10,95,0.9,0,,0,foe,WATER-D,water_blast,Projectile,2.0,N
+18,Hydro Torrent,Water,Special,-,5,110,0.8,-1,,0,foe,WATER-D,water_blast,Projectile,2.0,N
+19,Coral Crush,Water,Physical,-,20,60,1,0,def_down,30,foe,WATER-D,blue_orb,Projectile,1.0,Y
+20,Bubble Shield,Water,Status,-,15,,,0,def_up2,100,self,WATER-D,water_blast,Projectile,2.0,N
+21,Ember Claw,Fire,Physical,-,25,50,1,0,burn,20,foe,FIRE-A,fire_slash,Enemy,2.0,Y
+22,Singe,Fire,Special,-,25,45,1,0,,0,foe,FIRE-A,fireball,Projectile,3.0,N
+23,Flamethrower,Fire,Special,-,15,90,1,0,burn,30,foe,FIRE-A,fireball,Projectile,3.0,N
+24,Magma Punch,Fire,Physical,-,15,85,0.9,0,,0,foe,FIRE-A,fire_slash,Enemy,2.0,Y
+25,Inferno Blast,Fire,Special,-,5,125,0.75,-1,,0,foe,FIRE-A,orange_flame,Enemy,1.0,N
+26,Scorch Mark,Fire,Status,-,20,,1,0,burn,100,foe,FIRE-B,fire_slash,Enemy,2.0,Y
+27,Cinder Dash,Fire,Physical,-,20,60,1,1,,0,foe,FIRE-B,fire_blast,Projectile,2.0,N
+28,Pyre Strike,Fire,Physical,-,10,100,0.85,0,burn,35,foe,FIRE-B,fire_blast,Projectile,2.0,N
+29,Heat Wave,Fire,Special,-,10,95,0.9,0,,0,foe,FIRE-B,fire_blast,Projectile,2.0,N
+30,Blaze Aura,Fire,Status,-,20,,,0,atk_up,100,self,FIRE-B,fireball,Projectile,3.0,N
+31,Char Swipe,Fire,Physical,-,25,50,0.95,0,,0,foe,FIRE-C,fire_blast,Projectile,2.0,N
+32,Scorchbite,Fire,Physical,-,20,65,0.95,0,burn,25,foe,FIRE-C,fireball,Projectile,3.0,N
+33,Wildfire Surge,Fire,Special,-,5,110,0.8,0,burn,30,foe,FIRE-C,fire_slash,Enemy,2.0,Y
+34,Ashen Veil,Fire,Status,-,15,,,0,def_up,100,self,FIRE-C,fireball,Projectile,3.0,N
+35,Combustion Fist,Fire,Physical,-,10,90,0.9,0,,0,foe,FIRE-C,orange_flame,Enemy,1.0,N
+36,Torch Tackle,Fire,Physical,-,15,80,1,0,,0,foe,FIRE-D,fireball,Projectile,3.0,N
+37,Solar Flare,Fire,Special,-,5,120,0.75,-1,,0,foe,FIRE-D,fireball,Projectile,3.0,N
+38,Brand Mark,Fire,Status,-,15,,1,0,burn,100,foe,FIRE-D,fire_slash,Enemy,2.0,Y
+39,Infernal Rush,Fire,Physical,-,15,75,1,0,,0,foe,FIRE-D,fire_blast,Projectile,2.0,N
+40,Kindling Spark,Fire,Special,-,25,55,1,0,burn,35,foe,FIRE-D,fireball,Projectile,3.0,N
+41,Frost Claw,Ice,Physical,-,25,50,1,0,freeze,15,foe,ICE-A,white_orb,Projectile,1.0,Y
+42,Icicle Spear,Ice,Physical,-,25,55,0.95,0,,0,foe,ICE-A,ice_blast,Enemy,1.0,N
+43,Crystal Lance,Ice,Special,-,15,80,1,0,,0,foe,ICE-A,snowball,Projectile,4.0,N
+44,Glacial Slam,Ice,Physical,-,10,90,0.85,0,freeze,20,foe,ICE-A,ice_blast,Enemy,1.0,N
+45,Blizzard,Ice,Special,-,5,125,0.7,-1,freeze,20,foe,ICE-A,white_orb,Projectile,1.0,Y
+46,Permafrost,Ice,Status,-,15,,1,0,freeze,100,foe,ICE-B,white_orb,Projectile,1.0,Y
+47,Subzero Pulse,Ice,Special,-,10,95,0.9,0,,0,foe,ICE-B,ice_cube,Projectile,2.0,N
+48,Avalanche Rush,Ice,Physical,-,10,85,0.9,0,,0,foe,ICE-B,ice_cube,Projectile,2.0,N
+49,Hailstone Burst,Ice,Special,-,20,65,0.9,0,freeze,30,foe,ICE-B,snowball,Projectile,4.0,N
+50,Frost Armor,Ice,Status,-,20,,,0,def_up2,100,self,ICE-B,snowball,Projectile,4.0,N
+51,Freeze Ray,Ice,Special,-,20,60,1,0,freeze,35,foe,ICE-C,snowball,Projectile,4.0,N
+52,Tundra Crash,Ice,Physical,-,10,100,0.8,0,,0,foe,ICE-C,ice_cube,Projectile,2.0,N
+53,Snowdrift Veil,Ice,Status,-,20,,,0,spd_up,100,self,ICE-C,snowball,Projectile,4.0,N
+54,Cryo Snap,Ice,Physical,-,20,55,1,1,,0,foe,ICE-C,ice_blast,Enemy,1.0,N
+55,Deep Freeze,Ice,Status,-,10,,0.9,0,freeze,100,foe,ICE-C,ice_cube,Projectile,2.0,N
+56,Thunder Jab,Volt,Physical,-,25,50,1,1,,0,foe,VOLT-A,yellow_blast,Projectile,2.0,N
+57,Static Clap,Volt,Special,-,25,55,1,0,paralyze,20,foe,VOLT-A,yellow_explosion,Enemy,2.0,N
+58,Voltbeam,Volt,Special,-,15,90,1,0,,0,foe,VOLT-A,yellow_explosion,Enemy,2.0,N
+59,Arc Surge,Volt,Special,-,10,100,0.85,0,paralyze,30,foe,VOLT-A,yellow_blast,Projectile,2.0,N
+60,Thunderclap,Volt,Special,-,5,120,0.75,-1,paralyze,20,foe,VOLT-A,yellow_explosion,Enemy,2.0,N
+61,Overload,Volt,Status,-,15,,1,0,paralyze,100,foe,VOLT-B,lightning_bolt,Enemy,1.0,Y
+62,Charge Crash,Volt,Physical,-,15,85,0.9,0,,0,foe,VOLT-B,yellow_blast,Projectile,2.0,N
+63,Lightning Dash,Volt,Physical,-,20,65,1,1,,0,foe,VOLT-B,yellow_blast,Projectile,2.0,N
+64,Plasma Burst,Volt,Special,-,5,110,0.8,0,,0,foe,VOLT-B,yellow_blast,Projectile,2.0,N
+65,Dynamo Stance,Volt,Status,-,20,,,0,spAtk_up,100,self,VOLT-B,yellow_explosion,Enemy,2.0,N
+66,Conductor Claw,Volt,Physical,-,15,75,0.95,0,paralyze,30,foe,VOLT-C,yellow_blast,Projectile,2.0,N
+67,Shock Grid,Volt,Status,-,20,,1,0,paralyze,100,foe,VOLT-C,yellow_explosion,Enemy,2.0,N
+68,Galvanic Slam,Volt,Physical,-,10,95,0.9,0,,0,foe,VOLT-C,lightning_bolt,Enemy,1.0,Y
+69,Zap Cannon,Volt,Special,-,5,120,0.7,-1,paralyze,100,foe,VOLT-C,yellow_explosion,Enemy,2.0,N
+70,Spark Burst,Volt,Special,-,25,50,1,0,,0,foe,VOLT-C,yellow_blast,Projectile,2.0,N
+71,Vine Lash,Flora,Physical,-,25,50,1,0,,0,foe,FLORA-A,nut_ball,Projectile,2.0,Y
+72,Thorn Volley,Flora,Physical,-,20,60,0.95,0,poison,25,foe,FLORA-A,nut_ball,Projectile,2.0,Y
+73,Leaf Blade,Flora,Physical,-,15,90,1,0,,0,foe,FLORA-A,nut_ball,Projectile,2.0,Y
+74,Spore Burst,Flora,Status,-,15,,0.95,0,poison,100,foe,FLORA-A,leaf,Projectile,3.0,N
+75,Overgrow Slam,Flora,Physical,-,10,100,0.85,0,,0,foe,FLORA-A,leaf,Projectile,3.0,N
+76,Pollen Guard,Flora,Status,-,20,,,0,def_up,100,self,FLORA-B,nut_ball,Projectile,2.0,Y
+77,Seed Bomb,Flora,Physical,-,15,80,1,0,,0,foe,FLORA-B,green_slash,Enemy,4.0,Y
+78,Flora Pulse,Flora,Special,-,10,95,0.9,0,poison,30,foe,FLORA-B,leaf,Projectile,3.0,N
+79,Briar Tangle,Flora,Physical,-,15,65,0.95,0,,0,foe,FLORA-B,green_slash,Enemy,4.0,Y
+80,Verdant Torrent,Flora,Special,-,5,130,0.7,-1,,0,foe,FLORA-B,leaf,Projectile,3.0,N
+81,Nettle Sting,Flora,Special,-,25,45,1,0,poison,30,foe,FLORA-C,green_health,Self,4.0,N
+82,Root Bind,Flora,Status,-,10,,0.9,0,poison,100,foe,FLORA-C,green_health,Self,4.0,N
+83,Bloom Burst,Flora,Special,-,5,110,0.8,0,,0,foe,FLORA-C,nut_ball,Projectile,2.0,Y
+84,Chloro Slash,Flora,Physical,-,15,70,1,0,,0,foe,FLORA-C,leaf,Projectile,3.0,N
+85,Photosynthesis,Flora,Status,-,10,,,0,heal50,100,self,FLORA-C,nut_ball,Projectile,2.0,Y
+86,Web Snare,Flora,Status,-,20,,1,0,poison,100,foe,FLORA-D,nut_ball,Projectile,2.0,Y
+87,Petal Hurricane,Flora,Special,-,10,100,0.85,0,,0,foe,FLORA-D,green_health,Self,4.0,N
+88,Larva Barrage,Flora,Physical,-,20,55,0.95,0,poison,35,foe,FLORA-D,green_slash,Enemy,4.0,Y
+89,Canopy Crush,Flora,Physical,-,10,85,0.9,0,,0,foe,FLORA-D,leaf,Projectile,3.0,N
+90,Spore Cloud,Flora,Status,-,20,,,0,atk_up,100,self,FLORA-D,leaf,Projectile,3.0,N
+91,Gravel Pelt,Terra,Physical,-,25,45,1,0,,0,foe,TERRA-A,rock_blast,Projectile,2.0,N
+92,Mudshot,Terra,Special,-,25,55,0.95,0,trapped,25,foe,TERRA-A,meteor,Enemy,1.0,N
+93,Rockslide,Terra,Physical,-,15,80,0.9,0,,0,foe,TERRA-A,rock_blast,Projectile,2.0,N
+94,Terra Fissure,Terra,Physical,-,10,100,0.85,0,trapped,30,foe,TERRA-A,rock,Projectile,1.0,Y
+95,Tectonic Slam,Terra,Physical,-,5,130,0.7,-1,,0,foe,TERRA-A,rock_blast,Projectile,2.0,N
+96,Sinkhole,Terra,Status,-,15,,0.9,0,trapped,100,foe,TERRA-B,rock,Projectile,1.0,Y
+97,Boulder Barrage,Terra,Physical,-,10,90,0.85,0,,0,foe,TERRA-B,meteor,Enemy,1.0,N
+98,Sandstorm Surge,Terra,Special,-,20,65,0.9,0,trapped,35,foe,TERRA-B,rock,Projectile,1.0,Y
+99,Quake Stomp,Terra,Physical,-,15,80,1,0,,0,foe,TERRA-B,rock,Projectile,1.0,Y
+100,Stone Bastion,Terra,Status,-,20,,,0,def_up2,100,self,TERRA-B,rock_blast,Projectile,2.0,N
+101,Pebble Rain,Terra,Special,-,25,50,1,0,,0,foe,TERRA-C,rock_slam,Enemy,1.0,N
+102,Clay Mold,Terra,Status,-,15,,0.95,0,trapped,100,foe,TERRA-C,rock_slam,Enemy,1.0,N
+103,Sediment Wave,Terra,Special,-,10,80,0.85,0,,0,foe,TERRA-C,rock_blast,Projectile,2.0,N
+104,Cavern Crash,Terra,Physical,-,10,95,0.85,0,,0,foe,TERRA-C,rock,Projectile,1.0,Y
+105,Geo Break,Terra,Physical,-,15,75,0.95,0,def_down,30,foe,TERRA-C,meteor,Enemy,1.0,N
+106,Earth Veil,Terra,Status,-,15,,,0,def_up,100,self,TERRA-D,rock,Projectile,1.0,Y
+107,Stonewall Smash,Terra,Physical,-,10,100,0.85,0,,0,foe,TERRA-D,rock_blast,Projectile,2.0,N
+108,Magma Crust,Terra,Special,-,5,120,0.75,-1,,0,foe,TERRA-D,meteor,Enemy,1.0,N
+109,Mineral Burst,Terra,Special,-,15,70,0.9,0,trapped,35,foe,TERRA-D,rock_slam,Enemy,1.0,N
+110,Stone Edge,Terra,Physical,-,10,100,0.8,0,,0,foe,TERRA-D,rock,Projectile,1.0,Y
+111,Shadow Lunge,Dark,Physical,-,25,50,1,0,,0,foe,DARK-A,purple_smoke,Enemy,2.0,N
+112,Obsidian Fang,Dark,Physical,-,20,60,1,0,curse,25,foe,DARK-A,purple_fire,Enemy,1.0,N
+113,Nightfall Pulse,Dark,Special,-,15,90,1,0,,0,foe,DARK-A,purple_orb,Projectile,1.0,Y
+114,Umbra Slash,Dark,Physical,-,15,85,0.95,0,,0,foe,DARK-A,purple_orb,Projectile,1.0,Y
+115,Eclipse Bolt,Dark,Special,-,5,120,0.75,-1,,0,foe,DARK-A,purple_smoke,Enemy,2.0,N
+116,Curse Mark,Dark,Status,-,15,,1,0,curse,100,foe,DARK-B,purple_smoke,Enemy,2.0,N
+117,Void Strike,Dark,Physical,-,10,100,0.85,0,curse,30,foe,DARK-B,purple_orb,Projectile,1.0,Y
+118,Gloom Blast,Dark,Special,-,10,95,0.9,0,,0,foe,DARK-B,purple_orb,Projectile,1.0,Y
+119,Shade Siphon,Dark,Special,-,20,65,1,0,,0,foe,DARK-B,purple_smoke,Enemy,2.0,N
+120,Shadowstep,Dark,Status,-,20,,,0,spd_up2,100,self,DARK-B,purple_blast,Projectile,1.0,N
+121,Dread Aura,Dark,Status,-,15,,1,0,curse,100,foe,DARK-C,purple_smoke,Enemy,2.0,N
+122,Nightmare Claw,Dark,Physical,-,15,75,0.95,0,curse,35,foe,DARK-C,purple_blast,Projectile,1.0,N
+123,Abyssal Gaze,Dark,Status,-,20,,,0,atk_up2,100,self,DARK-C,purple_fire,Enemy,1.0,N
+124,Hex Blast,Dark,Special,-,5,110,0.8,0,,0,foe,DARK-C,purple_smoke,Enemy,2.0,N
+125,Dark Pulse,Dark,Special,-,25,55,1,0,,0,foe,DARK-C,purple_orb,Projectile,1.0,Y
+126,Glimmer Touch,Fae,Special,-,25,45,1,0,,0,foe,FAE-A,pink_flame,Enemy,1.0,N
+127,Gossamer Strike,Fae,Physical,-,20,60,0.95,0,sleep,20,foe,FAE-A,pink_blast,Projectile,1.0,N
+128,Pixie Blast,Fae,Special,-,15,90,1,0,,0,foe,FAE-A,pink_blast,Projectile,1.0,N
+129,Enchant Wave,Fae,Status,-,15,,1,0,sleep,100,foe,FAE-A,pink_blast,Projectile,1.0,N
+130,Moonveil Pulse,Fae,Special,-,10,100,0.85,0,,0,foe,FAE-A,pink_petals,Projectile,2.0,Y
+131,Dreamweave,Fae,Status,-,15,,1,0,sleep,100,foe,FAE-B,pink_petals,Projectile,2.0,Y
+132,Blossom Charm,Fae,Status,-,20,,,0,atk_down,100,foe,FAE-B,fairy_blast,Projectile,3.0,N
+133,Wisp Slash,Fae,Physical,-,15,70,1,1,,0,foe,FAE-B,pink_sparkle,Self,1.0,Y
+134,Stardust Surge,Fae,Special,-,5,110,0.8,0,,0,foe,FAE-B,pink_sparkle,Self,1.0,Y
+135,Faerie Ring,Fae,Status,-,15,,,0,spAtk_up2,100,self,FAE-B,pink_sparkle,Self,1.0,Y
+136,Lullaby Dust,Fae,Status,-,20,,0.9,0,sleep,100,foe,FAE-C,pink_flame,Enemy,1.0,N
+137,Starfall,Fae,Special,-,5,125,0.7,-1,,0,foe,FAE-C,pink_petals,Projectile,2.0,Y
+138,Charm Aura,Fae,Status,-,20,,,0,def_up,100,self,FAE-C,fairy_blast,Projectile,3.0,N
+139,Mirage Slash,Fae,Physical,-,15,80,0.9,0,sleep,25,foe,FAE-C,pink_blast,Projectile,1.0,N
+140,Petal Barrage,Fae,Special,-,25,55,1,0,,0,foe,FAE-C,pink_petals,Projectile,2.0,Y
+141,Knuckle Down,Primal,Physical,-,25,50,1,0,,0,foe,PRIMAL-A,punch,Enemy,1.0,N
+142,Gut Charge,Primal,Physical,-,20,65,1,0,frenzy,25,self,PRIMAL-A,green_health,Self,4.0,N
+143,Instinct Slash,Primal,Physical,-,15,80,0.95,0,,0,foe,PRIMAL-A,punch,Enemy,1.0,N
+144,Wild Haymaker,Primal,Physical,-,10,100,0.8,0,,0,foe,PRIMAL-A,slash,Enemy,2.0,N
+145,Apex Strike,Primal,Physical,-,5,130,0.75,-1,,0,foe,PRIMAL-A,jaws,Enemy,1.0,N
+146,Primal Roar,Primal,Status,-,20,,,0,atk_up2,100,self,PRIMAL-B,punch,Enemy,1.0,N
+147,Iron Will Strike,Primal,Physical,-,15,75,1,0,,0,foe,PRIMAL-B,slash,Enemy,2.0,N
+148,Berserk Rush,Primal,Physical,-,5,120,0.85,0,frenzy,100,self,PRIMAL-B,jaws,Enemy,1.0,N
+149,Ground Pound,Primal,Physical,-,20,60,1,0,,0,foe,PRIMAL-B,green_health,Self,4.0,N
+150,Savage Aura,Primal,Status,-,15,,,0,frenzy,100,self,PRIMAL-B,jaws,Enemy,1.0,N
+151,Headbutt Charge,Primal,Physical,-,15,70,1,0,,0,foe,PRIMAL-C,jaws,Enemy,1.0,N
+152,Savagery,Primal,Status,-,15,,,0,atk_up,100,self,PRIMAL-C,jaws,Enemy,1.0,N
+153,Feral Bite,Primal,Physical,-,20,55,0.95,0,frenzy,30,self,PRIMAL-C,punch,Enemy,1.0,N
+154,Concussive Blow,Primal,Physical,-,10,85,0.9,0,,0,foe,PRIMAL-C,jaws,Enemy,1.0,N
+155,Rough Tumble,Primal,Physical,-,25,45,0.95,0,,0,foe,PRIMAL-C,punch,Enemy,1.0,N
+156,Primal Surge,Primal,Special,-,10,90,0.9,0,,0,foe,PRIMAL-D,slash,Enemy,2.0,N
+157,Body Press Crush,Primal,Physical,-,10,100,1,0,,0,foe,PRIMAL-D,green_health,Self,4.0,N
+158,Bone Rattler,Primal,Physical,-,15,75,0.85,0,def_down,35,foe,PRIMAL-D,slash,Enemy,2.0,N
+159,Primal Howl,Primal,Status,-,20,,,0,def_down,100,foe,PRIMAL-D,green_health,Self,4.0,N
+160,Endure Break,Primal,Physical,-,10,95,0.9,0,frenzy,35,self,PRIMAL-D,green_health,Self,4.0,N
+161,Quick Strike,Flex,Physical,-,30,40,1,1,,0,foe,FLEX-A,slash,Enemy,1.0,N
+162,Focus Strike,Flex,Physical,-,20,60,1,0,,0,foe,FLEX-A,slash,Enemy,1.0,N
+163,Power Surge,Flex,Special,-,15,80,1,0,,0,foe,FLEX-A,punch,Enemy,1.0,N
+164,Rally,Flex,Status,-,20,,,0,atk_up,100,self,FLEX-A,green_health,Self,4.0,N
+165,Mega Blast,Flex,Special,-,5,120,0.8,-1,,0,foe,FLEX-A,punch,Enemy,1.0,N
+166,Gale Dive,Flex,Physical,Avian,20,65,1,1,,0,foe,AVIAN-A,,,,
+167,Talon Strike,Flex,Physical,Avian,15,80,0.95,0,,0,foe,AVIAN-A,,,,
+168,Featherstorm,Flex,Special,Avian,10,90,0.85,0,,0,foe,AVIAN-A,,,,
+169,Soaring Peck,Flex,Physical,Avian,25,50,1,0,,0,foe,AVIAN-A,,,,
+170,Pounce,Flex,Physical,Feline,20,65,1,1,,0,foe,FELINE-A,,,,
+171,Claw Flurry,Flex,Physical,Feline,15,80,0.95,0,,0,foe,FELINE-A,,,,
+172,Hiss Aura,Flex,Status,Feline,20,,,0,atk_up,100,self,FELINE-A,,,,
+173,Night Prowl,Flex,Physical,Feline,15,70,1,0,,0,foe,FELINE-A,,,,
+174,Pulp Burst,Flex,Special,Harvest,20,55,1,0,,0,foe,HARVEST-A,,,,
+175,Juicy Splash,Flex,Special,Harvest,15,70,0.95,0,,0,foe,HARVEST-A,,,,
+176,Pit Hurl,Flex,Physical,Harvest,20,65,1,0,,0,foe,HARVEST-A,,,,
+177,Petal Shower,Flex,Special,Floral,25,40,1,0,,0,foe,FLORAL-A,,,,
+178,Bloom Aura,Flex,Status,Floral,20,,,0,def_up,100,self,FLORAL-A,,,,
+179,Nectar Pulse,Flex,Special,Floral,15,70,0.95,0,,0,foe,FLORAL-A,,,,
+180,Stamen Sting,Flex,Physical,Floral,20,60,1,0,,0,foe,FLORAL-A,,,,
+181,Maul,Flex,Physical,Ursine,15,90,0.85,0,,0,foe,URSINE-A,,,,
+182,Bear Hug,Flex,Physical,Ursine,10,80,1,0,,0,foe,URSINE-A,,,,
+183,Hibernation Wake,Flex,Status,Ursine,10,,,0,atk_up2,100,self,URSINE-A,,,,
+184,Cub Swipe,Flex,Physical,Ursine,20,60,1,0,,0,foe,URSINE-A,,,,
+185,Shell Bash,Flex,Physical,Carapace,15,80,1,0,,0,foe,CARAPACE-A,,,,
+186,Withdraw Guard,Flex,Status,Carapace,20,,,0,def_up2,100,self,CARAPACE-A,,,,
+187,Spiral Slam,Flex,Physical,Carapace,10,90,0.85,0,,0,foe,CARAPACE-A,,,,
+188,Spine Volley,Flex,Physical,Cactoid,20,55,0.95,0,,0,foe,CACTOID-A,,,,
+189,Needle Rush,Flex,Physical,Cactoid,15,70,1,0,,0,foe,CACTOID-A,,,,
+190,Desert Thorn,Flex,Special,Cactoid,10,85,0.9,0,,0,foe,CACTOID-A,,,,
+191,Jaw Clamp,Flex,Physical,Canine,20,70,1,0,,0,foe,CANINE-A,,,,
+192,Howl Surge,Flex,Status,Canine,20,,,0,atk_up,100,self,CANINE-A,,,,
+193,Fetch Fling,Flex,Physical,Canine,20,55,1,0,,0,foe,CANINE-A,,,,
+194,Pack Tackle,Flex,Physical,Canine,15,80,0.95,0,,0,foe,CANINE-A,,,,
+195,Wool Wrap,Flex,Status,Ovine,20,,,0,def_up,100,self,OVINE-A,,,,
+196,Headbutt Bleat,Flex,Physical,Ovine,20,65,1,0,,0,foe,OVINE-A,,,,
+197,Fleecy Guard,Flex,Status,Ovine,15,,,0,def_up2,100,self,OVINE-A,,,,
+198,Hoofstrike,Flex,Physical,Equine,20,80,1,0,,0,foe,EQUINE-A,,,,
+199,Gallop Charge,Flex,Physical,Equine,15,90,0.95,1,,0,foe,EQUINE-A,,,,
+200,Mane Whip,Flex,Physical,Equine,20,65,1,0,,0,foe,EQUINE-A,,,,
+201,Stampede,Flex,Physical,Equine,5,120,0.8,-1,,0,foe,EQUINE-A,,,,
+202,Scale Slash,Flex,Physical,Dragon,15,80,1,0,,0,foe,DRAGON-A,,,,
+203,Dragon Roar,Flex,Status,Dragon,20,,,0,atk_up2,100,self,DRAGON-A,,,,
+204,Dragonsbreath Bite,Flex,Physical,Dragon,10,90,0.85,0,,0,foe,DRAGON-A,,,,
+205,Serpent Coil,Flex,Physical,Dragon,10,75,0.95,0,,0,foe,DRAGON-A,,,,
+206,Ancient Surge,Flex,Special,Dragon,5,120,0.8,-1,,0,foe,DRAGON-A,,,,
+207,Gear Grind,Flex,Physical,Mech,20,65,1,0,,0,foe,MECH-A,,,,
+208,Laser Array,Flex,Special,Mech,10,100,0.85,0,,0,foe,MECH-A,,,,
+209,Coolant Spray,Flex,Status,Mech,20,,,0,def_up,100,self,MECH-A,,,,
+210,Overclocked Strike,Flex,Physical,Mech,10,110,0.8,0,,0,foe,MECH-A,,,,
