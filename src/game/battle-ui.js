@@ -420,6 +420,35 @@ function hideMoveTip() {
   getMoveTipEl().classList.add('tip-hidden');
 }
 
+// ── Trainer speech bubble ─────────────────────────────────────────────────────
+let _bubbleTimers = {};
+function showTrainerBubble(side, text) {
+  const trainerEl = document.getElementById(`${side}-trainer-img`);
+  if (!trainerEl) return;
+  const sideEl = trainerEl.closest('.battle-side');
+  if (!sideEl) return;
+
+  // Reuse or create the bubble element
+  let bubble = sideEl.querySelector('.trainer-bubble');
+  if (!bubble) {
+    bubble = document.createElement('div');
+    bubble.className = 'trainer-bubble';
+    sideEl.appendChild(bubble);
+  }
+
+  bubble.textContent = text;
+  // Force reflow so transition fires even on rapid re-triggers
+  bubble.classList.remove('bubble-visible');
+  void bubble.offsetWidth;
+  bubble.classList.add('bubble-visible');
+
+  // Clear any existing hide timer for this side
+  clearTimeout(_bubbleTimers[side]);
+  _bubbleTimers[side] = setTimeout(() => {
+    bubble.classList.remove('bubble-visible');
+  }, 2200);
+}
+
 // ── Action UI ─────────────────────────────────────────────────────────────────
 export function switchBattleTab(tab) {
   currentBattleTab = tab;
@@ -446,19 +475,33 @@ function renderMoveButtons() {
     const isOut    = (move.currentPP ?? 0) <= 0;
     const ppLow    = !isOut && (move.currentPP ?? move.pp) <= 2;
     const ppColor  = isOut ? '#c0614a' : ppLow ? '#facc15' : 'var(--muted)';
-    const accDisplay = move.accuracy != null ? Math.round(move.accuracy * 100) + '%' : '—';
+    const catClass = move.category === 'Physical' ? 'move-cat-physical'
+                   : move.category === 'Special'  ? 'move-cat-special'
+                   : 'move-cat-status';
+    const catLabel = move.category === 'Physical' ? 'PHY'
+                   : move.category === 'Special'  ? 'SPC'
+                   : 'STA';
+    const pwrStr   = move.category !== 'Status'
+                   ? `<span class="move-stat"><strong>${move.power || '—'}</strong> PWR</span>` : '';
+    const accStr   = `<span class="move-stat"><strong>${move.accuracy != null ? Math.round(move.accuracy * 100) + '%' : '—'}</strong> ACC</span>`;
     const priTag   = (move.priority ?? 0) !== 0
-      ? `<span style="color:${(move.priority??0)>0?'#4ade80':'#f87171'};font-size:0.62rem"> ${(move.priority??0)>0?'▲':'▼'}PRI</span>`
-      : '';
+                   ? `<span style="color:${(move.priority??0)>0?'#4ade80':'#f87171'};font-size:0.62rem;flex-shrink:0">${(move.priority??0)>0?'▲':'▼'}PRI</span>`
+                   : '';
 
     const btn = document.createElement('button');
     btn.className = 'move-btn' + (isOut ? ' move-btn-exhausted' : '');
     btn.disabled  = isOut;
     btn.innerHTML = `
-      <div class="move-name" style="display:flex;align-items:center;gap:5px;flex-wrap:wrap">
-        <span class="type-badge" style="background:${typeColor(move.resolvedType || move.type)};font-size:9px;flex-shrink:0">${move.resolvedType || move.type}</span>
-        <span style="flex:1;min-width:0">${move.name}${priTag}</span>
-        ${effStr ? `<span class="move-eff-hint ${effClass}" style="font-size:0.65rem;white-space:nowrap">${effStr}</span>` : ''}
+      <div class="move-btn-top">
+        <span style="width:9px;height:9px;border-radius:50%;flex-shrink:0;display:inline-block;background:${typeColor(move.resolvedType || move.type)}"></span>
+        <span class="move-name">${move.name}</span>
+        ${priTag}
+      </div>
+      <div class="move-btn-bottom">
+        <span class="move-cat-badge ${catClass}">${catLabel}</span>
+        ${pwrStr}
+        ${accStr}
+        ${effStr ? `<span class="move-eff-hint ${effClass}">${effStr}</span>` : ''}
       </div>`;
     if (!isOut) {
       btn.onclick = () => doPlayerAction({ type: 'move', moveName: move.name });
@@ -699,7 +742,10 @@ async function doPlayerAction(action) {
     battle.pendingAction = action;
     setActionsWaiting();
   } else {
-    if (action.type === 'move') await playMoveAnim(action.moveName, 'player');
+    if (action.type === 'move') {
+      showTrainerBubble('player', action.moveName + '!');
+      await playMoveAnim(action.moveName, 'player');
+    }
     const enemyHpBefore = battle.enemy.team[battle.enemy.activeIdx].currentHp;
     executeAction('player', action, battle, logger);
     if (battle.enemy.team[battle.enemy.activeIdx].currentHp < enemyHpBefore) flashHit('enemy');
@@ -708,7 +754,10 @@ async function doPlayerAction(action) {
     if (!battle.isOver) {
       await new Promise(r => setTimeout(r, 350));
       const aiAction = getAIAction(battle);
-      if (aiAction.type === 'move') await playMoveAnim(aiAction.moveName, 'enemy');
+      if (aiAction.type === 'move') {
+        showTrainerBubble('enemy', aiAction.moveName + '!');
+        await playMoveAnim(aiAction.moveName, 'enemy');
+      }
       const playerHpBefore = battle.player.team[battle.player.activeIdx].currentHp;
       executeAction('enemy', aiAction, battle, logger);
       if (battle.player.team[battle.player.activeIdx].currentHp < playerHpBefore) flashHit('player');
