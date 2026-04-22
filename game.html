@@ -7,9 +7,9 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Caesar+Dressing&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
 
-  <script type="module" crossorigin src="/eidolon/assets/game-ba2b2f04.js"></script>
+  <script type="module" crossorigin src="/eidolon/assets/game-88154633.js"></script>
   <link rel="modulepreload" crossorigin href="/eidolon/assets/preload-helper-63f02e83.js">
-  <link rel="stylesheet" href="/eidolon/assets/game-ccd3891d.css">
+  <link rel="stylesheet" href="/eidolon/assets/game-1535fb9a.css">
 </head>
 <body>
 
@@ -162,7 +162,7 @@
     </div>
   </div>
   <div class="battle-bottom">
-    <div class="battle-log" id="battle-log"></div>
+    <div class="battle-log" id="battle-log" style="flex:1;min-width:0"></div>
     <div class="battle-actions">
       <div class="action-tabs">
         <button class="action-tab tab-active" id="tab-moves" onclick="switchBattleTab('moves')">Moves</button>
@@ -201,5 +201,32 @@
 <div class="toast" id="toast"></div>
 
 
+<script>
+// DIAG — paste output in chat, then we'll remove this
+document.addEventListener('click', function diagOnce() {
+  setTimeout(() => {
+    const b  = document.querySelector('.battle-bottom');
+    const l  = document.querySelector('.battle-log');
+    const a  = document.querySelector('.battle-actions');
+    const fr = document.querySelector('.battle-frame');
+    if (!b) return;
+    const cs = el => window.getComputedStyle(el);
+    console.group('DIAG battle layout');
+    console.log('frame   offsetWidth:', fr && fr.offsetWidth);
+    console.log('bottom  offsetWidth:', b.offsetWidth, ' overflow:', cs(b).overflow);
+    console.log('log     offsetWidth:', l && l.offsetWidth, ' flex:', l && cs(l).flex);
+    console.log('actions offsetWidth:', a && a.offsetWidth, ' width:', a && cs(a).width);
+    for (const sheet of document.styleSheets) {
+      try {
+        for (const rule of sheet.cssRules) {
+          if (rule.selectorText && /battle-log|battle-actions/.test(rule.selectorText))
+            console.log('RULE:', rule.selectorText, '|', rule.style.cssText, '|', sheet.href||'inline');
+        }
+      } catch(e) {}
+    }
+    console.groupEnd();
+  }, 800);
+}, { once: true });
+</script>
 </body>
 </html>
