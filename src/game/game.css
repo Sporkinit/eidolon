@@ -15,30 +15,28 @@ html,body{height:100%;background:var(--bg);color:var(--text);font-family:'Outfit
 .screen{display:none;min-height:100vh;flex-direction:column}
 .screen.active{display:flex}
 
-/* Battle screen overrides — centres the fixed frame */
+/* Battle screen — dark letterbox, centres the 9:16 card */
 #screen-battle.active{
   min-height:0;
   height:100vh;
-  align-items:stretch;
-  justify-content:flex-start;
-  background:var(--bg);
+  align-items:center;
+  justify-content:center;
+  background:#0a0a0f;
   padding:0;
   overflow:hidden;
 }
 
-/* The battle frame — fluid width, capped at 1200px on desktop */
+/* The battle frame — true 9:16 card, fills phone, centered card on desktop */
 .battle-frame{
-  width:100%;
-  max-width:1200px;
-  height:100vh;
+  width:  min(100vw, calc(100vh * 9 / 16), 480px);
+  height: min(100vh, calc(100vw * 16 / 9), calc(480px * 16 / 9));
   display:flex;
   flex-direction:column;
   border:1px solid var(--border);
   border-radius:var(--radius);
   overflow:hidden;
   flex-shrink:0;
-  margin:0 auto;
-  box-shadow:0 0 0 1px rgba(255,255,255,0.03), 0 24px 64px rgba(0,0,0,0.7);
+  box-shadow:0 0 0 1px rgba(255,255,255,0.04), 0 24px 80px rgba(0,0,0,0.8);
 }
 /* ── Type badges ── */
 .type-badge{display:inline-block;padding:2px 10px;border-radius:20px;font-size:11px;font-weight:500;color:#fff;text-transform:capitalize;letter-spacing:0.3px}
@@ -240,211 +238,151 @@ html,body{height:100%;background:var(--bg);color:var(--text);font-family:'Outfit
 .opp-pool-mini-name{font-size:0.68rem;font-family:'Caesar Dressing',cursive;text-transform:capitalize}
 
 /* ═══════════════════════════════════════════════════
-   BATTLE SCREEN
+   BATTLE SCREEN — fixed 420×746 canvas, scaled to fit
 ═══════════════════════════════════════════════════ */
-#screen-battle{overflow:auto}
+
+/* Letterbox */
+#screen-battle.active{
+  min-height:0;height:100vh;width:100vw;
+  align-items:center;justify-content:center;
+  background:#0a0a0f;padding:0;overflow:hidden;
+}
+
+/* Fixed canvas — JS sets transform:scale() on this */
+.battle-frame{
+  width:420px;height:746px;
+  flex-shrink:0;display:flex;flex-direction:column;
+  border:1px solid var(--border);border-radius:var(--radius);
+  overflow:hidden;transform-origin:center center;
+  box-shadow:0 0 0 1px rgba(255,255,255,0.04),0 24px 80px rgba(0,0,0,0.8);
+}
 
 .battle-scene{
-  /* Take ~55% of viewport height, capped at 360px on tall screens */
-  height:clamp(200px, 55vh, 360px);
-  width:100%;
-  flex-shrink:0;
+  width:420px;height:300px;flex-shrink:0;
   display:flex;flex-direction:column;
   background:linear-gradient(180deg,#0d0f1a 0%,#151825 50%,#1e2235 100%);
   position:relative;overflow:hidden;
-  /* Sprite vars constrained by width AND available field height (scene minus HP panel ~80px) */
-  --field-h: min(calc(55vh - 80px), 280px);
-  --trainer-sz: min(230px, 19vw, var(--field-h));
-  --active-sz:  min(225px, 18vw, var(--field-h));
-  --bench-sz:   min(120px, 10vw, calc(var(--field-h) * 0.55));
 }
-
-/* Background image */
 .battle-bg-img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center;pointer-events:none;z-index:0}
 
-/* HP panels */
-.hp-panels-row{display:flex;justify-content:space-between;padding:0.75rem 1.5rem;gap:1rem;position:relative;z-index:2;
-  max-width:1200px;width:100%;margin:0 auto;align-self:center;box-sizing:border-box;}
-.hp-panel{background:rgba(13,13,18,0.85);border:1px solid var(--border);border-radius:10px;padding:0.6rem 0.9rem;min-width:190px;backdrop-filter:blur(4px)}
+.hp-panels-row{display:flex;justify-content:space-between;padding:8px 10px;gap:8px;position:relative;z-index:2;width:100%;box-sizing:border-box}
+.hp-panel{background:rgba(13,13,18,0.88);border:1px solid var(--border);border-radius:8px;padding:6px 8px;width:185px;flex-shrink:0;backdrop-filter:blur(4px)}
 .hp-panel.enemy-panel{text-align:right}
-.hp-panel-name{font-family:'Caesar Dressing',cursive;font-size:1rem;text-transform:capitalize}
-.hp-panel-types{display:flex;gap:4px;margin:3px 0}
+.hp-panel-name{font-family:'Caesar Dressing',cursive;font-size:0.9rem;text-transform:capitalize;line-height:1.2}
+.hp-panel-types{display:flex;gap:3px;margin:2px 0}
 .hp-panel.enemy-panel .hp-panel-types{justify-content:flex-end}
-.hp-bar-bg{height:7px;background:var(--surface2);border-radius:4px;overflow:hidden;margin:3px 0}
-.hp-bar-fill{height:100%;border-radius:4px;transition:width 0.4s ease}
-.hp-nums{font-size:0.72rem;color:var(--muted)}
-.status-pip{display:inline-block;font-size:0.65rem;font-weight:700;padding:1px 5px;border-radius:3px;margin-left:5px;vertical-align:middle}
+.hp-bar-bg{height:6px;background:var(--surface2);border-radius:3px;overflow:hidden;margin:3px 0}
+.hp-bar-fill{height:100%;border-radius:3px;transition:width 0.4s ease}
+.hp-nums{font-size:0.65rem;color:var(--muted)}
+.status-pip{display:inline-block;font-size:0.6rem;font-weight:700;padding:1px 4px;border-radius:3px;margin-left:4px;vertical-align:middle}
 .pip-burn{background:#e8601f;color:#fff}.pip-sleep{background:#3a2260;color:#fff}
 .pip-poison{background:#c760d4;color:#fff}.pip-paralyze{background:#c9a800;color:#000}
 .pip-freeze{background:#58c8e8;color:#000}.pip-curse{background:#6b21a8;color:#fff}
 .pip-soak{background:#2680d4;color:#fff}.pip-trapped{background:#8b6840;color:#fff}
 .pip-frenzy{background:#c0614a;color:#fff}.pip-daze{background:#888899;color:#fff}
 
-/* Bench HP mini-rows inside HP panels */
-.bench-hp-rows{margin-top:5px;display:flex;flex-direction:column;gap:3px}
+.bench-hp-rows{margin-top:4px;display:flex;flex-direction:column;gap:2px}
 .bench-hp-row{opacity:0.85}
 .bench-hp-row.bench-hp-fainted{opacity:0.35}
-.bench-hp-name{font-size:0.62rem;color:var(--muted);text-transform:capitalize;font-family:'Caesar Dressing',cursive;
-  letter-spacing:0.02em;margin-bottom:1px;line-height:1.2}
-.bench-hp-bar-bg{height:4px;background:var(--surface2);border-radius:3px;overflow:hidden}
-.bench-hp-bar-fill{height:100%;border-radius:3px;transition:width 0.4s ease}
+.bench-hp-name{font-size:0.58rem;color:var(--muted);text-transform:capitalize;font-family:'Caesar Dressing',cursive;letter-spacing:0.02em;margin-bottom:1px;line-height:1.2}
+.bench-hp-bar-bg{height:3px;background:var(--surface2);border-radius:2px;overflow:hidden}
+.bench-hp-bar-fill{height:100%;border-radius:2px;transition:width 0.4s ease}
 
-/* Battle field — full width, sides pushed to outer edges */
-.battle-field{
-  flex:1;display:flex;justify-content:space-between;align-items:flex-end;
-  padding:0 0.5rem 0;
-  position:relative;z-index:2;
-  width:100%;
-}
+.battle-field{position:relative;z-index:2;width:100%;flex:1;overflow:hidden}
 
-/* Each side is a fixed-width block; trainer always on the outer edge */
-.battle-side{
-  width:46%;
-  display:flex;flex-direction:row;align-items:flex-end;
-  position:relative;gap:0;
-  justify-content:flex-start;
-}
-.battle-side.enemy-side{
-  flex-direction:row-reverse;
-  justify-content:flex-start;
-}
+/* Sides are just containers for tooltips/bubbles, no layout role */
+.battle-side{position:absolute;inset:0;pointer-events:none}
 
-/* Trainer — outward, full opacity, grounded */
-.trainer-img{
-  width:var(--trainer-sz);height:var(--trainer-sz);
+/* ── Player side: pokemon left:0, trainer left:140px ── */
+.battle-side:not(.enemy-side) .trainer-img{
+  position:absolute;bottom:0;left:-10px;
+  width:130px;height:160px;
   object-fit:contain;object-position:bottom;
-  opacity:1;flex-shrink:0;
-  position:relative;z-index:1;
+  z-index:1;pointer-events:auto;
 }
-.enemy-side .trainer-img {
-  transform: scaleX(-1);
-}
-
-/* ── Trainer speech bubble ── */
-.trainer-bubble{
-  position:absolute;
-  bottom:calc(var(--trainer-sz) * 0.74); /* ~170px at full size */
-  z-index:10;
-  background:rgba(255,255,255,0.96);
-  color:#0d0d12;
-  font-family:'Caesar Dressing',cursive;
-  font-size:0.8rem;
-  white-space:nowrap;
-  padding:5px 11px;
-  border-radius:12px;
-  box-shadow:0 2px 12px rgba(0,0,0,0.45);
-  pointer-events:none;
-  opacity:0;
-  transform:translateY(6px);
-  transition:opacity 0.15s ease, transform 0.15s ease;
-}
-.trainer-bubble.bubble-visible{
-  opacity:1;
-  transform:translateY(0);
-}
-/* Downward tail */
-.trainer-bubble::after{
-  content:'';
-  position:absolute;
-  top:100%;
-  width:0;height:0;
-  border:7px solid transparent;
-  border-top-color:rgba(255,255,255,0.96);
-}
-/* Player side: bubble appears to the RIGHT of the trainer */
-.battle-side:not(.enemy-side) .trainer-bubble{
-  left:calc(var(--trainer-sz) * 0.74);
-}
-.battle-side:not(.enemy-side) .trainer-bubble::after{
-  left:14px;
-}
-/* Enemy side: bubble appears to the LEFT of the trainer */
-.enemy-side .trainer-bubble{
-  right:calc(var(--trainer-sz) * 0.74);
-}
-.enemy-side .trainer-bubble::after{
-  right:14px;
+.battle-side:not(.enemy-side) .active-sprite-wrap{
+  position:absolute;bottom:-30px;left:60px;
+  z-index:3;pointer-events:auto;
 }
 
-/* Active creature — larger, inward, grounded */
-.active-sprite-wrap{position:relative;z-index:3;}
-.active-side-img{
-  width:var(--active-sz);height:var(--active-sz);
+/* ── Enemy side: pokemon right:0, trainer right:140px ── */
+.battle-side.enemy-side .trainer-img{
+  position:absolute;bottom:0;left:310px;  /* 420-130-140 */
+  width:130px;height:160px;
   object-fit:contain;object-position:bottom;
-  display:block;opacity:1;
-  filter:drop-shadow(0 4px 18px rgba(0,0,0,0.65));
-  transform-origin:bottom center;
+  transform:scaleX(-1);
+  z-index:1;pointer-events:auto;
 }
+.battle-side.enemy-side .active-sprite-wrap{
+  position:absolute;bottom:-30px;left:230px;  /* 420-140 */
+  z-index:3;pointer-events:auto;
+}
+
+.trainer-bubble{position:absolute;bottom:110px;z-index:10;background:rgba(255,255,255,0.96);color:#0d0d12;font-family:'Caesar Dressing',cursive;font-size:0.75rem;white-space:nowrap;padding:4px 9px;border-radius:10px;box-shadow:0 2px 10px rgba(0,0,0,0.45);pointer-events:none;opacity:0;transform:translateY(6px);transition:opacity 0.15s ease,transform 0.15s ease}
+.trainer-bubble.bubble-visible{opacity:1;transform:translateY(0)}
+.trainer-bubble::after{content:'';position:absolute;top:100%;width:0;height:0;border:6px solid transparent;border-top-color:rgba(255,255,255,0.96)}
+/* Player: bubble appears to the right of trainer (trainer left:0, width 130px) */
+.battle-side:not(.enemy-side) .trainer-bubble{left:60px}
+.battle-side:not(.enemy-side) .trainer-bubble::after{left:10px}
+/* Enemy: bubble appears to the left of trainer (trainer left:290px) — anchor to right edge */
+.enemy-side .trainer-bubble{left:auto;right:50px}
+.enemy-side .trainer-bubble::after{right:10px;left:auto}
+
+.active-side-img{width:140px;height:140px;object-fit:contain;object-position:bottom;display:block;opacity:1;filter:drop-shadow(0 4px 14px rgba(0,0,0,0.65));transform-origin:bottom center}
 .active-side-img.flip{transform:scaleX(-1)}
 .active-side-img.fainted-sprite{filter:grayscale(1) opacity(0.3)}
 
-/* Bench sprites — absolute at trainer's feet, overlapping naturally */
-.bench-sprites{
-  position:absolute;bottom:0;left:0;
-  display:flex;flex-direction:row;gap:2px;z-index:2;
-}
-.battle-side.enemy-side .bench-sprites{left:auto;right:0;}
-.bench-sprite-wrap{opacity:1;transition:opacity 0.2s}
-.bench-sprite-wrap.fainted-bench{opacity:0.18;filter:grayscale(1)}
-.bench-side-img{width:var(--bench-sz);height:var(--bench-sz);object-fit:contain;object-position:bottom;display:block;transform-origin:bottom center;}
-.bench-side-img.flip{transform:scaleX(-1)}
+/* Bench sprites — hidden */
+.bench-sprites{display:none}
+.bench-sprite-wrap{display:none}
+.bench-side-img{display:none}
 
-/* Bottom: log + actions — always stacked vertically */
-.battle-bottom{background:var(--bg);border-top:2px solid var(--border);display:flex;flex-direction:column;flex:1;min-height:0;overflow:hidden}
-.battle-log{flex:0 1 260px;min-height:60px;padding:0.6rem 1rem;overflow-y:auto;border-bottom:1px solid var(--border)}
-.log-line{font-size:0.8rem;padding:0.18rem 0;border-bottom:1px solid rgba(255,255,255,0.03);color:var(--text)}
+.battle-bottom{background:var(--bg);border-top:2px solid var(--border);display:flex;flex-direction:column;flex:1;overflow:hidden}
+.battle-log{height:130px;flex-shrink:0;padding:6px 10px;overflow-y:auto;border-bottom:1px solid var(--border)}
+.log-line{font-size:0.75rem;padding:2px 0;border-bottom:1px solid rgba(255,255,255,0.03);color:var(--text);line-height:1.35}
 .log-line.log-hit{color:#7eb8f7}.log-line.log-dmg{color:#c0614a}.log-line.log-heal{color:#3aad5e}
 .log-line.log-status{color:#c760d4}.log-line.log-highlight{color:#c9a800;font-weight:600}
-.log-line.log-muted{color:var(--muted);font-size:0.72rem}
-.log-turn-header{
-  font-family:'Caesar Dressing',cursive;font-size:0.78rem;letter-spacing:0.08em;
-  color:var(--muted);padding:0.35rem 0 0.15rem;margin-top:0.25rem;
-  border-bottom:1px solid rgba(255,255,255,0.07);display:block
-}
-.battle-actions{flex:1 1 0;min-height:0;width:100%;display:flex;flex-direction:column;border-left:none;overflow:hidden}
-.action-tabs{display:flex;border-bottom:1px solid var(--border)}
-.action-tab{flex:1;padding:0.4rem;text-align:center;font-size:0.75rem;font-weight:600;text-transform:uppercase;
-  letter-spacing:0.05em;cursor:pointer;color:var(--muted);transition:all 0.1s;font-family:'Outfit',sans-serif;background:none;border:none}
+.log-line.log-muted{color:var(--muted);font-size:0.68rem}
+.log-turn-header{font-family:'Caesar Dressing',cursive;font-size:0.72rem;letter-spacing:0.08em;color:var(--muted);padding:3px 0 2px;margin-top:2px;border-bottom:1px solid rgba(255,255,255,0.07);display:block}
+
+.battle-actions{flex:1;min-height:0;display:flex;flex-direction:column;overflow:hidden}
+.action-tabs{display:flex;border-bottom:1px solid var(--border);flex-shrink:0}
+.action-tab{flex:1;padding:6px;text-align:center;font-size:0.72rem;font-weight:600;text-transform:uppercase;letter-spacing:0.05em;cursor:pointer;color:var(--muted);transition:all 0.1s;font-family:'Outfit',sans-serif;background:none;border:none}
 .action-tab.tab-active{color:var(--accent);border-bottom:2px solid var(--accent)}
-.action-panel{flex:1;min-height:0;padding:0.5rem;overflow-y:auto}
-.move-btn{width:100%;background:var(--surface2);border:1px solid var(--border);border-radius:6px;padding:0.4rem 0.65rem;
-  margin-bottom:0.3rem;text-align:left;cursor:pointer;transition:all 0.1s;color:var(--text);font-family:'Outfit',sans-serif}
+.action-panel{flex:1;min-height:0;padding:6px;overflow-y:auto}
+.move-btn{width:100%;background:var(--surface2);border:1px solid var(--border);border-radius:6px;padding:6px 8px;margin-bottom:4px;text-align:left;cursor:pointer;transition:all 0.1s;color:var(--text);font-family:'Outfit',sans-serif}
 .move-btn:hover{border-color:var(--accent);background:rgba(126,184,247,0.05)}
 .move-btn:disabled,.move-btn-exhausted{opacity:0.38;cursor:not-allowed;filter:grayscale(0.6);border-color:rgba(255,255,255,0.04)!important;background:rgba(255,255,255,0.02)!important}
-.move-btn-top{display:flex;align-items:center;gap:0.3rem;margin-bottom:0.18rem}
-.move-name{font-size:0.85rem;font-weight:600;font-family:'Caesar Dressing',cursive;flex:1;min-width:0}
-.move-btn-bottom{display:flex;align-items:center;gap:0.35rem;flex-wrap:nowrap}
-.move-stat{font-size:0.68rem;color:var(--muted);white-space:nowrap}
+.move-btn-top{display:flex;align-items:center;gap:4px;margin-bottom:2px}
+.move-name{font-size:0.82rem;font-weight:600;font-family:'Caesar Dressing',cursive;flex:1;min-width:0}
+.move-btn-bottom{display:flex;align-items:center;gap:4px;flex-wrap:nowrap}
+.move-stat{font-size:0.65rem;color:var(--muted);white-space:nowrap}
 .move-stat strong{color:var(--text);font-weight:600}
-.move-cat-badge{font-size:0.6rem;font-weight:700;padding:1px 4px;border-radius:3px;text-transform:uppercase;letter-spacing:0.02em;white-space:nowrap;flex-shrink:0}
+.move-cat-badge{font-size:0.58rem;font-weight:700;padding:1px 3px;border-radius:3px;text-transform:uppercase;letter-spacing:0.02em;white-space:nowrap;flex-shrink:0}
 .move-cat-physical{background:rgba(201,168,0,0.18);color:#c9a800;border:1px solid rgba(201,168,0,0.3)}
 .move-cat-special{background:rgba(126,184,247,0.15);color:#7eb8f7;border:1px solid rgba(126,184,247,0.25)}
 .move-cat-status{background:rgba(136,136,153,0.18);color:#888899;border:1px solid rgba(136,136,153,0.3)}
-.move-meta{font-size:0.7rem;color:var(--muted)}
-.move-eff-hint{font-size:0.68rem;font-weight:600;margin-left:auto;white-space:nowrap}
+.move-meta{font-size:0.68rem;color:var(--muted)}
+.move-eff-hint{font-size:0.62rem;font-weight:600;margin-left:auto;white-space:nowrap}
 .move-eff-super{color:#3aad5e}.move-eff-weak{color:#c0614a}
 .move-tooltip{border-color:rgba(255,255,255,0.12)!important}
-.switch-btn{width:100%;background:var(--surface2);border:1px solid var(--border);border-radius:6px;padding:0.35rem 0.65rem;
-  margin-bottom:0.3rem;text-align:left;cursor:pointer;transition:all 0.1s;color:var(--text);font-family:'Outfit',sans-serif;
-  display:flex;align-items:center;gap:0.5rem}
+.switch-btn{width:100%;background:var(--surface2);border:1px solid var(--border);border-radius:6px;padding:6px 8px;margin-bottom:4px;text-align:left;cursor:pointer;transition:all 0.1s;color:var(--text);font-family:'Outfit',sans-serif;display:flex;align-items:center;gap:8px}
 .switch-btn:hover{border-color:#3aad5e;background:rgba(58,173,94,0.05)}
 .switch-btn:disabled{opacity:0.25;cursor:not-allowed}
-.switch-thumb{width:36px;height:36px;object-fit:contain;border-radius:50%;background:var(--surface);border:1px solid var(--border)}
-.waiting-msg{color:var(--muted);font-size:0.85rem;text-align:center;padding:1rem}
+.switch-thumb{width:32px;height:32px;object-fit:contain;border-radius:50%;background:var(--surface);border:1px solid var(--border)}
+.waiting-msg{color:var(--muted);font-size:0.82rem;text-align:center;padding:1rem}
 
-.creature-tooltip{position:absolute;z-index:50;background:rgba(13,13,18,0.97);border:1px solid var(--border);
-  border-radius:10px;padding:0.75rem;min-width:200px;max-width:230px;pointer-events:none;
-  box-shadow:0 8px 32px rgba(0,0,0,0.6);backdrop-filter:blur(8px);transition:opacity 0.15s}
+.creature-tooltip{position:absolute;z-index:50;background:rgba(13,13,18,0.97);border:1px solid var(--border);border-radius:10px;padding:10px;min-width:180px;max-width:210px;pointer-events:none;box-shadow:0 8px 32px rgba(0,0,0,0.6);backdrop-filter:blur(8px);transition:opacity 0.15s}
 .creature-tooltip.tip-hidden{opacity:0}
-.tip-name{font-family:'Caesar Dressing',cursive;font-size:1rem;text-transform:capitalize;margin-bottom:2px}
-.tip-id{font-size:0.65rem;color:var(--muted);letter-spacing:0.05em;margin-bottom:4px}
-.tip-stat-row{display:flex;justify-content:space-between;font-size:0.72rem;padding:2px 0}
+.tip-name{font-family:'Caesar Dressing',cursive;font-size:0.95rem;text-transform:capitalize;margin-bottom:2px}
+.tip-id{font-size:0.62rem;color:var(--muted);letter-spacing:0.05em;margin-bottom:4px}
+.tip-stat-row{display:flex;justify-content:space-between;font-size:0.68rem;padding:2px 0}
 .tip-stat-label{color:var(--muted)}
 .tip-stat-val{font-weight:600}
-.tip-hp-bar{height:5px;background:var(--surface2);border-radius:3px;overflow:hidden;margin:4px 0 6px}
+.tip-hp-bar{height:4px;background:var(--surface2);border-radius:3px;overflow:hidden;margin:4px 0 5px}
 .tip-hp-fill{height:100%;border-radius:3px;transition:width 0.3s}
-.tip-moves{margin-top:6px;display:flex;flex-direction:column;gap:3px}
-.tip-move{font-size:0.7rem;background:var(--surface2);border-radius:4px;padding:2px 6px}
+.tip-moves{margin-top:5px;display:flex;flex-direction:column;gap:2px}
+.tip-move{font-size:0.67rem;background:var(--surface2);border-radius:4px;padding:2px 5px}
 
 /* ═══════════════════════════════════════════════════
    RESULT SCREEN
@@ -547,14 +485,5 @@ html,body{height:100%;background:var(--bg);color:var(--text);font-family:'Outfit
 
 @media(max-width:700px){
   .draft-layout{grid-template-columns:1fr}
-  .battle-frame{border-radius:0;border-left:none;border-right:none}
-
-  /* HP panel asymmetry — equal padding, fluid panels, no overflow */
-  .hp-panels-row{padding:0.5rem;gap:0.4rem}
-  .hp-panel{min-width:0;flex:1 1 0;padding:0.45rem 0.6rem}
-  .hp-panel-name{font-size:0.85rem}
-
-  /* Shrink log to ~5 lines on small screens */
-  .battle-log{height:115px;max-height:115px}
 }
 .rank-stars{font-size:0.75rem;color:#c9a800;letter-spacing:1px;margin:2px 0}

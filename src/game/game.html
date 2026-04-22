@@ -227,24 +227,5 @@ document.addEventListener('click', function diagOnce() {
   }, 800);
 }, { once: true });
 </script>
-<script>
-// Scale the 420×746 battle frame to fit any screen
-function scaleBattleFrame() {
-  const frame = document.querySelector('.battle-frame');
-  if (!frame) return;
-  const s = Math.min(window.innerWidth / 420, window.innerHeight / 746);
-  frame.style.transform = 'scale(' + s + ')';
-}
-scaleBattleFrame();
-window.addEventListener('resize', scaleBattleFrame);
-// Re-scale whenever battle screen becomes active
-const _origShowScreen = window.showScreen;
-if (typeof _origShowScreen === 'function') {
-  window.showScreen = function(name) {
-    _origShowScreen(name);
-    if (name === 'battle') setTimeout(scaleBattleFrame, 0);
-  };
-}
-</script>
 </body>
 </html>
