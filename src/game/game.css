@@ -245,12 +245,17 @@ html,body{height:100%;background:var(--bg);color:var(--text);font-family:'Outfit
 #screen-battle{overflow:auto}
 
 .battle-scene{
-  height:min(360px, 50vh);
+  /* Clamp height: min 180px on tiny screens, 300px default, max 360px on tall desktop */
+  height:clamp(180px, 38vh, 360px);
   width:100%;
   flex-shrink:0;
   display:flex;flex-direction:column;
   background:linear-gradient(180deg,#0d0f1a 0%,#151825 50%,#1e2235 100%);
-  position:relative;overflow:hidden
+  position:relative;overflow:hidden;
+  /* Sprite scale vars — everything inside derives from scene height */
+  --trainer-sz: min(230px, 28vh);
+  --active-sz:  min(225px, 26vh);
+  --bench-sz:   min(120px, 14vh);
 }
 
 /* Background image */
@@ -258,7 +263,7 @@ html,body{height:100%;background:var(--bg);color:var(--text);font-family:'Outfit
 
 /* HP panels */
 .hp-panels-row{display:flex;justify-content:space-between;padding:0.75rem 1.5rem;gap:1rem;position:relative;z-index:2;
-  max-width:1200px;width:100%;margin:0 auto;align-self:center;}
+  max-width:1200px;width:100%;margin:0 auto;align-self:center;box-sizing:border-box;}
 .hp-panel{background:rgba(13,13,18,0.85);border:1px solid var(--border);border-radius:10px;padding:0.6rem 0.9rem;min-width:190px;backdrop-filter:blur(4px)}
 .hp-panel.enemy-panel{text-align:right}
 .hp-panel-name{font-family:'Caesar Dressing',cursive;font-size:1rem;text-transform:capitalize}
@@ -305,7 +310,7 @@ html,body{height:100%;background:var(--bg);color:var(--text);font-family:'Outfit
 
 /* Trainer — outward, full opacity, grounded */
 .trainer-img{
-  width:230px;height:230px;
+  width:var(--trainer-sz);height:var(--trainer-sz);
   object-fit:contain;object-position:bottom;
   opacity:1;flex-shrink:0;
   position:relative;z-index:1;
@@ -317,7 +322,7 @@ html,body{height:100%;background:var(--bg);color:var(--text);font-family:'Outfit
 /* ── Trainer speech bubble ── */
 .trainer-bubble{
   position:absolute;
-  bottom:170px;           /* roughly above trainer's head (trainer is 230px, head ~upper third) */
+  bottom:calc(var(--trainer-sz) * 0.74); /* ~170px at full size */
   z-index:10;
   background:rgba(255,255,255,0.96);
   color:#0d0d12;
@@ -345,16 +350,16 @@ html,body{height:100%;background:var(--bg);color:var(--text);font-family:'Outfit
   border:7px solid transparent;
   border-top-color:rgba(255,255,255,0.96);
 }
-/* Player side: bubble appears to the RIGHT of the trainer (trainer is at left:0, width 230px) */
+/* Player side: bubble appears to the RIGHT of the trainer */
 .battle-side:not(.enemy-side) .trainer-bubble{
-  left:170px;
+  left:calc(var(--trainer-sz) * 0.74);
 }
 .battle-side:not(.enemy-side) .trainer-bubble::after{
   left:14px;
 }
-/* Enemy side: bubble appears to the LEFT of the trainer (trainer is at right:0, width 230px) */
+/* Enemy side: bubble appears to the LEFT of the trainer */
 .enemy-side .trainer-bubble{
-  right:170px;
+  right:calc(var(--trainer-sz) * 0.74);
 }
 .enemy-side .trainer-bubble::after{
   right:14px;
@@ -363,7 +368,7 @@ html,body{height:100%;background:var(--bg);color:var(--text);font-family:'Outfit
 /* Active creature — larger, inward, grounded */
 .active-sprite-wrap{position:relative;z-index:3;}
 .active-side-img{
-  width:225px;height:225px;
+  width:var(--active-sz);height:var(--active-sz);
   object-fit:contain;object-position:bottom;
   display:block;opacity:1;
   filter:drop-shadow(0 4px 18px rgba(0,0,0,0.65));
@@ -380,7 +385,7 @@ html,body{height:100%;background:var(--bg);color:var(--text);font-family:'Outfit
 .battle-side.enemy-side .bench-sprites{left:auto;right:0;}
 .bench-sprite-wrap{opacity:1;transition:opacity 0.2s}
 .bench-sprite-wrap.fainted-bench{opacity:0.18;filter:grayscale(1)}
-.bench-side-img{width:120px;height:120px;object-fit:contain;object-position:bottom;display:block;transform-origin:bottom center;}
+.bench-side-img{width:var(--bench-sz);height:var(--bench-sz);object-fit:contain;object-position:bottom;display:block;transform-origin:bottom center;}
 .bench-side-img.flip{transform:scaleX(-1)}
 
 /* Bottom: log + actions — takes remaining height after scene */
@@ -542,24 +547,30 @@ html,body{height:100%;background:var(--bg);color:var(--text);font-family:'Outfit
 @media(max-width:700px){
   .draft-layout{grid-template-columns:1fr}
   .battle-frame{border-radius:0;border-left:none;border-right:none}
-  .active-side-img{width:120px;height:120px}
-  .trainer-img{width:70px;height:120px}
-  .bench-side-img{width:44px;height:44px}
+
+  /* HP panel asymmetry — equal padding, fluid panels, no overflow */
+  .hp-panels-row{padding:0.5rem;gap:0.4rem}
+  .hp-panel{min-width:0;flex:1 1 0;padding:0.45rem 0.6rem}
+  .hp-panel-name{font-size:0.85rem}
+
+  /* Remove min-height constraint so small scenes don't force overflow */
+  .battle-field{min-height:0}
 
   /* Stack log above actions so neither is crushed */
-  .battle-bottom{
-    flex-direction:column;
-  }
+  .battle-bottom{flex-direction:column}
+  /* Cap log to ~5 lines */
   .battle-log{
-    flex:1 1 0;
-    min-height:0;
+    flex:0 0 auto;
+    height:calc(5 * 1.6rem + 1.2rem);
+    overflow-y:auto;
     border-bottom:1px solid var(--border);
   }
   .battle-actions{
+    flex:1 1 0;
+    min-height:0;
     width:100% !important;
-    flex-shrink:0;
     border-left:none;
-    max-height:55vw;
+    overflow-y:auto;
   }
 }
 .rank-stars{font-size:0.75rem;color:#c9a800;letter-spacing:1px;margin:2px 0}
