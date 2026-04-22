@@ -548,6 +548,13 @@ html,body{height:100%;background:var(--bg);color:var(--text);font-family:'Outfit
   .draft-layout{grid-template-columns:1fr}
   .battle-frame{border-radius:0;border-left:none;border-right:none}
 
+  /* Scale sprites to viewport width so they never overlap on narrow screens */
+  .battle-scene{
+    --trainer-sz: min(130px, 22vw);
+    --active-sz:  min(125px, 21vw);
+    --bench-sz:   min(64px,  11vw);
+  }
+
   /* HP panel asymmetry — equal padding, fluid panels, no overflow */
   .hp-panels-row{padding:0.5rem;gap:0.4rem}
   .hp-panel{min-width:0;flex:1 1 0;padding:0.45rem 0.6rem}
@@ -557,11 +564,13 @@ html,body{height:100%;background:var(--bg);color:var(--text);font-family:'Outfit
   .battle-field{min-height:0}
 
   /* Stack log above actions so neither is crushed */
-  .battle-bottom{flex-direction:column}
-  /* Cap log to ~5 lines */
+  .battle-bottom{flex-direction:column;overflow:hidden}
+
+  /* Hard pixel height for ~5 log lines (each line ~19px at 0.8rem/1.5 line-height + 2px border) */
   .battle-log{
-    flex:0 0 auto;
-    height:calc(5 * 1.6rem + 1.2rem);
+    flex:0 0 115px;
+    height:115px;
+    max-height:115px;
     overflow-y:auto;
     border-bottom:1px solid var(--border);
   }
