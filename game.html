@@ -7,9 +7,9 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Caesar+Dressing&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
 
-  <script type="module" crossorigin src="/eidolon/assets/game-cba11854.js"></script>
+  <script type="module" crossorigin src="/eidolon/assets/game-d1430679.js"></script>
   <link rel="modulepreload" crossorigin href="/eidolon/assets/preload-helper-63f02e83.js">
-  <link rel="stylesheet" href="/eidolon/assets/game-d9b1d007.css">
+  <link rel="stylesheet" href="/eidolon/assets/game-489c084e.css">
 </head>
 <body>
 
@@ -120,6 +120,7 @@
 
 <!-- ═══════════════ BATTLE ═══════════════ -->
 <div id="screen-battle" class="screen">
+  <div class="battle-frame">
   <div class="battle-scene">
     <img class="battle-bg-img" id="battle-bg-img" src="" alt="" onerror="this.style.display='none'">
     <div class="hp-panels-row">
@@ -162,7 +163,7 @@
     </div>
   </div>
   <div class="battle-bottom">
-    <div class="battle-log" id="battle-log" style="flex:1;min-width:0"></div>
+    <div class="battle-log" id="battle-log"></div>
     <div class="battle-actions">
       <div class="action-tabs">
         <button class="action-tab tab-active" id="tab-moves" onclick="switchBattleTab('moves')">Moves</button>
@@ -170,6 +171,7 @@
       </div>
       <div class="action-panel" id="action-panel"></div>
     </div>
+  </div>
   </div>
 </div>
 
@@ -227,6 +229,25 @@ document.addEventListener('click', function diagOnce() {
     console.groupEnd();
   }, 800);
 }, { once: true });
+</script>
+<script>
+// Scale the 420×746 battle frame to fit any screen
+function scaleBattleFrame() {
+  const frame = document.querySelector('.battle-frame');
+  if (!frame) return;
+  const s = Math.min(window.innerWidth / 420, window.innerHeight / 746);
+  frame.style.transform = 'scale(' + s + ')';
+}
+scaleBattleFrame();
+window.addEventListener('resize', scaleBattleFrame);
+// Re-scale whenever battle screen becomes active
+const _origShowScreen = window.showScreen;
+if (typeof _origShowScreen === 'function') {
+  window.showScreen = function(name) {
+    _origShowScreen(name);
+    if (name === 'battle') setTimeout(scaleBattleFrame, 0);
+  };
+}
 </script>
 </body>
 </html>
