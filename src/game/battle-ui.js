@@ -16,7 +16,8 @@ let battleBgSrc = '', playerTrainerSrc = '', enemyTrainerSrc = '';
 let turnNumber = 0;
 
 // ── Selected trainer (set from draft screen) ──────────────────────────────────
-export let selectedTrainerIndex = null; // null = random
+export let selectedTrainerIndex = null;       // null = random
+export let selectedEnemyTrainerIndex = null;  // null = random
 
 // Static src per battle side — used as the resting image between attacks
 const _trainerStaticSrc = { player: '', enemy: '' };
@@ -86,6 +87,7 @@ export async function initDraftTrainerPicker() {
 
   playerWrap.innerHTML = '<span style="font-size:0.75rem;color:var(--muted)">Loading…</span>';
   selectedTrainerIndex = null;
+  selectedEnemyTrainerIndex = null;
 
   const pIndices = await scanTrainers('trainer_p');
   playerWrap.innerHTML = '';
@@ -117,6 +119,7 @@ export async function initDraftTrainerPicker() {
   const eIndices = await scanTrainers('trainer_e');
   if (eIndices.length && enemyImg) {
     const eIdx = eIndices[Math.floor(Math.random() * eIndices.length)];
+    selectedEnemyTrainerIndex = eIdx;
     enemyImg.src = `${PUBLIC_PATH}trainers/trainer_e${eIdx}.webp`;
     if (enemyLabel) enemyLabel.textContent = `Trainer #${eIdx}`;
   }
@@ -175,10 +178,12 @@ export function startBattleUI(battleState, solo, websocket, playerIndex) {
     if (el) { el.src = staticSrc; el.style.opacity = ''; }
   });
 
-  // Enemy trainer — always random
+  // Enemy trainer — use index chosen during draft, or random fallback
   scanTrainers('trainer_e').then(async indices => {
     if (!indices.length) return;
-    const idx = indices[Math.floor(Math.random() * indices.length)];
+    const idx = (selectedEnemyTrainerIndex !== null && indices.includes(selectedEnemyTrainerIndex))
+      ? selectedEnemyTrainerIndex
+      : indices[Math.floor(Math.random() * indices.length)];
     const { staticSrc, animSrc } = await probeTrainerSrcs('trainer_e', idx);
     _trainerStaticSrc.enemy = staticSrc;
     _trainerAnimSrc.enemy   = animSrc || staticSrc;

@@ -7,6 +7,97 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Caesar+Dressing&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/src/game/game.css">
+<style>
+/* Draft trainer picker overrides — must come after game.css link to win */
+
+/* Player trainer buttons — label below the frame, not inside */
+.draft-trainer-btn {
+  overflow:visible !important;
+  display:flex !important;
+  flex-direction:column !important;
+  align-items:center !important;
+  gap:6px !important;
+  background:none !important;
+  border:none !important;
+  padding:0 !important;
+}
+.draft-trainer-btn .trainer-frame {
+  width:220px;
+  height:240px;
+  overflow:hidden;
+  background:var(--surface2);
+  border:2px solid var(--border);
+  border-radius:8px;
+  display:flex;
+  align-items:flex-end;
+  justify-content:flex-start;
+}
+.draft-trainer-btn.trainer-selected .trainer-frame {
+  border-color:#3aad5e;
+  background:rgba(58,173,94,0.07);
+  box-shadow:0 0 12px rgba(58,173,94,0.3);
+}
+.draft-trainer-btn:hover .trainer-frame {
+  border-color:var(--accent);
+  transform:translateY(-2px);
+}
+.draft-trainer-btn img{
+  width:224px !important;
+  height:224px !important;
+  object-fit:contain !important;
+  object-position:left bottom !important;
+  display:block !important;
+  flex-shrink:0 !important;
+  margin-right:-55px !important;
+  margin-left:10px !important;
+  border-radius:0 !important;
+}
+.draft-trainer-btn-label {
+  font-size:0.85rem !important;
+  color:var(--muted);
+  font-family:'Caesar Dressing',cursive;
+  letter-spacing:0.05em;
+}
+
+/* Enemy trainer — same frame size, same image treatment */
+.draft-trainer-enemy-wrap {
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  gap:6px;
+}
+.draft-trainer-enemy-wrap .trainer-frame {
+  width:220px;
+  height:240px;
+  overflow:hidden;
+  background:var(--surface2);
+  border:1px solid var(--border);
+  border-radius:8px;
+  display:flex;
+  align-items:flex-end;
+  justify-content:flex-start;
+}
+.draft-trainer-enemy-wrap img{
+  width:224px !important;
+  height:224px !important;
+  object-fit:contain !important;
+  object-position:left bottom !important;
+  display:block !important;
+  flex-shrink:0 !important;
+  margin-right:-55px !important;
+  margin-left:10px !important;
+  border:none !important;
+  border-radius:0 !important;
+  padding:0 !important;
+  opacity:1 !important;
+  background:none !important;
+}
+.draft-trainer-enemy-label {
+  font-size:0.85rem !important;
+  color:var(--muted);
+  font-family:'Caesar Dressing',cursive;
+}
+</style>
 </head>
 <body>
 
@@ -99,6 +190,24 @@
     <div style="color:var(--muted);font-size:0.85rem" id="draft-status">Pick 3 for your battle team</div>
     <button class="btn btn-green btn-sm" id="draft-confirm-btn" onclick="confirmDraft()" disabled>Lock In →</button>
   </div>
+
+  <!-- Trainer selection row -->
+  <div class="draft-trainer-row">
+    <div class="draft-trainer-col">
+      <div class="draft-col-label">Your Trainer</div>
+      <div class="draft-trainer-picks" id="draft-player-trainers"></div>
+    </div>
+    <div class="draft-trainer-col draft-trainer-col-enemy">
+      <div class="draft-col-label" style="text-align:right">Opponent Trainer</div>
+      <div class="draft-trainer-enemy-wrap" id="draft-enemy-trainer-wrap">
+        <div class="trainer-frame">
+          <img id="draft-enemy-trainer-img" src="" alt="Opponent trainer" onerror="this.style.opacity='0.15'">
+        </div>
+        <div class="draft-trainer-enemy-label">???</div>
+      </div>
+    </div>
+  </div>
+
   <div class="draft-layout">
     <div>
       <div class="draft-col-label">Your Pool — pick 3</div>
