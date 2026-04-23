@@ -117,6 +117,7 @@
 
 <!-- ═══════════════ BATTLE ═══════════════ -->
 <div id="screen-battle" class="screen">
+  <div class="battle-frame">
   <div class="battle-scene">
     <img class="battle-bg-img" id="battle-bg-img" src="" alt="" onerror="this.style.display='none'">
     <div class="hp-panels-row">
@@ -168,6 +169,7 @@
       <div class="action-panel" id="action-panel"></div>
     </div>
   </div>
+  </div>
 </div>
 
 <!-- ═══════════════ RESULT ═══════════════ -->
@@ -198,5 +200,51 @@
 <div class="toast" id="toast"></div>
 
 <script type="module" src="/src/game/main.js"></script>
+<script>
+// DIAG — paste output in chat, then we'll remove this
+document.addEventListener('click', function diagOnce() {
+  setTimeout(() => {
+    const b  = document.querySelector('.battle-bottom');
+    const l  = document.querySelector('.battle-log');
+    const a  = document.querySelector('.battle-actions');
+    const fr = document.querySelector('.battle-frame');
+    if (!b) return;
+    const cs = el => window.getComputedStyle(el);
+    console.group('DIAG battle layout');
+    console.log('frame   offsetWidth:', fr && fr.offsetWidth);
+    console.log('bottom  offsetWidth:', b.offsetWidth, ' overflow:', cs(b).overflow);
+    console.log('log     offsetWidth:', l && l.offsetWidth, ' flex:', l && cs(l).flex);
+    console.log('actions offsetWidth:', a && a.offsetWidth, ' width:', a && cs(a).width);
+    for (const sheet of document.styleSheets) {
+      try {
+        for (const rule of sheet.cssRules) {
+          if (rule.selectorText && /battle-log|battle-actions/.test(rule.selectorText))
+            console.log('RULE:', rule.selectorText, '|', rule.style.cssText, '|', sheet.href||'inline');
+        }
+      } catch(e) {}
+    }
+    console.groupEnd();
+  }, 800);
+}, { once: true });
+</script>
+<script>
+// Scale the 420×746 battle frame to fit any screen
+function scaleBattleFrame() {
+  const frame = document.querySelector('.battle-frame');
+  if (!frame) return;
+  const s = Math.min(window.innerWidth / 420, window.innerHeight / 746);
+  frame.style.transform = 'scale(' + s + ')';
+}
+scaleBattleFrame();
+window.addEventListener('resize', scaleBattleFrame);
+// Re-scale whenever battle screen becomes active
+const _origShowScreen = window.showScreen;
+if (typeof _origShowScreen === 'function') {
+  window.showScreen = function(name) {
+    _origShowScreen(name);
+    if (name === 'battle') setTimeout(scaleBattleFrame, 0);
+  };
+}
+</script>
 </body>
 </html>

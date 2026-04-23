@@ -237,6 +237,29 @@ html,body{height:100%;background:var(--bg);color:var(--text);font-family:'Outfit
 .opp-pool-mini img{width:52px;height:52px;object-fit:contain;display:block;margin:0 auto 2px}
 .opp-pool-mini-name{font-size:0.68rem;font-family:'Caesar Dressing',cursive;text-transform:capitalize}
 
+/* Draft trainer row */
+.draft-trainer-row{
+  display:flex;align-items:flex-start;justify-content:space-between;
+  background:var(--surface);border:1px solid var(--border);border-radius:10px;
+  padding:0.75rem 1rem;gap:1rem;
+}
+.draft-trainer-col{display:flex;flex-direction:column;gap:0.5rem;flex:1}
+.draft-trainer-col-enemy{align-items:flex-end;flex:0 0 auto}
+.draft-trainer-picks{display:flex;gap:0.5rem;flex-wrap:wrap;align-items:flex-end;min-height:116px}
+.draft-trainer-btn{
+  background:var(--surface2);border:2px solid var(--border);border-radius:8px;
+  padding:0.3rem;cursor:pointer;transition:all 0.15s;position:relative;
+  display:flex;flex-direction:column;align-items:center;gap:2px;
+}
+.draft-trainer-btn img{width:92px;height:116px;object-fit:contain;object-position:bottom;display:block;border-radius:4px}
+.draft-trainer-btn:hover{border-color:var(--accent);transform:translateY(-2px)}
+.draft-trainer-btn.trainer-selected{border-color:#3aad5e;background:rgba(58,173,94,0.1);box-shadow:0 0 10px rgba(58,173,94,0.25)}
+.draft-trainer-btn-label{font-size:0.6rem;color:var(--muted);font-family:'Caesar Dressing',cursive;letter-spacing:0.05em}
+.draft-trainer-enemy-wrap{display:flex;flex-direction:column;align-items:center;gap:4px}
+.draft-trainer-enemy-wrap img{width:104px;height:130px;object-fit:contain;object-position:bottom;
+  background:var(--surface2);border:1px solid var(--border);border-radius:8px;padding:4px}
+.draft-trainer-enemy-label{font-size:0.65rem;color:var(--muted);font-family:'Caesar Dressing',cursive}
+
 /* ═══════════════════════════════════════════════════
    BATTLE SCREEN — fixed 420×746 canvas, scaled to fit
 ═══════════════════════════════════════════════════ */
@@ -295,26 +318,26 @@ html,body{height:100%;background:var(--bg);color:var(--text);font-family:'Outfit
 
 /* ── Player side: pokemon left:0, trainer left:140px ── */
 .battle-side:not(.enemy-side) .trainer-img{
-  position:absolute;bottom:0;left:-10px;
-  width:130px;height:160px;
+  position:absolute;bottom:-5px;left:-30px;
+  width:162px;height:198px;
   object-fit:contain;object-position:bottom;
   z-index:1;pointer-events:auto;
 }
 .battle-side:not(.enemy-side) .active-sprite-wrap{
-  position:absolute;bottom:-30px;left:60px;
+  position:absolute;bottom:-35px;left:60px;
   z-index:3;pointer-events:auto;
 }
 
 /* ── Enemy side: pokemon right:0, trainer right:140px ── */
 .battle-side.enemy-side .trainer-img{
-  position:absolute;bottom:0;left:310px;  /* 420-130-140 */
-  width:130px;height:160px;
+  position:absolute;bottom:-5px;left:290px;  /* 420-130-140 */
+  width:162px;height:198px;
   object-fit:contain;object-position:bottom;
   transform:scaleX(-1);
   z-index:1;pointer-events:auto;
 }
 .battle-side.enemy-side .active-sprite-wrap{
-  position:absolute;bottom:-30px;left:230px;  /* 420-140 */
+  position:absolute;bottom:-35px;left:230px;  /* 420-140 */
   z-index:3;pointer-events:auto;
 }
 
@@ -485,5 +508,7 @@ html,body{height:100%;background:var(--bg);color:var(--text);font-family:'Outfit
 
 @media(max-width:700px){
   .draft-layout{grid-template-columns:1fr}
+  .draft-trainer-row{flex-direction:column}
+  .draft-trainer-col-enemy{align-items:flex-start}
 }
 .rank-stars{font-size:0.75rem;color:#c9a800;letter-spacing:1px;margin:2px 0}

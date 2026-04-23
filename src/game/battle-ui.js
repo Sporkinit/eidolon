@@ -15,6 +15,113 @@ export let myIndex = 0;
 let battleBgSrc = '', playerTrainerSrc = '', enemyTrainerSrc = '';
 let turnNumber = 0;
 
+// ── Selected trainer (set from draft screen) ──────────────────────────────────
+export let selectedTrainerIndex = null; // null = random
+
+// Static src per battle side — used as the resting image between attacks
+const _trainerStaticSrc = { player: '', enemy: '' };
+// Animated src per battle side — swapped in on attack, then back to static
+const _trainerAnimSrc   = { player: '', enemy: '' };
+// Timers for reverting trainer back to static after anim
+const _trainerAnimTimers = { player: null, enemy: null };
+
+// Probe whether trainer_pN_anim.webp exists; returns { staticSrc, animSrc }
+// animSrc is null if no animated version is found.
+function probeTrainerSrcs(prefix, index) {
+  const staticSrc = `${PUBLIC_PATH}trainers/${prefix}${index}.webp`;
+  const animSrc   = `${PUBLIC_PATH}trainers/${prefix}${index}_anim.webp`;
+  return new Promise(resolve => {
+    const probe = new Image();
+    probe.onload  = () => resolve({ staticSrc, animSrc });
+    probe.onerror = () => resolve({ staticSrc, animSrc: null });
+    probe.src = animSrc;
+  });
+}
+
+// Scan for trainer_pN.webp or trainer_eN.webp — returns array of found indices
+async function scanTrainers(prefix, maxScan = 20) {
+  const found = [];
+  await Promise.all(
+    Array.from({ length: maxScan }, (_, i) => i + 1).map(i =>
+      new Promise(res => {
+        const img = new Image();
+        img.onload  = () => { found.push(i); res(); };
+        img.onerror = () => res();
+        img.src = `${PUBLIC_PATH}trainers/${prefix}${i}.webp`;
+      })
+    )
+  );
+  found.sort((a, b) => a - b);
+  return found;
+}
+
+export { scanTrainers };
+
+// Play the trainer animated webp once on attack, then revert to static.
+// Called from showTrainerBubble so it fires exactly when the bubble appears.
+function playTrainerAnim(side) {
+  const el      = document.getElementById(`${side}-trainer-img`);
+  const animSrc = _trainerAnimSrc[side];
+  const staticSrc = _trainerStaticSrc[side];
+  if (!el || !animSrc || !staticSrc) return;
+
+  // Force a fresh load of the animated webp so it plays from frame 0
+  el.src = '';
+  el.src = animSrc;
+
+  // Revert to static after a generous window (2.5 s covers most trainer anims)
+  clearTimeout(_trainerAnimTimers[side]);
+  _trainerAnimTimers[side] = setTimeout(() => {
+    if (el.src !== staticSrc) el.src = staticSrc;
+  }, 2500);
+}
+
+// ── Draft trainer picker ──────────────────────────────────────────────────────
+export async function initDraftTrainerPicker() {
+  const playerWrap = document.getElementById('draft-player-trainers');
+  const enemyImg   = document.getElementById('draft-enemy-trainer-img');
+  const enemyLabel = document.querySelector('.draft-trainer-enemy-label');
+
+  if (!playerWrap) return;
+
+  playerWrap.innerHTML = '<span style="font-size:0.75rem;color:var(--muted)">Loading…</span>';
+  selectedTrainerIndex = null;
+
+  const pIndices = await scanTrainers('trainer_p');
+  playerWrap.innerHTML = '';
+
+  if (!pIndices.length) {
+    playerWrap.innerHTML = `<span style="font-size:0.75rem;color:var(--muted)">No trainers found</span>`;
+  } else {
+    for (const idx of pIndices) {
+      const staticSrc = `${PUBLIC_PATH}trainers/trainer_p${idx}.webp`;
+      const btn = document.createElement('button');
+      btn.className = 'draft-trainer-btn';
+      btn.dataset.trainerIdx = idx;
+      btn.innerHTML = `
+        <div class="trainer-frame">
+          <img src="${staticSrc}" alt="Trainer ${idx}" onerror="this.style.opacity='0.15'">
+        </div>
+        <span class="draft-trainer-btn-label">#${idx}</span>`;
+      btn.onclick = () => {
+        selectedTrainerIndex = idx;
+        playerWrap.querySelectorAll('.draft-trainer-btn').forEach(b => b.classList.remove('trainer-selected'));
+        btn.classList.add('trainer-selected');
+      };
+      playerWrap.appendChild(btn);
+    }
+    const first = playerWrap.querySelector('.draft-trainer-btn');
+    if (first) first.click();
+  }
+
+  const eIndices = await scanTrainers('trainer_e');
+  if (eIndices.length && enemyImg) {
+    const eIdx = eIndices[Math.floor(Math.random() * eIndices.length)];
+    enemyImg.src = `${PUBLIC_PATH}trainers/trainer_e${eIdx}.webp`;
+    if (enemyLabel) enemyLabel.textContent = `Trainer #${eIdx}`;
+  }
+}
+
 // ── Touch detection — disable all hover tooltips on touch devices ─────────────
 const _isTouch = ('ontouchstart' in window) || (navigator.maxTouchPoints > 0);
 
@@ -53,15 +160,30 @@ export function startBattleUI(battleState, solo, websocket, playerIndex) {
     const el = document.getElementById('battle-bg-img');
     if (el) { el.src = PUBLIC_PATH + s; el.style.display = 'block'; }
   });
-  pickRandom('trainers', 'trainer_p', '.webp').then(s => {
-    playerTrainerSrc = s;
+
+  // Player trainer — use selected index from draft, or random
+  // Always display static; animated webp plays once on attack via playTrainerAnim()
+  scanTrainers('trainer_p').then(async indices => {
+    if (!indices.length) return;
+    const idx = (selectedTrainerIndex !== null && indices.includes(selectedTrainerIndex))
+      ? selectedTrainerIndex
+      : indices[Math.floor(Math.random() * indices.length)];
+    const { staticSrc, animSrc } = await probeTrainerSrcs('trainer_p', idx);
+    _trainerStaticSrc.player = staticSrc;
+    _trainerAnimSrc.player   = animSrc || staticSrc;
     const el = document.getElementById('player-trainer-img');
-    if (el) { el.src = PUBLIC_PATH + s; el.style.opacity = ''; }
+    if (el) { el.src = staticSrc; el.style.opacity = ''; }
   });
-  pickRandom('trainers', 'trainer_e', '.webp').then(s => {
-    enemyTrainerSrc = s;
+
+  // Enemy trainer — always random
+  scanTrainers('trainer_e').then(async indices => {
+    if (!indices.length) return;
+    const idx = indices[Math.floor(Math.random() * indices.length)];
+    const { staticSrc, animSrc } = await probeTrainerSrcs('trainer_e', idx);
+    _trainerStaticSrc.enemy = staticSrc;
+    _trainerAnimSrc.enemy   = animSrc || staticSrc;
     const el = document.getElementById('enemy-trainer-img');
-    if (el) { el.src = PUBLIC_PATH + s; el.style.opacity = ''; }
+    if (el) { el.src = staticSrc; el.style.opacity = ''; }
   });
 
   renderBattle();
@@ -427,6 +549,9 @@ function showTrainerBubble(side, text) {
   if (!trainerEl) return;
   const sideEl = trainerEl.closest('.battle-side');
   if (!sideEl) return;
+
+  // Play the trainer's animated webp once (if it exists), then revert to static
+  playTrainerAnim(side);
 
   // Reuse or create the bubble element
   let bubble = sideEl.querySelector('.trainer-bubble');
@@ -850,9 +975,49 @@ function logTurnHeader(turn) {
 
 // ctx is an optional object carrying extra detail: { dmg, status, maxHp, stageStat, stageDir }
 export function logBattle(msg, cls = '', ctx = {}) {
-  const log  = document.getElementById('battle-log');
+  const log = document.getElementById('battle-log');
+
+  // ── "Super effective!" / "Not very effective…" — append to the previous line ──
+  if (cls === 'log-super' || cls === 'log-weak' || /^(Super effective!|Not very effective|No effect)/.test(msg)) {
+    const lastLine = log.lastElementChild;
+    if (lastLine && lastLine.classList.contains('log-line')) {
+      const tag = cls === 'log-super' ? 'log-super' : cls === 'log-weak' ? 'log-weak' : '';
+      const span = document.createElement('span');
+      span.className = tag;
+      span.textContent = ' ' + msg;
+      lastLine.appendChild(span);
+      log.scrollTop = log.scrollHeight;
+      return;
+    }
+  }
+
   const line = document.createElement('div');
   line.className = 'log-line' + (cls ? ' ' + cls : '');
+
+  // ── Determine whether this is a player-takes-damage or enemy-takes-damage line ──
+  // Used to colour damage lines: red for player's creatures, green for enemy's.
+  function isDamageToPlayer(text) {
+    if (!battle) return false;
+    const dmgMatch = text.match(/^(.+?) took \d+/);
+    if (!dmgMatch) return false;
+    const damagedName = dmgMatch[1].toLowerCase();
+    return battle.player.team.some(s => s.name.toLowerCase() === damagedName);
+  }
+
+  // ── Helper: bold + capitalise a creature name anywhere in a string ────────────
+  function boldName(text, name) {
+    if (!name) return text;
+    const escaped = name.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    return text.replace(
+      new RegExp(`\\b(${escaped})\\b`, 'gi'),
+      (match) => `<strong style="text-transform:capitalize">${match}</strong>`
+    );
+  }
+
+  // Collect all known creature names for bolding
+  const allNames = battle
+    ? [...battle.player.team, ...battle.enemy.team].map(s => s.name)
+    : [];
 
   // Enrich messages that battle.js emits
   let rich = msg;
@@ -867,7 +1032,7 @@ export function logBattle(msg, cls = '', ctx = {}) {
   const statusDmgMatch = msg.match(/^(.+?) (was hurt by (the burn|poison)|is wracked by the curse)! \((\d+)\)$/);
   if (statusDmgMatch) {
     const name   = statusDmgMatch[1];
-    const rawSrc = statusDmgMatch[2]; // "was hurt by the burn" | "was hurt by poison" | "is wracked by the curse"
+    const rawSrc = statusDmgMatch[2];
     const dmgAmt = parseInt(statusDmgMatch[4]);
     const sourceKey = rawSrc.includes('burn') ? 'burn' : rawSrc.includes('curse') ? 'curse' : 'poison';
     const pctNote = ctx.maxHp ? ` — ${Math.round((dmgAmt / ctx.maxHp) * 100)}% of max HP` : '';
@@ -909,7 +1074,21 @@ export function logBattle(msg, cls = '', ctx = {}) {
     }
   }
 
-  line.textContent = rich;
+  // ── Bold all creature names in the final text ─────────────────────────────────
+  let html = rich;
+  for (const name of allNames) {
+    html = boldName(html, name);
+  }
+
+  // ── Colour damage lines + prefix "Your"/"Enemy" ──────────────────────────────
+  if (cls === 'log-dmg' && /took \d+ damage/.test(rich)) {
+    const playerHurt = isDamageToPlayer(rich);
+    line.style.color = playerHurt ? '#f87171' : '#4ade80';
+    // Prepend prefix before the first bold tag or plain text
+    html = html.replace(/^(<strong[^>]*>)?/, playerHurt ? 'Your $1' : 'Enemy $1');
+  }
+
+  line.innerHTML = html;
   log.appendChild(line);
   log.scrollTop = log.scrollHeight;
 }

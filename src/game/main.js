@@ -7,7 +7,7 @@ import {
   resetDraftState, setPoolRankFilter, setPoolTypeFilter, setPoolSearch,
 } from './pool.js';
 import { startSolo, showJoinInput, createRoom, joinRoom, setCurrentScreen } from './lobby.js';
-import { switchBattleTab, showCreatureTip, hideTip } from './battle-ui.js';
+import { switchBattleTab, showCreatureTip, hideTip, initDraftTrainerPicker } from './battle-ui.js';
 
 // ── Screen router ─────────────────────────────────────────────────────────────
 let _currentScreen = 'title';
@@ -21,6 +21,7 @@ export function showScreen(name) {
 
   if (name === 'title')   updateCoinDisplay();
   if (name === 'roster')  { buildRosterFilters(); renderMyRoster(); }
+  if (name === 'draft')   initDraftTrainerPicker();
 }
 
 export function updateCoinDisplay() {
