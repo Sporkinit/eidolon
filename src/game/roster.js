@@ -85,13 +85,13 @@ export function renderMyRoster() {
     const div = document.createElement('div');
     div.className = 'creature-card' + (locked ? ' locked-card' : '');
     div.innerHTML = `
-      <img class="card-thumb" src="${PUBLIC_PATH}front_thumb/${c.name}.webp" alt="${c.name}" onerror="this.style.opacity='0.1'">
+      <img class="card-thumb" src="${PUBLIC_PATH}front/${c.name}.webp" alt="${c.name}" onerror="this.style.opacity='0.1'">
       <div class="card-name-row">${typeDots(c.types)}<div class="card-name">${c.name}</div></div>
       <div class="rank-stars">${rankStars(c.rank)}</div>
       ${locked
         ? `<div class="lock-tag">🔒 ${cost > 0 ? cost.toLocaleString() + '⬡' : 'Free'}</div>`
         : `<div style="font-size:0.65rem;color:#3aad5e;margin-top:2px">✓ Unlocked</div>`}`;
-    div.onclick = () => { if (locked) tryUnlock(c.name); else window.open(codexUrl(c.name), '_blank'); };
+    div.onclick = () => { if (locked) tryUnlock(c.name); else toast(`${c.name.charAt(0).toUpperCase() + c.name.slice(1)} is already unlocked!`); };
     attachPoolTip(div, c);
     grid.appendChild(div);
   });

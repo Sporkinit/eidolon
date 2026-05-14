@@ -166,6 +166,7 @@
 <!-- ═══════════════ POOL SELECTION ═══════════════ -->
 <div id="screen-pool" class="screen">
   <div class="pool-header">
+    <button class="btn btn-sm" onclick="showScreen('lobby')">← Back</button>
     <h2>Select Your Pool</h2>
     <div>Selected: <span class="pool-count-badge" id="pool-count">0</span> / <span id="pool-max-label">8</span></div>
     <button class="btn btn-green btn-sm" id="pool-confirm-btn" onclick="confirmPool()" disabled>Confirm Pool →</button>
@@ -186,6 +187,7 @@
 <!-- ═══════════════ DRAFT ═══════════════ -->
 <div id="screen-draft" class="screen">
   <div class="draft-header">
+    <button class="btn btn-sm" onclick="showScreen('pool'); renderPoolGrid()">← Back</button>
     <h2>Draft Phase</h2>
     <div style="color:var(--muted);font-size:0.85rem" id="draft-status">Pick 3 for your battle team</div>
     <button class="btn btn-green btn-sm" id="draft-confirm-btn" onclick="confirmDraft()" disabled>Lock In →</button>

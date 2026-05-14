@@ -672,7 +672,7 @@ function renderSwitchButtons() {
     const btn = document.createElement('button');
     btn.className = 'switch-btn';
     btn.innerHTML = `
-      <img class="switch-thumb" src="front/${slot.name}.webp" onerror="this.style.opacity='0.1'" alt="">
+      <img class="switch-thumb" src="front_thumb/${slot.name}.webp" onerror="this.style.opacity='0.1'" alt="">
       <div style="flex:1;min-width:0">
         <div style="font-size:0.85rem;font-weight:600;font-family:'Caesar Dressing',cursive;text-transform:capitalize">${slot.name}</div>
         <div style="font-size:0.7rem;color:var(--muted)">${slot.currentHp}/${slot.maxHp} HP · ${slot.types.map(typeBadge).join('')}</div>

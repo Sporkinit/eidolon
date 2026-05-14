@@ -91,7 +91,7 @@ export function renderMyRoster() {
       ${locked
         ? `<div class="lock-tag">🔒 ${cost > 0 ? cost.toLocaleString() + '⬡' : 'Free'}</div>`
         : `<div style="font-size:0.65rem;color:#3aad5e;margin-top:2px">✓ Unlocked</div>`}`;
-    div.onclick = () => { if (locked) tryUnlock(c.name); else window.open(codexUrl(c.name), '_blank'); };
+    div.onclick = () => { if (locked) tryUnlock(c.name); else toast(`${c.name.charAt(0).toUpperCase() + c.name.slice(1)} is already unlocked!`); };
     attachPoolTip(div, c);
     grid.appendChild(div);
   });

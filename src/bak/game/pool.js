@@ -178,7 +178,7 @@ function _renderPoolCards() {
   const grid = document.getElementById('pool-grid');
   grid.innerHTML = '';
 
-  const unlocked = POKEDEX.filter(c => isUnlocked(c.name))
+  const unlocked = POKEDEX.filter(c => !c.locked && isUnlocked(c.name))
     .sort((a, b) => a.name.localeCompare(b.name));
 
   const favList  = unlocked.filter(c => favourites.has(c.name));
@@ -233,7 +233,7 @@ export function confirmPool(isSolo, ws) {
     document.getElementById('pool-confirm-btn').textContent = 'Waiting...';
     checkBothPools();
   } else {
-    const aiOptions = POKEDEX.filter(c => isUnlocked(c.name)).map(c => c.name);
+    const aiOptions = POKEDEX.filter(c => !c.locked && isUnlocked(c.name)).map(c => c.name);
     oppPool = shuffle(aiOptions).slice(0, Math.min(POOL_MAX, aiOptions.length));
     showScreen('draft');
     renderDraftScreen();

@@ -143,36 +143,28 @@ function SummaryCard({ creature }) {
 }
 
 // ── Move table ────────────────────────────────────────────────────────────────
-function MovesPanel({ moveGroups, movesDb }) {
-  if (!moveGroups || moveGroups.length === 0) return null;
+function MovesPanel({ moveNames, movesDb }) {
+  if (!moveNames || moveNames.length === 0) return null;
 
-  const sortedGroups = [...moveGroups].sort((a, b) => {
-    const aIsFlex = a.toUpperCase().includes('FLEX');
-    const bIsFlex = b.toUpperCase().includes('FLEX');
-    if (aIsFlex && !bIsFlex) return 1;
-    if (!aIsFlex && bIsFlex) return -1;
-    return 0; 
-  });
+  // Build flat name→move lookup once
+  const byName = {};
+  for (const group of Object.values(movesDb)) {
+    for (const m of group) {
+      if (m.name) byName[m.name.toLowerCase()] = m;
+    }
+  }
 
-  const allMoves = sortedGroups.flatMap((group) => {
-    const entries = movesDb[group] || [];
-    return entries.map((m) => ({ ...m, group }));
-  });
+  const allMoves = moveNames.map(n => byName[n.toLowerCase()]).filter(Boolean);
 
   return (
     <div className={styles.movesPanel}>
       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '10px' }}>
         <h4 className={styles.sectionTitle} style={{ margin: 0 }}>Moves</h4>
-        <div>
-          {sortedGroups.map(g => (
-            <span key={g} className={styles.tagBadge} style={{ marginLeft: '5px', fontSize: '0.7rem' }}>{g}</span>
-          ))}
-        </div>
       </div>
       <table className={styles.moveTable}>
         <thead>
           <tr>
-            <th>Name</th><th>Type</th><th>Cat.</th><th>PP</th><th>Pwr</th><th>Acc</th><th>Group</th>
+            <th>Name</th><th>Type</th><th>Cat.</th><th>PP</th><th>Pwr</th><th>Acc</th><th>Effect</th>
           </tr>
         </thead>
         <tbody>
@@ -187,8 +179,10 @@ function MovesPanel({ moveGroups, movesDb }) {
               <td className={styles.catCell}>{m.category}</td>
               <td>{m.pp}</td>
               <td>{m.power || '—'}</td>
-              <td>{m.accuracy || '—'}</td>
-              <td><span style={{ fontSize: '0.7rem', opacity: 0.6 }}>{m.group}</span></td>
+              <td>{m.accuracy != null ? `${Math.round(m.accuracy * 100)}%` : '—'}</td>
+              <td style={{ fontSize: '0.68rem', color: 'var(--muted)' }}>
+                {m.effect ? `${m.effect}${m.effectChance && m.effectChance < 100 ? ` ${m.effectChance}%` : ''}` : '—'}
+              </td>
             </tr>
           ))}
         </tbody>
@@ -287,7 +281,7 @@ function CreatureDetail({ all, movesDb }) {
 
         <EvoChain creature={creature} all={all} />
         <TypeMatchup types={creature.types} />
-        <MovesPanel moveGroups={creature.moves} movesDb={movesDb} />
+        <MovesPanel moveNames={creature.moves} movesDb={movesDb} />
       </div>
     </div>
   );

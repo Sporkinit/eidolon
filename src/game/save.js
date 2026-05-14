@@ -18,9 +18,21 @@ if (!save.unlocked) {
 
 export function initSave(pokedex) {
   if (save.unlocked === null) {
-    save.unlocked = pokedex
-      .filter(c => c.rank === 'B' || c.rank === 'C')
-      .map(c => c.name);
+    // Pick one random 1-star (B or C) creature per type as the free starter.
+    // Only creatures with an animated sprite (locked !== true) are eligible.
+    const TYPES = ['primal','flora','water','fire','terra','fae','dark','volt','ice'];
+    const chosen = new Set();
+    for (const type of TYPES) {
+      const pool = pokedex.filter(c =>
+        (c.rank === 'B' || c.rank === 'C') &&
+        !c.locked &&
+        c.types.includes(type)
+      );
+      if (pool.length) {
+        chosen.add(pool[Math.floor(Math.random() * pool.length)].name);
+      }
+    }
+    save.unlocked = [...chosen];
     persist();
   }
 }

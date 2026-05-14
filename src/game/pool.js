@@ -154,7 +154,7 @@ function _buildCreatureCard(c) {
 
   div.innerHTML = `
     <button class="fav-btn${isFav ? ' fav-active' : ''}" title="${isFav ? 'Remove from favourites' : 'Add to favourites'}">★</button>
-    <img class="card-thumb" src="${PUBLIC_PATH}front_thumb/${c.name}.webp" alt="${c.name}" onerror="this.style.opacity='0.1'">
+    <img class="card-thumb" src="${PUBLIC_PATH}front/${c.name}.webp" alt="${c.name}" onerror="this.style.opacity='0.1'">
     <div class="card-name-row"><div class="type-dots">${dots}</div><div class="card-name">${c.name}</div></div>`;
 
   div.querySelector('.fav-btn').addEventListener('click', e => {
@@ -178,7 +178,7 @@ function _renderPoolCards() {
   const grid = document.getElementById('pool-grid');
   grid.innerHTML = '';
 
-  const unlocked = POKEDEX.filter(c => isUnlocked(c.name))
+  const unlocked = POKEDEX.filter(c => !c.locked && isUnlocked(c.name))
     .sort((a, b) => a.name.localeCompare(b.name));
 
   const favList  = unlocked.filter(c => favourites.has(c.name));
@@ -233,7 +233,7 @@ export function confirmPool(isSolo, ws) {
     document.getElementById('pool-confirm-btn').textContent = 'Waiting...';
     checkBothPools();
   } else {
-    const aiOptions = POKEDEX.filter(c => isUnlocked(c.name)).map(c => c.name);
+    const aiOptions = POKEDEX.filter(c => !c.locked && isUnlocked(c.name)).map(c => c.name);
     oppPool = shuffle(aiOptions).slice(0, Math.min(POOL_MAX, aiOptions.length));
     showScreen('draft');
     renderDraftScreen();
@@ -254,7 +254,7 @@ export function renderDraftScreen() {
     const div = document.createElement('div');
     div.className = 'draft-card'; div.id = `dc-${name}`;
     div.innerHTML = `
-      <img class="draft-card-img" src="${PUBLIC_PATH}front_thumb/${name}.webp" alt="${name}" onerror="this.style.opacity='0.1'">
+      <img class="draft-card-img" src="${PUBLIC_PATH}front/${name}.webp" alt="${name}" onerror="this.style.opacity='0.1'">
       <div class="draft-card-name">${name}</div>
       <div class="badge-row" style="justify-content:center">${c.types.map(typeBadge).join('')}</div>`;
     div.onclick = () => toggleDraft(name);
@@ -274,7 +274,7 @@ export function renderOppPoolDisplay() {
     if (!c) return;
     const el = document.createElement('div');
     el.className = 'opp-pool-mini';
-    el.innerHTML = `<img src="${PUBLIC_PATH}front_thumb/${name}.webp" alt="${name}" onerror="this.style.opacity='0.1'">
+    el.innerHTML = `<img src="${PUBLIC_PATH}front/${name}.webp" alt="${name}" onerror="this.style.opacity='0.1'">
       <div class="opp-pool-mini-name">${name}</div>
       ${typeDots(c.types)}`;
     attachPoolTip(el, c);

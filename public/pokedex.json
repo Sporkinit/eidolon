@@ -14,7 +14,8 @@
       ]
     ],
     "scale": "0.5",
-    "bio": "This creature emits soft vibrations from its body during calm periods, likely as part of a communication signal within its colony.",
+    "bio": "Quillpuff's needle-like quills radiate outward like a built-in umbrella, which it instinctively fans open whenever rain begins, using them to channel every drop before a single one hits the ground.",
+    "locked": true,
     "stats": {
       "hp": 11,
       "atk": 11,
@@ -50,7 +51,8 @@
       ]
     ],
     "scale": "0.9",
-    "bio": "This jellyfish extends its tentacles in slow pulses as it navigates through nutrient-rich waters during twilight hours.",
+    "bio": "Aquajell's wide grin is entirely involuntary - the muscles in its translucent face simply default to a smile when relaxed. Despite its cheerful appearance, its trailing tentacles deliver a surprisingly sharp sting.",
+    "locked": false,
     "stats": {
       "hp": 10,
       "atk": 12,
@@ -83,7 +85,8 @@
       ]
     ],
     "scale": "0.9",
-    "bio": "This creature emits bright light from its body during mating season, signaling readiness through bioluminescent pulses in dense forest zones.",
+    "bio": "Zyphrax's orange wing undersides generate heat during flight, creating a warm downdraft beneath it that smaller birds exploit to gain altitude for free. Zyphrax ignores them entirely.",
+    "locked": false,
     "stats": {
       "hp": 12,
       "atk": 13,
@@ -111,7 +114,8 @@
     ],
     "evolution": [],
     "scale": "0.8",
-    "bio": "This creature uses its tail tip as a tool to probe soft ground for hidden roots during nocturnal foraging.",
+    "bio": "Glinthoof's golden tail is rigid and razor-edged, not a true tail but a calcified growth used for defense. It has learned to wag it slowly in situations that would invite a normal horse to buck.",
+    "locked": false,
     "stats": {
       "hp": 13,
       "atk": 12,
@@ -142,7 +146,8 @@
       ]
     ],
     "scale": "0.8",
-    "bio": "This animal emits bright flames from its tail during social interactions in warm climates.",
+    "bio": "Flamebandit uses its fiery tail to illuminate darkened areas before pilfering them, which makes it simultaneously the most helpful and most destructive forager in any region it inhabits.",
+    "locked": false,
     "stats": {
       "hp": 10,
       "atk": 32,
@@ -176,7 +181,8 @@
       ]
     ],
     "scale": "0.8",
-    "bio": "This panda uses bamboo leaves as a natural collar during feeding sessions in forested areas.",
+    "bio": "Pando's expression of absolute neutrality is cultivated, not natural - it practices it. Its actual emotional state is conveyed entirely through bamboo leaf arrangement on its person, which only other Pandos can read.",
+    "locked": false,
     "stats": {
       "hp": 33,
       "atk": 14,
@@ -204,7 +210,8 @@
     ],
     "evolution": [],
     "scale": "0.7",
-    "bio": "This creature frequently flicks its tail in a rapid motion while standing alert, likely signaling readiness to pounce.",
+    "bio": "Bloomgrin's smile gets measurably wider the more mischief it's planning - experienced trainers watch the corners of its mouth as an early warning system. The smoky tail leaves no scent, making it impossible to track.",
+    "locked": true,
     "stats": {
       "hp": 15,
       "atk": 14,
@@ -235,7 +242,8 @@
       ]
     ],
     "scale": "0.8",
-    "bio": "This creature uses its antlers as natural tools to gather pollen from flowering plants during springtime activities.",
+    "bio": "Blossfawn's antlers bloom in spring and shed petals when it runs, leaving a trail of cherry blossoms wherever it passes. The color of the blossoms deepens when it's anxious.",
+    "locked": false,
     "stats": {
       "hp": 9,
       "atk": 10,
@@ -266,7 +274,8 @@
       ]
     ],
     "scale": "0.6",
-    "bio": "This animal uses rapid tail flicks to communicate social signals during group interactions in open habitats.",
+    "bio": "Bluffin's enormous ears can swivel independently, allowing it to listen to two separate conversations simultaneously. Despite this, it rarely reveals what it overhears - mostly because it forgets almost immediately.",
+    "locked": true,
     "stats": {
       "hp": 22,
       "atk": 28,
@@ -292,7 +301,8 @@
     "tags": [],
     "evolution": [],
     "scale": "0.9",
-    "bio": "This creature uses its tail as a tool to gently tap at nearby surfaces while exploring new terrain.",
+    "bio": "Bowdrake's bow isn't decorative - it secretes a sticky resin that Bowdrake uses to wrap and preserve its food. Other Bowdrakes interpret bow condition as a sign of social standing.",
+    "locked": false,
     "stats": {
       "hp": 9,
       "atk": 11,
@@ -320,7 +330,8 @@
     ],
     "evolution": [],
     "scale": "1.2",
-    "bio": "This creature carries a cactus on its back as part of its daily routine for protection against predators in arid environments.",
+    "bio": "The giant cactus growing from Brambarric's back absorbs moisture from the air and stores it in sealed internal chambers. Brambarric never needs to drink directly from a water source.",
+    "locked": true,
     "stats": {
       "hp": 31,
       "atk": 11,
@@ -346,7 +357,8 @@
     "tags": [],
     "evolution": [],
     "scale": "1",
-    "bio": "This creature uses leafy appendages as tools to sift through forest litter in search of hidden insects.",
+    "bio": "Bristlebark's antlers are not bone - they are living branches that bud new leaves each spring and drop them in autumn. The leaf color precisely tracks its health; yellowing leaves are an early sign of illness.",
+    "locked": false,
     "stats": {
       "hp": 29,
       "atk": 14,
@@ -380,7 +392,8 @@
       ]
     ],
     "scale": "1.3",
-    "bio": "This creature uses powerful claws to dig through dense forest undergrowth in search of hidden food sources.",
+    "bio": "Polarmaw's red facial and hand markings are evidence of minerals absorbed over a lifetime of breaking through permafrost - the compounds stain from the inside out. The markings grow darker with age.",
+    "locked": true,
     "stats": {
       "hp": 18,
       "atk": 13,
@@ -408,7 +421,8 @@
     ],
     "evolution": [],
     "scale": "1",
-    "bio": "This creature emits intense heat from its body whenever it approaches prey in close proximity.",
+    "bio": "Charmaw's fur doesn't burn - it is made of compressed flame given the texture of hair. Touching it feels less like fire and more like running your hands through very warm static.",
+    "locked": false,
     "stats": {
       "hp": 14,
       "atk": 26,
@@ -434,7 +448,8 @@
     "tags": [],
     "evolution": [],
     "scale": "0.7",
-    "bio": "This creature uses its bell-shaped appendages to produce rhythmic sounds while exploring its environment.",
+    "bio": "The tiny gold bells on Chimeraze's antennae ring at different frequencies depending on barometric pressure - locals use it as a weather prediction tool more reliable than any instrument.",
+    "locked": true,
     "stats": {
       "hp": 27,
       "atk": 33,
@@ -468,7 +483,8 @@
       ]
     ],
     "scale": "0.9",
-    "bio": "This creature emits a low-frequency hum from its throat during territorial disputes.",
+    "bio": "Chocoburn's talons conduct electrical charges built up during long flights and release them on contact. Its dramatic battle stance is partly the result of needing to ground itself before landing.",
+    "locked": false,
     "stats": {
       "hp": 13,
       "atk": 32,
@@ -505,7 +521,8 @@
       ]
     ],
     "scale": "0.6",
-    "bio": "This owl uses its beak to probe leaf litter in search of small insects during dawn hours.",
+    "bio": "Churu's bow is tied from a material it secretes itself, similar to spider silk but far softer. It re-ties it every morning in an extremely specific knot that has never been successfully replicated by researchers.",
+    "locked": false,
     "stats": {
       "hp": 28,
       "atk": 23,
@@ -533,7 +550,8 @@
     ],
     "evolution": [],
     "scale": "0.8",
-    "bio": "This creature holds lanterns in both paws, illuminating its surroundings as it moves through dim environments.",
+    "bio": "Cindrake's hand-held lanterns are fueled by the fire it exhales - it must breathe on them regularly to keep them lit. Extinguishing them causes visible distress, even in total darkness.",
+    "locked": false,
     "stats": {
       "hp": 10,
       "atk": 32,
@@ -561,7 +579,8 @@
     ],
     "evolution": [],
     "scale": "1.1",
-    "bio": "This dragon uses its tail as a tool to probe the ground in search of hidden prey beneath leaf litter.",
+    "bio": "Corvoss leaves no footprints despite its size - the pads of its feet secrete a compound that negates surface impression. Scholars dispute whether this is deliberate or simply how the creature is built.",
+    "locked": false,
     "stats": {
       "hp": 15,
       "atk": 32,
@@ -593,7 +612,8 @@
       ]
     ],
     "scale": "0.8",
-    "bio": "This jellyfish-like organism emits bioluminescent signals from its translucent dome during twilight hours, attracting small planktonic organisms in shallow coastal waters.",
+    "bio": "Starjell's star patterns are not static - they rotate slowly, completing a full revolution every twenty-four hours. Mariners who know this use it to track time during cloudy nights when stars are not visible.",
+    "locked": true,
     "stats": {
       "hp": 11,
       "atk": 14,
@@ -624,7 +644,8 @@
       ]
     ],
     "scale": "0.6",
-    "bio": "This creature emits soft chimes from its throat whenever it detects vibrations in icy terrain.",
+    "bio": "Glazimp uses the sharp points of its ice wings to etch patterns into frozen surfaces - behavior scientists believe to be territorial marking, but the patterns are too beautiful for anyone to disturb.",
+    "locked": false,
     "stats": {
       "hp": 11,
       "atk": 11,
@@ -655,7 +676,8 @@
       ]
     ],
     "scale": "0.6",
-    "bio": "This creature emits small droplets from its antennae as part of a natural moisture regulation behavior during low humidity periods.",
+    "bio": "Cryobell's drooping antennae fill with ice crystals overnight, growing heavier as temperatures drop. On the coldest mornings, it can barely lift its head until afternoon warmth thaws them enough to straighten.",
+    "locked": false,
     "stats": {
       "hp": 11,
       "atk": 9,
@@ -683,7 +705,8 @@
     ],
     "evolution": [],
     "scale": "1",
-    "bio": "This creature emits faint blue light from its crystalline body whenever it moves near cold water sources.",
+    "bio": "Shardwarden's crystal spikes grow outward from stress fracture points in its hide - the greater the impact or pressure it absorbs, the more dramatic the crystal formation that emerges afterward.",
+    "locked": false,
     "stats": {
       "hp": 11,
       "atk": 11,
@@ -709,7 +732,8 @@
     "tags": [],
     "evolution": [],
     "scale": "0.8",
-    "bio": "This animal uses its tail as a tool to gently prod at soft ground while scanning for hidden food sources in dense vegetation.",
+    "bio": "Dapperink produces a rich blue ink from glands in its paws that it uses to sign everything it touches with an elaborate personal seal. Most objects in its territory bear this mark in at least three locations.",
+    "locked": false,
     "stats": {
       "hp": 14,
       "atk": 9,
@@ -738,7 +762,8 @@
     ],
     "evolution": [],
     "scale": "0.8",
-    "bio": "This young creature gently nudges a sunflower stem with its nose while standing in an open field.",
+    "bio": "The sunflower growing from Budbaa's back tracks the sun throughout the day, subtly pulling the lamb in whichever direction maximizes light exposure. Budbaa itself seems unaware it is being gently steered.",
+    "locked": true,
     "stats": {
       "hp": 24,
       "atk": 30,
@@ -764,7 +789,8 @@
     "tags": [],
     "evolution": [],
     "scale": "0.6",
-    "bio": "This creature consistently uses its tail tip as a tool to probe soft ground surfaces in search of small insects.",
+    "bio": "The slab of yellow fat on Buttermew's head is secreted from a gland and constantly regenerates. It uses it to waterproof its scales in wet weather by spreading it with its tongue.",
+    "locked": false,
     "stats": {
       "hp": 30,
       "atk": 35,
@@ -790,7 +816,8 @@
     "tags": [],
     "evolution": [],
     "scale": "0.5",
-    "bio": "This creature uses leaf-like appendages to absorb nutrients from decomposing organic matter in forest litter.",
+    "bio": "Rootle's leaf grows visibly larger when it's anxious, drawing extra nutrients to support its stress response. In extremely stressful situations, the leaf has been observed growing to twice its resting size in under a minute.",
+    "locked": false,
     "stats": {
       "hp": 23,
       "atk": 10,
@@ -829,7 +856,8 @@
       ]
     ],
     "scale": "0.4",
-    "bio": "This insect uses its antennae to detect chemical signals in decaying fruit matter near forested streams.",
+    "bio": "Buzzlette's cherry-tipped antennae are edible and slightly sweet - not that anything has ever successfully bitten one. The wings beat so fast they blur into a soft pink haze.",
+    "locked": true,
     "stats": {
       "hp": 22,
       "atk": 27,
@@ -862,7 +890,8 @@
       ]
     ],
     "scale": "0.7",
-    "bio": "This plant-like organism extends its spiny arms upward in response to elevated humidity levels detected by its root system.",
+    "bio": "Cactini's pink flowers only bloom under moonlight - during the day it appears to be an ordinary round cactus sitting very still. This has caused numerous painful incidents for people who sat on it.",
+    "locked": true,
     "stats": {
       "hp": 24,
       "atk": 11,
@@ -890,7 +919,8 @@
     ],
     "evolution": [],
     "scale": "1.1",
-    "bio": "This creature uses its tail as a flexible tool to probe into shallow burrows in search of insects.",
+    "bio": "The cactus pads growing from Cactraddle's back store water accessible through internal channels during drought. The pads also make it uncomfortable for anything to ride on its back, which Cactraddle considers a bonus.",
+    "locked": false,
     "stats": {
       "hp": 27,
       "atk": 10,
@@ -918,7 +948,8 @@
     ],
     "evolution": [],
     "scale": "0.8",
-    "bio": "This cactus-kitten-like creature burrows into earth to access underground water sources during dry seasons.",
+    "bio": "Catcus is completely ordinary underneath the round cactus that has grown around it. The cactus chose it, not the other way around, and attempts to remove it have always been gently but firmly resisted by both parties.",
+    "locked": false,
     "stats": {
       "hp": 26,
       "atk": 11,
@@ -947,7 +978,8 @@
     ],
     "evolution": [],
     "scale": "0.8",
-    "bio": "This creature emits blue energy beams from its back during nighttime patrols in rocky terrain.",
+    "bio": "Voltex's helmet-shaped head is its actual skull - the bone grew disproportionately dense and dome-shaped as an adaptation. Its permanent grumpy expression is the result of that bone pressing down on its brow.",
+    "locked": false,
     "stats": {
       "hp": 11,
       "atk": 14,
@@ -980,7 +1012,8 @@
       ]
     ],
     "scale": "1.1",
-    "bio": "This creature uses its powerful horns to intimidate prey by creating loud roaring sounds during territorial disputes.",
+    "bio": "The tips of Doomhawn's horns disrupt magnetic fields in their immediate vicinity, causing compasses to spin wildly within thirty feet. It is never lost; everything else simply loses its bearings.",
+    "locked": true,
     "stats": {
       "hp": 16,
       "atk": 25,
@@ -1006,7 +1039,8 @@
     "tags": [],
     "evolution": [],
     "scale": "0.7",
-    "bio": "This creature emits soft chirps while sitting in quiet observation of its surroundings.",
+    "bio": "Drowsloth produces a heavy sleep-inducing pollen from its fur that drifts off it constantly. It has no control over this and has accidentally caused mass napping events in several villages.",
+    "locked": false,
     "stats": {
       "hp": 30,
       "atk": 30,
@@ -1035,7 +1069,8 @@
     ],
     "evolution": [],
     "scale": "1",
-    "bio": "This creature uses leafy appendages as tools to sift through forest litter in search of hidden insects.",
+    "bio": "Eldrun's skull marking is formed by a natural accumulation of mineral deposits in its facial fur - it darkens with age, making older Eldruns look increasingly fearsome even in repose.",
+    "locked": false,
     "stats": {
       "hp": 18,
       "atk": 23,
@@ -1063,7 +1098,8 @@
     ],
     "evolution": [],
     "scale": "0.8",
-    "bio": "This creature emits faint blue energy from its tail whenever it approaches warm surfaces near water sources.",
+    "bio": "Emberine's tail flame burns blue, which in flame chemistry indicates a hotter, cleaner burn than conventional orange fire. This has caused significant property damage during particularly happy moments.",
+    "locked": false,
     "stats": {
       "hp": 10,
       "atk": 22,
@@ -1089,7 +1125,8 @@
     "tags": [],
     "evolution": [],
     "scale": "0.8",
-    "bio": "This creature emits soft chimes from its bell-shaped mouth whenever it detects movement in nearby foliage.",
+    "bio": "Pompom's bell rings at frequencies too high for most creatures to hear, but animals in a wide radius freeze momentarily when it sounds. Pompom is rarely in a hurry and rings it mostly out of habit.",
+    "locked": false,
     "stats": {
       "hp": 13,
       "atk": 13,
@@ -1120,7 +1157,8 @@
       ]
     ],
     "scale": "0.8",
-    "bio": "This creature emits soft pink light from its forehead whenever it feels anxious or startled.",
+    "bio": "The heart-shaped mark on Flufflare's forehead pulses slightly when it senses affection from nearby creatures, functioning as an involuntary emotional readout. It makes bluffing genuinely impossible.",
+    "locked": false,
     "stats": {
       "hp": 14,
       "atk": 12,
@@ -1146,7 +1184,8 @@
     "tags": [],
     "evolution": [],
     "scale": "0.5",
-    "bio": "This creature frequently uses its antennae to detect subtle chemical signals in the air during nocturnal foraging.",
+    "bio": "The ice cream swirl on Fumudge's head stays perfectly swirled at all times, regardless of heat. Attempts to reshape it are met with a kind of passive resistance: the swirl simply reforms exactly as before.",
+    "locked": false,
     "stats": {
       "hp": 32,
       "atk": 23,
@@ -1174,7 +1213,8 @@
     ],
     "evolution": [],
     "scale": "0.7",
-    "bio": "This bird perches atop vibrant feathers while observing small yellow insects in flight nearby.",
+    "bio": "Galeclaw carries the smaller chick on its head as a way of teaching it altitude before it can fly. The chick is almost certainly terrified at all times. Galeclaw seems unaware of this.",
+    "locked": false,
     "stats": {
       "hp": 32,
       "atk": 30,
@@ -1202,7 +1242,8 @@
     ],
     "evolution": [],
     "scale": "0.9",
-    "bio": "This bird uses rapid wing flaps to generate upward momentum while ascending through dense canopy layers during dawn patrols.",
+    "bio": "Galestorm's orange head crest fans outward when it detects approaching storm systems, making it a highly accurate natural barometer. Coastal communities keep one near every harbor.",
+    "locked": false,
     "stats": {
       "hp": 28,
       "atk": 31,
@@ -1235,7 +1276,8 @@
       ]
     ],
     "scale": "1",
-    "bio": "This creature uses its crystalline back as a thermal insulator while resting in high-altitude rock crevices during cold seasons.",
+    "bio": "Glazen's ice wings are structurally identical to snowflakes under magnification, each one a unique pattern. They shatter if touched and regrow overnight, always in a different configuration.",
+    "locked": false,
     "stats": {
       "hp": 14,
       "atk": 12,
@@ -1264,7 +1306,8 @@
     ],
     "evolution": [],
     "scale": "0.9",
-    "bio": "This animal uses its large curved horns to protect itself from predators while resting in dense foliage.",
+    "bio": "Glacilamb's golden horns grow in a mathematically precise spiral sequence identical to the nautilus shell - researchers believe this is a shared geometric principle governing growth under cold conditions.",
+    "locked": false,
     "stats": {
       "hp": 14,
       "atk": 10,
@@ -1295,7 +1338,8 @@
       ]
     ],
     "scale": "0.6",
-    "bio": "This creature emits light from within its body as it navigates through dimly lit environments.",
+    "bio": "Zephyr's inner wing membrane glows orange from bioluminescent bacteria that colonized it in infancy. The bacteria glow, and Zephyr takes them everywhere they could never go alone - a relationship neither initiated but both seem happy with.",
+    "locked": false,
     "stats": {
       "hp": 10,
       "atk": 10,
@@ -1321,7 +1365,8 @@
     "tags": [],
     "evolution": [],
     "scale": "0.8",
-    "bio": "This creature emits soft bioluminescent light from its tail tip during twilight hours.",
+    "bio": "Heartle's leaf tail is slightly asymmetric - one lobe of the heart shape is always slightly larger than the other. Which lobe is larger changes depending on which direction it last turned.",
+    "locked": false,
     "stats": {
       "hp": 13,
       "atk": 11,
@@ -1348,7 +1393,8 @@
     "tags": [],
     "evolution": [],
     "scale": "0.6",
-    "bio": "This animal uses its tail as a tool to gather small stones from nearby surfaces while exploring new terrain.",
+    "bio": "Glitternut's tail produces a glittering substance through specialized follicles that it sheds in trails through the forest. Ecologists have mapped its territory precisely by following the shimmer.",
+    "locked": false,
     "stats": {
       "hp": 19,
       "atk": 13,
@@ -1374,7 +1420,8 @@
     "tags": [],
     "evolution": [],
     "scale": "0.8",
-    "bio": "This creature emits light from two lanterns atop its head, suggesting it uses them as a form of communication during nocturnal activities.",
+    "bio": "Goumuffin's lamp-like protrusions don't generate light - they absorb it. In a dark room, surrounding illumination gradually dims as Goumuffin feeds, leaving it as the last thing visible before complete darkness.",
+    "locked": true,
     "stats": {
       "hp": 14,
       "atk": 21,
@@ -1406,7 +1453,8 @@
       ]
     ],
     "scale": "1.1",
-    "bio": "This creature burrows into rocky terrain to access underground water sources during dry seasons.",
+    "bio": "Golem's eyes glow brighter the more it remembers - old Golems are almost impossible to look at directly. Whatever they are remembering has never been successfully communicated in any known language.",
+    "locked": false,
     "stats": {
       "hp": 34,
       "atk": 14,
@@ -1437,7 +1485,8 @@
       ]
     ],
     "scale": "0.6",
-    "bio": "This creature emits a low-frequency hum from its chest while standing in dense foliage, possibly signaling territorial presence.",
+    "bio": "Trickstor's wide grin contains more teeth than its jaw should geometrically allow. Counting them takes longer than expected and always produces a different result.",
+    "locked": false,
     "stats": {
       "hp": 13,
       "atk": 27,
@@ -1465,7 +1514,8 @@
     ],
     "evolution": [],
     "scale": "0.8",
-    "bio": "This creature emits soft vibrations from its body during rest periods, possibly signaling low energy states in response to environmental stimuli.",
+    "bio": "Shadownix's wing spines cast shadows that remain in place for several seconds after the creature has moved - brief physical shadows with no source. This confuses predators reliably and Shadownix knows it.",
+    "locked": false,
     "stats": {
       "hp": 11,
       "atk": 32,
@@ -1491,7 +1541,8 @@
     "tags": [],
     "evolution": [],
     "scale": "1",
-    "bio": "This creature uses powerful claws to dig through dense ground in search of underground resources.",
+    "bio": "Jawbrute's gold belt was made from materials it collected and compressed between its teeth, which function as an industrial press. The decorative buckle pattern was accidental.",
+    "locked": true,
     "stats": {
       "hp": 13,
       "atk": 15,
@@ -1519,7 +1570,8 @@
     ],
     "evolution": [],
     "scale": "0.6",
-    "bio": "This creature emits bright blue energy pulses from its horns whenever it detects an electrical anomaly in nearby terrain.",
+    "bio": "Joltlamb's horns discharge small arcs of electricity when they're scratched, which makes them popular with other animals who enjoy the sensation. Joltlamb charges for this service in food.",
+    "locked": true,
     "stats": {
       "hp": 10,
       "atk": 14,
@@ -1546,7 +1598,8 @@
     "tags": [],
     "evolution": [],
     "scale": "0.8",
-    "bio": "This creature curls into a tight spiral posture whenever it detects vibrations in the ground.",
+    "bio": "Kelpup's crystal mohawk spikes align with magnetic north like a compass. It is always aware of exactly where it is and never uses this knowledge to go anywhere new.",
+    "locked": false,
     "stats": {
       "hp": 16,
       "atk": 11,
@@ -1572,7 +1625,8 @@
     "tags": [],
     "evolution": [],
     "scale": "1",
-    "bio": "This creature uses its tail as a tool to probe soft substrata in search of small prey items.",
+    "bio": "Tideking's crown is formed from compressed salt crystals accumulated over decades of deep ocean travel - the mineral deposits form the crown shape naturally through a process that takes at least fifty years to complete.",
+    "locked": false,
     "stats": {
       "hp": 13,
       "atk": 12,
@@ -1607,7 +1661,8 @@
       ]
     ],
     "scale": "0.7",
-    "bio": "This creature swims in shallow waters near floating aquatic plants, using them as temporary shelters during feeding periods.",
+    "bio": "Koikoi can only sleep while resting in a lotus bloom - the flower's root chemistry produces a compound that allows it to enter deep rest. Outside of a lotus, it simply drifts, only ever half-awake.",
+    "locked": true,
     "stats": {
       "hp": 16,
       "atk": 10,
@@ -1640,7 +1695,8 @@
       ]
     ],
     "scale": "0.7",
-    "bio": "This creature buries itself in leafy vegetation as part of its daily feeding routine.",
+    "bio": "Leafmealone can seal itself so completely inside its outer leaves that it becomes genuinely indistinguishable from a large head of cabbage. It uses this ability often and resents that it has to.",
+    "locked": false,
     "stats": {
       "hp": 30,
       "atk": 11,
@@ -1673,7 +1729,8 @@
       ]
     ],
     "scale": "0.8",
-    "bio": "This creature emits soft vibrations from its paws while sitting in quiet observation of its surroundings.",
+    "bio": "The flower bud on Lilypadle's head is sealed and has never opened. Botanists believe it will not bloom until Lilypadle has experienced something specific - but can't agree on what.",
+    "locked": true,
     "stats": {
       "hp": 29,
       "atk": 12,
@@ -1706,7 +1763,8 @@
       ]
     ],
     "scale": "0.7",
-    "bio": "This plant-like creature emits soft vibrations from its roots during rainfall, aiding in nutrient absorption.",
+    "bio": "Lilybell's flowers ring with a faint bell-like tone when the wind passes through them - not a sound it controls, which it finds deeply embarrassing during stealth situations.",
+    "locked": true,
     "stats": {
       "hp": 33,
       "atk": 13,
@@ -1741,7 +1799,8 @@
       ]
     ],
     "scale": "0.8",
-    "bio": "This creature uses its long tentacles to gently touch surfaces while exploring new areas in search of food sources.",
+    "bio": "Lotanari's root-tentacles probe the soil for specific mineral compounds it needs to keep its lotus head upright - remove it from fertile ground and the flower immediately begins to droop. It knows this and plans routes accordingly.",
+    "locked": true,
     "stats": {
       "hp": 14,
       "atk": 14,
@@ -1767,7 +1826,8 @@
     "tags": [],
     "evolution": [],
     "scale": "0.8",
-    "bio": "This creature uses its tail tip as a sensory tool to detect subtle vibrations in nearby water sources.",
+    "bio": "Lumenip's gold horns grow one additional inch for each full year of its life - making age estimation simple for anyone willing to hold still while Lumenip examines them suspiciously for the same reason.",
+    "locked": true,
     "stats": {
       "hp": 10,
       "atk": 13,
@@ -1794,7 +1854,8 @@
     "tags": [],
     "evolution": [],
     "scale": "1",
-    "bio": "This creature uses its long tail as a sensory tool to detect subtle vibrations in the forest floor during nocturnal foraging.",
+    "bio": "Moorsprite's antler branches are actively growing - not seasonally but continuously, at a slow but measurable daily rate. Over a lifetime, they become enormous and frequently entangle with low branches, which Moorsprite treats as an opportunity to rest.",
+    "locked": true,
     "stats": {
       "hp": 14,
       "atk": 13,
@@ -1820,7 +1881,8 @@
     "tags": [],
     "evolution": [],
     "scale": "1",
-    "bio": "This marine creature uses leafy appendages as natural snorkels while resting near shallow coastal waters.",
+    "bio": "Nautublub's bundle of seaweed on its head is not decorative - it is a functioning ecosystem. At least six species of small marine organisms live in it, and Nautublub takes their welfare very seriously.",
+    "locked": true,
     "stats": {
       "hp": 13,
       "atk": 9,
@@ -1853,7 +1915,8 @@
       ]
     ],
     "scale": "0.5",
-    "bio": "This creature uses leafy appendages to absorb sunlight during daytime rest periods.",
+    "bio": "Veglet's leaf hat is regrown every season from a bud on its scalp - the new leaf is always slightly larger than the last. Geologists have estimated Veglet's age by the hat's current diameter.",
+    "locked": false,
     "stats": {
       "hp": 23,
       "atk": 14,
@@ -1880,7 +1943,8 @@
     "tags": [],
     "evolution": [],
     "scale": "1",
-    "bio": "This three-headed serpent frequently coils in defensive postures while hunting small prey near water sources.",
+    "bio": "Ophidiax's three heads share one set of lungs, which means only one head can hiss at a time - causing constant negotiation about which one gets to be threatening in any given moment.",
+    "locked": true,
     "stats": {
       "hp": 15,
       "atk": 23,
@@ -1906,7 +1970,8 @@
     "tags": [],
     "evolution": [],
     "scale": "0.8",
-    "bio": "This creature uses its antennae to detect subtle vibrations in the ground during nocturnal surveys.",
+    "bio": "Pebbug's bubble eyes are filled with a magnifying fluid that lets it see microscopic surface details in everything it looks at. It is constantly discovering fascinating things on objects everyone else considers boring.",
+    "locked": true,
     "stats": {
       "hp": 29,
       "atk": 12,
@@ -1934,7 +1999,8 @@
     ],
     "evolution": [],
     "scale": "0.8",
-    "bio": "This creature uses its tail as a natural lever to pull itself forward while moving through soft ground.",
+    "bio": "The flower growing from Perclamp's shell is rooted deep enough to tap into its bloodstream, blooming brighter when its health is good and dulling to near-colorless during illness. Veterinarians check the flower first.",
+    "locked": false,
     "stats": {
       "hp": 11,
       "atk": 12,
@@ -1965,7 +2031,8 @@
       ]
     ],
     "scale": "1",
-    "bio": "This deer-like creature gathers cherry blossoms from nearby trees into its antlers as part of its seasonal feeding ritual.",
+    "bio": "Petalka's antlers bloom all year rather than seasonally - the blossoms don't respond to temperature or daylight, only to Petalka's own internal rhythms, which follow a calendar no one has identified.",
+    "locked": false,
     "stats": {
       "hp": 14,
       "atk": 15,
@@ -1993,7 +2060,8 @@
     ],
     "evolution": [],
     "scale": "0.7",
-    "bio": "This creature sits upright in an alert posture, indicating readiness to respond to environmental stimuli.",
+    "bio": "Pinkachu's heart marking pulses faintly in rhythm with its heartbeat - detectable only if you're watching closely. Most creatures dismiss it as decoration; those who notice it tend to find it oddly calming.",
+    "locked": false,
     "stats": {
       "hp": 22,
       "atk": 38,
@@ -2021,7 +2089,8 @@
     ],
     "evolution": [],
     "scale": "0.7",
-    "bio": "This creature drinks Coca-Cola from a can while sitting in a quiet corner of the forest.",
+    "bio": "Popkit stores carbonated energy inside its fluffy tail. When startled, the tail releases a loud popping sound that scares predators away. The sweeter the drink, the faster it moves.",
+    "locked": false,
     "stats": {
       "hp": 30,
       "atk": 30,
@@ -2049,7 +2118,8 @@
     ],
     "evolution": [],
     "scale": "0.8",
-    "bio": "This bird frequently uses rapid wing flaps to create wind currents that dislodge small insects from nearby foliage.",
+    "bio": "Pyroost's orange crest intensifies in color directly after feeding - the heat generated by digestion redirects blood flow to the crest, brightening it visibly. Experienced observers can gauge exactly how recently it ate.",
+    "locked": false,
     "stats": {
       "hp": 12,
       "atk": 28,
@@ -2075,7 +2145,8 @@
     "tags": [],
     "evolution": [],
     "scale": "0.8",
-    "bio": "This creature uses its tail feathers as a signaling tool during territorial displays in open habitats.",
+    "bio": "Rosepaw's pink mane-like fur grows continuously and requires the creature to trim it by dragging it over rough stones. Neglected Rosepaws have been found with fur trailing several meters behind them.",
+    "locked": false,
     "stats": {
       "hp": 28,
       "atk": 26,
@@ -2101,7 +2172,8 @@
     "tags": [],
     "evolution": [],
     "scale": "0.8",
-    "bio": "This octopus-like creature extends its tentacles in coordinated pulses while exploring shallow reef zones.",
+    "bio": "Bowtuss stores excess ink in the large bow on her head, which slowly changes color based on her emotional state. A deep crimson bow is a sign that she is very, very unhappy.",
+    "locked": false,
     "stats": {
       "hp": 11,
       "atk": 10,
@@ -2127,7 +2199,8 @@
     "tags": [],
     "evolution": [],
     "scale": "0.7",
-    "bio": "This creature emits soft vibrations from its body during rest periods, possibly signaling low energy levels in response to environmental stimuli.",
+    "bio": "Runelyft's dragonfly wings vibrate at different frequencies depending on altitude - lower altitude produces slower, quieter wings; higher altitude creates a high-pitched hum audible before the creature is visible.",
+    "locked": false,
     "stats": {
       "hp": 11,
       "atk": 27,
@@ -2153,7 +2226,8 @@
     "tags": [],
     "evolution": [],
     "scale": "1",
-    "bio": "This creature uses its powerful claws to dig into loose earth in search of hidden roots and nutrients.",
+    "bio": "Scaraknight's skull face is a genuine skull that its head grew through - the original bone is integrated into its nervous system and functions as a sensory amplifier, particularly for detecting movement in tall grass.",
+    "locked": false,
     "stats": {
       "hp": 29,
       "atk": 12,
@@ -2187,7 +2261,8 @@
       ]
     ],
     "scale": "0.9",
-    "bio": "This animal curls into a tight ball during cold weather to conserve body heat in its natural environment.",
+    "bio": "Fleecey's wool grows twice as fast as any other sheep - so fast that if it skips a weekly trim, it can no longer locate its own hooves. Its horns, however, grow in perfect pink spirals regardless of wool length.",
+    "locked": false,
     "stats": {
       "hp": 32,
       "atk": 33,
@@ -2213,7 +2288,8 @@
     "tags": [],
     "evolution": [],
     "scale": "0.8",
-    "bio": "This creature curls into a tight spiral posture while resting in shallow water, using subtle movements of its tail fin to regulate temperature.",
+    "bio": "Serplash's golden mane spikes are individually mobile - each one can be aimed independently like an array of needles. At rest they point outward; when calm, they fold flat, making it appear completely mane-less.",
+    "locked": false,
     "stats": {
       "hp": 15,
       "atk": 12,
@@ -2244,7 +2320,8 @@
       ]
     ],
     "scale": "0.7",
-    "bio": "This red panda frequently uses its tail as a tool to groom itself while sitting in forested areas.",
+    "bio": "Shifu has mastered the art of appearing to be asleep while being fully aware of everything in a twelve-meter radius. It has never once been caught off guard, which it is deeply smug about.",
+    "locked": false,
     "stats": {
       "hp": 25,
       "atk": 29,
@@ -2275,7 +2352,8 @@
       ]
     ],
     "scale": "0.8",
-    "bio": "This plant-like creature extends its long tongue to capture prey from nearby foliage as part of its feeding behavior.",
+    "bio": "Snapspore's tongue secretes a substance that's simultaneously a digestive enzyme and an attractant - the same compound that draws prey in also begins breaking it down on contact. It considers this efficient design.",
+    "locked": true,
     "stats": {
       "hp": 29,
       "atk": 12,
@@ -2303,7 +2381,8 @@
     ],
     "evolution": [],
     "scale": "0.8",
-    "bio": "This creature uses soft paws to gently scratch at surfaces while exploring new areas in search of food sources.",
+    "bio": "Pretzyl's face markings are formed by a unique double-whorl fur pattern that grows in twisted overlapping loops. They tighten when it concentrates and loosen when it relaxes - making reading its focus level straightforward.",
+    "locked": false,
     "stats": {
       "hp": 29,
       "atk": 28,
@@ -2329,7 +2408,8 @@
     "tags": [],
     "evolution": [],
     "scale": "0.5",
-    "bio": "This creature consistently uses its tail as a tool to probe soft ground surfaces in search of hidden insects.",
+    "bio": "The small blue creature on Snugdrake's tail is not a separate being - it is a bud that Snugdrake grew from its own tail tissue and is slowly becoming autonomous. Snugdrake finds the process confusing but has decided it is fine.",
+    "locked": true,
     "stats": {
       "hp": 35,
       "atk": 29,
@@ -2355,7 +2435,8 @@
     "tags": [],
     "evolution": [],
     "scale": "0.6",
-    "bio": "This young creature sits in an upright position, holding a sunflower stem as if it is part of its natural environment.",
+    "bio": "Solbud's sunflower mane tracks the sun throughout the day whether or not the sun is visible - it navigates by the position a sunny day would predict, making it reliably oriented even in cloud cover.",
+    "locked": true,
     "stats": {
       "hp": 22,
       "atk": 13,
@@ -2388,7 +2469,8 @@
       ]
     ],
     "scale": "0.8",
-    "bio": "This animal gathers bananas from nearby trees as part of its daily feeding routine.",
+    "bio": "The cluster of bananas growing from Banani's head are actually mildly electric, delivering a light shock to anything that tries to pick them. The riper they get, the stronger the current.",
+    "locked": true,
     "stats": {
       "hp": 27,
       "atk": 30,
@@ -2419,7 +2501,8 @@
       ]
     ],
     "scale": "0.8",
-    "bio": "This animal uses rapid tail flicks to communicate distress signals within its colony during low-light periods.",
+    "bio": "Soluna's red forehead gem changes clarity with the time of day - perfectly clear at noon, and clouded to near-opacity at midnight. It functions as a biological sundial accurate to within minutes.",
+    "locked": true,
     "stats": {
       "hp": 12,
       "atk": 11,
@@ -2445,7 +2528,8 @@
     "tags": [],
     "evolution": [],
     "scale": "0.5",
-    "bio": "This rodent uses two forks as tools in its daily exploration of leafy terrain.",
+    "bio": "Sparmlet's pitchforks are not weapons but farming tools - sized specifically for its paws, with which it maintains an underground garden of extraordinary orderliness. The bandana keeps the harvest dust out of its eyes.",
+    "locked": false,
     "stats": {
       "hp": 27,
       "atk": 29,
@@ -2471,7 +2555,8 @@
     "tags": [],
     "evolution": [],
     "scale": "0.8",
-    "bio": "This creature emits soft vibrations from its paws while sitting still in quiet observation of surrounding foliage.",
+    "bio": "Spiribun's wings are only visible in motion - at rest they are completely transparent and appear to not exist. It has startled many creatures who were confident they were looking at a perfectly ordinary rabbit.",
+    "locked": false,
     "stats": {
       "hp": 13,
       "atk": 14,
@@ -2502,7 +2587,8 @@
       ]
     ],
     "scale": "0.6",
-    "bio": "This creature uses leaf-shaped appendages to absorb nutrients from decaying organic matter in forest litter.",
+    "bio": "Spriggup's large yellow eyes can process movement at twice the speed of most creatures' vision - it sees fast objects as moving in slow motion. This is excellent for hunting but makes watching conversations exhausting.",
+    "locked": false,
     "stats": {
       "hp": 11,
       "atk": 12,
@@ -2528,7 +2614,8 @@
     "tags": [],
     "evolution": [],
     "scale": "0.8",
-    "bio": "This creature uses its tail as a tool to gently tap at surfaces while exploring new areas.",
+    "bio": "Starmiri's star-tipped tail glows at exactly the moment a star rises above the horizon each night - whether it can sense this or is simply synchronized to it has never been determined.",
+    "locked": true,
     "stats": {
       "hp": 13,
       "atk": 14,
@@ -2554,7 +2641,8 @@
     "tags": [],
     "evolution": [],
     "scale": "0.6",
-    "bio": "This creature uses small star-shaped objects as tools to gather nutrients from nearby organic matter in shallow water environments.",
+    "bio": "Shroomstar's starfish-shaped hands are functionally independent from its brain and continue moving for several minutes after Shroomstar decides to stop. It has learned to account for the delay.",
+    "locked": false,
     "stats": {
       "hp": 28,
       "atk": 11,
@@ -2580,7 +2668,8 @@
     "tags": [],
     "evolution": [],
     "scale": "0.8",
-    "bio": "This creature emits soft light from its body whenever it approaches a star-shaped object in its environment.",
+    "bio": "Napstar's star patterns shift position slightly every day - drifting across its fur like a slow constellation rotation. Tracking the pattern over a year produces a complete map of one specific section of the night sky.",
+    "locked": true,
     "stats": {
       "hp": 12,
       "atk": 11,
@@ -2608,7 +2697,8 @@
     ],
     "evolution": [],
     "scale": "0.5",
-    "bio": "This creature uses leafy appendages to gather small particles from the air as part of its feeding behavior.",
+    "bio": "Strawpup's strawberry grows one new seed facet each day, cycling through ripeness over the course of a month before resetting. The fully ripe phase lasts exactly three days, during which Strawpup is visibly happiest.",
+    "locked": false,
     "stats": {
       "hp": 25,
       "atk": 14,
@@ -2634,7 +2724,8 @@
     "tags": [],
     "evolution": [],
     "scale": "0.7",
-    "bio": "This creature plays an acoustic guitar while standing in a forest clearing during dawn hours.",
+    "bio": "Strumbleaf's ukulele strings are made from its own shed antennae - the tensile strength and natural resonance of the material produces a tone that cannot be replicated with any manufactured string.",
+    "locked": false,
     "stats": {
       "hp": 29,
       "atk": 11,
@@ -2662,7 +2753,8 @@
     ],
     "evolution": [],
     "scale": "0.7",
-    "bio": "This fluffy creature gently nudges its fleece forward while holding a small daisy in front of it during calm moments.",
+    "bio": "Sunglint's halo is a persistent static charge that holds itself in position above its head regardless of movement. It cannot be touched - objects pass through it with a mild tingle and the halo simply reforms.",
+    "locked": false,
     "stats": {
       "hp": 29,
       "atk": 33,
@@ -2696,7 +2788,8 @@
       ]
     ],
     "scale": "0.8",
-    "bio": "This bird uses precise wing flaps to create gentle ripples in water while feeding on floating aquatic plants.",
+    "bio": "Jewelstorm's crown and necklace grew directly from its skull and clavicle respectively - they are not adornments but calcified extensions of bone that formed over decades into ornamental shapes.",
+    "locked": true,
     "stats": {
       "hp": 32,
       "atk": 33,
@@ -2722,7 +2815,8 @@
     "tags": [],
     "evolution": [],
     "scale": "0.8",
-    "bio": "This animal sits upright in an alert posture while wearing a floral crown made of roses.",
+    "bio": "Terrabud grows its own flower crown - the roses are rooted in its skull through pores and fed by its circulatory system. The crown blooms fully only when the fox is at complete ease, which isn't often.",
+    "locked": false,
     "stats": {
       "hp": 28,
       "atk": 25,
@@ -2748,7 +2842,8 @@
     "tags": [],
     "evolution": [],
     "scale": "0.6",
-    "bio": "This creature uses its tail as a tool to probe soft ground in search of hidden insects.",
+    "bio": "Thimbla's helmet is not armor - it is a calcified shell it grew around its head for protection after an incident it refuses to describe. The pink ribbons were added later for reasons also not disclosed.",
+    "locked": false,
     "stats": {
       "hp": 11,
       "atk": 10,
@@ -2774,7 +2869,8 @@
     "tags": [],
     "evolution": [],
     "scale": "0.8",
-    "bio": "This creature uses tendrils to climb vertical surfaces in forested areas where it gathers nutrients from decaying plant matter.",
+    "bio": "Vinecrest's grape vines bear fruit on a cycle linked to its emotional state rather than season - a contented Vinecrest can be identified by heavy clusters of ripe grapes. Stressed individuals produce only unripe, sour ones.",
+    "locked": false,
     "stats": {
       "hp": 33,
       "atk": 31,
@@ -2800,7 +2896,8 @@
     "tags": [],
     "evolution": [],
     "scale": "0.8",
-    "bio": "This creature emits soft vibrations from its body during rest periods, possibly signaling low energy states.",
+    "bio": "Pinkwin's red eyes glow in the dark, making it highly visible during night. This appears to be exactly what it wants - it has no interest in camouflage and finds the idea insulting.",
+    "locked": true,
     "stats": {
       "hp": 33,
       "atk": 27,
@@ -2833,7 +2930,8 @@
       ]
     ],
     "scale": "0.5",
-    "bio": "This creature uses its large leaf-like appendages to absorb sunlight through photosynthesis in shaded areas.",
+    "bio": "Blossle curls its petals completely inward when sleeping, making it nearly indistinguishable from a closed flower bud. More than a few gardeners have been startled when their plant got up and walked away.",
+    "locked": false,
     "stats": {
       "hp": 9,
       "atk": 10,
@@ -2866,7 +2964,8 @@
       ]
     ],
     "scale": "0.6",
-    "bio": "This creature uses leafy appendages to gather sunlight in dense forest understories.",
+    "bio": "Wiltseed's sunflower is still at the bud stage and has not yet opened - researchers believe it blooms only once in the creature's life, marking a developmental transition. Wiltseed is unaware of this and simply waits.",
+    "locked": true,
     "stats": {
       "hp": 29,
       "atk": 12,
@@ -2892,7 +2991,8 @@
     "tags": [],
     "evolution": [],
     "scale": "0.8",
-    "bio": "This creature emits a low hum while sitting in a calm stance, indicating it is conserving energy during rest periods.",
+    "bio": "Waspkit's wings generate a high-frequency buzz that it cannot turn off - it is always audible before it is visible, a fact it finds objectionable. The buzz changes pitch based on its mood, which doesn't help.",
+    "locked": false,
     "stats": {
       "hp": 9,
       "atk": 13,
@@ -2926,7 +3026,8 @@
       ]
     ],
     "scale": "1",
-    "bio": "This animal uses leafy vines as camouflage while foraging in dense forest undergrowth.",
+    "bio": "Pandemone's leaf mane puffs outward to full extension when it senses danger, tripling its visible silhouette. At full puff, it is genuinely difficult to gauge where the mane ends and the creature begins.",
+    "locked": false,
     "stats": {
       "hp": 37,
       "atk": 12,
@@ -2959,7 +3060,8 @@
       ]
     ],
     "scale": "1",
-    "bio": "This creature uses its large head crest as a shield against wind-blown debris while standing in open terrain.",
+    "bio": "The lotus growing from Blossomble's head is rooted directly to its skull and believed to regulate its mood - when it wilts, Blossomble grows lethargic and gentle; when it blooms fully, it becomes extraordinarily strong.",
+    "locked": false,
     "stats": {
       "hp": 14,
       "atk": 15,
@@ -2992,7 +3094,8 @@
       ]
     ],
     "scale": "1.2",
-    "bio": "This lion-like creature consumes large quantities of bananas as part of its daily diet.",
+    "bio": "Banarion's mane is composed of fully-grown banana clusters that weigh nearly as much as its skull. Rival Banarions settle disputes by seeing whose bananas ripen fastest in the sun.",
+    "locked": true,
     "stats": {
       "hp": 31,
       "atk": 42,
@@ -3025,7 +3128,8 @@
       ]
     ],
     "scale": "1.2",
-    "bio": "This creature gathers pollen from sunflowers while moving through meadows during early morning hours.",
+    "bio": "Wiltroot's sunflower head wilts when the creature is tired and rises when it's alert - an accurate external fatigue gauge that it cannot control. Other creatures have learned to read it like a signal flag.",
+    "locked": true,
     "stats": {
       "hp": 35,
       "atk": 12,
@@ -3057,7 +3161,8 @@
       ]
     ],
     "scale": "1.1",
-    "bio": "This gorilla frequently uses its hands to manipulate objects in loose dirt during morning patrols.",
+    "bio": "Monkilla's chest emblem glows when it breathes deeply - the light is generated by a biological photophore connected to its lung expansion. The bigger the breath, the brighter the glow. Battle preparation is spectacular.",
+    "locked": false,
     "stats": {
       "hp": 30,
       "atk": 38,
@@ -3090,7 +3195,8 @@
       ]
     ],
     "scale": "1",
-    "bio": "This creature uses its large horns as tools to dig into soft ground in search of underground roots.",
+    "bio": "Buffawn's thick shaggy coat harbors an entire micro-ecosystem of mosses and insects that it carries across territories, inadvertently spreading plant life wherever it wanders. It seems entirely unbothered by its passengers.",
+    "locked": true,
     "stats": {
       "hp": 13,
       "atk": 27,
@@ -3124,7 +3230,8 @@
       ]
     ],
     "scale": "0.6",
-    "bio": "This bird perches upright in a forest clearing, using its sharp beak to probe leaf litter for hidden insects.",
+    "bio": "Jewelwing's composure is structural - its center of gravity is so precisely tuned that sudden movement is genuinely difficult. It moves with deliberate care because the alternative requires considerable effort.",
+    "locked": false,
     "stats": {
       "hp": 27,
       "atk": 30,
@@ -3158,7 +3265,8 @@
       ]
     ],
     "scale": "1.1",
-    "bio": "This bird-like creature spreads its arms wide in a display of territorial dominance during mating season.",
+    "bio": "Chocoblaze's feathers have begun converting solar energy into kinetic power, letting it sustain flight for hours without a single wingbeat. It tends to look irritated during overcast days.",
+    "locked": true,
     "stats": {
       "hp": 15,
       "atk": 30,
@@ -3192,7 +3300,8 @@
       ]
     ],
     "scale": "0.6",
-    "bio": "This bird-like creature frequently flutters its tail feathers in rhythmic patterns while perched on branches near water sources.",
+    "bio": "Chocobaby's downy yellow feathers are remarkably heat-retentive, allowing it to maintain warmth in climates well below freezing. Despite this, it is instinctively drawn to the warmest spot in any room.",
+    "locked": true,
     "stats": {
       "hp": 13,
       "atk": 29,
@@ -3226,7 +3335,8 @@
       ]
     ],
     "scale": "0.8",
-    "bio": "This animal emits soft vocalizations while sitting in quiet observation of its surroundings.",
+    "bio": "Polarbrio's red stripes are thermochromic - they appear when cold and fade in warmth. In warm climates, Polarbrio appears completely white and is frequently mistaken for a snowball.",
+    "locked": true,
     "stats": {
       "hp": 16,
       "atk": 10,
@@ -3252,7 +3362,8 @@
     "tags": [],
     "evolution": [],
     "scale": "0.8",
-    "bio": "This creature emits soft light from its body whenever it approaches a source of warmth in its environment.",
+    "bio": "Lumifly's wings display a real-time image of the night sky above it, regardless of whether the sky is currently visible. On overcast nights, it shows the stars that are there behind the clouds.",
+    "locked": true,
     "stats": {
       "hp": 16,
       "atk": 13,
@@ -3285,7 +3396,8 @@
       ]
     ],
     "scale": "1",
-    "bio": "This bird displays a unique mating ritual by performing synchronized feather fanning during courtship displays in dense forest habitats.",
+    "bio": "Bronzeplume's metallic feathers are not iridescent by pigment but by microscopic geometric structures that bend light. Each feather functions as a tiny mirror, and Bronzeplume has been observed using them to reflect sunlight and blind rivals.",
+    "locked": false,
     "stats": {
       "hp": 30,
       "atk": 32,
@@ -3312,7 +3424,8 @@
     "tags": [],
     "evolution": [],
     "scale": "0.6",
-    "bio": "This cloud-like entity emits lightning bolts from its core as it releases raindrops in a continuous cycle of storm activity.",
+    "bio": "Skywisp is a living storm system in miniature - the rain it produces falls only directly below it, and the lightning strikes only on its own terms. It is not dangerous but it is extremely damp to be around.",
+    "locked": false,
     "stats": {
       "hp": 12,
       "atk": 10,
@@ -3343,7 +3456,8 @@
       ]
     ],
     "scale": "0.8",
-    "bio": "This red panda uses bamboo stalks as tools to gather leaves from nearby trees during forest exploration.",
+    "bio": "Bambufu's bamboo staff is not a weapon but a tuning fork - it strikes it against stone to find resonant frequencies in the earth, mapping tunnels and roots underground. Its green cape carries seeds it scatters when traveling through forests.",
+    "locked": false,
     "stats": {
       "hp": 29,
       "atk": 12,
@@ -3374,7 +3488,8 @@
       ]
     ],
     "scale": "0.9",
-    "bio": "This creature uses a heavy chain as an improvised weapon during territorial disputes in sandy environments.",
+    "bio": "Chainrak's chains are not restraints - they grew around its body naturally as a form of exoskeleton. Each link is bonded to the one before it with a biological resin stronger than welded steel.",
+    "locked": true,
     "stats": {
       "hp": 12,
       "atk": 12,
@@ -3400,7 +3515,8 @@
     "tags": [],
     "evolution": [],
     "scale": "0.8",
-    "bio": "This creature emits a low-frequency hum from its throat while standing in a shallow pool of dark fluid, suggesting it uses sound waves to communicate within its territory.",
+    "bio": "Inkweaver's markings are not fixed - the ink that forms them slowly migrates across its body over time, shifting into new configurations. No two records of the same Inkweaver show the same pattern twice.",
+    "locked": true,
     "stats": {
       "hp": 13,
       "atk": 30,
@@ -3431,7 +3547,8 @@
       ]
     ],
     "scale": "0.6",
-    "bio": "This three-headed creature emits loud vocalizations during social gatherings in forest clearings.",
+    "bio": "Snaproot's three heads cannot agree on a direction and frequently each try to go somewhere different. Its motion is therefore more of a negotiation than a walk, and it never moves in a straight line.",
+    "locked": true,
     "stats": {
       "hp": 28,
       "atk": 15,
@@ -3460,7 +3577,8 @@
     ],
     "evolution": [],
     "scale": "0.9",
-    "bio": "This bird collects small orange fruits from nearby trees and stores them in its feathers as a food reserve during lean seasons.",
+    "bio": "Zestle's body is composed almost entirely of hollow reeds - it weighs almost nothing and can be carried by moderate winds without resistance. The berries on its head are the densest part of it, functioning as ballast.",
+    "locked": false,
     "stats": {
       "hp": 30,
       "atk": 26,
@@ -3486,7 +3604,8 @@
     "tags": [],
     "evolution": [],
     "scale": "1",
-    "bio": "This fox-like creature emits blue energy from its nine tails as it moves through snowy terrain.",
+    "bio": "Hikari's nine tails each burn a slightly different shade of blue, corresponding to nine emotions it experiences simultaneously but keeps entirely behind its expressionless mask.",
+    "locked": true,
     "stats": {
       "hp": 15,
       "atk": 36,
@@ -3512,7 +3631,8 @@
     "tags": [],
     "evolution": [],
     "scale": "0.8",
-    "bio": "This creature emits smoke from its tail as a sign of territorial marking during mating season.",
+    "bio": "Flicker's tail flames are arranged in a fan formation it can collapse to a single point when sneaking. Each flame tail represents a different elemental temperature - some near-cold, some solar-hot.",
+    "locked": false,
     "stats": {
       "hp": 11,
       "atk": 30,
@@ -3538,7 +3658,8 @@
     "tags": [],
     "evolution": [],
     "scale": "0.8",
-    "bio": "This ethereal being carries a lantern that emits light from within, illuminating its path as it moves through misty terrain.",
+    "bio": "Veilor's lantern casts light in the opposite direction from wherever it points - held left, light goes right; held overhead, it illuminates the floor. Veilor navigates perfectly. Everyone else finds it deeply inconvenient.",
+    "locked": false,
     "stats": {
       "hp": 14,
       "atk": 23,
@@ -3567,7 +3688,8 @@
     ],
     "evolution": [],
     "scale": "0.7",
-    "bio": "This cactus owl perches on a thorny branch, holding a succulent in its paws while displaying a calm demeanor.",
+    "bio": "Thornowl's spines are not defensive - they're sensory, detecting air pressure changes that indicate approaching weather or moving prey. The succulent it clutches is not food but a comfort object it carries everywhere.",
+    "locked": false,
     "stats": {
       "hp": 27,
       "atk": 10,
@@ -3593,7 +3715,8 @@
     "tags": [],
     "evolution": [],
     "scale": "0.6",
-    "bio": "This plant-like creature emits soft vibrations from its central stalk while resting in open fields during dawn hours.",
+    "bio": "The dandelion growing from Dandypuff's head releases seeds whenever it sneezes, which happens constantly. It wears the metal mask not for decoration but to minimize inadvertent seed dispersal in enclosed spaces.",
+    "locked": false,
     "stats": {
       "hp": 27,
       "atk": 11,
@@ -3624,7 +3747,8 @@
       ]
     ],
     "scale": "1",
-    "bio": "This bee-like creature collects honey from nectar sources in open meadows using specialized antennae to detect floral scents.",
+    "bio": "Flutterking's honey staff is both weapon and food storage - it compresses honey into the core of the staff over time, which it taps on cold days. The honey produced has notably strong sweetening properties.",
+    "locked": false,
     "stats": {
       "hp": 25,
       "atk": 35,
@@ -3650,7 +3774,8 @@
     "tags": [],
     "evolution": [],
     "scale": "1",
-    "bio": "This creature emits soft light from its horn during twilight hours, signaling territorial boundaries in open fields.",
+    "bio": "Fayefawn's rainbow mane changes color depending on altitude - the higher it flies, the more vivid the spectrum becomes. At maximum height, the colors reportedly become colors that have no name.",
+    "locked": false,
     "stats": {
       "hp": 14,
       "atk": 14,
@@ -3676,7 +3801,8 @@
     "tags": [],
     "evolution": [],
     "scale": "1",
-    "bio": "This creature emits dark energy bursts from its claws during territorial disputes.",
+    "bio": "The dark orbs drifting around Doomveil are solidified shadow - they harden when Doomveil is stressed and dissolve in sunlight. It spends considerable energy keeping them intact during the day.",
+    "locked": true,
     "stats": {
       "hp": 14,
       "atk": 23,
@@ -3711,7 +3837,8 @@
       ]
     ],
     "scale": "1",
-    "bio": "This creature rests in lotus positions on water lily pads, using meditation-like stillness as part of its daily routine.",
+    "bio": "Zenari meditates for twenty-three hours a day, spending the remaining hour eating. The lotus on its head only blooms during meditation, sealing closed the moment it stops - which happens very quickly at mealtimes.",
+    "locked": true,
     "stats": {
       "hp": 13,
       "atk": 13,
@@ -3742,7 +3869,8 @@
       ]
     ],
     "scale": "0.9",
-    "bio": "This creature releases streams of water from its tail whenever it detects moisture in the ground.",
+    "bio": "Hydromander's fins are filled with pressurized water rather than bone - it can fire jets from their edges to push through deep currents at tremendous speed.",
+    "locked": false,
     "stats": {
       "hp": 17,
       "atk": 18,
@@ -3770,7 +3898,8 @@
     ],
     "evolution": [],
     "scale": "0.6",
-    "bio": "This creature emits steam from its mouth as it breathes in high-temperature air during volcanic activity near geothermal vents.",
+    "bio": "Ashwhisker's whiskers are actually hardened smoke filaments that it can extend or retract at will. The quiet plumes it exhales are said to carry the scent of embers from a long-forgotten fire.",
+    "locked": false,
     "stats": {
       "hp": 11,
       "atk": 24,
@@ -3798,7 +3927,8 @@
     ],
     "evolution": [],
     "scale": "1",
-    "bio": "This creature uses its tail as a tool to dig in loose earth during nocturnal foraging sessions.",
+    "bio": "Emeraldillo's shell is composed of genuine crystallized emerald that grew around it through a geological process still not fully understood. It is extraordinarily heavy, which is why Emeraldillo barely moves and doesn't seem to mind.",
+    "locked": true,
     "stats": {
       "hp": 29,
       "atk": 10,
@@ -3824,7 +3954,8 @@
     "tags": [],
     "evolution": [],
     "scale": "0.6",
-    "bio": "This creature emits heat pulses from its body whenever it encounters high-temperature environments.",
+    "bio": "Magworm's segmented body can detach and reattach sections independently, allowing it to compress or extend its length by several feet. The segments hiss against each other like pressurized rings when it moves.",
+    "locked": false,
     "stats": {
       "hp": 14,
       "atk": 22,
@@ -3850,7 +3981,8 @@
     "tags": [],
     "evolution": [],
     "scale": "0.8",
-    "bio": "This creature emits soft light pulses from its body during nighttime activity as part of its natural communication pattern.",
+    "bio": "Glazor's wings are rigid crystalline planes that don't flap - instead, Glazor glides using thermal columns, tilting its body to redirect lift. The wings ring like glass when it banks sharply.",
+    "locked": false,
     "stats": {
       "hp": 13,
       "atk": 13,
@@ -3878,7 +4010,8 @@
     ],
     "evolution": [],
     "scale": "1",
-    "bio": "This creature uses rapid wing flaps to generate lift during high-speed flight over rocky terrain.",
+    "bio": "Drillvex's wing feathers are rotating - each one spins like a drill bit during flight, boring through wind resistance rather than around it. The sound it makes while airborne has been described as deeply unsettling.",
+    "locked": true,
     "stats": {
       "hp": 31,
       "atk": 17,
@@ -3905,7 +4038,8 @@
     "tags": [],
     "evolution": [],
     "scale": "0.8",
-    "bio": "This creature emits bright light from its body whenever it detects movement in nearby vegetation.",
+    "bio": "Slimescale's glowing internal orbs are individually detachable - it can release them from its mouth as bioluminescent bait, luring in prey. The orbs regrow within the week. It considers them renewable.",
+    "locked": true,
     "stats": {
       "hp": 20,
       "atk": 13,
@@ -3933,7 +4067,8 @@
     ],
     "evolution": [],
     "scale": "1",
-    "bio": "This creature emits bright electrical pulses from its body during nighttime activity as part of its natural energy regulation cycle.",
+    "bio": "Thunderhoof's hooves generate electrical charge through a piezoelectric effect as they strike the ground - the harder it runs, the greater the voltage. A full gallop produces enough electricity to power a moderate lightning strike.",
+    "locked": true,
     "stats": {
       "hp": 12,
       "atk": 12,
@@ -3966,7 +4101,8 @@
       ]
     ],
     "scale": "0.8",
-    "bio": "This bird dives into open fields at dawn to catch insects mid-flight during migration seasons.",
+    "bio": "Grawk's wingspan creates such significant shadow that small animals use it as a sundial - it flies the same routes at the same times each day with remarkable consistency.",
+    "locked": false,
     "stats": {
       "hp": 30,
       "atk": 32,
@@ -3993,7 +4129,8 @@
     "tags": [],
     "evolution": [],
     "scale": "1",
-    "bio": "This creature releases icy droplets from its mouth as it consumes cold water in deep aquatic zones.",
+    "bio": "Saliveel's ice crystal teeth regrow every three days - the new ones start transparent and darken to near-black before the next shed. The drip from them is liquid ice that briefly freezes whatever it contacts.",
+    "locked": false,
     "stats": {
       "hp": 15,
       "atk": 22,
@@ -4024,7 +4161,8 @@
       ]
     ],
     "scale": "0.7",
-    "bio": "This insect uses wing vibrations as a form of communication during mating rituals in open habitats.",
+    "bio": "Sunflicker's wings are composed of overlapping chitin panels with precise gaps that filter light into amber beams when it flies toward the sun. Forests it passes through appear briefly, beautifully lit from above.",
+    "locked": true,
     "stats": {
       "hp": 35,
       "atk": 27,
@@ -4050,7 +4188,8 @@
     "tags": [],
     "evolution": [],
     "scale": "0.6",
-    "bio": "This creature uses leafy appendages as camouflage while moving through dense foliage in its natural environment.",
+    "bio": "Iguano's color changes are far slower than most chameleons - it takes about three hours to fully shift hues. This means it's often the wrong color for wherever it's standing and has developed an attitude of complete acceptance about it.",
+    "locked": false,
     "stats": {
       "hp": 24,
       "atk": 11,
@@ -4082,7 +4221,8 @@
       ]
     ],
     "scale": "0.7",
-    "bio": "This ice octopus curls into a compact ball during cold weather as part of its seasonal hibernation behavior.",
+    "bio": "Snowjell's ice spikes are grown from water it processes internally and extruded through pores on its crown - it maintains them like a grooming ritual, replacing spikes that melt with freshly-frozen ones.",
+    "locked": true,
     "stats": {
       "hp": 14,
       "atk": 16,
@@ -4109,7 +4249,8 @@
     "tags": [],
     "evolution": [],
     "scale": "0.7",
-    "bio": "This creature uses wing vibrations as a method of communication during mating rituals in nocturnal forest zones.",
+    "bio": "Moonduster's wings carry a fine luminescent powder in crescent patterns that it sheds in trails as it flies. The powder glows long after Moonduster has passed, leaving temporary glowing paths through the night.",
+    "locked": false,
     "stats": {
       "hp": 16,
       "atk": 30,
@@ -4136,7 +4277,8 @@
     "tags": [],
     "evolution": [],
     "scale": "0.7",
-    "bio": "This creature uses its tail as a tool to probe the ground in search of small insects.",
+    "bio": "Dustoad's large eyes are adapted for low-angle light, making it most effective at dawn and dusk. During midday, it presses itself flat to the ground and becomes nearly invisible against sand.",
+    "locked": false,
     "stats": {
       "hp": 24,
       "atk": 12,
@@ -4169,7 +4311,8 @@
       ]
     ],
     "scale": "0.8",
-    "bio": "This creature uses its large petals as camouflage while resting in leafy vegetation near water sources.",
+    "bio": "Bloomiebun's enormous petal ears double as solar collectors, slowly charging a reserve of energy through the day. By dusk, it has just enough stored energy to produce a soft bioluminescent glow through the night.",
+    "locked": false,
     "stats": {
       "hp": 33,
       "atk": 12,
@@ -4195,7 +4338,8 @@
     "tags": [],
     "evolution": [],
     "scale": "0.8",
-    "bio": "This creature emits faint blue light from its shell whenever it moves across damp ground.",
+    "bio": "Frostback's shell is fully transparent from certain angles, allowing a clear view of the bones and organs within - a defense mechanism, as predators find this deeply unsettling and tend to leave it alone.",
+    "locked": true,
     "stats": {
       "hp": 12,
       "atk": 12,
@@ -4223,7 +4367,8 @@
     ],
     "evolution": [],
     "scale": "0.8",
-    "bio": "This animal uses long tail fibers as natural tools to balance while navigating through open terrain.",
+    "bio": "Lira floats slightly above every surface it lands on - its wings continuously generate just enough lift to prevent full contact. It has never technically touched the ground in its lifetime.",
+    "locked": false,
     "stats": {
       "hp": 13,
       "atk": 14,
@@ -4249,7 +4394,8 @@
     "tags": [],
     "evolution": [],
     "scale": "0.8",
-    "bio": "This animal crouches in alert posture, scanning surroundings with intense focus as it monitors potential threats near its burrow entrance.",
+    "bio": "Sneerkit's facial structure makes it physically impossible for it to produce a neutral expression - the brow ridge developed in a fixed down-angle position. Every response, including friendliness, reads as contempt.",
+    "locked": false,
     "stats": {
       "hp": 30,
       "atk": 26,
@@ -4275,7 +4421,8 @@
     "tags": [],
     "evolution": [],
     "scale": "0.6",
-    "bio": "This animal uses rapid tail flicks as a defense mechanism against approaching predators in open habitats.",
+    "bio": "Spindash's tail spike is formed from compressed keratin and swings with the same momentum as a pendulum - once in motion, it takes significant effort to stop. Spindash has learned to commit fully to any tail swing.",
+    "locked": false,
     "stats": {
       "hp": 34,
       "atk": 11,
@@ -4303,7 +4450,8 @@
     ],
     "evolution": [],
     "scale": "0.8",
-    "bio": "This cat-like creature holds two candlesticks in each paw, suggesting it may be performing ceremonial duties during nighttime rituals.",
+    "bio": "Candlepurr's candelabras never go out regardless of wind or rain - the flames are actually solidified light crystallized within the wax. It uses them as nightlights and has never once been in the dark.",
+    "locked": true,
     "stats": {
       "hp": 12,
       "atk": 14,
@@ -4336,7 +4484,8 @@
       ]
     ],
     "scale": "0.9",
-    "bio": "This creature uses leafy appendages as tools to gather insects from nearby foliage.",
+    "bio": "Leafcub wraps itself in fallen leaves for warmth - the leaves form a slow-composting insulating layer around its body. The mismatched eyes help it see in both bright and dim light simultaneously.",
+    "locked": false,
     "stats": {
       "hp": 28,
       "atk": 16,
@@ -4369,7 +4518,8 @@
       ]
     ],
     "scale": "0.8",
-    "bio": "This animal uses its tail as a tool to gather small stones from nearby surfaces while exploring rocky terrain.",
+    "bio": "The glowing purple orbs embedded in Aquacub's chest are actually water stored and pressurized over time. When startled, it releases all of them at once in a defensive bubble burst.",
+    "locked": false,
     "stats": {
       "hp": 12,
       "atk": 15,
@@ -4395,7 +4545,8 @@
     "tags": [],
     "evolution": [],
     "scale": "0.7",
-    "bio": "This creature uses wing vibrations as a method of communication during mating rituals in forested areas.",
+    "bio": "Flutterbean's wings are structured like layered leaves rather than scales, allowing it to photosynthesize during slow flight. On very sunny days it eats significantly less than usual.",
+    "locked": true,
     "stats": {
       "hp": 32,
       "atk": 13,
@@ -4426,7 +4577,8 @@
       ]
     ],
     "scale": "1",
-    "bio": "This insect uses wing vibrations as a method of communication during mating rituals.",
+    "bio": "Beeatrice does not produce honey herself - instead, she conducts the production by humming at precise frequencies that signal worker bees to increase or decrease output. Her crown vibrates slightly when she does this.",
+    "locked": false,
     "stats": {
       "hp": 38,
       "atk": 26,
@@ -4479,7 +4631,8 @@
       ]
     ],
     "scale": "0.7",
-    "bio": "This animal uses its padded paws to gently press against rocks while exploring nearby ledges in search of small insects.",
+    "bio": "Cubbo's bead necklace is made from seeds it swallowed as a cub that hardened inside its stomach before it coughed them back up. It wears them as a trophy. Researchers do not ask follow-up questions.",
+    "locked": false,
     "stats": {
       "hp": 29,
       "atk": 29,
@@ -4512,7 +4665,8 @@
       ]
     ],
     "scale": "0.7",
-    "bio": "This bird frequently perches on high branches during dawn to scan for signs of prey movement in open areas.",
+    "bio": "Bonecaw collects small bones and weaves them into its feathers as decorative talismans. Each bone represents a rival it has outlasted. Older Bonecaws barely have room for another.",
+    "locked": false,
     "stats": {
       "hp": 14,
       "atk": 30,
@@ -4545,7 +4699,8 @@
       ]
     ],
     "scale": "0.7",
-    "bio": "This creature uses its tail as a propulsion device to move across soft ground in search of food sources.",
+    "bio": "Shelltorch's shell stacks are natural vents for excess metabolic heat that has nowhere else to go. The smoke they produce smells strongly of pine resin.",
+    "locked": false,
     "stats": {
       "hp": 21,
       "atk": 23,
@@ -4578,7 +4733,8 @@
       ]
     ],
     "scale": "1",
-    "bio": "This creature emits heat from internal vents as part of its thermoregulatory behavior during prolonged periods of low sunlight.",
+    "bio": "Volcorto's shell vents are not decorative - they channel superheated gas generated by its volcanic digestion process. The fire it expels is a metabolic byproduct and occurs regardless of whether Volcorto intends it.",
+    "locked": false,
     "stats": {
       "hp": 20,
       "atk": 20,
@@ -4609,7 +4765,8 @@
       ]
     ],
     "scale": "0.6",
-    "bio": "This creature uses its tentacles to gently fan water currents around its burrow entrance during low tide.",
+    "bio": "Driftquill's pointed cap is not a hat - it is a modified cranium used as a drill to bore into soft ocean floor sediment. Its ink is released upward through this point when alarmed.",
+    "locked": true,
     "stats": {
       "hp": 9,
       "atk": 10,
@@ -4640,7 +4797,8 @@
       ]
     ],
     "scale": "0.8",
-    "bio": "This creature uses its tentacles to collect rainwater from surrounding surfaces as it navigates through damp environments.",
+    "bio": "Driftrella's umbrella-shaped cap is a natural bio-structure that catches ocean currents, allowing it to drift for thousands of miles without swimming. It opens or closes the cap to steer.",
+    "locked": true,
     "stats": {
       "hp": 12,
       "atk": 12,
@@ -4668,7 +4826,8 @@
     ],
     "evolution": [],
     "scale": "1",
-    "bio": "This animal carries a lantern in its tail, indicating it uses light sources as part of its nocturnal navigation behavior.",
+    "bio": "Wrapmaw's bandages are self-applied and refreshed regularly - they cover injuries that fully healed decades ago. It wraps them out of habit, and no amount of evidence that the wounds are gone has changed its practice.",
+    "locked": false,
     "stats": {
       "hp": 12,
       "atk": 25,
@@ -4694,7 +4853,8 @@
     "tags": [],
     "evolution": [],
     "scale": "0.6",
-    "bio": "This creature uses leaf-shaped appendages to absorb sunlight during daytime rest periods.",
+    "bio": "Leafluv's single leaf is so precisely calibrated to local humidity that it curls and uncurls as a real-time hygrometer. Farmers plant Leafluv near crop fields as a living weather gauge.",
+    "locked": true,
     "stats": {
       "hp": 31,
       "atk": 12,
@@ -4720,7 +4880,8 @@
     "tags": [],
     "evolution": [],
     "scale": "0.8",
-    "bio": "This researcher carries leafy botanicals in specialized containers as part of their field study protocol.",
+    "bio": "Mechleaf waters the plants it keeps in its head pots precisely every four hours using a clockwork internal reservoir. If anything interrupts the schedule, it becomes visibly distressed until watering is complete.",
+    "locked": false,
     "stats": {
       "hp": 33,
       "atk": 13,
@@ -4746,7 +4907,8 @@
     "tags": [],
     "evolution": [],
     "scale": "0.6",
-    "bio": "This creature emits bright light from its body whenever it detects movement in nearby foliage.",
+    "bio": "Zoggo's wide grin is structurally fixed - the lower jaw can descend but not close past a certain point, leaving it in a perpetual smile even while sleeping. This has created several misunderstandings.",
+    "locked": false,
     "stats": {
       "hp": 32,
       "atk": 24,
@@ -4772,7 +4934,8 @@
     "tags": [],
     "evolution": [],
     "scale": "0.6",
-    "bio": "This aquatic creature emits bright light pulses from its fins during feeding frenzies in shallow reef zones.",
+    "bio": "Puffetti celebrates constantly and releases confetti from under its scales for each occasion. The confetti is biodegradable - it is actually shed scales compressed into colorful flakes.",
+    "locked": true,
     "stats": {
       "hp": 12,
       "atk": 13,
@@ -4800,7 +4963,8 @@
     ],
     "evolution": [],
     "scale": "1",
-    "bio": "This creature gathers sunflower seeds from nearby meadows during early morning hours as part of its daily feeding routine.",
+    "bio": "Topbloom's hat-flowers reorient themselves toward sunlight regardless of which direction Topbloom is facing, occasionally creating the appearance of a creature running away from its own hat.",
+    "locked": false,
     "stats": {
       "hp": 23,
       "atk": 13,
@@ -4826,7 +4990,8 @@
     "tags": [],
     "evolution": [],
     "scale": "0.6",
-    "bio": "This creature uses leafy appendages to absorb sunlight during daytime rest periods.",
+    "bio": "Glidaleaf's leaf wings allow it to glide between canopy trees but provide no lift for climbing. It compensates by gripping branches with its curly tail and flinging itself outward to gain airspeed.",
+    "locked": false,
     "stats": {
       "hp": 24,
       "atk": 12,
@@ -4852,7 +5017,8 @@
     "tags": [],
     "evolution": [],
     "scale": "0.7",
-    "bio": "This creature emits soft light from its body whenever it approaches a source of moisture in the canopy.",
+    "bio": "Feyflutter's wings scatter light into prismatic patterns on surrounding surfaces when it hovers, which it uses deliberately to confuse predators. In dim light, these patterns are vivid enough to be temporarily blinding.",
+    "locked": true,
     "stats": {
       "hp": 30,
       "atk": 28,
@@ -4878,7 +5044,8 @@
     "tags": [],
     "evolution": [],
     "scale": "0.9",
-    "bio": "This creature uses rapid leg movements to create vibrations that help it detect prey beneath the surface.",
+    "bio": "Voidlocust's armor panels overlap in a configuration that lets it seal itself completely airtight - inside, it maintains a pressurized atmosphere distinct from the surrounding environment. Whatever is in there stays there.",
+    "locked": false,
     "stats": {
       "hp": 16,
       "atk": 31,
@@ -4904,7 +5071,8 @@
     "tags": [],
     "evolution": [],
     "scale": "0.8",
-    "bio": "This creature emits light from its tail as it approaches flowers, possibly signaling an attraction behavior toward nectar-rich blooms.",
+    "bio": "Petalight is technically too heavy to fly with its wings and technically does so anyway. Researchers have no satisfying explanation and have stopped asking.",
+    "locked": false,
     "stats": {
       "hp": 12,
       "atk": 11,
@@ -4938,7 +5106,8 @@
       ]
     ],
     "scale": "0.6",
-    "bio": "This owl carries a clock around its neck, indicating it keeps time by observing daily cycles in nature.",
+    "bio": "Hootspring's chest clock runs on biological clockwork powered by its heartbeat. When it sleeps, the clock slows. When excited, the hands spin erratically. It is never correct twice in the same day.",
+    "locked": false,
     "stats": {
       "hp": 25,
       "atk": 26,
@@ -4966,7 +5135,8 @@
     ],
     "evolution": [],
     "scale": "1.2",
-    "bio": "This mechanical giraffe uses its long neck to reach high branches in search of nectar from rare flowers.",
+    "bio": "Gearaffe's long neck contains a clockwork ratchet system that lets it raise or lower its head in precise increments. It can hold any angle indefinitely, which proves useful and also disturbing.",
+    "locked": false,
     "stats": {
       "hp": 12,
       "atk": 11,
@@ -4994,7 +5164,8 @@
     ],
     "evolution": [],
     "scale": "0.8",
-    "bio": "This creature uses rapid tail flicks as a communication signal during social interactions in its natural environment.",
+    "bio": "Paintdoodle's fur changes color patterns every time it shakes itself out - not randomly, but according to a cycling sequence no two Paintdoodles share. Its current pattern is always precisely one step ahead of its previous one.",
+    "locked": true,
     "stats": {
       "hp": 27,
       "atk": 29,
@@ -5021,7 +5192,8 @@
     "tags": [],
     "evolution": [],
     "scale": "0.8",
-    "bio": "This creature emits bright light patterns from its back during nighttime activities as part of its natural communication behavior.",
+    "bio": "Zapaca's wool contains a natural electromagnetic weave - each fiber is a microscopic conductor that collectively stores charge during electrical storms. After a lightning strike nearby, its fleece sparks for hours.",
+    "locked": false,
     "stats": {
       "hp": 12,
       "atk": 14,
@@ -5052,7 +5224,8 @@
       ]
     ],
     "scale": "0.6",
-    "bio": "This creature emits soft vibrations from its body during social interactions, suggesting a communication method used in group bonding rituals.",
+    "bio": "Budpole secretes a mild chemical through its skin that triggers affectionate feelings in nearby creatures. This is purely defensive - predators that touch it tend to forget what they were doing.",
+    "locked": true,
     "stats": {
       "hp": 9,
       "atk": 10,
@@ -5084,7 +5257,8 @@
       ]
     ],
     "scale": "0.8",
-    "bio": "This creature emits a loud vocalization by opening its mouth wide in rapid succession while sitting still.",
+    "bio": "Puddla's extremely wide mouth opens that way to cool down, as its mouth lining is one of the only places on its body where heat can efficiently escape. Hot days are very undignified for it.",
+    "locked": false,
     "stats": {
       "hp": 21,
       "atk": 9,
@@ -5112,7 +5286,8 @@
     ],
     "evolution": [],
     "scale": "0.8",
-    "bio": "This creature emits soft chimes from its bell-shaped accessory while resting in a quiet enclosure.",
+    "bio": "Cinderlamb's wool is not flammable - it is already charred from birth and functions as a heat-resistant outer layer. The bell around its neck is strangely cold to the touch no matter the temperature around it.",
+    "locked": false,
     "stats": {
       "hp": 11,
       "atk": 34,
@@ -5146,7 +5321,8 @@
       ]
     ],
     "scale": "0.7",
-    "bio": "This animal uses its large curved horns to dig into soft earth in search of underground roots.",
+    "bio": "Tusket's golden tusks are adult-sized relative to its still-growing body, making them disproportionately heavy. It has compensated by developing extraordinarily strong neck muscles, giving it a silhouette of perpetual readiness.",
+    "locked": true,
     "stats": {
       "hp": 10,
       "atk": 11,
@@ -5180,7 +5356,8 @@
       ]
     ],
     "scale": "1",
-    "bio": "This creature uses its large horns as tools to dig into soft ground in search of roots and insects.",
+    "bio": "Tuskara's tusks curve so dramatically that their tips point almost directly backward, making them nearly useless as forward-facing weapons but extraordinarily effective at hooking into rocky surfaces for climbing.",
+    "locked": true,
     "stats": {
       "hp": 16,
       "atk": 12,
@@ -5214,7 +5391,8 @@
       ]
     ],
     "scale": "1.3",
-    "bio": "This mammoth-like creature uses its large tusks as tools to dig up roots in dense forest undergrowth.",
+    "bio": "Mammolith's armor bands are not metal - they are compressed geological strata, layers of ancient sediment that compressed around its legs over thousands of years of slow movement through deep earth.",
+    "locked": true,
     "stats": {
       "hp": 15,
       "atk": 15,
@@ -5240,7 +5418,8 @@
     "tags": [],
     "evolution": [],
     "scale": "0.6",
-    "bio": "This creature emits a low-frequency hum from its body whenever it detects vibrations in nearby water sources.",
+    "bio": "Grumblin's round bubbly exterior is a byproduct of constantly-released gas from its skin, which inflates the surface layer. The more irritated it is, the more bubbles it produces - at peak anger, it looks almost spherical.",
+    "locked": true,
     "stats": {
       "hp": 31,
       "atk": 29,
@@ -5273,7 +5452,8 @@
       ]
     ],
     "scale": "0.8",
-    "bio": "This owl perches quietly in twilight forests, using keen senses to detect nocturnal insect prey movement before dawn.",
+    "bio": "Twihoot's pink eyes glow in response to sound rather than light - the louder the environment, the brighter they shine. In total silence, they go completely dark and Twihoot navigates by memory.",
+    "locked": true,
     "stats": {
       "hp": 14,
       "atk": 29,
@@ -5299,7 +5479,8 @@
     "tags": [],
     "evolution": [],
     "scale": "0.7",
-    "bio": "This squirrel uses its tail as a tool to balance while climbing trees during autumn foliage changes.",
+    "bio": "Furrnut's acorn cap is not natural - it found a perfectly sized hollow acorn early in life and has worn it every day since, using it as both hat and emergency water cup when it tilts its head.",
+    "locked": false,
     "stats": {
       "hp": 31,
       "atk": 30,
@@ -5331,7 +5512,8 @@
       ]
     ],
     "scale": "1.1",
-    "bio": "This creature emits a loud vocalization by opening its mouth wide in a forceful yawn, likely signaling hunger or communication within its social group.",
+    "bio": "Ploddla holds leaves in its wide-open mouth as a slow composting process, breaking them into nutrients that coat its teeth and prevent decay. It keeps its mouth open more than closed as a result.",
+    "locked": true,
     "stats": {
       "hp": 18,
       "atk": 12,
@@ -5357,7 +5539,8 @@
     "tags": [],
     "evolution": [],
     "scale": "1",
-    "bio": "This creature uses its eight legs to drag prey across rocky terrain in search of nutrients.",
+    "bio": "Arachne weaves its silk into elaborate robes rather than webs, finding traditional webs inefficient. The twin skull markings on its thorax are thought to mimic the eyes of a much larger predator.",
+    "locked": false,
     "stats": {
       "hp": 10,
       "atk": 24,
@@ -5385,7 +5568,8 @@
     ],
     "evolution": [],
     "scale": "1.2",
-    "bio": "This robotic entity extends its arms outward in a symmetrical stance while maintaining a stationary position during routine scanning operations.",
+    "bio": "Aethermech's halo is not decorative - it functions as a gyroscopic compass that always points toward the nearest source of ancient energy. The wings, though mechanical, are said to have never been built by any known craftsman.",
+    "locked": false,
     "stats": {
       "hp": 13,
       "atk": 12,
@@ -5411,7 +5595,8 @@
     "tags": [],
     "evolution": [],
     "scale": "0.8",
-    "bio": "This creature emits electrical pulses from its body whenever it detects potential energy sources in its environment.",
+    "bio": "Boomlet's fuse tail is never fully extinguished - it simply burns at different speeds depending on its mood. On calm days it barely smolders; when excited, it hisses and sparks at dangerous rates.",
+    "locked": false,
     "stats": {
       "hp": 13,
       "atk": 11,
@@ -5444,7 +5629,8 @@
       ]
     ],
     "scale": "0.9",
-    "bio": "This fiery creature spreads its tail feathers in a display of warmth during mating season.",
+    "bio": "Ashplume fans its tail to display the ember-ringed eye patterns on its feathers, which glow hottest during mating season. The heat they generate is enough to singe grass underfoot.",
+    "locked": false,
     "stats": {
       "hp": 15,
       "atk": 30,
@@ -5476,7 +5662,8 @@
       ]
     ],
     "scale": "1",
-    "bio": "This creature uses its tail as a defensive weapon by flicking it rapidly at threats during territorial disputes.",
+    "bio": "Bristawild's thick black spines rattle against each other as it moves, producing a constant low clatter that other creatures learn to associate with danger.",
+    "locked": false,
     "stats": {
       "hp": 29,
       "atk": 13,
@@ -5507,7 +5694,8 @@
       ]
     ],
     "scale": "0.6",
-    "bio": "This creature emits soft light pulses from its core whenever it detects nearby moisture in the ground.",
+    "bio": "The clover sealed inside Bubbler's translucent body is believed to be the source of its buoyancy. If it ever floats out, Bubbler sinks immediately - so it guards it with extraordinary vigilance.",
+    "locked": false,
     "stats": {
       "hp": 13,
       "atk": 14,
@@ -5538,7 +5726,8 @@
       ]
     ],
     "scale": "0.4",
-    "bio": "This creature emits soft gurgling sounds while floating in water-filled bubbles, likely communicating through acoustic vibrations during social interactions.",
+    "bio": "Bubbliss can control the surface tension of its body to pass through narrow gaps by temporarily flattening itself. It can then re-inflate on the other side, though it takes a moment to remember its original shape.",
+    "locked": false,
     "stats": {
       "hp": 11,
       "atk": 11,
@@ -5564,7 +5753,8 @@
     "tags": [],
     "evolution": [],
     "scale": "0.6",
-    "bio": "This creature uses its tail as a tool to probe the ground in search of small insects during dawn hours.",
+    "bio": "Burrowrex uses its wide flat tail as a shovel to excavate tunnels and as a seal to block tunnel entrances behind it. The tail has never been observed being used for anything else, which researchers find suspicious.",
+    "locked": true,
     "stats": {
       "hp": 38,
       "atk": 11,
@@ -5595,7 +5785,8 @@
       ]
     ],
     "scale": "0.6",
-    "bio": "This creature emits bright blue light from its head whenever it detects chemical traces of nearby organic matter in decaying plant material.",
+    "bio": "Cabbuskid's mouth is sealed shut with what appear to be stitches, yet it communicates fluently through the intensity and pattern of its eye glow. Researchers have decoded several distinct messages - none of them friendly.",
+    "locked": false,
     "stats": {
       "hp": 23,
       "atk": 12,
@@ -5623,7 +5814,8 @@
     ],
     "evolution": [],
     "scale": "1.1",
-    "bio": "This trio of dogs stands in formation, baring teeth as if preparing to attack prey from their shared territory.",
+    "bio": "Each of Cerberuff's three heads has a distinct personality - the left is calm, the right is aggressive, and the center only speaks when the other two can't agree. Arguments between them are common and loud.",
+    "locked": true,
     "stats": {
       "hp": 12,
       "atk": 26,
@@ -5649,7 +5841,8 @@
     "tags": [],
     "evolution": [],
     "scale": "0.5",
-    "bio": "This creature emits a faint flame from its back during rest periods as part of its thermoregulatory behavior.",
+    "bio": "Charlet's ears are always lit with a soft flame it cannot extinguish - and cannot feel. The heat from them is just enough to warm a small area around it, which woodland creatures exploit shamelessly during cold nights.",
+    "locked": true,
     "stats": {
       "hp": 13,
       "atk": 23,
@@ -5675,7 +5868,8 @@
     "tags": [],
     "evolution": [],
     "scale": "0.8",
-    "bio": "This octopus gently curls its tentacles around itself while resting in a calm underwater environment.",
+    "bio": "The smaller octopus atop Clamora's head is not a separate creature - it is a sensory organ that evolved independently and has its own rudimentary awareness. They disagree about directions constantly.",
+    "locked": false,
     "stats": {
       "hp": 11,
       "atk": 13,
@@ -5701,7 +5895,8 @@
     "tags": [],
     "evolution": [],
     "scale": "0.8",
-    "bio": "This fox carries a small pouch filled with coins, suggesting it stores resources for future travel or trade in its natural environment.",
+    "bio": "Coinnip can identify the weight, material, and age of any coin by touching it with its nose. It has never once spent a coin it collected, preferring to weigh and sort them.",
+    "locked": true,
     "stats": {
       "hp": 26,
       "atk": 26,
@@ -5727,7 +5922,8 @@
     "tags": [],
     "evolution": [],
     "scale": "0.6",
-    "bio": "This creature uses its antennae-like ears to detect subtle vibrations in the ground during nocturnal foraging.",
+    "bio": "Conewalker's ice cream swirl top is maintained at a constant temperature by an internal organ - it never melts, even in summer. On cold days it gets inexplicably firmer.",
+    "locked": false,
     "stats": {
       "hp": 13,
       "atk": 13,
@@ -5753,7 +5949,8 @@
     "tags": [],
     "evolution": [],
     "scale": "0.8",
-    "bio": "This seal-like creature displays an unusual feeding behavior by consuming coral fragments during low tide periods in coastal marine zones.",
+    "bio": "Corseal's coral antlers grow slowly over its lifetime - older individuals have elaborate branching racks decorated with polyps and anemones that have colonized the surface. They never seem bothered by the weight.",
+    "locked": false,
     "stats": {
       "hp": 12,
       "atk": 14,
@@ -5779,7 +5976,8 @@
     "tags": [],
     "evolution": [],
     "scale": "0.7",
-    "bio": "This crab tears up water droplets from its claws as it struggles to maintain balance in shallow tide pools.",
+    "bio": "Crabawl is always crying - not from sadness but because its eyes naturally overproduce moisture to keep them clean in salt water. It has simply never found a way to explain this to anyone.",
+    "locked": true,
     "stats": {
       "hp": 11,
       "atk": 14,
@@ -5807,7 +6005,8 @@
     ],
     "evolution": [],
     "scale": "1",
-    "bio": "This creature frequently uses its tail as a makeshift whisk while stirring ingredients in a cooking pot.",
+    "bio": "Creamoo's milk has a natural cream content so high it sets into butter at room temperature. It spends its free time perfecting recipes it cannot share with anyone because it has no hands capable of writing.",
+    "locked": true,
     "stats": {
       "hp": 30,
       "atk": 34,
@@ -5838,7 +6037,8 @@
       ]
     ],
     "scale": "0.8",
-    "bio": "This creature uses its tail as a tool to probe soft ground in search of small insects.",
+    "bio": "Crooklet has an extremely expressive face despite its reptilian features, cycling through dozens of identifiable expressions per minute. It is largely unaware of this and would be horrified to know.",
+    "locked": false,
     "stats": {
       "hp": 12,
       "atk": 10,
@@ -5865,7 +6065,8 @@
     "tags": [],
     "evolution": [],
     "scale": "1.1",
-    "bio": "This creature emits soft green light from its antlers during twilight hours as part of a natural photoreception behavior.",
+    "bio": "Crescyon's golden markings appear and fade in cycles precisely matching the lunar calendar, brightening at the full moon and nearly vanishing at the new moon. No one has explained the mechanism responsible.",
+    "locked": true,
     "stats": {
       "hp": 16,
       "atk": 12,
@@ -5896,7 +6097,8 @@
       ]
     ],
     "scale": "1.2",
-    "bio": "This creature uses powerful jaws to crush hard-shelled prey in its natural habitat.",
+    "bio": "Crocclaw's upright posture developed from a habit of wading through shallow rivers and reaching for hanging fruit. The muscles required for this have made its arms significantly more powerful than its legs.",
+    "locked": true,
     "stats": {
       "hp": 11,
       "atk": 13,
@@ -5927,7 +6129,8 @@
       ]
     ],
     "scale": "1",
-    "bio": "This insect-like creature emits faint blue light from its body as it navigates through icy terrain, possibly using bioluminescence for navigation.",
+    "bio": "Cryobee's stinger deposits a drop of crystalline ice rather than venom, freezing tissue at the point of contact. The ice melts within minutes, leaving no lasting wound - which Cryobee finds deeply unsatisfying.",
+    "locked": false,
     "stats": {
       "hp": 11,
       "atk": 17,
@@ -5953,7 +6156,8 @@
     "tags": [],
     "evolution": [],
     "scale": "0.7",
-    "bio": "This penguin frequently uses its flippers to gently push snow aside while exploring icy patches in winter habitats.",
+    "bio": "Pengufla's scarf and cape are self-secreted from its own down, compressed into fabric over time. They are permanently attached and waterproof - which is useful, since Pengufla refuses to take them off regardless of conditions.",
+    "locked": false,
     "stats": {
       "hp": 13,
       "atk": 14,
@@ -5979,7 +6183,8 @@
     "tags": [],
     "evolution": [],
     "scale": "0.8",
-    "bio": "This creature emits soft chime-like sounds while sitting in icy terrain during winter months.",
+    "bio": "Cubesicle's ice cube head never melts even at high temperatures, but it does fog up when embarrassed. Its body heat is routed entirely away from its head, keeping the cube pristine.",
+    "locked": false,
     "stats": {
       "hp": 10,
       "atk": 10,
@@ -6016,7 +6221,8 @@
       ]
     ],
     "scale": "1",
-    "bio": "This animal carries a large stone on its back as part of its daily ritual to maintain balance during travel through rugged terrain.",
+    "bio": "Cuboulder has carried the same boulder since birth - the runes on its surface predate the creature by centuries and are believed to magnify its strength. Cuboulder itself cannot read them.",
+    "locked": true,
     "stats": {
       "hp": 26,
       "atk": 11,
@@ -6050,7 +6256,8 @@
       ]
     ],
     "scale": "0.8",
-    "bio": "This creature uses its tail as a tool to probe soft ground in search of hidden insects.",
+    "bio": "Glimpmare's expression of profound displeasure is its resting face - it is not angry. Researchers who have spent extended time with it report that it is in fact one of the most content creatures they have observed.",
+    "locked": false,
     "stats": {
       "hp": 12,
       "atk": 20,
@@ -6084,7 +6291,8 @@
       ]
     ],
     "scale": "1.1",
-    "bio": "This creature emits a low-frequency hum from its throat during territorial displays, possibly signaling dominance in its aquatic environment.",
+    "bio": "Dreadmare's enormous jaw generates a vacuum pull when opened rapidly underwater, drawing in prey from a surprising distance. It practices this maneuver endlessly, sometimes sucking in things it didn't intend to.",
+    "locked": true,
     "stats": {
       "hp": 16,
       "atk": 18,
@@ -6113,7 +6321,8 @@
     ],
     "evolution": [],
     "scale": "1",
-    "bio": "This black creature gathers daffodils in its den during spring's first bloom cycle.",
+    "bio": "Duskbloom's presence causes daffodils to bloom nearby regardless of season, drawn by a compound it releases through its paws. It has no control over this and looks slightly embarrassed whenever it happens.",
+    "locked": true,
     "stats": {
       "hp": 17,
       "atk": 23,
@@ -6147,7 +6356,8 @@
       ]
     ],
     "scale": "0.7",
-    "bio": "This animal emits soft light from its forehead whenever it detects movement in nearby vegetation.",
+    "bio": "Dinglet's glowing forehead mark brightens when it senses emotional distress in nearby creatures. It has never figured out how to use this information constructively, but it tries very hard.",
+    "locked": false,
     "stats": {
       "hp": 32,
       "atk": 12,
@@ -6181,7 +6391,8 @@
       ]
     ],
     "scale": "0.9",
-    "bio": "This animal uses its sharp claws to dig into loose earth while scanning for hidden prey beneath leaf litter in dense forest understories.",
+    "bio": "Dingodash's white markings are not painted - they are thermoregulatory channels that release heat during sprinting. The faster it runs, the brighter they glow from radiated warmth.",
+    "locked": true,
     "stats": {
       "hp": 26,
       "atk": 11,
@@ -6215,7 +6426,8 @@
       ]
     ],
     "scale": "1.1",
-    "bio": "This animal sits in an alert posture, constantly scanning the surroundings as if anticipating movement from nearby prey.",
+    "bio": "Dingodor's red eyes glow brightest just before it howls, acting as a one-second warning. Whether this is for the benefit of allies or simply a biological warmup is unclear.",
+    "locked": true,
     "stats": {
       "hp": 28,
       "atk": 16,
@@ -6243,7 +6455,8 @@
     ],
     "evolution": [],
     "scale": "1.1",
-    "bio": "This creature emits intense heat from its body during nocturnal feeding sessions in open savannas.",
+    "bio": "Embermane's mane of fire is so tall it ignites low-hanging branches as it walks through forests. It navigates by this, deliberately routing through areas where its path leaves a trail of lit canopies overhead.",
+    "locked": true,
     "stats": {
       "hp": 11,
       "atk": 30,
@@ -6277,7 +6490,8 @@
       ]
     ],
     "scale": "0.6",
-    "bio": "This young creature sits still, gently holding a pink ribbon that flows from its ears in a quiet display of calm observation.",
+    "bio": "Fleek's ribbon was tied on by a shepherd years ago and has never been removed - it appears to have bonded to Fleek's wool at a structural level. Fleek rotates it slightly each morning as a ritual.",
+    "locked": false,
     "stats": {
       "hp": 20,
       "atk": 35,
@@ -6305,7 +6519,8 @@
     ],
     "evolution": [],
     "scale": "1",
-    "bio": "This creature emits bright energy pulses from its body whenever it detects electrical disturbances in its environment.",
+    "bio": "Sparkoar's mane conducts and stores atmospheric electricity - each individual hair is a capacitor. After a thunderstorm, it crackles for hours as the charge slowly dissipates. Other animals give it considerable space.",
+    "locked": true,
     "stats": {
       "hp": 10,
       "atk": 13,
@@ -6338,7 +6553,8 @@
       ]
     ],
     "scale": "0.9",
-    "bio": "This animal uses its tail's heat signature to detect nearby thermal anomalies in rocky terrain during nocturnal patrols.",
+    "bio": "The ring of fluffy fur around Flarecub's neck acts as a firebreak, preventing the fire that flickers along its face from spreading to the rest of its body. It also makes it look extremely regal, which it seems to know.",
+    "locked": false,
     "stats": {
       "hp": 16,
       "atk": 33,
@@ -6364,7 +6580,8 @@
     "tags": [],
     "evolution": [],
     "scale": "0.7",
-    "bio": "This creature emits soft vibrations from its paws while sitting in shallow water, likely signaling readiness to move into deeper pools.",
+    "bio": "Flotter never fully dries - it carries a permanent personal puddle beneath it wherever it goes. The size of the puddle correlates directly with how recently it was happy.",
+    "locked": false,
     "stats": {
       "hp": 12,
       "atk": 12,
@@ -6395,7 +6612,8 @@
       ]
     ],
     "scale": "0.8",
-    "bio": "This insect uses rapid wing flapping as a defense mechanism against aerial predators in its forest canopy habitat.",
+    "bio": "Flutterburn's wings are wreathed in fire that burns away turbulence as it moves, creating unnaturally smooth flight paths. The scythe claws are used only when it lands, since they make walking complicated.",
+    "locked": true,
     "stats": {
       "hp": 11,
       "atk": 26,
@@ -6428,7 +6646,8 @@
       ]
     ],
     "scale": "0.7",
-    "bio": "This robot uses binoculars to scan distant terrain in search of mineral deposits.",
+    "bio": "Forglin's hammer is permanently welded to its right arm - this was not an accident. It decided years ago that the hammer was the correct limb configuration and refuses to discuss alternatives.",
+    "locked": false,
     "stats": {
       "hp": 10,
       "atk": 13,
@@ -6461,7 +6680,8 @@
       ]
     ],
     "scale": "1",
-    "bio": "This robot uses a large mallet to tap into nearby structures in search of energy sources.",
+    "bio": "Forgron's spherical body is hollow and pressurized - it uses the built-up steam to power short explosive hammer strikes. The sound it makes while building pressure is reportedly identical to a kettle whistling.",
+    "locked": true,
     "stats": {
       "hp": 13,
       "atk": 11,
@@ -6487,7 +6707,8 @@
     "tags": [],
     "evolution": [],
     "scale": "1.1",
-    "bio": "This creature emits a soft glow from its core whenever it detects nearby moisture in the ground.",
+    "bio": "The yellow orb at Freezok's core is not ice - it's a compressed heat source that prevents Freezok's own temperature from freezing its internal systems. Remove it, and it shatters within seconds.",
+    "locked": false,
     "stats": {
       "hp": 12,
       "atk": 15,
@@ -6516,7 +6737,8 @@
     ],
     "evolution": [],
     "scale": "0.8",
-    "bio": "This creature emits faint blue energy from its paws during routine environmental scans.",
+    "bio": "Frostail's blue flame aura burns cold rather than hot - contact with it rapidly lowers the temperature of anything nearby. Its goggles protect its eyes from its own aura's crystallizing effect.",
+    "locked": false,
     "stats": {
       "hp": 14,
       "atk": 12,
@@ -6542,7 +6764,8 @@
     "tags": [],
     "evolution": [],
     "scale": "0.5",
-    "bio": "This creature emits soft chime-like sounds during social interactions, likely as part of communication in its icy environment.",
+    "bio": "Froznip's crystal spines grow slightly longer each winter and partially melt each spring, creating a natural annual record of its age in the varying lengths of spines across its back.",
+    "locked": false,
     "stats": {
       "hp": 15,
       "atk": 11,
@@ -6569,7 +6792,8 @@
     "tags": [],
     "evolution": [],
     "scale": "0.8",
-    "bio": "This creature emits glowing orbs of energy from its hands as part of a ritualistic spellcasting practice.",
+    "bio": "Hexor's wizard hat is several sizes too large and covers its eyes completely - it navigates entirely by the warmth and movement of the fire it holds in its paw. This works surprisingly well.",
+    "locked": false,
     "stats": {
       "hp": 10,
       "atk": 31,
@@ -6600,7 +6824,8 @@
       ]
     ],
     "scale": "1.1",
-    "bio": "This tree-like entity emits light from its chest cavity during periods of heightened energy activity in forested environments.",
+    "bio": "Knotshade's glowing chest orb is the original seed from which its body grew - still present and still metabolically active, now encased in bark. Removing it would undo all the growth that surrounded it.",
+    "locked": true,
     "stats": {
       "hp": 12,
       "atk": 36,
@@ -6631,7 +6856,8 @@
       ]
     ],
     "scale": "0.8",
-    "bio": "This creature emits light from within its core during twilight hours, suggesting it uses bioluminescence for communication in low-light environments.",
+    "bio": "Knotto's heart-shaped crown formed because its two central branches grew toward each other and grafted at the tips. This took twenty years to complete. Knotto is very proud of it.",
+    "locked": true,
     "stats": {
       "hp": 12,
       "atk": 22,
@@ -6663,7 +6889,8 @@
       ]
     ],
     "scale": "0.8",
-    "bio": "This creature emits bright blue light from its forehead whenever it detects an unfamiliar scent in the environment.",
+    "bio": "Monkara's blue glowing markings trace its circulatory system - the brighter they glow, the more adrenaline is pumping through it. A fully lit Monkara is a creature at its absolute physical limit.",
+    "locked": true,
     "stats": {
       "hp": 27,
       "atk": 34,
@@ -6695,7 +6922,8 @@
       ]
     ],
     "scale": "0.8",
-    "bio": "This creature emits soft pulses of light from its body during nocturnal patrols in dense forest canopies.",
+    "bio": "Neonlume's wing fins glow through a chemical reaction triggered by pressure changes in the water, lighting up when it moves fast and dimming when still. Deep in dark water, it creates its own light trail.",
+    "locked": true,
     "stats": {
       "hp": 13,
       "atk": 26,
@@ -6727,7 +6955,8 @@
       ]
     ],
     "scale": "1.1",
-    "bio": "This creature emits a low-frequency hum from its throat during territorial displays, possibly signaling dominance in its environment.",
+    "bio": "Neonwyrm's pink accents run along its nerve pathways - the glow intensifies from head to tail whenever it thinks, providing a visible real-time map of its cognition. It is self-conscious about this.",
+    "locked": false,
     "stats": {
       "hp": 14,
       "atk": 23,
@@ -6760,7 +6989,8 @@
       ]
     ],
     "scale": "0.5",
-    "bio": "This bird uses precise wing flaps to create small vibrations in the air while scanning for prey near forested edges.",
+    "bio": "Paplet's body is structurally identical to a folded piece of paper in three-dimensional form - its joints crease rather than flex. In high humidity, its edges soften and it needs time to re-crease itself.",
+    "locked": false,
     "stats": {
       "hp": 26,
       "atk": 28,
@@ -6793,7 +7023,8 @@
       ]
     ],
     "scale": "0.7",
-    "bio": "This bird uses precise wing flaps to create small vibrations that help it maintain balance during short bursts of flight over rocky terrain.",
+    "bio": "Papyrion's origami structure allows it to flatten itself to near-zero thickness for short periods, slipping through gaps that should be physically impossible. It finds the looks of confusion this produces very satisfying.",
+    "locked": false,
     "stats": {
       "hp": 37,
       "atk": 28,
@@ -6821,7 +7052,8 @@
     ],
     "evolution": [],
     "scale": "0.8",
-    "bio": "This creature emits soft vibrations from its paws while sitting in quiet observation of its surroundings.",
+    "bio": "Patchy's button eye was sewn on after the original was lost. The button gives it sharper vision in low light than its organic eye, which both pleases and confuses it.",
+    "locked": false,
     "stats": {
       "hp": 28,
       "atk": 31,
@@ -6852,7 +7084,8 @@
       ]
     ],
     "scale": "0.8",
-    "bio": "This animal uses glowing rings as tools to communicate with other members of its colony during mating season.",
+    "bio": "Shadebandit's neon pink hand rings glow in darkness, which would seem counterproductive for a creature named bandit. It has decided the rings are worth it and refuses to acknowledge the contradiction.",
+    "locked": false,
     "stats": {
       "hp": 12,
       "atk": 30,
@@ -6880,7 +7113,8 @@
     ],
     "evolution": [],
     "scale": "1",
-    "bio": "This creature uses its trident-like staff as both weapon and ritual tool during territorial disputes in open savannas.",
+    "bio": "Trino's golden trident was cast from minerals dissolved in the seawater it has swum through for centuries - its body naturally deposited them into a mold it shaped by pressing heated sand. The process took forty years.",
+    "locked": false,
     "stats": {
       "hp": 26,
       "atk": 13,
@@ -6908,7 +7142,8 @@
     ],
     "evolution": [],
     "scale": "0.5",
-    "bio": "This fluffy creature tends to gather fallen petals from nearby trees as part of its daily feeding routine.",
+    "bio": "Webloom's silk is pink and carries cherry blossom pollen embedded in the strands - things caught in its web get dusted in pollen, which eventually causes them to sneeze so hard they tear free. Webloom considers this a kindness.",
+    "locked": false,
     "stats": {
       "hp": 13,
       "atk": 10,
@@ -6939,7 +7174,8 @@
       ]
     ],
     "scale": "1",
-    "bio": "This onion-like creature emits faint blue light from its body whenever it detects nearby moisture in decaying plant matter.",
+    "bio": "Cabbuskiller's onion-layered exterior can be shed one layer at a time, each layer releasing a pungent gas that causes temporary disorientation. It has been observed doing this calmly, almost ceremonially.",
+    "locked": false,
     "stats": {
       "hp": 30,
       "atk": 11,
@@ -6971,7 +7207,8 @@
       ]
     ],
     "scale": "0.7",
-    "bio": "This creature curls into a tight posture while sitting still in a sunlit den.",
+    "bio": "Bristawit's spines are still soft and flexible, hardening slowly over years into Bristawild's rigid armor. It uses this developmental phase to its advantage, curling into a deceptively soft-looking ball.",
+    "locked": false,
     "stats": {
       "hp": 26,
       "atk": 12,
@@ -7002,7 +7239,8 @@
       ]
     ],
     "scale": "1.2",
-    "bio": "This creature uses heavy chains as tools to dig through sand in search of underground resources.",
+    "bio": "Chainwreck's chains are so old that fossilized barnacles have attached to several links, suggesting it has spent significant time submerged. It shows no interest in discussing this.",
+    "locked": false,
     "stats": {
       "hp": 16,
       "atk": 14,
@@ -7035,7 +7273,8 @@
       ]
     ],
     "scale": "1.4",
-    "bio": "This bear carries rocks on its back as part of a natural defense mechanism against predators in rocky terrain.",
+    "bio": "The ancient runes carved into the stone slabs on Brutalon's back predate any known written language. Brutalon shows no awareness of them, though it grows visibly uncomfortable if they are studied too closely.",
+    "locked": false,
     "stats": {
       "hp": 34,
       "atk": 11,
@@ -7068,7 +7307,8 @@
       ]
     ],
     "scale": "0.5",
-    "bio": "This bird uses rapid wing flaps to generate upward momentum while ascending through dense canopy layers during dawn patrols.",
+    "bio": "Grarro's dramatic head crest serves as a solar collector, warming its brain during cold altitude flights. The longer the crest fans out, the colder the temperature around it.",
+    "locked": false,
     "stats": {
       "hp": 31,
       "atk": 26,
@@ -7100,7 +7340,8 @@
       ]
     ],
     "scale": "0.6",
-    "bio": "This monkey frequently uses its tail as a tool to manipulate small objects while sitting in a tree hollow.",
+    "bio": "Monkiri's markings are a desaturated version of Monkilla's - identical in pattern but much dimmer. It finds comparisons to Monkilla deeply tiresome and does not respond well to them.",
+    "locked": true,
     "stats": {
       "hp": 28,
       "atk": 29,
@@ -7131,7 +7372,8 @@
       ]
     ],
     "scale": "0.8",
-    "bio": "This creature uses its long tendrils to sense vibrations in surrounding water currents, aiding navigation through aquatic environments.",
+    "bio": "Quillplop's quills point in every possible direction simultaneously, making it extremely difficult to approach from any angle. It cannot choose a direction to point them and has made peace with this.",
+    "locked": true,
     "stats": {
       "hp": 14,
       "atk": 13,
@@ -7157,7 +7399,8 @@
     "tags": [],
     "evolution": [],
     "scale": "0.8",
-    "bio": "This creature uses its sharp claws to carefully dig into soft earth while patrolling its territory in search of hidden food sources.",
+    "bio": "Regalmane's gold accessories are not worn - they grew. The star-shaped gold deposits formed in the cartilage of its ears and the keratin of its mane are biological and accumulate over time.",
+    "locked": true,
     "stats": {
       "hp": 30,
       "atk": 28,
@@ -7188,7 +7431,8 @@
       ]
     ],
     "scale": "0.6",
-    "bio": "This creature emits soft gurgling sounds while swimming in shallow waters, likely communicating through acoustic signals during mating season.",
+    "bio": "Hydrette is surrounded by a permanent personal splash zone - water perpetually rises from its skin in droplets that never quite fall back. Researchers describe it as being followed by its own indoor rain.",
+    "locked": false,
     "stats": {
       "hp": 14,
       "atk": 13,
@@ -7225,7 +7469,8 @@
       ]
     ],
     "scale": "0.6",
-    "bio": "This bird uses rapid wing flaps to create vibrations that attract insects during feeding time.",
+    "bio": "Puplume's berry ornaments are mildly toxic to most predators, a fact Puplume does not advertise but is clearly aware of. It keeps them polished.",
+    "locked": false,
     "stats": {
       "hp": 22,
       "atk": 32,
@@ -7260,7 +7505,8 @@
       ]
     ],
     "scale": "0.6",
-    "bio": "This animal uses its padded feet to grip tree bark while climbing in forested areas.",
+    "bio": "Bandit's striped tail acts as a visual metronome, swishing in perfect rhythm with its heartbeat. When it goes still - which is rare - something nearby has caught Bandit's complete attention.",
+    "locked": false,
     "stats": {
       "hp": 23,
       "atk": 31,
@@ -7293,7 +7539,8 @@
       ]
     ],
     "scale": "0.9",
-    "bio": "This animal uses rapid tongue flicks to probe surfaces in search of hidden insects during twilight hours.",
+    "bio": "Gloomcub's mismatched eyes see different spectrums - the blue eye detects normal visible light, and the purple eye detects emotional auras. This makes it extremely perceptive and also slightly overwhelming to be around.",
+    "locked": false,
     "stats": {
       "hp": 13,
       "atk": 29,
@@ -7326,7 +7573,8 @@
       ]
     ],
     "scale": "0.9",
-    "bio": "This animal gathers ice cubes around its neck as part of a ritualized cooling behavior during seasonal temperature shifts.",
+    "bio": "The ice cubes embedded in Cryocub's collar never melt - they replenish themselves from moisture in the air. Cryocub chews on them compulsively when anxious, which does nothing.",
+    "locked": false,
     "stats": {
       "hp": 14,
       "atk": 12,
@@ -7359,7 +7607,8 @@
       ]
     ],
     "scale": "0.9",
-    "bio": "This animal emits faint blue energy pulses from its collar during periods of heightened alertness.",
+    "bio": "Joltcub's collar is a ring of crystallized electrical discharge that formed around its neck after an early surge of uncontrolled power. It still conducts electricity and acts as a grounding rod.",
+    "locked": false,
     "stats": {
       "hp": 17,
       "atk": 12,
@@ -7390,7 +7639,8 @@
       ]
     ],
     "scale": "0.6",
-    "bio": "This creature uses its glowing antennae to detect chemical signals in decaying vegetation during nocturnal feeding periods.",
+    "bio": "Sunpillar's loop antennae absorb light and store it throughout the day, releasing it as a soft sustained glow at night. The loops dim at precisely the rate the day's sunlight duration would predict.",
+    "locked": false,
     "stats": {
       "hp": 30,
       "atk": 24,
@@ -7418,7 +7668,8 @@
     ],
     "evolution": [],
     "scale": "1",
-    "bio": "This mechanical creature uses three mounted cannons as tools for defense against aerial threats in its industrial zone.",
+    "bio": "Each of Ampzer's three barrel-like appendages fires a different elemental charge: one sonic, one electric, and one concussive. It spends most of its time carefully aligning all three to fire simultaneously, which it considers an art form.",
+    "locked": true,
     "stats": {
       "hp": 10,
       "atk": 10,
@@ -7450,7 +7701,8 @@
       ]
     ],
     "scale": "0.9",
-    "bio": "This creature uses powerful claws to crack open rock formations in search of minerals.",
+    "bio": "Slatefist's knuckles are denser than the rest of its stone composition by an order of magnitude, formed by years of striking surfaces for no discernible reason other than satisfaction.",
+    "locked": false,
     "stats": {
       "hp": 24,
       "atk": 14,
@@ -7478,7 +7730,8 @@
     ],
     "evolution": [],
     "scale": "0.6",
-    "bio": "This bird uses its large beak to probe open crevices in search of insects and small prey hidden beneath bark.",
+    "bio": "The hollow chambers inside Billcrest's enormous bill amplify sound, letting it project calls across vast distances. It uses this to announce its territory - and also simply because it enjoys the echo.",
+    "locked": false,
     "stats": {
       "hp": 28,
       "atk": 31,
@@ -7510,7 +7763,8 @@
       ]
     ],
     "scale": "0.7",
-    "bio": "This creature uses rock-climbing as a primary method of defense against predators in rocky terrains.",
+    "bio": "Pebbolt's boulder fists are not attached to its arms - they float within a magnetic field generated by its bone structure. This means its punches travel slightly faster than its arms, which is deeply unfair.",
+    "locked": true,
     "stats": {
       "hp": 30,
       "atk": 10,
@@ -7538,7 +7792,8 @@
     ],
     "evolution": [],
     "scale": "1.4",
-    "bio": "This creature uses its powerful claws to grip and pull apart dense foliage while navigating through forest underbrush during twilight hours.",
+    "bio": "The pale markings along Abyssalisk's scales emit a faint bioluminescent glow that intensifies the deeper it descends into underwater caverns. Sailors claim to have seen its blue eyes drifting up from the ocean floor miles below the surface.",
+    "locked": true,
     "stats": {
       "hp": 13,
       "atk": 32,
@@ -7564,7 +7819,8 @@
     "tags": [],
     "evolution": [],
     "scale": "1",
-    "bio": "This creature uses its long tail as a sensory tool to detect subtle vibrations in the ground during nocturnal foraging.",
+    "bio": "Faunaflow's lotus mane blooms at different rates depending on the health of the ecosystem around it, making it a living environmental indicator. A fully bloomed Faunaflow is the sign of a thriving forest.",
+    "locked": false,
     "stats": {
       "hp": 29,
       "atk": 14,
@@ -7592,7 +7848,8 @@
     ],
     "evolution": [],
     "scale": "1",
-    "bio": "This bird uses rapid wing flaps to generate lift during high-altitude migration flights.",
+    "bio": "Orion's golden antler crests catch and focus starlight, briefly illuminating a small area beneath them on clear nights. It is the only creature known to navigate specifically by concentrated starlight.",
+    "locked": false,
     "stats": {
       "hp": 12,
       "atk": 14,
@@ -7619,7 +7876,8 @@
     "tags": [],
     "evolution": [],
     "scale": "0.8",
-    "bio": "This creature emits soft gurgling sounds while slowly dripping from its body as it moves through damp forest floors.",
+    "bio": "Gloopix's body is almost entirely liquid, allowing it to pour itself through any gap wider than its eyes, which are the only solid parts. The leaf crown floats on its surface and serves as a lid.",
+    "locked": false,
     "stats": {
       "hp": 20,
       "atk": 13,
@@ -7648,7 +7906,8 @@
     ],
     "evolution": [],
     "scale": "1.2",
-    "bio": "This bear-like creature aggressively defends its territory by stamping down on any intruders near its den entrance.",
+    "bio": "Ursteel's armor is not worn - it is its skin, hardened over millennia into articulated metal plates through a mineralization process that begins at birth and never fully stops. Older Ursteel individuals barely bend.",
+    "locked": true,
     "stats": {
       "hp": 32,
       "atk": 15,
@@ -7674,7 +7933,8 @@
     "tags": [],
     "evolution": [],
     "scale": "0.8",
-    "bio": "This creature peeks out from beneath an ornate chest, revealing curiosity as it explores its surroundings.",
+    "bio": "Lurkin has been inside that chest for so long that the wood grain has left permanent impressions in its skin. It is not guarding the treasure - it is the treasure, and it would prefer you didn't mention this to anyone.",
+    "locked": false,
     "stats": {
       "hp": 30,
       "atk": 26,
@@ -7702,7 +7962,8 @@
     ],
     "evolution": [],
     "scale": "0.8",
-    "bio": "This creature emits a soft chirp sound by vibrating its throat while resting in warm sunlight.",
+    "bio": "Pinalisk's pineapple crown is the actual location of its brain - fully encased in fibrous pineapple flesh with a thick spiked exterior. The face below is purely functional, containing only sensory organs.",
+    "locked": false,
     "stats": {
       "hp": 32,
       "atk": 22,
@@ -7730,7 +7991,8 @@
     ],
     "evolution": [],
     "scale": "0.9",
-    "bio": "This creature uses its tail as a tool to gather nectar from nearby flowers by gently tapping them together.",
+    "bio": "Roscorpion's roses are rooted to its shell and grow more densely each year - older Roscorpions are sometimes entirely obscured by blooms. The thorns on these roses are significantly sharper than decorative variety.",
+    "locked": false,
     "stats": {
       "hp": 22,
       "atk": 11,
@@ -7763,7 +8025,8 @@
       ]
     ],
     "scale": "0.8",
-    "bio": "This plant-like organism emits light from its core during nighttime hours as part of its circadian rhythm.",
+    "bio": "Tanglato wraps itself in twine that it secretes and hardens over time - the innermost layers are decades old. Researchers believe there is an original soft creature somewhere inside that no one has ever seen.",
+    "locked": true,
     "stats": {
       "hp": 26,
       "atk": 12,
@@ -7789,7 +8052,8 @@
     "tags": [],
     "evolution": [],
     "scale": "0.7",
-    "bio": "This creature gathers fallen seeds from the ground, likely using them as part of its diet during feeding behavior in open areas.",
+    "bio": "Crestling's extraordinary leaf mane does not fall in autumn - the leaves are permanently attached and simply turn colors with the seasons before returning to green. The full cycle takes exactly one year.",
+    "locked": true,
     "stats": {
       "hp": 26,
       "atk": 30,
@@ -7815,7 +8079,8 @@
     "tags": [],
     "evolution": [],
     "scale": "0.7",
-    "bio": "This creature sits upright in an unusual position, indicating it may be observing something from above while resting between two layers of food.",
+    "bio": "Hamhop has lived inside a hamburger bun for so long that it has developed a lean-forward posture from constantly peeking out. It refuses to leave - researchers believe the bun has actually bonded to its fur.",
+    "locked": false,
     "stats": {
       "hp": 29,
       "atk": 26,
@@ -7843,7 +8108,8 @@
     ],
     "evolution": [],
     "scale": "1",
-    "bio": "This creature emits soft vibrations from its body during rest periods, likely aiding in thermoregulation within its burrowed environment.",
+    "bio": "Sunwhorl's belly sunflower opens and closes on a strict cycle that cannot be disrupted by covering it - internal signals continue the cycle regardless of external light. It is, in a specific sense, its own sunrise.",
+    "locked": false,
     "stats": {
       "hp": 30,
       "atk": 32,
@@ -7871,7 +8137,8 @@
     ],
     "evolution": [],
     "scale": "0.6",
-    "bio": "This creature uses banana peels as natural tools to aid in seed dispersal by rolling them into nutrient-rich pulp that supports germination.",
+    "bio": "Bananibble's head ripens and yellows in warm climates, but turns green and firm in cold ones. The half-peeled banana it constantly carries is, curiously, never the same one twice.",
+    "locked": false,
     "stats": {
       "hp": 28,
       "atk": 25,
@@ -7899,7 +8166,8 @@
     ],
     "evolution": [],
     "scale": "0.7",
-    "bio": "This creature gathers fruit from nearby trees by climbing up branches to collect ripe oranges in clusters.",
+    "bio": "Tangeling's tangerines ripen and drop seasonally, being replaced immediately by new buds - but the timing of each drop is entirely unpredictable. The only warning is a slight lean in the direction of whichever one is about to fall.",
+    "locked": false,
     "stats": {
       "hp": 22,
       "atk": 14,
@@ -7927,7 +8195,8 @@
     ],
     "evolution": [],
     "scale": "1.3",
-    "bio": "This creature emits low-frequency vibrations through its tail during deep sleep cycles.",
+    "bio": "The yellow markings along Boltwing's scales are conductive pathways that route electricity from its wingtips to its claws. It must discharge this built-up charge at least once a day or risk becoming visibly agitated.",
+    "locked": true,
     "stats": {
       "hp": 12,
       "atk": 15,
@@ -7955,7 +8224,8 @@
     ],
     "evolution": [],
     "scale": "1.1",
-    "bio": "This blue dragon frequently emits low-frequency vibrations through its scales while resting in mountainous regions.",
+    "bio": "Icedrake's roar flash-freezes moisture in the air ahead of it, creating a momentary wall of frost crystals before anything hits them. It often roars at nothing specific, just to watch the frost form.",
+    "locked": true,
     "stats": {
       "hp": 14,
       "atk": 16,
@@ -7981,7 +8251,8 @@
     "tags": [],
     "evolution": [],
     "scale": "0.7",
-    "bio": "This creature emits soft vibrations from its body during nocturnal exploration of rocky terrain.",
+    "bio": "Cosmopuff's dome-shaped helmet is not manufactured - it grew around its head as a protective structure filled with pressurized atmosphere. The tusks are used to crack open the domes of rival Cosmopuffs.",
+    "locked": false,
     "stats": {
       "hp": 13,
       "atk": 16,
@@ -8014,7 +8285,8 @@
       ]
     ],
     "scale": "0.6",
-    "bio": "This creature uses leafy appendages to gather sunlight while resting in shaded areas near flowering plants.",
+    "bio": "Berrylop's petal-shaped ears can detect which direction flowers are blooming based on scent density. It is never seen in a location without at least one flower within reach.",
+    "locked": true,
     "stats": {
       "hp": 35,
       "atk": 12,
@@ -8040,7 +8312,8 @@
     "tags": [],
     "evolution": [],
     "scale": "0.7",
-    "bio": "This creature uses leafy appendages to absorb sunlight during daytime rest periods.",
+    "bio": "Leafae's enormous leaf ears function as both hearing organs and solar panels - sound sensitivity drops in direct sunlight when they're busy collecting energy, making sunny days both energizing and slightly dangerous.",
+    "locked": false,
     "stats": {
       "hp": 28,
       "atk": 9,
@@ -8073,7 +8346,8 @@
       ]
     ],
     "scale": "1.2",
-    "bio": "This creature uses its powerful claws to dig into earth in search of hidden roots and nutrients.",
+    "bio": "Grizzleroot hasn't slept in a burrow in centuries - it simply stands still long enough for moss to convince itself the bear is a hill. The moss feeds it nutrients in exchange. Both parties seem satisfied.",
+    "locked": true,
     "stats": {
       "hp": 31,
       "atk": 14,
@@ -8100,7 +8374,8 @@
     "tags": [],
     "evolution": [],
     "scale": "1",
-    "bio": "This snake frequently coils in tight spirals around tree roots to ambush small insects that venture near decaying wood.",
+    "bio": "Slytheroak's wooden hood grew around it naturally from a hollow log it slept in for decades - the wood eventually integrated with its scales. It now wears its old nap spot as a hat.",
+    "locked": false,
     "stats": {
       "hp": 28,
       "atk": 12,
@@ -8126,7 +8401,8 @@
     "tags": [],
     "evolution": [],
     "scale": "1.1",
-    "bio": "This animal uses rapid tongue flicks to probe the ground in search of hidden prey beneath leaf litter.",
+    "bio": "Phantasmist's markings trace lines of electric discharge across its body - touching them at full charge causes a brief, complete memory loss of the last ten seconds. It uses this primarily to escape awkward situations.",
+    "locked": true,
     "stats": {
       "hp": 12,
       "atk": 35,
@@ -8157,7 +8433,8 @@
       ]
     ],
     "scale": "0.4",
-    "bio": "This plant-like organism curls into a compact posture while resting in leafy shade at dawn.",
+    "bio": "The small leaf on Blushbud's head curls inward when it's embarrassed, which is often. Researchers have noted that its blush response is triggered not just by attention but by simply being described aloud.",
+    "locked": false,
     "stats": {
       "hp": 24,
       "atk": 12,
@@ -8188,7 +8465,8 @@
       ]
     ],
     "scale": "0.9",
-    "bio": "This creature uses its powerful claws to dig into compacted earth in search of underground roots.",
+    "bio": "Nutbro's shell is the densest naturally-occurring biological material ever recorded - a diamond-tipped drill tested on one took fifteen minutes to make a half-millimeter indent. Nutbro didn't notice.",
+    "locked": true,
     "stats": {
       "hp": 29,
       "atk": 12,
@@ -8219,7 +8497,8 @@
       ]
     ],
     "scale": "0.5",
-    "bio": "This creature uses its antennae-like appendages to detect vibrations in the ground during nocturnal foraging.",
+    "bio": "Nutzo's layered outer shell peels away one layer at a time as it sheds - each layer is slightly softer than the one before. The innermost layer is completely smooth. Reaching it has never been confirmed.",
+    "locked": false,
     "stats": {
       "hp": 27,
       "atk": 14,
@@ -8250,7 +8529,8 @@
       ]
     ],
     "scale": "0.7",
-    "bio": "This plant-like organism curls into a tight ball while holding its inner core tightly against itself during periods of stress.",
+    "bio": "Petalbud is always crying - not from sorrow but because the flower wrapped around it constantly secretes a mild eye irritant as a pollination attractant. This distinction has done nothing to make it less sad-looking.",
+    "locked": false,
     "stats": {
       "hp": 34,
       "atk": 10,
@@ -8277,7 +8557,8 @@
     "tags": [],
     "evolution": [],
     "scale": "1",
-    "bio": "This creature emits bioluminescent pulses from its central core as it navigates through nutrient-rich sediment layers.",
+    "bio": "Sporelord's tentacles secrete a sporulating powder that induces rapid drowsiness - the spores are not dangerous, they simply encourage everything nearby to take a nap while Sporelord does whatever it was planning to do.",
+    "locked": false,
     "stats": {
       "hp": 21,
       "atk": 21,
@@ -8310,7 +8591,8 @@
       ]
     ],
     "scale": "1",
-    "bio": "This plant-like creature uses its spines to absorb sunlight through photosynthesis while also deterring herbivores by releasing chemical signals during defense responses.",
+    "bio": "Cactussle's spines are angled outward at precisely calculated angles to maximize surface area for moisture collection in fog. The pink flower crown is its actual sensory organ, detecting humidity changes before a storm arrives.",
+    "locked": false,
     "stats": {
       "hp": 33,
       "atk": 13,
@@ -8342,7 +8624,8 @@
       ]
     ],
     "scale": "0.9",
-    "bio": "This plant-like creature emits soft bioluminescent pulses from its core during twilight hours, signaling readiness for nutrient exchange in forest understory ecosystems.",
+    "bio": "Woodfox's leaf mane and tails shed entirely in autumn and regrow from spring buds each year - the regrowth takes exactly three weeks, during which Woodfox is notably less photogenic and clearly aware of this.",
+    "locked": false,
     "stats": {
       "hp": 25,
       "atk": 11,
@@ -8370,7 +8653,8 @@
     ],
     "evolution": [],
     "scale": "1",
-    "bio": "This creature uses its powerful claws to dig into loose earth in search of underground roots.",
+    "bio": "Turtmoss's shell hosts an ecosystem of mosses and lichens that actively camouflage it - the organisms shift moisture to alter their own color, matching the ground Turtmoss is standing on. The turtle contributes nothing to this process.",
+    "locked": true,
     "stats": {
       "hp": 28,
       "atk": 13,
@@ -8396,7 +8680,8 @@
     "tags": [],
     "evolution": [],
     "scale": "0.7",
-    "bio": "This creature emits a low-frequency hum from its throat during periods of high stress, possibly as part of an innate communication signal.",
+    "bio": "Growtung's tongue can extend to three times its body length in under a tenth of a second. The trouble is retraction, which takes considerably longer and looks deeply undignified.",
+    "locked": false,
     "stats": {
       "hp": 31,
       "atk": 14,
@@ -8422,7 +8707,8 @@
     "tags": [],
     "evolution": [],
     "scale": "0.7",
-    "bio": "This creature uses rapid tail flicks to create water currents that disperse small particles in its aquatic environment.",
+    "bio": "Finweave's golden fins are not rigid - they flow like fabric and are extraordinarily sensitive to current changes, allowing it to read the ocean like text. It navigates exclusively through fin sensation.",
+    "locked": false,
     "stats": {
       "hp": 15,
       "atk": 17,
@@ -8448,7 +8734,8 @@
     "tags": [],
     "evolution": [],
     "scale": "0.5",
-    "bio": "This creature uses leaf-like appendages to absorb sunlight through photosynthesis while floating in air currents near forest canopies.",
+    "bio": "Bloomsprout's round belly contains a compressed seed pod it releases when threatened, scattering fast-sprouting plants in a ring around itself. The resulting foliage typically confuses or obscures any predator.",
+    "locked": true,
     "stats": {
       "hp": 24,
       "atk": 11,
@@ -8476,7 +8763,8 @@
     ],
     "evolution": [],
     "scale": "0.5",
-    "bio": "This bird-like creature flutters its leafy appendages in response to sudden changes in air pressure near forest canopy edges.",
+    "bio": "Chicsprout's leaf wings are still growing and won't be ready for flight for several seasons. In the meantime, it uses them as sails in strong winds, being carried wherever the breeze takes it.",
+    "locked": false,
     "stats": {
       "hp": 27,
       "atk": 13,
@@ -8502,7 +8790,8 @@
     "tags": [],
     "evolution": [],
     "scale": "1.2",
-    "bio": "This creature uses its powerful claws to excavate hard rock formations in mountainous regions.",
+    "bio": "Stoneguard's blue energy cracks follow tectonic stress lines - the pattern matches the fault map of whichever region it is standing in, shifting slowly when it crosses into new geological territory.",
+    "locked": false,
     "stats": {
       "hp": 22,
       "atk": 11,
@@ -8530,7 +8819,8 @@
     ],
     "evolution": [],
     "scale": "1",
-    "bio": "This creature uses its large flower-like structure as a sunshade while resting in shaded areas during peak daylight hours.",
+    "bio": "The flower on Blossaur's back only opens on the warmest days of the year, releasing a pollen so potent that those who inhale it report unusually vivid dreams for a week. Blossaur itself seems unaffected.",
+    "locked": false,
     "stats": {
       "hp": 29,
       "atk": 14,
@@ -8561,7 +8851,8 @@
       ]
     ],
     "scale": "0.9",
-    "bio": "This creature emits bursts of energy from its tail during periods of high alertness.",
+    "bio": "Flamescout's fire does not burn organic material - only inorganic surfaces. This makes it a deeply confusing opponent for anyone wearing armor and completely ineffective against bare-handed fighters.",
+    "locked": false,
     "stats": {
       "hp": 13,
       "atk": 32,
@@ -8592,7 +8883,8 @@
       ]
     ],
     "scale": "1.2",
-    "bio": "This dragon frequently emits heat pulses from its tail to warm nearby rocks during cold periods.",
+    "bio": "Flamefury's golden scales are not pigmented - they reflect its own internal fire, which burns at such consistent intensity that the surface sheen never dims. It has been used as a directional beacon by sailors.",
+    "locked": false,
     "stats": {
       "hp": 13,
       "atk": 33,
@@ -8621,7 +8913,8 @@
     ],
     "evolution": [],
     "scale": "0.6",
-    "bio": "This creature uses its tail as a tool to probe the ground in search of hidden food sources.",
+    "bio": "Shelmet's eyes don't track movement - they're fixed forward. It compensates by rotating its entire body rather than turning its head, giving it a distinctive pivoting motion when curious about something to the side.",
+    "locked": true,
     "stats": {
       "hp": 17,
       "atk": 11,
@@ -8649,7 +8942,8 @@
     ],
     "evolution": [],
     "scale": "0.9",
-    "bio": "This bird uses rapid wing flaps to generate upward momentum while ascending through dense canopy layers during dawn patrols.",
+    "bio": "Harpyhawk's blue head feathers are purely ornamental but have evolved to look exactly like a set of aggressive eyes from behind. Predators that stalk it see what appears to be a second face watching them.",
+    "locked": false,
     "stats": {
       "hp": 27,
       "atk": 12,
@@ -8677,7 +8971,8 @@
     ],
     "evolution": [],
     "scale": "0.4",
-    "bio": "This creature uses its powerful claws to dig into compacted earth in search of hidden roots and nutrients.",
+    "bio": "Brutebug's hard red shell is thick enough to deflect thrown weapons, but the creature rarely needs this - most threats retreat upon seeing its silhouette alone. Its shell emits a faint heat detectable by infrared.",
+    "locked": true,
     "stats": {
       "hp": 34,
       "atk": 13,
@@ -8706,7 +9001,8 @@
     ],
     "evolution": [],
     "scale": "0.8",
-    "bio": "This plant-like entity releases droplets from its leaves in response to moisture levels near its root system.",
+    "bio": "Nectargnash's lotus head produces a highly sweet nectar from its petals that it cannot actually consume. Everything it secretes is for other creatures' benefit, a situation it has fully accepted.",
+    "locked": true,
     "stats": {
       "hp": 22,
       "atk": 22,
@@ -8734,7 +9030,8 @@
     ],
     "evolution": [],
     "scale": "0.7",
-    "bio": "This bird uses rapid wing flaps to generate upward momentum while ascending through dense canopy layers during dawn patrols.",
+    "bio": "Tropinix's rainbow wings are not iridescent - each section is a distinct pigmented feather type that absorbed different light wavelengths during growth. The pattern is determined by diet during the feathering phase.",
+    "locked": false,
     "stats": {
       "hp": 33,
       "atk": 30,
@@ -8760,7 +9057,8 @@
     "tags": [],
     "evolution": [],
     "scale": "1",
-    "bio": "This creature uses its tail as a flexible tool to probe soft substrata in search of hidden prey.",
+    "bio": "Skulker's shark fin appears when it submerges in water, emerging from a fold of skin that lies flat on land. On dry ground it looks like any ordinary cat, which is exactly what it wants you to think.",
+    "locked": false,
     "stats": {
       "hp": 15,
       "atk": 18,
@@ -8786,7 +9084,8 @@
     "tags": [],
     "evolution": [],
     "scale": "1",
-    "bio": "This creature emits a faint blue mist from its mouth during feeding sessions in damp environments.",
+    "bio": "Goovern's flowing mane fins are sensitive enough to detect water temperature changes to a fraction of a degree. It hovers at the thermocline layer of lakes, precisely where warm and cold water meet.",
+    "locked": true,
     "stats": {
       "hp": 13,
       "atk": 12,
@@ -8814,7 +9113,8 @@
     ],
     "evolution": [],
     "scale": "0.8",
-    "bio": "This creature emits faint purple energy from its tail whenever it detects movement in nearby vegetation.",
+    "bio": "Grimalkin's smile contains exactly one more tooth than the anatomical maximum. No one has successfully counted them twice and gotten the same number.",
+    "locked": true,
     "stats": {
       "hp": 11,
       "atk": 25,
@@ -8847,7 +9147,8 @@
       ]
     ],
     "scale": "0.7",
-    "bio": "This creature emits soft vibrations from its body whenever it detects moisture in nearby soil.",
+    "bio": "Pearlconch never leaves its shell - over centuries, its body has conformed to the interior architecture of the conch, growing curved. The shell itself is growing with it, one ring at a time.",
+    "locked": false,
     "stats": {
       "hp": 14,
       "atk": 13,
@@ -8880,7 +9181,8 @@
       ]
     ],
     "scale": "0.5",
-    "bio": "This creature opens its shell fully each morning to expose its inner chamber for feeding on microscopic plankton in shallow waters.",
+    "bio": "Pearlette grew its pearl internally but found it uncomfortable, so it pushed it out of its shell entirely. The pearl is now visible on its exterior and impossibly smooth. Pearlette refuses to discuss it.",
+    "locked": false,
     "stats": {
       "hp": 9,
       "atk": 11,
@@ -8908,7 +9210,8 @@
     ],
     "evolution": [],
     "scale": "0.8",
-    "bio": "This bird frequently uses short bursts of flight to communicate territorial boundaries during mating season.",
+    "bio": "Duckgaze's half-lidded eyes are not a sign of drowsiness - they are permanently shaped this way, giving it an expression of profound unimpressed calm it projects constantly and entirely sincerely.",
+    "locked": true,
     "stats": {
       "hp": 12,
       "atk": 12,
@@ -8941,7 +9244,8 @@
       ]
     ],
     "scale": "0.9",
-    "bio": "This plant-like organism releases volatile compounds from its leaves during rainfall to attract pollinators.",
+    "bio": "Floramene's flower head rotates throughout the day to face the sun, which means its face is never looking in the same direction for long. Conversations require either patience or significant repositioning.",
+    "locked": false,
     "stats": {
       "hp": 33,
       "atk": 15,
@@ -8969,7 +9273,8 @@
     ],
     "evolution": [],
     "scale": "0.9",
-    "bio": "This creature emits soft vibrations from its paws during nighttime patrols in open areas.",
+    "bio": "Esperelle's antler-like ear tips vibrate at ultrasonic frequencies used to communicate with other Esperelles across distances too great for audible sound. Regular conversations happen entirely above human hearing.",
+    "locked": false,
     "stats": {
       "hp": 14,
       "atk": 15,
@@ -8995,7 +9300,8 @@
     "tags": [],
     "evolution": [],
     "scale": "0.6",
-    "bio": "This creature uses its tail fin as a propulsion tool while swimming through shallow waters.",
+    "bio": "Gillsby developed the ability to sit upright on land by balancing on its stiff lower fins, which it does for hours at a time while watching the tide. It never goes back in the water voluntarily.",
+    "locked": false,
     "stats": {
       "hp": 16,
       "atk": 10,
@@ -9021,7 +9327,8 @@
     "tags": [],
     "evolution": [],
     "scale": "0.6",
-    "bio": "This creature uses rapid leg movements to create vibrations that help it detect prey in dark environments.",
+    "bio": "Tristing's spike horns are hollow and produce a resonant hum when wind passes through them at specific speeds - each horn a different pitch, creating a chord that other Tristings recognize from miles away.",
+    "locked": false,
     "stats": {
       "hp": 22,
       "atk": 14,
@@ -9054,7 +9361,8 @@
       ]
     ],
     "scale": "0.8",
-    "bio": "This plant-like organism emits a low-frequency vibration from its central stem during periods of high stress, which may help it communicate within its microhabitat.",
+    "bio": "Budvex's flower head works like a megaphone - its shouts are amplified significantly by the funnel shape of the petals. Even when it whispers, it's considerably louder than most creatures yelling.",
+    "locked": false,
     "stats": {
       "hp": 28,
       "atk": 12,
@@ -9082,7 +9390,8 @@
     ],
     "evolution": [],
     "scale": "0.5",
-    "bio": "This snail secretes mucus as a defense mechanism against predators by coating itself in a slimy barrier.",
+    "bio": "Shellvis moves at roughly two centimeters per minute at maximum effort. It has developed an extremely rich inner life to compensate for the time this affords it.",
+    "locked": false,
     "stats": {
       "hp": 32,
       "atk": 24,
@@ -9113,7 +9422,8 @@
       ]
     ],
     "scale": "0.6",
-    "bio": "This creature uses rapid tail movements as a form of communication during social interactions in its natural environment.",
+    "bio": "Dubgrub's segments are not fixed - it can add and remove them during molting season, changing its effective length by several inches depending on how it feels about itself that week.",
+    "locked": false,
     "stats": {
       "hp": 13,
       "atk": 24,
@@ -9144,7 +9454,8 @@
       ]
     ],
     "scale": "0.7",
-    "bio": "This creature uses its antennae to detect subtle vibrations in the ground during nocturnal foraging.",
+    "bio": "Silker's eye-spot wing patterns are bioluminescent and can be independently brightened to create the illusion of a much larger creature staring from the darkness. Each eye-spot can wink independently.",
+    "locked": true,
     "stats": {
       "hp": 16,
       "atk": 31,
@@ -9172,7 +9483,8 @@
     ],
     "evolution": [],
     "scale": "1",
-    "bio": "This creature uses its tail as a tool to probe the ground in search of hidden food sources.",
+    "bio": "Cloveshell's shell emits a faint herbal scent that intensifies when it retracts inside. Whether this is defensive or simply a side effect of its diet is still debated.",
+    "locked": true,
     "stats": {
       "hp": 27,
       "atk": 28,
@@ -9203,7 +9515,8 @@
       ]
     ],
     "scale": "0.7",
-    "bio": "This creature emits crackling energy from its horns whenever it detects electrical disturbances in the environment.",
+    "bio": "Voidgrin's smile is its most prominent feature even in complete darkness, remaining the only visible part of it when all other light fails. What exactly lights the smile has not been identified.",
+    "locked": false,
     "stats": {
       "hp": 14,
       "atk": 27,
@@ -9237,7 +9550,8 @@
       ]
     ],
     "scale": "0.5",
-    "bio": "This creature uses leafy appendages as tools to gather insects from nearby foliage during feeding sessions.",
+    "bio": "Pandpaw's single leaf marks the location of a future scent gland that won't fully develop for years. Until then, the leaf acts as a placeholder - and Pandpaw will not let anyone remove it.",
+    "locked": true,
     "stats": {
       "hp": 22,
       "atk": 10,
@@ -9264,7 +9578,8 @@
     "tags": [],
     "evolution": [],
     "scale": "1",
-    "bio": "This creature emits glowing energy from its core during volcanic activity, signaling an impending eruption.",
+    "bio": "Cragmouth's interior is hollow and filled with slowly circulating magma that it can project from its enormous mouth. The teeth are not stone - they are cooled lava that has hardened into crystalline formations.",
+    "locked": false,
     "stats": {
       "hp": 18,
       "atk": 21,
@@ -9290,7 +9605,8 @@
     "tags": [],
     "evolution": [],
     "scale": "0.8",
-    "bio": "This creature emits bursts of heat energy from its paws during territorial disputes.",
+    "bio": "Kindlebrawl's wool produces its own fire when the animal becomes agitated - not a talent it developed but a problem it has accepted. Its wool regrows fireproofed each season and burns again immediately.",
+    "locked": true,
     "stats": {
       "hp": 10,
       "atk": 28,
@@ -9316,7 +9632,8 @@
     "tags": [],
     "evolution": [],
     "scale": "0.8",
-    "bio": "This sloth-like creature sits beneath a large mushroom in a forest clearing, exhibiting a relaxed posture that suggests it is resting after feeding on fungi.",
+    "bio": "Sporelax grows slower as the mushroom on its back grows larger - the fungus draws metabolic resources from its host in exchange for a mild sedative compound that keeps Sporelax perpetually calm. Neither party is upset about this.",
+    "locked": true,
     "stats": {
       "hp": 12,
       "atk": 30,
@@ -9349,7 +9666,8 @@
       ]
     ],
     "scale": "0.6",
-    "bio": "This plant-like creature emits strong chemical signals during mating season, attracting pollinators through scent release in dense forest understories.",
+    "bio": "Pitpout's orange eyes are the only visible color against its dark shell - in leaf litter, it becomes entirely invisible except for two glowing dots. It has learned to use this strategically.",
+    "locked": false,
     "stats": {
       "hp": 31,
       "atk": 11,
@@ -9377,7 +9695,8 @@
     ],
     "evolution": [],
     "scale": "1",
-    "bio": "This creature dives into water bodies at dawn to hunt small aquatic invertebrates using sharp claws and keen senses.",
+    "bio": "Lupingale's wings are covered in sound-dampening feathers that make its flight completely silent - a feature common to owls but extremely rare in a creature this large. The first warning of its approach is its shadow.",
+    "locked": true,
     "stats": {
       "hp": 11,
       "atk": 12,
@@ -9405,7 +9724,8 @@
     ],
     "evolution": [],
     "scale": "1",
-    "bio": "This creature emits glowing energy from its core during feeding sessions, suggesting it absorbs heat through specialized internal mechanisms.",
+    "bio": "Ribroast's skeleton conducts heat rather than its surface - touching its fur is perfectly safe, but pressing a hand against its side reveals the warmth radiating from deep within. It considers this private.",
+    "locked": false,
     "stats": {
       "hp": 16,
       "atk": 23,
@@ -9438,7 +9758,8 @@
       ]
     ],
     "scale": "0.5",
-    "bio": "This bird uses solar-powered goggles to detect light patterns in its environment during nocturnal foraging.",
+    "bio": "Solwatt's solar panel hat is slightly tilted because the creature sleeps on its side and the panel hardened that way. It still absorbs energy perfectly well from the angle - possibly more efficiently, though Solwatt does not know why.",
+    "locked": true,
     "stats": {
       "hp": 11,
       "atk": 14,
@@ -9466,7 +9787,8 @@
     ],
     "evolution": [],
     "scale": "1",
-    "bio": "This bird uses powerful wing flaps to generate lift while hovering above ground at high altitudes during migration seasons.",
+    "bio": "Solair's stained glass wings are composed of crystallized chitin in distinct chromatic panels - they filter sunlight into colored beams that trail behind it mid-flight. Landing looks like a cathedral window falling.",
+    "locked": true,
     "stats": {
       "hp": 13,
       "atk": 12,
@@ -9494,7 +9816,8 @@
     ],
     "evolution": [],
     "scale": "1",
-    "bio": "This bird emits bright golden light from its body as it performs an aerial display during dawn rituals.",
+    "bio": "Ignis's wingspan creates an updraft so powerful that it lifts small trees from the ground during takeoff. It has learned to rise from open areas to avoid this, though it occasionally forgets.",
+    "locked": true,
     "stats": {
       "hp": 13,
       "atk": 26,
@@ -9522,7 +9845,8 @@
     ],
     "evolution": [],
     "scale": "0.9",
-    "bio": "This bird uses rapid wing flaps to generate upward lift while hovering over water sources.",
+    "bio": "The long ribbon-like tail feathers of Azul act as rudders in strong winds, allowing it to steer with extraordinary precision mid-flight. The white bloom on its chest blooms only when the air pressure drops - a reliable sign of coming rain.",
+    "locked": false,
     "stats": {
       "hp": 13,
       "atk": 11,
@@ -9548,7 +9872,8 @@
     "tags": [],
     "evolution": [],
     "scale": "0.8",
-    "bio": "This animal uses rapid tail flicks to generate static electricity in its environment during thunderstorms.",
+    "bio": "Zappra's black stripes are conductors and the white ones are insulators - the plug-shaped tail discharges the electrical charge stored across its body. Without this periodic release, it begins to glow visibly.",
+    "locked": false,
     "stats": {
       "hp": 12,
       "atk": 14,
@@ -9574,7 +9899,8 @@
     "tags": [],
     "evolution": [],
     "scale": "1",
-    "bio": "This creature emits bright flames from its rear during social gatherings, likely as a signal of readiness to defend territory.",
+    "bio": "Sizzleswine's fire mane runs the length of its spine and cannot be extinguished by water - it's fueled by the creature's own body temperature rather than combustion. Cold weather makes it substantially more dangerous.",
+    "locked": false,
     "stats": {
       "hp": 11,
       "atk": 23,
@@ -9602,7 +9928,8 @@
     ],
     "evolution": [],
     "scale": "1",
-    "bio": "This creature emits molten lava from multiple vents along its back as part of its thermophilic metabolic process.",
+    "bio": "Smokestack's chimneys vent excess metabolic energy accumulated through its enormous daily caloric intake. On cold mornings, the smoke forms a visible personal weather system above it.",
+    "locked": true,
     "stats": {
       "hp": 12,
       "atk": 30,
@@ -9628,7 +9955,8 @@
     "tags": [],
     "evolution": [],
     "scale": "0.7",
-    "bio": "This creature emits bright light from its core during nighttime activity, possibly signaling territorial boundaries.",
+    "bio": "Mallowick's interior flame is visible through its translucent body and shifts color with its mood. When relaxed, it burns calm orange. When startled, it flares white-hot and briefly chars the exterior surface.",
+    "locked": false,
     "stats": {
       "hp": 13,
       "atk": 27,
@@ -9656,7 +9984,8 @@
     ],
     "evolution": [],
     "scale": "0.9",
-    "bio": "This animal emits bursts of heat from its body during intense physical activity, likely as part of thermoregulation in hot environments.",
+    "bio": "Fiyena's paws leave scorched prints wherever it steps, but only when it's laughing. The more it laughs, the deeper the marks. Finding a trail of fading burnt pawprints means the Fiyena was recently very amused.",
+    "locked": false,
     "stats": {
       "hp": 14,
       "atk": 32,
@@ -9682,7 +10011,8 @@
     "tags": [],
     "evolution": [],
     "scale": "0.8",
-    "bio": "This creature emits a low-frequency hum from its chest cavity while standing in a tense posture.",
+    "bio": "Buzzboot's mechanical boots weren't built - they grew from hardened chitin secreted around its feet over years of walking on rough terrain. They now function as both protection and electrical grounding.",
+    "locked": false,
     "stats": {
       "hp": 16,
       "atk": 11,
@@ -9711,7 +10041,8 @@
     ],
     "evolution": [],
     "scale": "0.9",
-    "bio": "This robotic bird frequently uses its mechanical claws to probe surfaces in search of hidden energy sources.",
+    "bio": "Gearwing's wings are articulated in seventeen segments rather than the standard three, allowing it to fold and reshape them into tools. It has been observed using a folded wing as a wedge, a scoop, and once, inexplicably, a hat.",
+    "locked": false,
     "stats": {
       "hp": 12,
       "atk": 13,
@@ -9744,7 +10075,8 @@
       ]
     ],
     "scale": "0.4",
-    "bio": "This bird frequently uses rapid wing flaps to create vibrations in the air that help it detect prey movement beneath leaf litter.",
+    "bio": "Bonepip inflates its feathers to three times its actual size when threatened, appearing far larger than it is. Once the puffing begins, it becomes structurally impossible for it to see its own feet.",
+    "locked": true,
     "stats": {
       "hp": 12,
       "atk": 26,
@@ -9770,7 +10102,8 @@
     "tags": [],
     "evolution": [],
     "scale": "0.9",
-    "bio": "This creature emits bright energy from its hands whenever it approaches warm surfaces, possibly signaling an alert or preparing for action.",
+    "bio": "Manemage's mane is so electrically charged that it repels water, insects, and most solid objects - they simply arc away from its head before contact. Rain falls in a perfect ring around it.",
+    "locked": false,
     "stats": {
       "hp": 16,
       "atk": 12,
@@ -9796,7 +10129,8 @@
     "tags": [],
     "evolution": [],
     "scale": "0.6",
-    "bio": "This animal emits bright light from its body in response to environmental stimuli.",
+    "bio": "Hamspark's cheeks store electrical charge rather than food. When full, the glow is visible from several meters away. Releasing the stored energy takes approximately as long as inflating them did.",
+    "locked": false,
     "stats": {
       "hp": 12,
       "atk": 10,
@@ -9822,7 +10156,8 @@
     "tags": [],
     "evolution": [],
     "scale": "0.9",
-    "bio": "This animal uses specialized antennae to detect electromagnetic signals in underground mineral deposits during nocturnal surveys.",
+    "bio": "Lumeer's dish-shaped ears can be independently aimed, allowing it to triangulate the source of any sound to within inches. It uses this primarily to detect the sound of food being prepared in adjacent rooms.",
+    "locked": false,
     "stats": {
       "hp": 13,
       "atk": 10,
@@ -9848,7 +10183,8 @@
     "tags": [],
     "evolution": [],
     "scale": "1.1",
-    "bio": "This creature emits electric pulses from its tusks while standing in waterlogged terrain.",
+    "bio": "Tuskurrent's tusks are hollow and connected to internal water chambers - it can expel water through them at high pressure for up to thirty seconds before needing to submerge and refill.",
+    "locked": false,
     "stats": {
       "hp": 11,
       "atk": 13,
@@ -9874,7 +10210,8 @@
     "tags": [],
     "evolution": [],
     "scale": "0.7",
-    "bio": "This creature curls into a tight ball while sitting in shallow snowdrifts, likely conserving body heat during cold periods.",
+    "bio": "Lopine's ears are so long they drag behind it when it hops, leaving faint parallel tracks in soft soil. It has learned to hold them over its back during wet weather - with mixed results.",
+    "locked": false,
     "stats": {
       "hp": 11,
       "atk": 12,

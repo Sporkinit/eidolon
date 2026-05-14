@@ -120,7 +120,6 @@ for row in codex_rows:
         'evolution':  parse_evolution(row.get('evolution', '')),
         'scale':      row.get('scale', '1.0').strip(),
         'bio':        row.get('bio', '').strip(),
-        'locked':     row.get('locked', '').strip().upper() == 'Y',
         'stats': {
             'hp':      stat('hp'),
             'atk':     stat('atk'),

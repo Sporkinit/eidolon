@@ -121,15 +121,16 @@ function TypeMatchup({ types }) {
   );
 }
 
-// ── Summary card (UPDATED: front_thumb + .webp) ──────────────────────────────
+// ── Summary card ─────────────────────────────────────────────────────────────
 function SummaryCard({ creature }) {
   return (
     <Link to={`/entry/${creature.name}`} className={styles.cardLink}>
       <div className={styles.summaryCard}>
         <img
-          src={`${import.meta.env.BASE_URL}front_thumb/${creature.name}.webp`}
+          src={`${import.meta.env.BASE_URL}front/${creature.name}.webp`}
           alt={creature.name}
           className={styles.cardImg}
+          style={{ width: '96px', height: '96px', objectFit: 'contain' }}
           onError={(e) => { e.target.style.opacity = '0.2'; }}
         />
         <div className={styles.cardNum}>#{String(creature.id).padStart(3, '0')}</div>
@@ -191,7 +192,7 @@ function MovesPanel({ moveNames, movesDb }) {
   );
 }
 
-// ── Evolution Section (UPDATED: front_thumb + .webp) ─────────────────────────
+// ── Evolution Section ─────────────────────────────────────────────────────────
 function EvoChain({ creature, all }) {
   const allPossiblePaths = all.reduce((acc, curr) => {
     if (curr.evolution && Array.isArray(curr.evolution)) {
@@ -233,7 +234,7 @@ function EvoChain({ creature, all }) {
   );
 }
 
-// ── Detail page (UPDATED: front (512px) + side/back + .webp) ──────────────────
+// ── Detail page ───────────────────────────────────────────────────────────────
 function CreatureDetail({ all, movesDb }) {
   const { name } = useParams();
   const creature = all.find((c) => c.name.toLowerCase() === name.toLowerCase());
